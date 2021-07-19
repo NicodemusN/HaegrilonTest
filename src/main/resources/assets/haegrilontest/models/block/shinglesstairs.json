@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "haegrilontest:blocks/shingles",
+    "top": "haegrilontest:blocks/shingles",
+    "side": "haegrilontest:blocks/shingles"
+  }
+}

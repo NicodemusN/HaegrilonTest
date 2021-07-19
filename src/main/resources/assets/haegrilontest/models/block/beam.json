@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/beamdarkoak",
+  "textures": {
+    "all": "haegrilontest:blocks/dark_oak_planks",
+    "particle": "haegrilontest:blocks/dark_oak_planks",
+    "1": "haegrilontest:blocks/dark_oak_planks"
+  }
+}

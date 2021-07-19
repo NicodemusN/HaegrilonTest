@@ -1,0 +1,12 @@
+{
+  "parent": "haegrilontest:custom/bushy_birch_leaves4",
+  "textures": {
+    "all": "haegrilontest:blocks/oak_leaves",
+    "particle": "haegrilontest:blocks/oak_leaves",
+    "bushb": "haegrilontest:blocks/birchbushybottom",
+    "middle": "haegrilontest:blocks/birch_leaves",
+    "busht": "haegrilontest:blocks/birchbushytop",
+    "missing": "haegrilontest:blocks/birch_leaves",
+    "tips": "haegrilontest:blocks/leaves_birch_tips"
+  }
+}

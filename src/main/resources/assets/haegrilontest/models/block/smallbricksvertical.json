@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/vertsmallbricks",
+  "textures": {
+    "all": "haegrilontest:blocks/gray_concrete1",
+    "particle": "haegrilontest:blocks/gray_concrete1",
+    "0": "haegrilontest:blocks/gray_concrete1"
+  }
+}

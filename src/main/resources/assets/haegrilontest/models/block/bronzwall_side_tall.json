@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "haegrilontest:blocks/bronze_block",
+    "particle": "haegrilontest:blocks/bronze_block"
+  }
+}

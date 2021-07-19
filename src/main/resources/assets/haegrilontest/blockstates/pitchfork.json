@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/pitchfork"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/pitchfork",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/pitchfork",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/pitchfork",
+      "y": 270
+    }
+  }
+}

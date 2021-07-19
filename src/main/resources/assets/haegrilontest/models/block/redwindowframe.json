@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/redwindowframe",
+  "textures": {
+    "all": "haegrilontest:blocks/redwoodcrate",
+    "particle": "haegrilontest:blocks/redwoodcrate",
+    "0": "haegrilontest:blocks/redwoodcrate",
+    "1": "haegrilontest:blocks/wrt_vert_m"
+  }
+}

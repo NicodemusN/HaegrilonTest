@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "anvil_light",
+        "3": "spruce_planks",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

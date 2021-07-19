@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/shuttermiddle",
+  "textures": {
+    "all": "haegrilontest:blocks/spruce_shutter",
+    "particle": "haegrilontest:blocks/spruce_shutter",
+    "0": "haegrilontest:blocks/spruce_shutter"
+  }
+}

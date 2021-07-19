@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "laundry_shirt_towel"
+      },
+      "name": "default"
+    }
+  }
+}

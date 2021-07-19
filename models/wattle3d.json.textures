@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "wattle",
+        "2": "wattle"
+      },
+      "name": "default"
+    }
+  }
+}

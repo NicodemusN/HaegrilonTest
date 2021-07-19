@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/dark_sandstone_mortar1",
+    "up": "haegrilontest:blocks/dark_sandstone_mortar1",
+    "north": "haegrilontest:blocks/dark_sandstone_mortar1",
+    "east": "haegrilontest:blocks/dark_sandstone_mortar1",
+    "south": "haegrilontest:blocks/dark_sandstone_mortar1",
+    "west": "haegrilontest:blocks/dark_sandstone_mortar1",
+    "particle": "haegrilontest:blocks/dark_sandstone_mortar1"
+  }
+}

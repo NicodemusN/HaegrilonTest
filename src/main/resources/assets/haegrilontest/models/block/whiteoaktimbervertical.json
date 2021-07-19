@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/jungle_planks_crate_top",
+    "up": "haegrilontest:blocks/jungle_planks_crate_top",
+    "north": "haegrilontest:blocks/whiteoaktimbervertical",
+    "east": "haegrilontest:blocks/whiteoaktimbervertical",
+    "south": "haegrilontest:blocks/whiteoaktimbervertical",
+    "west": "haegrilontest:blocks/whiteoaktimbervertical",
+    "particle": "haegrilontest:blocks/jungle_planks_crate_top"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Stone Blocks",
+    "icon": {
+      "value": "CUSTOM:Slatebricks"
+    },
+    "showSearch": true
+  }
+}

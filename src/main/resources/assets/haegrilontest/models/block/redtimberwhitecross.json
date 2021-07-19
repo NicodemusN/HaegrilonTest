@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "haegrilontest:blocks/redwoodcrate",
+    "top": "haegrilontest:blocks/redwoodcrate",
+    "side": "haegrilontest:blocks/whiteredtimbercross",
+    "overlay": "haegrilontest:blocks/whiteredtimbercross",
+    "particle": "haegrilontest:blocks/redwoodcrate"
+  }
+}

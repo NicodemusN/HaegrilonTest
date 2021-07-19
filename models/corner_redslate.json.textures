@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "red_concrete"
+      },
+      "name": "default"
+    }
+  }
+}

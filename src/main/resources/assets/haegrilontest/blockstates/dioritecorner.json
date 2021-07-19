@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/dioritecorner"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/dioritecorner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/dioritecorner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/dioritecorner",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/prof_chandler",
+  "textures": {
+    "all": "haegrilontest:blocks/prof_chandler",
+    "particle": "haegrilontest:blocks/prof_chandler",
+    "2": "haegrilontest:blocks/prof_chandler"
+  }
+}

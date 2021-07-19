@@ -1,0 +1,48 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "haegrilontest:block/bronzefenceoxidized_post"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "haegrilontest:block/bronzefenceoxidized",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "haegrilontest:block/bronzefenceoxidized",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "haegrilontest:block/bronzefenceoxidized",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "haegrilontest:block/bronzefenceoxidized",
+        "y": 90,
+        "uvlock": true
+      }
+    }
+  ]
+}

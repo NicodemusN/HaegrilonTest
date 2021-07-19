@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/green_concrete",
+    "up": "haegrilontest:blocks/green_concrete",
+    "north": "haegrilontest:blocks/green_concrete",
+    "east": "haegrilontest:blocks/green_concrete",
+    "south": "haegrilontest:blocks/green_concrete",
+    "west": "haegrilontest:blocks/green_concrete",
+    "particle": "haegrilontest:blocks/green_concrete"
+  }
+}

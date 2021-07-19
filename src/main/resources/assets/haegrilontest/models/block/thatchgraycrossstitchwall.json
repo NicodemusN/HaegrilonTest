@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "haegrilontest:blocks/gray_thatch_cross_stitch",
+    "particle": "haegrilontest:blocks/gray_thatch_cross_stitch"
+  }
+}

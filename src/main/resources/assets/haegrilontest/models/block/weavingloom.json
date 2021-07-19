@@ -1,0 +1,10 @@
+{
+  "parent": "haegrilontest:custom/weaving_loom",
+  "textures": {
+    "all": "haegrilontest:blocks/white_wool",
+    "particle": "haegrilontest:blocks/white_wool",
+    "0": "haegrilontest:blocks/oak_planks",
+    "1": "haegrilontest:blocks/white_wool",
+    "2": "haegrilontest:blocks/iron_block"
+  }
+}

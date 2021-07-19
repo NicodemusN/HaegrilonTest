@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/blackwoodthinwall",
+  "textures": {
+    "all": "haegrilontest:blocks/blackwood2vertical",
+    "particle": "haegrilontest:blocks/blackwood2vertical",
+    "0": "haegrilontest:blocks/blackwood2vertical"
+  }
+}

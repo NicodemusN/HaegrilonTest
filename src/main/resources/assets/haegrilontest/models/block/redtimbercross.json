@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/barrel_bottom",
+    "up": "haegrilontest:blocks/barrel_bottom",
+    "north": "haegrilontest:blocks/glazed_terracotta_black_north",
+    "east": "haegrilontest:blocks/glazed_terracotta_black_north",
+    "south": "haegrilontest:blocks/glazed_terracotta_black_north",
+    "west": "haegrilontest:blocks/glazed_terracotta_black_north",
+    "particle": "haegrilontest:blocks/barrel_bottom"
+  }
+}

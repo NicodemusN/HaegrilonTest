@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/cleaver32.1",
+  "textures": {
+    "all": "haegrilontest:blocks/cleaver32.3",
+    "particle": "haegrilontest:blocks/cleaver32.3",
+    "2": "haegrilontest:blocks/cleaver32.3",
+    "missing": "haegrilontest:blocks/cleaver32.3"
+  }
+}

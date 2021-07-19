@@ -1,0 +1,20 @@
+{
+  "parent": "haegrilontest:custom/weaponrack",
+  "textures": {
+    "all": "haegrilontest:blocks/sword_guard_rich2",
+    "particle": "haegrilontest:blocks/sword_guard_rich2",
+    "12": "haegrilontest:blocks/anvil_light",
+    "1_0": "haegrilontest:blocks/sword_blade_iron",
+    "5_0": "haegrilontest:blocks/iron_block2",
+    "1_6": "haegrilontest:blocks/sword_blade_steel-1",
+    "1_7": "haegrilontest:blocks/sword_tip2_steel",
+    "1_9": "haegrilontest:blocks/side_fix",
+    "0": "haegrilontest:blocks/dark_oak_door_bottom",
+    "7_11": "haegrilontest:blocks/golden_apple2",
+    "3_10": "haegrilontest:blocks/guard_piece2",
+    "7_12": "haegrilontest:blocks/sword_guard_rich3",
+    "2_12": "haegrilontest:blocks/sword_guard_rich_lobed",
+    "missing": "haegrilontest:blocks/anvil_light",
+    "7_10": "haegrilontest:blocks/guard_piece3"
+  }
+}

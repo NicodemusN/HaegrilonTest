@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/spruce_crate",
+    "up": "haegrilontest:blocks/spruce_crate",
+    "north": "haegrilontest:blocks/glazed_terracotta_yellow_south",
+    "east": "haegrilontest:blocks/glazed_terracotta_yellow_south",
+    "south": "haegrilontest:blocks/glazed_terracotta_yellow_south",
+    "west": "haegrilontest:blocks/glazed_terracotta_yellow_south",
+    "particle": "haegrilontest:blocks/spruce_crate"
+  }
+}

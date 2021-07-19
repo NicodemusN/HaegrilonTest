@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/greenrooftilesslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/greenrooftilesslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/greenrooftilesslab_full"
+    }
+  }
+}

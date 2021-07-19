@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/straw_bale_end",
+    "up": "haegrilontest:blocks/straw_bale_end",
+    "north": "haegrilontest:blocks/straw_bale_side",
+    "east": "haegrilontest:blocks/straw_bale_side",
+    "south": "haegrilontest:blocks/straw_bale_side",
+    "west": "haegrilontest:blocks/straw_bale_side",
+    "particle": "haegrilontest:blocks/straw_bale_end"
+  }
+}

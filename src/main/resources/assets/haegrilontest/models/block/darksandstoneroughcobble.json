@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/darksandstoneroughcobble",
+    "up": "haegrilontest:blocks/darksandstoneroughcobble",
+    "north": "haegrilontest:blocks/darksandstoneroughcobble",
+    "east": "haegrilontest:blocks/darksandstoneroughcobble",
+    "south": "haegrilontest:blocks/darksandstoneroughcobble",
+    "west": "haegrilontest:blocks/darksandstoneroughcobble",
+    "particle": "haegrilontest:blocks/darksandstoneroughcobble"
+  }
+}

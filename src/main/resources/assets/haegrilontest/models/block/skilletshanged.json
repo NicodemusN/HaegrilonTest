@@ -1,0 +1,10 @@
+{
+  "parent": "haegrilontest:custom/skillets_hanged1",
+  "textures": {
+    "all": "haegrilontest:blocks/anvil_light",
+    "particle": "haegrilontest:blocks/anvil_light",
+    "1": "haegrilontest:blocks/anvil_light",
+    "3": "haegrilontest:blocks/spruce_planks",
+    "missing": "haegrilontest:blocks/"
+  }
+}

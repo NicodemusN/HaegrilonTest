@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/wall_soot_layer",
+  "textures": {
+    "all": "haegrilontest:blocks/bedrock",
+    "particle": "haegrilontest:blocks/bedrock",
+    "2": "haegrilontest:blocks/bedrock"
+  }
+}

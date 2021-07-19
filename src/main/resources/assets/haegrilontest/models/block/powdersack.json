@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/rice_bag_bottom",
+    "up": "haegrilontest:blocks/rice_bag_top",
+    "north": "haegrilontest:blocks/rice_bag_side",
+    "east": "haegrilontest:blocks/rice_bag_side",
+    "south": "haegrilontest:blocks/rice_bag_side",
+    "west": "haegrilontest:blocks/rice_bag_side",
+    "particle": "haegrilontest:blocks/rice_bag_bottom"
+  }
+}

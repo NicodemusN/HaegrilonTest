@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/mossy_thatch",
+    "up": "haegrilontest:blocks/mossy_thatch",
+    "north": "haegrilontest:blocks/mossy_thatch",
+    "east": "haegrilontest:blocks/mossy_thatch",
+    "south": "haegrilontest:blocks/mossy_thatch",
+    "west": "haegrilontest:blocks/mossy_thatch",
+    "particle": "haegrilontest:blocks/mossy_thatch"
+  }
+}

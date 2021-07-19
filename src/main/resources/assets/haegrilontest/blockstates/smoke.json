@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/smoke"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/smoke",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/smoke",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/smoke",
+      "y": 270
+    }
+  }
+}

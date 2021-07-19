@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/stonebrick_wall_top",
+    "up": "haegrilontest:blocks/stonebrick_wall_top",
+    "north": "haegrilontest:blocks/stonebrick_wall_side",
+    "east": "haegrilontest:blocks/stonebrick_wall_side",
+    "south": "haegrilontest:blocks/stonebrick_wall_side",
+    "west": "haegrilontest:blocks/stonebrick_wall_side",
+    "particle": "haegrilontest:blocks/stonebrick_wall_top"
+  }
+}

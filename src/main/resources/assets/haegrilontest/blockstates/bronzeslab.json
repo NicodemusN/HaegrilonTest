@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/bronzeslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/bronzeslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/bronzeslab_full"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "haegrilontest:blocks/rice_bag_bottom",
+    "top": "haegrilontest:blocks/rice_bag_bottom",
+    "side": "haegrilontest:blocks/rice_bag_side"
+  }
+}

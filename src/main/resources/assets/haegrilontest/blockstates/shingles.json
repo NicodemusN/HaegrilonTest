@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/shingles"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/shingles",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/shingles",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/shingles",
+      "y": 270
+    }
+  }
+}

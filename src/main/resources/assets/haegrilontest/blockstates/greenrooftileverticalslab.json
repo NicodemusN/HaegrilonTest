@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/greenrooftileverticalslab"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/greenrooftileverticalslab",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/greenrooftileverticalslab",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/greenrooftileverticalslab",
+      "y": 270
+    }
+  }
+}

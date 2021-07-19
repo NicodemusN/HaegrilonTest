@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/corner_granite",
+  "textures": {
+    "all": "haegrilontest:blocks/granite",
+    "particle": "haegrilontest:blocks/granite",
+    "0": "haegrilontest:blocks/granite"
+  }
+}

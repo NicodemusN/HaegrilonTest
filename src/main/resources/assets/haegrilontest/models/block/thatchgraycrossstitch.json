@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "haegrilontest:blocks/gray_thatch",
+    "top": "haegrilontest:blocks/gray_thatch",
+    "side": "haegrilontest:blocks/gray_thatch_cross_stitch",
+    "overlay": "haegrilontest:blocks/gray_thatch_cross_stitch",
+    "particle": "haegrilontest:blocks/gray_thatch"
+  }
+}

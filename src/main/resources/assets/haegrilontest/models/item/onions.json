@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "haegrilontest:blocks/onions_stage3"
+  }
+}

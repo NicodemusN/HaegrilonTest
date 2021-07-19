@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/oakthinwall"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/oakthinwall",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/oakthinwall",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/oakthinwall",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "haegrilontest:block/oakthinwall",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "haegrilontest:block/oakthinwall",
+      "x": 90
+    }
+  }
+}

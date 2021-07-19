@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/gray_thatch",
+    "up": "haegrilontest:blocks/gray_thatch",
+    "north": "haegrilontest:blocks/gray_thatch",
+    "east": "haegrilontest:blocks/gray_thatch",
+    "south": "haegrilontest:blocks/gray_thatch",
+    "west": "haegrilontest:blocks/gray_thatch",
+    "particle": "haegrilontest:blocks/gray_thatch"
+  }
+}

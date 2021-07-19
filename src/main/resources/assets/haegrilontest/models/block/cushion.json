@@ -1,0 +1,10 @@
+{
+  "parent": "haegrilontest:custom/cushion",
+  "textures": {
+    "all": "haegrilontest:blocks/cushion_top",
+    "particle": "haegrilontest:blocks/cushion_top",
+    "0": "haegrilontest:blocks/cushion_top",
+    "1": "haegrilontest:blocks/crate_bottom",
+    "2": "haegrilontest:blocks/cushion_side"
+  }
+}

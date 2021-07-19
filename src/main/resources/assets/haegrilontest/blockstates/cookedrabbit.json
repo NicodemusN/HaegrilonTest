@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/cookedrabbit"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/cookedrabbit",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/cookedrabbit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/cookedrabbit",
+      "y": 270
+    }
+  }
+}

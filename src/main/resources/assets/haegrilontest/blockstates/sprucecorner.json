@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/sprucecorner"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/sprucecorner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/sprucecorner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/sprucecorner",
+      "y": 270
+    }
+  }
+}

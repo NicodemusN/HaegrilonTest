@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "haegrilontest:blocks/gray_thatch",
+    "particle": "haegrilontest:blocks/gray_thatch"
+  }
+}

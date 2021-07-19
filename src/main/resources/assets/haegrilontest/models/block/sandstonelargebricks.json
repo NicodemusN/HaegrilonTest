@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/sandstone_double",
+    "up": "haegrilontest:blocks/sandstone_double",
+    "north": "haegrilontest:blocks/sandstone_double",
+    "east": "haegrilontest:blocks/sandstone_double",
+    "south": "haegrilontest:blocks/sandstone_double",
+    "west": "haegrilontest:blocks/sandstone_double",
+    "particle": "haegrilontest:blocks/sandstone_double"
+  }
+}

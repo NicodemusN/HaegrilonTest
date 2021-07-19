@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/dark_oak_button",
+  "textures": {
+    "all": "haegrilontest:blocks/jungle_planks",
+    "particle": "haegrilontest:blocks/jungle_planks",
+    "0": "haegrilontest:blocks/button_jungle",
+    "1": "haegrilontest:blocks/jungle_planks"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/chair3",
+  "textures": {
+    "all": "haegrilontest:blocks/barrel_bottom",
+    "particle": "haegrilontest:blocks/barrel_bottom",
+    "0": "haegrilontest:blocks/barrel_bottom",
+    "1": "haegrilontest:blocks/barrel_bottom"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/ceramicflagon"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/ceramicflagon",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/ceramicflagon",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/ceramicflagon",
+      "y": 270
+    }
+  }
+}

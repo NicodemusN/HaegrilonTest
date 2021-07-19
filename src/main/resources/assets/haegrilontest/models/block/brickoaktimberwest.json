@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "haegrilontest:blocks/jungle_planks_crate_top",
+    "top": "haegrilontest:blocks/jungle_planks_crate_top",
+    "side": "haegrilontest:blocks/brickoaktimberwest",
+    "overlay": "haegrilontest:blocks/brickoaktimberwest",
+    "particle": "haegrilontest:blocks/jungle_planks_crate_top"
+  }
+}

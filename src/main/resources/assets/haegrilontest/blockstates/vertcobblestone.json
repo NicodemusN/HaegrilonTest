@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/vertcobblestone"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/vertcobblestone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/vertcobblestone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/vertcobblestone",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "haegrilontest:blocks/stripped_dark_oak_log_top",
+    "top": "haegrilontest:blocks/stripped_dark_oak_log_top",
+    "side": "haegrilontest:blocks/spruce_log"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/prof_apothecary",
+  "textures": {
+    "all": "haegrilontest:blocks/prof_apothecary",
+    "particle": "haegrilontest:blocks/prof_apothecary",
+    "2": "haegrilontest:blocks/prof_apothecary"
+  }
+}

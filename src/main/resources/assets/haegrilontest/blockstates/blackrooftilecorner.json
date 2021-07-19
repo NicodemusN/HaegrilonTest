@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/blackrooftilecorner"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/blackrooftilecorner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/blackrooftilecorner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/blackrooftilecorner",
+      "y": 270
+    }
+  }
+}

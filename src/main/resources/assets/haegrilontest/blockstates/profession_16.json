@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/profession_16"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/profession_16",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/profession_16",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/profession_16",
+      "y": 270
+    }
+  }
+}

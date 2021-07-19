@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "haegrilontest:blocks/blackwood2",
+    "particle": "haegrilontest:blocks/blackwood2"
+  }
+}

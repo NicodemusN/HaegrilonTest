@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/greenrooftilescorner",
+  "textures": {
+    "all": "haegrilontest:blocks/green_roof_tiles",
+    "particle": "haegrilontest:blocks/green_roof_tiles",
+    "0": "haegrilontest:blocks/green_roof_tiles"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "light_candle",
+        "missing": "light_candle"
+      },
+      "name": "default"
+    }
+  }
+}

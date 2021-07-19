@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/bannerhighfort"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/bannerhighfort",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/bannerhighfort",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/bannerhighfort",
+      "y": 270
+    }
+  }
+}

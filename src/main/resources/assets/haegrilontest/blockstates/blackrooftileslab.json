@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/blackrooftileslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/blackrooftileslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/blackrooftileslab_full"
+    }
+  }
+}

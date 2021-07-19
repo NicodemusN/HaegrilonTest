@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "bushb": "birchbushybottom",
+        "middle": "birch_leaves",
+        "busht": "birchbushytop",
+        "missing": "birch_leaves",
+        "tips": "leaves_birch_tips"
+      },
+      "name": "default"
+    }
+  }
+}

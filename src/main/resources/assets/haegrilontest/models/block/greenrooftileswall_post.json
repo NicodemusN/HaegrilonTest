@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "haegrilontest:blocks/green_roof_tiles",
+    "particle": "haegrilontest:blocks/green_roof_tiles"
+  }
+}

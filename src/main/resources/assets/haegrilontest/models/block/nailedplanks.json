@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/nailed_wood",
+    "up": "haegrilontest:blocks/nailed_wood",
+    "north": "haegrilontest:blocks/nailed_wood",
+    "east": "haegrilontest:blocks/nailed_wood",
+    "south": "haegrilontest:blocks/nailed_wood",
+    "west": "haegrilontest:blocks/nailed_wood",
+    "particle": "haegrilontest:blocks/nailed_wood"
+  }
+}

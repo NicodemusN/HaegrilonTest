@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/wovenwoolblueslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/wovenwoolblueslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/wovenwoolblueslab_full"
+    }
+  }
+}

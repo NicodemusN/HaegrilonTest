@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "round_base0",
+        "2": "round_border0",
+        "3": "round_pattern0"
+      },
+      "name": "default"
+    }
+  }
+}

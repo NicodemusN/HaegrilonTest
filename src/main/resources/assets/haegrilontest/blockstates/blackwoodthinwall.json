@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/blackwoodthinwall"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/blackwoodthinwall",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/blackwoodthinwall",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/blackwoodthinwall",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "haegrilontest:block/blackwoodthinwall",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "haegrilontest:block/blackwoodthinwall",
+      "x": 90
+    }
+  }
+}

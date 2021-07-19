@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/prof_scribe",
+  "textures": {
+    "all": "haegrilontest:blocks/prof_scribe",
+    "particle": "haegrilontest:blocks/prof_scribe",
+    "2": "haegrilontest:blocks/prof_scribe"
+  }
+}

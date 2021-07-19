@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/stonevertical"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/stonevertical",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/stonevertical",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/stonevertical",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/limestoneslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/limestoneslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/limestoneslab_full"
+    }
+  }
+}

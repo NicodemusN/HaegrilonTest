@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/dried_fish_hanged",
+  "textures": {
+    "all": "haegrilontest:blocks/dried_cod",
+    "particle": "haegrilontest:blocks/dried_cod",
+    "0": "haegrilontest:blocks/dried_cod",
+    "1": "haegrilontest:blocks/dark_oak_planks"
+  }
+}

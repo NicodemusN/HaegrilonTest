@@ -1,0 +1,10 @@
+{
+  "parent": "haegrilontest:custom/banner_highfort",
+  "textures": {
+    "all": "haegrilontest:blocks/banner_custom_highfort",
+    "particle": "haegrilontest:blocks/banner_custom_highfort",
+    "0": "haegrilontest:blocks/banner_custom_highfort",
+    "1": "haegrilontest:blocks/banner_custom_yellow_b",
+    "missing": "haegrilontest:blocks/banner_custom_yellow_b"
+  }
+}

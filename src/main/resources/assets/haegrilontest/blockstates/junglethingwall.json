@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/junglethingwall"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/junglethingwall",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/junglethingwall",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/junglethingwall",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "haegrilontest:block/junglethingwall",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "haegrilontest:block/junglethingwall",
+      "x": 90
+    }
+  }
+}

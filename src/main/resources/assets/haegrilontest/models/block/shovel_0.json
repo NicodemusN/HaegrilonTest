@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/shovelflat",
+  "textures": {
+    "all": "haegrilontest:blocks/iron_shovel",
+    "particle": "haegrilontest:blocks/iron_shovel",
+    "2": "haegrilontest:blocks/iron_shovel",
+    "missing": "haegrilontest:blocks/iron_shovel"
+  }
+}

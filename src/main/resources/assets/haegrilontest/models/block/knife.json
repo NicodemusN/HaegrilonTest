@@ -1,0 +1,11 @@
+{
+  "parent": "haegrilontest:custom/knifeflat",
+  "textures": {
+    "all": "haegrilontest:blocks/anvil_light",
+    "particle": "haegrilontest:blocks/anvil_light",
+    "1": "haegrilontest:blocks/handle",
+    "2": "haegrilontest:blocks/blade",
+    "3": "haegrilontest:blocks/bladelight",
+    "4": "haegrilontest:blocks/handledark"
+  }
+}

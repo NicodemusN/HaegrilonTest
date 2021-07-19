@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/prof_tailor",
+  "textures": {
+    "all": "haegrilontest:blocks/prof_tailor",
+    "particle": "haegrilontest:blocks/prof_tailor",
+    "2": "haegrilontest:blocks/prof_tailor"
+  }
+}

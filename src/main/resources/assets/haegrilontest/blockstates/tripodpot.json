@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/tripodpot"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/tripodpot",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/tripodpot",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/tripodpot",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "handle",
+        "2": "blade",
+        "3": "bladelight",
+        "4": "handledark"
+      },
+      "name": "default"
+    }
+  }
+}

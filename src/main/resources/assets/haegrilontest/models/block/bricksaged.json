@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/nether_wart_block",
+    "up": "haegrilontest:blocks/nether_wart_block",
+    "north": "haegrilontest:blocks/nether_wart_block",
+    "east": "haegrilontest:blocks/nether_wart_block",
+    "south": "haegrilontest:blocks/nether_wart_block",
+    "west": "haegrilontest:blocks/nether_wart_block",
+    "particle": "haegrilontest:blocks/nether_wart_block"
+  }
+}

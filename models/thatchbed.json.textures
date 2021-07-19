@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "thatchbedside",
+        "1": "jungle_planks",
+        "2": "thatch",
+        "3": "thatchbedend"
+      },
+      "name": "default"
+    }
+  }
+}

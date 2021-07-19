@@ -1,0 +1,10 @@
+{
+  "parent": "haegrilontest:custom/windowframebottom",
+  "textures": {
+    "all": "haegrilontest:blocks/spruce_pantry_top",
+    "particle": "haegrilontest:blocks/spruce_pantry_top",
+    "0": "haegrilontest:blocks/stripped_spruce_log",
+    "1": "haegrilontest:blocks/spruce_crate",
+    "2": "haegrilontest:blocks/spruce_planks"
+  }
+}

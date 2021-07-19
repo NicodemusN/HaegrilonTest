@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/thatchgraycrossstitchslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/thatchgraycrossstitchslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/thatchgraycrossstitchslab_full"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/wattlefenceshort1",
+  "textures": {
+    "all": "haegrilontest:blocks/fence_birch",
+    "particle": "haegrilontest:blocks/fence_birch",
+    "0": "haegrilontest:blocks/fence_birch",
+    "1": "haegrilontest:blocks/fence_birch_top"
+  }
+}

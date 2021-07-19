@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "haegrilontest:blocks/glass_1",
+    "pane": "haegrilontest:blocks/glass_1"
+  }
+}

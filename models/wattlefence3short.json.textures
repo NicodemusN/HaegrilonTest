@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fence_birch",
+        "1": "fence_birch_top"
+      },
+      "name": "default"
+    }
+  }
+}

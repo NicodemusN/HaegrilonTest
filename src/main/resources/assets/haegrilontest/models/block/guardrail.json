@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/guardbars",
+  "textures": {
+    "all": "haegrilontest:blocks/iron_bars",
+    "particle": "haegrilontest:blocks/iron_bars",
+    "0": "haegrilontest:blocks/iron_bars"
+  }
+}

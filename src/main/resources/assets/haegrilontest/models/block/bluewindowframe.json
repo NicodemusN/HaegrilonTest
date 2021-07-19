@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/bluewindowframe",
+  "textures": {
+    "all": "haegrilontest:blocks/bluewoodcrate",
+    "particle": "haegrilontest:blocks/bluewoodcrate",
+    "0": "haegrilontest:blocks/bluewoodcrate",
+    "1": "haegrilontest:blocks/wbt_vert_m"
+  }
+}

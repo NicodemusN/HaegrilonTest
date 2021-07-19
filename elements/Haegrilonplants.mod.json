@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Haegrilon Nature",
+    "icon": {
+      "value": "Blocks.LEAVES2#1"
+    },
+    "showSearch": true
+  }
+}

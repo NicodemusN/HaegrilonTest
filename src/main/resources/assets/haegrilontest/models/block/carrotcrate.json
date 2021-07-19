@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/crate_bottom",
+    "up": "haegrilontest:blocks/carrot_crate_top",
+    "north": "haegrilontest:blocks/carrot_crate_side",
+    "east": "haegrilontest:blocks/carrot_crate_side",
+    "south": "haegrilontest:blocks/carrot_crate_side",
+    "west": "haegrilontest:blocks/carrot_crate_side",
+    "particle": "haegrilontest:blocks/crate_bottom"
+  }
+}

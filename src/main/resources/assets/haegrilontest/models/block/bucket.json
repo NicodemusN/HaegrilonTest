@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/bucket",
+  "textures": {
+    "all": "haegrilontest:blocks/oakwithmetalrods",
+    "particle": "haegrilontest:blocks/oakwithmetalrods",
+    "0": "haegrilontest:blocks/oakwithmetalrods",
+    "1": "haegrilontest:blocks/oak"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Haegrilon Blocks",
+    "icon": {
+      "value": "CUSTOM:Whitetimbercross"
+    },
+    "showSearch": true
+  }
+}

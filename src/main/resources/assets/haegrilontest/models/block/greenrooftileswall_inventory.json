@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "haegrilontest:blocks/green_roof_tiles",
+    "particle": "haegrilontest:blocks/green_roof_tiles"
+  }
+}

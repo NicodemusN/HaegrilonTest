@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "iron_block2",
+        "1": "stripped_oak_log_2"
+      },
+      "name": "default"
+    }
+  }
+}

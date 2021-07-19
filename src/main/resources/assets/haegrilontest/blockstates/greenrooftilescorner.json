@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/greenrooftilescorner"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/greenrooftilescorner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/greenrooftilescorner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/greenrooftilescorner",
+      "y": 270
+    }
+  }
+}

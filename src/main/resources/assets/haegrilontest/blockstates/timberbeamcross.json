@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/timberbeamcross"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/timberbeamcross",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/timberbeamcross",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/timberbeamcross",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "haegrilontest:blocks/sand_limestone",
+    "particle": "haegrilontest:blocks/sand_limestone"
+  }
+}

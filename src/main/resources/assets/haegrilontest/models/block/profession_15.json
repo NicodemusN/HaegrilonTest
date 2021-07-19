@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/prof_mason",
+  "textures": {
+    "all": "haegrilontest:blocks/prof_mason",
+    "particle": "haegrilontest:blocks/prof_mason",
+    "2": "haegrilontest:blocks/prof_mason"
+  }
+}

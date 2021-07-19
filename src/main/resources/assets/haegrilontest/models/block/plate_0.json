@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/metalplate1",
+  "textures": {
+    "all": "haegrilontest:blocks/metalplate1",
+    "particle": "haegrilontest:blocks/metalplate1",
+    "0": "haegrilontest:blocks/metalplate1",
+    "missing": "haegrilontest:blocks/metalplate1"
+  }
+}

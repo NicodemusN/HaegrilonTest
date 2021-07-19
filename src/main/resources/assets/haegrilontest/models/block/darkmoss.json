@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/polished_blackstone_bricks",
+    "up": "haegrilontest:blocks/polished_blackstone_bricks",
+    "north": "haegrilontest:blocks/polished_blackstone_bricks",
+    "east": "haegrilontest:blocks/polished_blackstone_bricks",
+    "south": "haegrilontest:blocks/polished_blackstone_bricks",
+    "west": "haegrilontest:blocks/polished_blackstone_bricks",
+    "particle": "haegrilontest:blocks/polished_blackstone_bricks"
+  }
+}

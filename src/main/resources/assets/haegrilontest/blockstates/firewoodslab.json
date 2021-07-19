@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/firewoodslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/firewoodslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/firewoodslab_full"
+    }
+  }
+}

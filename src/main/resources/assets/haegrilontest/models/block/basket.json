@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/basketmediumfixed",
+  "textures": {
+    "all": "haegrilontest:blocks/fence_birch",
+    "particle": "haegrilontest:blocks/fence_birch",
+    "0": "haegrilontest:blocks/fence_birch"
+  }
+}

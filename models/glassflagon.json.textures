@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "green_stained_glass_wide",
+        "1": "green_stained_glass"
+      },
+      "name": "default"
+    }
+  }
+}

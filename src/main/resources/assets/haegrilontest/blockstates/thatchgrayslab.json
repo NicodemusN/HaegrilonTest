@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/thatchgrayslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/thatchgrayslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/thatchgrayslab_full"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/corner_diorite",
+  "textures": {
+    "all": "haegrilontest:blocks/diorite",
+    "particle": "haegrilontest:blocks/diorite",
+    "0": "haegrilontest:blocks/diorite"
+  }
+}

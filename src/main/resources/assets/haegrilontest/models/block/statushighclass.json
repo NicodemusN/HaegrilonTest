@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "haegrilontest:blocks/iron_block",
+    "top": "haegrilontest:blocks/iron_block",
+    "side": "haegrilontest:blocks/utlitity_high_class",
+    "overlay": "haegrilontest:blocks/utlitity_high_class",
+    "particle": "haegrilontest:blocks/iron_block"
+  }
+}

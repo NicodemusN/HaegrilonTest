@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/strawbed"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/strawbed",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/strawbed",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/strawbed",
+      "y": 270
+    }
+  }
+}

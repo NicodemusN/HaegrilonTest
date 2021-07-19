@@ -1,0 +1,10 @@
+{
+  "parent": "haegrilontest:custom/farmlandalwaysmoist",
+  "textures": {
+    "all": "haegrilontest:blocks/farmland_moist",
+    "particle": "haegrilontest:blocks/farmland_moist",
+    "0": "haegrilontest:blocks/farmland_moist_side",
+    "1": "haegrilontest:blocks/farmland_moist",
+    "2": "haegrilontest:blocks/dirt"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "green_roof_tiles"
+      },
+      "name": "default"
+    }
+  }
+}

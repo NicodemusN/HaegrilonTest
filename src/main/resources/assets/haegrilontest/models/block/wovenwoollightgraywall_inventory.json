@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "haegrilontest:blocks/light_gray_wool",
+    "particle": "haegrilontest:blocks/light_gray_wool"
+  }
+}

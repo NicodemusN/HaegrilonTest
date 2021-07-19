@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "haegrilontest:blocks/wild_rice_top",
+    "particle": "haegrilontest:blocks/wild_rice_top"
+  }
+}

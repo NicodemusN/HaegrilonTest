@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/prof_spicer",
+  "textures": {
+    "all": "haegrilontest:blocks/prof_spicer",
+    "particle": "haegrilontest:blocks/prof_spicer",
+    "2": "haegrilontest:blocks/prof_spicer"
+  }
+}

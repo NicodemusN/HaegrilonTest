@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/wattle"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/wattle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/wattle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/wattle",
+      "y": 270
+    }
+  }
+}

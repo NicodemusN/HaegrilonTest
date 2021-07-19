@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "haegrilontest:block/basket"
+    },
+    "facing=north": {
+      "model": "haegrilontest:block/basket"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/basket",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/basket",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "haegrilontest:block/basket",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "haegrilontest:block/basket",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

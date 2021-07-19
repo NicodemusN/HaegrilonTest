@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/pink_concrete_powder",
+    "up": "haegrilontest:blocks/pink_concrete_powder",
+    "north": "haegrilontest:blocks/pink_concrete_powder",
+    "east": "haegrilontest:blocks/pink_concrete_powder",
+    "south": "haegrilontest:blocks/pink_concrete_powder",
+    "west": "haegrilontest:blocks/pink_concrete_powder",
+    "particle": "haegrilontest:blocks/pink_concrete_powder"
+  }
+}

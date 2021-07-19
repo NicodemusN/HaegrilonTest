@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/hanging_sausages_tall1",
+  "textures": {
+    "all": "haegrilontest:blocks/sausages",
+    "particle": "haegrilontest:blocks/sausages",
+    "0": "haegrilontest:blocks/sausages"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/nailedplankslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/nailedplankslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/nailedplankslab_full"
+    }
+  }
+}

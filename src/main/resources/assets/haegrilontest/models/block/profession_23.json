@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/prof_wheelwright",
+  "textures": {
+    "all": "haegrilontest:blocks/prof_wheelwright",
+    "particle": "haegrilontest:blocks/prof_wheelwright",
+    "2": "haegrilontest:blocks/prof_wheelwright"
+  }
+}

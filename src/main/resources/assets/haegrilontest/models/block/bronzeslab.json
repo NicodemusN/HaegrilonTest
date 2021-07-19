@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "haegrilontest:blocks/bronze_block",
+    "top": "haegrilontest:blocks/bronze_block",
+    "side": "haegrilontest:blocks/bronze_block"
+  }
+}

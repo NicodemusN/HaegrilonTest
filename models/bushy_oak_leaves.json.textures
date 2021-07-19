@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "middle": "oak_leaves",
+        "tips": "leaves_oak_tips"
+      },
+      "name": "default"
+    }
+  }
+}

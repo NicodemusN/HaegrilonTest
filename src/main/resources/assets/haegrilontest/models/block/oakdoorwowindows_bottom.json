@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "haegrilontest:blocks/oak_shutter",
+    "top": "haegrilontest:blocks/oak_shutter"
+  }
+}

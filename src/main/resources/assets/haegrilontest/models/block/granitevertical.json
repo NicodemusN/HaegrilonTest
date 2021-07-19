@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/vertgranite",
+  "textures": {
+    "all": "haegrilontest:blocks/granite",
+    "particle": "haegrilontest:blocks/granite",
+    "0": "haegrilontest:blocks/granite"
+  }
+}

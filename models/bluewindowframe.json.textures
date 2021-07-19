@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bluewoodcrate",
+        "1": "wbt_vert_m"
+      },
+      "name": "default"
+    }
+  }
+}

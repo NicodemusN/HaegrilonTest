@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/soul_sand",
+    "up": "haegrilontest:blocks/soul_sand",
+    "north": "haegrilontest:blocks/soul_sand",
+    "east": "haegrilontest:blocks/soul_sand",
+    "south": "haegrilontest:blocks/soul_sand",
+    "west": "haegrilontest:blocks/soul_sand",
+    "particle": "haegrilontest:blocks/soul_sand"
+  }
+}

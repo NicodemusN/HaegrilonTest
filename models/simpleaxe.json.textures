@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "sword_guard_iron_crayke",
+        "2": "stripped_oak_log_2"
+      },
+      "name": "default"
+    }
+  }
+}

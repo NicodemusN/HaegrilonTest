@@ -1,0 +1,11 @@
+{
+  "parent": "haegrilontest:custom/darkthatchbed",
+  "textures": {
+    "all": "haegrilontest:blocks/darkthatchbedend",
+    "particle": "haegrilontest:blocks/darkthatchbedend",
+    "0": "haegrilontest:blocks/darkthatchbedside1",
+    "1": "haegrilontest:blocks/dark_oak_planks",
+    "2": "haegrilontest:blocks/terracotta",
+    "3": "haegrilontest:blocks/darkthatchbedend"
+  }
+}

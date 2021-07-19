@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/hopperoak",
+  "textures": {
+    "all": "haegrilontest:blocks/oak_planks",
+    "particle": "haegrilontest:blocks/oak_planks",
+    "0": "haegrilontest:blocks/oak_planks"
+  }
+}

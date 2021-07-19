@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/slatebrickslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/slatebrickslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/slatebrickslab_full"
+    }
+  }
+}

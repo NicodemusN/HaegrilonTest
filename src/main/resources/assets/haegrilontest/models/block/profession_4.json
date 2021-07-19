@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/prof_barber",
+  "textures": {
+    "all": "haegrilontest:blocks/prof_barber",
+    "particle": "haegrilontest:blocks/prof_barber",
+    "2": "haegrilontest:blocks/prof_barber"
+  }
+}

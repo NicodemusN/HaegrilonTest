@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/prof_blacksmith",
+  "textures": {
+    "all": "haegrilontest:blocks/prof_blacksmith",
+    "particle": "haegrilontest:blocks/prof_blacksmith",
+    "2": "haegrilontest:blocks/prof_blacksmith"
+  }
+}

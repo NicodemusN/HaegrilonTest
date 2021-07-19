@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/corner_stone",
+  "textures": {
+    "all": "haegrilontest:blocks/stone",
+    "particle": "haegrilontest:blocks/stone",
+    "0": "haegrilontest:blocks/stone"
+  }
+}

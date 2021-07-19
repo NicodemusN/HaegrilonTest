@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "barrel_bottom",
+        "1": "barrel_bottom"
+      },
+      "name": "default"
+    }
+  }
+}

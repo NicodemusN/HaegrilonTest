@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/pewterflagon",
+  "textures": {
+    "all": "haegrilontest:blocks/anvil_light",
+    "particle": "haegrilontest:blocks/anvil_light",
+    "0": "haegrilontest:blocks/anvil_light",
+    "1": "haegrilontest:blocks/anvil_light"
+  }
+}

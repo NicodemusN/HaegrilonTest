@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "iron_block",
+        "1": "brown_mushroom_block",
+        "3": "spruce_planks",
+        "4": "bronze_block"
+      },
+      "name": "default"
+    }
+  }
+}

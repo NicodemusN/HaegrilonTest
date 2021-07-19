@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/bushy_oak_leaves1",
+  "textures": {
+    "all": "haegrilontest:blocks/oak_leaves",
+    "particle": "haegrilontest:blocks/oak_leaves",
+    "middle": "haegrilontest:blocks/oak_leaves",
+    "tips": "haegrilontest:blocks/leaves_oak_tips"
+  }
+}

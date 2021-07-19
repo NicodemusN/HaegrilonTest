@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "haegrilontest:blocks/gray_thatch",
+    "top": "haegrilontest:blocks/gray_thatch",
+    "side": "haegrilontest:blocks/gray_thatch"
+  }
+}

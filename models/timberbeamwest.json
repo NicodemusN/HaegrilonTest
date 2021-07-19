@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "Textures/timberbeam",
+		"particle": "Textures/timberbeam"
+	},
+	"elements": [
+		{
+			"from": [1, -6, 15.9],
+			"to": [3, 28, 15.9],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"up": {"uv": [2, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [2, 0, 0, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, -2.5],
+			"scale": [0.4, 0.08, 0.39]
+		},
+		"firstperson_righthand": {
+			"translation": [3.75, -0.5, -4],
+			"scale": [0.38, 0.19, 0.48]
+		},
+		"gui": {
+			"translation": [-0.75, -3.25, 0],
+			"scale": [1.05, 0.34, 1.5]
+		}
+	}
+}

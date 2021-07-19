@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/bigleafedgrass"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/bigleafedgrass",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/bigleafedgrass",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/bigleafedgrass",
+      "y": 270
+    }
+  }
+}

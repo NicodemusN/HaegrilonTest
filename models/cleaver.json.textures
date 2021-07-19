@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "anvil_light",
+        "1": "stripped_oak_log",
+        "missing": "anvil_light"
+      },
+      "name": "default"
+    }
+  }
+}

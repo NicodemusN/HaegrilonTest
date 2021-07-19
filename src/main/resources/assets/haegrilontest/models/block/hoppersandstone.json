@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/hoppersandstone",
+  "textures": {
+    "all": "haegrilontest:blocks/sandstone_wall",
+    "particle": "haegrilontest:blocks/sandstone_wall",
+    "0": "haegrilontest:blocks/sandstone_wall"
+  }
+}

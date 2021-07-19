@@ -1,0 +1,11 @@
+{
+  "parent": "haegrilontest:custom/thatchbed",
+  "textures": {
+    "all": "haegrilontest:blocks/thatchbedend",
+    "particle": "haegrilontest:blocks/thatchbedend",
+    "0": "haegrilontest:blocks/thatchbedside",
+    "1": "haegrilontest:blocks/jungle_planks",
+    "2": "haegrilontest:blocks/thatch",
+    "3": "haegrilontest:blocks/thatchbedend"
+  }
+}

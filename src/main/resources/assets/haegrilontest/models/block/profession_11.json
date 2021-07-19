@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/prof_fishmonger",
+  "textures": {
+    "all": "haegrilontest:blocks/prof_fishmonger",
+    "particle": "haegrilontest:blocks/prof_fishmonger",
+    "2": "haegrilontest:blocks/prof_fishmonger"
+  }
+}

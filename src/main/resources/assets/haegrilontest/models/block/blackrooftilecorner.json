@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/black_roof_tile_corner1",
+  "textures": {
+    "all": "haegrilontest:blocks/blackrooftiles",
+    "particle": "haegrilontest:blocks/blackrooftiles",
+    "0": "haegrilontest:blocks/blackrooftiles"
+  }
+}

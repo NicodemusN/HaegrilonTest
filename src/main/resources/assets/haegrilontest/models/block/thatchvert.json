@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/vertthatch",
+  "textures": {
+    "all": "haegrilontest:blocks/brown_terracotta",
+    "particle": "haegrilontest:blocks/brown_terracotta",
+    "0": "haegrilontest:blocks/brown_terracotta"
+  }
+}

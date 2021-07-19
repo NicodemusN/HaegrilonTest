@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/crateslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/crateslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/crateslab_full"
+    }
+  }
+}

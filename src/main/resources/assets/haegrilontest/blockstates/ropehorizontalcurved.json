@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/ropehorizontalcurved"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/ropehorizontalcurved",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/ropehorizontalcurved",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/ropehorizontalcurved",
+      "y": 270
+    }
+  }
+}

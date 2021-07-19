@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/clothesline",
+  "textures": {
+    "all": "haegrilontest:blocks/laundry_shirt_towel",
+    "particle": "haegrilontest:blocks/laundry_shirt_towel",
+    "0": "haegrilontest:blocks/laundry_shirt_towel"
+  }
+}

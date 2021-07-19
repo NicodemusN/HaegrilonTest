@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "haegrilontest:blocks/magenta_shulker_box",
+    "top": "haegrilontest:blocks/magenta_shulker_box",
+    "side": "haegrilontest:blocks/magenta_crate",
+    "overlay": "haegrilontest:blocks/magenta_crate",
+    "particle": "haegrilontest:blocks/magenta_shulker_box"
+  }
+}

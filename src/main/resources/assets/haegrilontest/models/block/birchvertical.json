@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/vertbirch",
+  "textures": {
+    "all": "haegrilontest:blocks/birch_planks1",
+    "particle": "haegrilontest:blocks/birch_planks1",
+    "0": "haegrilontest:blocks/birch_planks1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/oxidized_bronze",
+    "up": "haegrilontest:blocks/oxidized_bronze",
+    "north": "haegrilontest:blocks/oxidized_bronze",
+    "east": "haegrilontest:blocks/oxidized_bronze",
+    "south": "haegrilontest:blocks/oxidized_bronze",
+    "west": "haegrilontest:blocks/oxidized_bronze",
+    "particle": "haegrilontest:blocks/oxidized_bronze"
+  }
+}

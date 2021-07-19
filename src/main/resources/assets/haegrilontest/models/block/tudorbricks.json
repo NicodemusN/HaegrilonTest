@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/tudorbricks",
+    "up": "haegrilontest:blocks/tudorbricks",
+    "north": "haegrilontest:blocks/tudorbricks",
+    "east": "haegrilontest:blocks/tudorbricks",
+    "south": "haegrilontest:blocks/tudorbricks",
+    "west": "haegrilontest:blocks/tudorbricks",
+    "particle": "haegrilontest:blocks/tudorbricks"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "netherrack",
+        "2": "bedrock"
+      },
+      "name": "default"
+    }
+  }
+}

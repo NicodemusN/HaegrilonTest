@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/basketslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/basketslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/basketslab_full"
+    }
+  }
+}

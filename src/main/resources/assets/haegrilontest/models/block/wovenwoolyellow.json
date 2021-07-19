@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/yellow_wool",
+    "up": "haegrilontest:blocks/yellow_wool",
+    "north": "haegrilontest:blocks/yellow_wool",
+    "east": "haegrilontest:blocks/yellow_wool",
+    "south": "haegrilontest:blocks/yellow_wool",
+    "west": "haegrilontest:blocks/yellow_wool",
+    "particle": "haegrilontest:blocks/yellow_wool"
+  }
+}

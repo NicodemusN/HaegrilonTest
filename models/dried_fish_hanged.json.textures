@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dried_cod",
+        "1": "dark_oak_planks"
+      },
+      "name": "default"
+    }
+  }
+}

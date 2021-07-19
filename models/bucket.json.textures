@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "oakwithmetalrods",
+        "1": "oak"
+      },
+      "name": "default"
+    }
+  }
+}

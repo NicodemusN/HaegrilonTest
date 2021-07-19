@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "haegrilontest:blocks/flies_0",
+    "particle": "haegrilontest:blocks/flies_0"
+  }
+}

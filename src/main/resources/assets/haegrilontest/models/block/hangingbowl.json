@@ -1,0 +1,11 @@
+{
+  "parent": "haegrilontest:custom/hanging_bowl",
+  "textures": {
+    "all": "haegrilontest:blocks/iron_block",
+    "particle": "haegrilontest:blocks/iron_block",
+    "0": "haegrilontest:blocks/iron_block",
+    "1": "haegrilontest:blocks/brown_mushroom_block",
+    "3": "haegrilontest:blocks/spruce_planks",
+    "4": "haegrilontest:blocks/bronze_block"
+  }
+}

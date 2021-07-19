@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/green_roof_tiles",
+    "up": "haegrilontest:blocks/green_roof_tiles",
+    "north": "haegrilontest:blocks/green_roof_tiles",
+    "east": "haegrilontest:blocks/green_roof_tiles",
+    "south": "haegrilontest:blocks/green_roof_tiles",
+    "west": "haegrilontest:blocks/green_roof_tiles",
+    "particle": "haegrilontest:blocks/green_roof_tiles"
+  }
+}

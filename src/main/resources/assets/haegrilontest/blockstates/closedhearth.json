@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/closedhearth"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/closedhearth",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/closedhearth",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/closedhearth",
+      "y": 270
+    }
+  }
+}

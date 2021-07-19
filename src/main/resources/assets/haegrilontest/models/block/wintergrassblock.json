@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "haegrilontest:blocks/dirt",
+    "top": "haegrilontest:blocks/wintergrasstop",
+    "side": "haegrilontest:blocks/wintergrassside",
+    "overlay": "haegrilontest:blocks/wintergrassside",
+    "particle": "haegrilontest:blocks/dirt"
+  }
+}

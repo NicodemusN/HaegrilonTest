@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/clotheshanger",
+  "textures": {
+    "all": "haegrilontest:blocks/dark_oak_planks1",
+    "particle": "haegrilontest:blocks/dark_oak_planks1",
+    "0": "haegrilontest:blocks/dark_oak_planks1",
+    "1": "haegrilontest:blocks/iron_block"
+  }
+}

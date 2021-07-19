@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/spruceshutter1",
+  "textures": {
+    "all": "haegrilontest:blocks/spruce_shutter",
+    "particle": "haegrilontest:blocks/spruce_shutter",
+    "0": "haegrilontest:blocks/stripped_spruce_log",
+    "1": "haegrilontest:blocks/spruce_shutter"
+  }
+}

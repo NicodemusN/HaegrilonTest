@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/oakthinwall",
+  "textures": {
+    "all": "haegrilontest:blocks/stripped_oak_log",
+    "particle": "haegrilontest:blocks/stripped_oak_log",
+    "1": "haegrilontest:blocks/stripped_oak_log"
+  }
+}

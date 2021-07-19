@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "stripped_spruce_log",
+        "1": "spruce_crate",
+        "2": "spruce_planks"
+      },
+      "name": "default"
+    }
+  }
+}

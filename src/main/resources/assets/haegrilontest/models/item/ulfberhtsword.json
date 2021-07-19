@@ -1,0 +1,6 @@
+{
+  "parent": "haegrilontest:custom/sword_straight_steel",
+  "textures": {
+    "particle": "haegrilontest:items/iron_sword"
+  }
+}

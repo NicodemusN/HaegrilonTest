@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cobblestone",
+        "missing": "cobblestone"
+      },
+      "name": "default"
+    }
+  }
+}

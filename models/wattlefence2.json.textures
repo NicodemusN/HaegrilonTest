@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "wattlefence",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

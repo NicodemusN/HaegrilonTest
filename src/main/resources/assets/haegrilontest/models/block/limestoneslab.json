@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "haegrilontest:blocks/limestone",
+    "top": "haegrilontest:blocks/limestone",
+    "side": "haegrilontest:blocks/limestone"
+  }
+}

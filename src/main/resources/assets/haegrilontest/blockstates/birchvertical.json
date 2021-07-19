@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/birchvertical"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/birchvertical",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/birchvertical",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/birchvertical",
+      "y": 270
+    }
+  }
+}

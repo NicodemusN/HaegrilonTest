@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/beef",
+  "textures": {
+    "all": "haegrilontest:blocks/raw_beef",
+    "particle": "haegrilontest:blocks/raw_beef",
+    "0": "haegrilontest:blocks/raw_beef"
+  }
+}

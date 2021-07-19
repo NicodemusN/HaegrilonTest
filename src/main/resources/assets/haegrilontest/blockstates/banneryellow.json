@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/banneryellow"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/banneryellow",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/banneryellow",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/banneryellow",
+      "y": 270
+    }
+  }
+}

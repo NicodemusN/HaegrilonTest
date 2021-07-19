@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/blackrooftiles",
+    "up": "haegrilontest:blocks/blackrooftiles",
+    "north": "haegrilontest:blocks/blackrooftiles",
+    "east": "haegrilontest:blocks/blackrooftiles",
+    "south": "haegrilontest:blocks/blackrooftiles",
+    "west": "haegrilontest:blocks/blackrooftiles",
+    "particle": "haegrilontest:blocks/blackrooftiles"
+  }
+}

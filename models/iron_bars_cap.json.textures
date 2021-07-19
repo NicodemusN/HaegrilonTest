@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "spruce_log",
+        "1": "spruce_log_top"
+      },
+      "name": "default"
+    }
+  }
+}

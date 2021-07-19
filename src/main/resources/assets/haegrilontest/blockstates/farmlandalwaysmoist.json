@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/farmlandalwaysmoist"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/farmlandalwaysmoist",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/farmlandalwaysmoist",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/farmlandalwaysmoist",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "haegrilontest:blocks/oxidized_bronze",
+    "particle": "haegrilontest:blocks/oxidized_bronze"
+  }
+}

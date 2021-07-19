@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/windowframetop"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/windowframetop",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/windowframetop",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/windowframetop",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "haegrilontest:block/windowframetop",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "haegrilontest:block/windowframetop",
+      "x": 90
+    }
+  }
+}

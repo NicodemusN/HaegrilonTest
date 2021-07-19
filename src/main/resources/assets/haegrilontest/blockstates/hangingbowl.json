@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/hangingbowl"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/hangingbowl",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/hangingbowl",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/hangingbowl",
+      "y": 270
+    }
+  }
+}

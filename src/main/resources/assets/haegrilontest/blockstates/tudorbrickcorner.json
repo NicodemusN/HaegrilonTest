@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/tudorbrickcorner"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/tudorbrickcorner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/tudorbrickcorner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/tudorbrickcorner",
+      "y": 270
+    }
+  }
+}

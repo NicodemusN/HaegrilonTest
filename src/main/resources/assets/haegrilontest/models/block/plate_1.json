@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/woodenplateandfork",
+  "textures": {
+    "all": "haegrilontest:blocks/woodenplateandfork",
+    "particle": "haegrilontest:blocks/woodenplateandfork",
+    "0": "haegrilontest:blocks/woodenplateandfork",
+    "missing": "haegrilontest:blocks/woodenplateandfork"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/mutton",
+  "textures": {
+    "all": "haegrilontest:blocks/mutton_raw",
+    "particle": "haegrilontest:blocks/mutton_raw",
+    "1": "haegrilontest:blocks/mutton_raw"
+  }
+}

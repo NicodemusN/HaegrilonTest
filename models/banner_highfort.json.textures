@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "banner_custom_highfort",
+        "1": "banner_custom_yellow_b",
+        "missing": "banner_custom_yellow_b"
+      },
+      "name": "default"
+    }
+  }
+}

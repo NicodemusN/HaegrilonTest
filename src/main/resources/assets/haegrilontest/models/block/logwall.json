@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/iron_bars_side",
+  "textures": {
+    "all": "haegrilontest:blocks/spruce_log",
+    "particle": "haegrilontest:blocks/spruce_log",
+    "0": "haegrilontest:blocks/spruce_log",
+    "1": "haegrilontest:blocks/spruce_log_top"
+  }
+}

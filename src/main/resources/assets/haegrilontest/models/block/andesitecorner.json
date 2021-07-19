@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/corner_andesite",
+  "textures": {
+    "all": "haegrilontest:blocks/andesite",
+    "particle": "haegrilontest:blocks/andesite",
+    "0": "haegrilontest:blocks/andesite"
+  }
+}

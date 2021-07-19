@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/beef"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/beef",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/beef",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/beef",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "haegrilontest:custom/wheel",
+  "textures": {
+    "all": "haegrilontest:blocks/barrel_bottom",
+    "particle": "haegrilontest:blocks/barrel_bottom",
+    "0": "haegrilontest:blocks/anvil_light",
+    "1": "haegrilontest:blocks/barrel_bottom",
+    "missing": "haegrilontest:blocks/barrel_bottom"
+  }
+}

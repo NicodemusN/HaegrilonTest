@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/blackwoodcratetop",
+    "up": "haegrilontest:blocks/blackwoodcratetop",
+    "north": "haegrilontest:blocks/whitedarktimber",
+    "east": "haegrilontest:blocks/whitedarktimber",
+    "south": "haegrilontest:blocks/whitedarktimber",
+    "west": "haegrilontest:blocks/whitedarktimber",
+    "particle": "haegrilontest:blocks/blackwoodcratetop"
+  }
+}

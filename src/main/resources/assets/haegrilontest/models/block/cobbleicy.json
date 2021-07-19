@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/chiseled_stone_bricks",
+    "up": "haegrilontest:blocks/chiseled_stone_bricks",
+    "north": "haegrilontest:blocks/chiseled_stone_bricks",
+    "east": "haegrilontest:blocks/chiseled_stone_bricks",
+    "south": "haegrilontest:blocks/chiseled_stone_bricks",
+    "west": "haegrilontest:blocks/chiseled_stone_bricks",
+    "particle": "haegrilontest:blocks/chiseled_stone_bricks"
+  }
+}

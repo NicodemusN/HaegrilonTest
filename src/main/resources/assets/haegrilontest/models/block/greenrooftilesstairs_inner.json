@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "haegrilontest:blocks/green_roof_tiles",
+    "top": "haegrilontest:blocks/green_roof_tiles",
+    "side": "haegrilontest:blocks/green_roof_tiles"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/prof_inn",
+  "textures": {
+    "all": "haegrilontest:blocks/prof_inn",
+    "particle": "haegrilontest:blocks/prof_inn",
+    "2": "haegrilontest:blocks/prof_inn"
+  }
+}

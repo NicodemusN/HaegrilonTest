@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/prof_tanner",
+  "textures": {
+    "all": "haegrilontest:blocks/prof_tanner",
+    "particle": "haegrilontest:blocks/prof_tanner",
+    "2": "haegrilontest:blocks/prof_tanner"
+  }
+}

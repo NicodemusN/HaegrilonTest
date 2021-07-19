@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/sackslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/sackslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/sackslab_full"
+    }
+  }
+}

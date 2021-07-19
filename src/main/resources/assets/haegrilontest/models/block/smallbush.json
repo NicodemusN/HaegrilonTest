@@ -1,0 +1,7 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "haegrilontest:blocks/bamboo_large_leaves",
+    "particle": "haegrilontest:blocks/bamboo_large_leaves"
+  }
+}

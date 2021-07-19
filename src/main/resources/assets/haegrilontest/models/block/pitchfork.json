@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/pitchfork",
+  "textures": {
+    "all": "haegrilontest:blocks/iron_block2",
+    "particle": "haegrilontest:blocks/iron_block2",
+    "0": "haegrilontest:blocks/iron_block2",
+    "1": "haegrilontest:blocks/stripped_oak_log_2"
+  }
+}

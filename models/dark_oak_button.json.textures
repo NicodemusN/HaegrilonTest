@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "button_jungle",
+        "1": "jungle_planks"
+      },
+      "name": "default"
+    }
+  }
+}

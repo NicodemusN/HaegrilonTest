@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/end_stone_1",
+    "up": "haegrilontest:blocks/end_stone_1",
+    "north": "haegrilontest:blocks/end_stone_1",
+    "east": "haegrilontest:blocks/end_stone_1",
+    "south": "haegrilontest:blocks/end_stone_1",
+    "west": "haegrilontest:blocks/end_stone_1",
+    "particle": "haegrilontest:blocks/end_stone_1"
+  }
+}

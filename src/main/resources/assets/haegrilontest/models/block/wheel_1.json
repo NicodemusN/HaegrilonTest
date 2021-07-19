@@ -1,0 +1,10 @@
+{
+  "parent": "haegrilontest:custom/wheelwall",
+  "textures": {
+    "all": "haegrilontest:blocks/round_base0",
+    "particle": "haegrilontest:blocks/round_base0",
+    "1": "haegrilontest:blocks/round_base0",
+    "2": "haegrilontest:blocks/round_border0",
+    "3": "haegrilontest:blocks/round_pattern0"
+  }
+}

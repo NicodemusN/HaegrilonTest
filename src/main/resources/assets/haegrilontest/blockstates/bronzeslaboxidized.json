@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/bronzeslaboxidized"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/bronzeslaboxidized_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/bronzeslaboxidized_full"
+    }
+  }
+}

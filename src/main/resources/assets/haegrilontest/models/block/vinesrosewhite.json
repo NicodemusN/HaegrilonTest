@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/vines_rose_white",
+  "textures": {
+    "all": "haegrilontest:blocks/roses_white",
+    "particle": "haegrilontest:blocks/roses_white",
+    "1": "haegrilontest:blocks/roses_white",
+    "2": "haegrilontest:blocks/vine"
+  }
+}

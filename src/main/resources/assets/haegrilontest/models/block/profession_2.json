@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/prof_armourer",
+  "textures": {
+    "all": "haegrilontest:blocks/prof_armourer",
+    "particle": "haegrilontest:blocks/prof_armourer",
+    "2": "haegrilontest:blocks/prof_armourer"
+  }
+}

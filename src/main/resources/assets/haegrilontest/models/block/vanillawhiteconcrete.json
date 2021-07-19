@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/white_concrete",
+    "up": "haegrilontest:blocks/white_concrete",
+    "north": "haegrilontest:blocks/white_concrete",
+    "east": "haegrilontest:blocks/white_concrete",
+    "south": "haegrilontest:blocks/white_concrete",
+    "west": "haegrilontest:blocks/white_concrete",
+    "particle": "haegrilontest:blocks/white_concrete"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/skilletshanged"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/skilletshanged",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/skilletshanged",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/skilletshanged",
+      "y": 270
+    }
+  }
+}

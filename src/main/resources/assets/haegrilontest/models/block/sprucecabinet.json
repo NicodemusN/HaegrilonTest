@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/spruce_pantry_top",
+    "up": "haegrilontest:blocks/spruce_pantry_top",
+    "north": "haegrilontest:blocks/spruce_pantry_front",
+    "east": "haegrilontest:blocks/spruce_pantry_side",
+    "south": "haegrilontest:blocks/spruce_pantry_side",
+    "west": "haegrilontest:blocks/spruce_pantry_side",
+    "particle": "haegrilontest:blocks/spruce_pantry_top"
+  }
+}

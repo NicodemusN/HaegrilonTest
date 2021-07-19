@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "haegrilontest:blocks/sand_limestone",
+    "top": "haegrilontest:blocks/sand_limestone",
+    "side": "haegrilontest:blocks/sand_limestone"
+  }
+}

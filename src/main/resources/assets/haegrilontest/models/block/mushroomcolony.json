@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "haegrilontest:blocks/brown_mushroom_colony_stage0",
+    "particle": "haegrilontest:blocks/brown_mushroom_colony_stage0"
+  }
+}

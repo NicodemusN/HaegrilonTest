@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "anvil_light",
+        "1": "anvil_light"
+      },
+      "name": "default"
+    }
+  }
+}

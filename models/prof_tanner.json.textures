@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "prof_tanner"
+      },
+      "name": "default"
+    }
+  }
+}

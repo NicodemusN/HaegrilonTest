@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/thatchdarkcorner"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/thatchdarkcorner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/thatchdarkcorner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/thatchdarkcorner",
+      "y": 270
+    }
+  }
+}

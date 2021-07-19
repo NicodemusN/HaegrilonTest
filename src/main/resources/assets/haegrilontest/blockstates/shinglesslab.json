@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/shinglesslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/shinglesslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/shinglesslab_full"
+    }
+  }
+}

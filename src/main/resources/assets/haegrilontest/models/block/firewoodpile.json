@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "haegrilontest:blocks/stripped_dark_oak_log_top",
+    "top": "haegrilontest:blocks/stripped_dark_oak_log_top",
+    "side": "haegrilontest:blocks/spruce_log",
+    "overlay": "haegrilontest:blocks/spruce_log",
+    "particle": "haegrilontest:blocks/stripped_dark_oak_log_top"
+  }
+}

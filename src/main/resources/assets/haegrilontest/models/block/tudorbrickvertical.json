@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/verttudorbricks",
+  "textures": {
+    "all": "haegrilontest:blocks/tudorbricks",
+    "particle": "haegrilontest:blocks/tudorbricks",
+    "0": "haegrilontest:blocks/tudorbricks"
+  }
+}

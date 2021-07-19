@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/prof_ale_merchant",
+  "textures": {
+    "all": "haegrilontest:blocks/prof_ale_merchant",
+    "particle": "haegrilontest:blocks/prof_ale_merchant",
+    "2": "haegrilontest:blocks/prof_ale_merchant"
+  }
+}

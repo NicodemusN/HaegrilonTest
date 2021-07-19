@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "farmland_moist_side",
+        "1": "farmland_moist",
+        "2": "dirt"
+      },
+      "name": "default"
+    }
+  }
+}

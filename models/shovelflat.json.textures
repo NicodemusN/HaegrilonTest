@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "iron_shovel",
+        "missing": "iron_shovel"
+      },
+      "name": "default"
+    }
+  }
+}

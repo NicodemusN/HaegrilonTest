@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/light_limestone",
+    "up": "haegrilontest:blocks/light_limestone",
+    "north": "haegrilontest:blocks/light_limestone",
+    "east": "haegrilontest:blocks/light_limestone",
+    "south": "haegrilontest:blocks/light_limestone",
+    "west": "haegrilontest:blocks/light_limestone",
+    "particle": "haegrilontest:blocks/light_limestone"
+  }
+}

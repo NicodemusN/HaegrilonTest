@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/stove_bottom",
+    "up": "haegrilontest:blocks/stove_top",
+    "north": "haegrilontest:blocks/stove_front",
+    "east": "haegrilontest:blocks/stove_side",
+    "south": "haegrilontest:blocks/stove_side",
+    "west": "haegrilontest:blocks/stove_side",
+    "particle": "haegrilontest:blocks/stove_bottom"
+  }
+}

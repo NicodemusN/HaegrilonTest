@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "woodenplateandfork",
+        "missing": "woodenplateandfork"
+      },
+      "name": "default"
+    }
+  }
+}

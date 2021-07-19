@@ -1,0 +1,10 @@
+{
+  "parent": "haegrilontest:custom/knife3d",
+  "textures": {
+    "1": "haegrilontest:blocks/handle",
+    "2": "haegrilontest:blocks/blade",
+    "3": "haegrilontest:blocks/bladelight",
+    "4": "haegrilontest:blocks/handledark",
+    "particle": "haegrilontest:items/iron_sword"
+  }
+}

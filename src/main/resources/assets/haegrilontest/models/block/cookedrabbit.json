@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/cooked_rabbit",
+  "textures": {
+    "all": "haegrilontest:blocks/hanging_cooked_rabbit",
+    "particle": "haegrilontest:blocks/hanging_cooked_rabbit",
+    "0": "haegrilontest:blocks/hanging_cooked_rabbit"
+  }
+}

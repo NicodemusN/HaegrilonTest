@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/simpleaxe2",
+  "textures": {
+    "all": "haegrilontest:blocks/sword_guard_iron_crayke",
+    "particle": "haegrilontest:blocks/sword_guard_iron_crayke",
+    "1": "haegrilontest:blocks/sword_guard_iron_crayke",
+    "2": "haegrilontest:blocks/stripped_oak_log_2"
+  }
+}

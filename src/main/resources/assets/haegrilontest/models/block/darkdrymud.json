@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/loom_front",
+    "up": "haegrilontest:blocks/loom_front",
+    "north": "haegrilontest:blocks/loom_front",
+    "east": "haegrilontest:blocks/loom_front",
+    "south": "haegrilontest:blocks/loom_front",
+    "west": "haegrilontest:blocks/loom_front",
+    "particle": "haegrilontest:blocks/loom_front"
+  }
+}

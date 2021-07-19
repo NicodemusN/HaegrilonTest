@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "haegrilontest:blocks/green_roof_tiles",
+    "top": "haegrilontest:blocks/green_roof_tiles",
+    "side": "haegrilontest:blocks/green_roof_tiles"
+  }
+}

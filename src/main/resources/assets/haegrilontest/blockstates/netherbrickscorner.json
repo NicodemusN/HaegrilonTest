@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/netherbrickscorner"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/netherbrickscorner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/netherbrickscorner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/netherbrickscorner",
+      "y": 270
+    }
+  }
+}

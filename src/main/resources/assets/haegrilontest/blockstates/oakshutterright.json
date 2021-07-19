@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/oakshutterright"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/oakshutterright",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/oakshutterright",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/oakshutterright",
+      "y": 270
+    }
+  }
+}

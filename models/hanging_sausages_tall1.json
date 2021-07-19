@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [16, 32],
+	"textures": {
+		"0": "Textures/Sausages",
+		"particle": "Textures/Sausages"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 32, 8],
+			"faces": {
+				"north": {"uv": [0, 1, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [1.02, 0.25, 1]
+		},
+		"thirdperson_lefthand": {
+			"scale": [1, 0.13, 1]
+		},
+		"firstperson_righthand": {
+			"scale": [1, 0.22, 1]
+		},
+		"firstperson_lefthand": {
+			"scale": [1, 0.22, 1]
+		},
+		"gui": {
+			"translation": [0, -4.75, 0],
+			"scale": [1, 0.54, 1]
+		},
+		"fixed": {
+			"translation": [0, -5.75, -0.75],
+			"scale": [1, 0.62, 1]
+		}
+	}
+}

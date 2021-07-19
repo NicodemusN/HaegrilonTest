@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/iron_block",
+    "up": "haegrilontest:blocks/iron_block",
+    "north": "haegrilontest:blocks/statuserror",
+    "east": "haegrilontest:blocks/statuserror",
+    "south": "haegrilontest:blocks/statuserror",
+    "west": "haegrilontest:blocks/statuserror",
+    "particle": "haegrilontest:blocks/iron_block"
+  }
+}

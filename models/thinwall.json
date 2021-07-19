@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "trapdoor",
+	"textures": {
+		"particle": "block/oak_planks"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 13],
+			"to": [16, 16, 16],
+			"color": 3,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"east": {"uv": [0, 0, 3, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"west": {"uv": [0, 0, 3, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 3], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 3], "texture": "#missing"}
+			}
+		}
+	]
+}

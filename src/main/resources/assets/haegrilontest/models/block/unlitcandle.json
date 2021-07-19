@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/unlitcandle",
+  "textures": {
+    "all": "haegrilontest:blocks/light_candle",
+    "particle": "haegrilontest:blocks/light_candle",
+    "0": "haegrilontest:blocks/light_candle",
+    "missing": "haegrilontest:blocks/light_candle"
+  }
+}

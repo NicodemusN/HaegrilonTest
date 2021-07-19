@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/sprucerailing_top",
+  "textures": {
+    "all": "haegrilontest:blocks/sprucerailing_default",
+    "particle": "haegrilontest:blocks/sprucerailing_default",
+    "0": "haegrilontest:blocks/stripped_spruce_log",
+    "1": "haegrilontest:blocks/spruce_planks"
+  }
+}

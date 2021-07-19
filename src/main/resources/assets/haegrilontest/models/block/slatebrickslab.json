@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "haegrilontest:blocks/gray_concrete",
+    "top": "haegrilontest:blocks/gray_concrete",
+    "side": "haegrilontest:blocks/gray_concrete"
+  }
+}

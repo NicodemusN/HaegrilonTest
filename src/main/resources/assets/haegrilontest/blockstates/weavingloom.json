@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/weavingloom"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/weavingloom",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/weavingloom",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/weavingloom",
+      "y": 270
+    }
+  }
+}

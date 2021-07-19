@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/timberbeameast",
+  "textures": {
+    "all": "haegrilontest:blocks/timberbeam",
+    "particle": "haegrilontest:blocks/timberbeam",
+    "0": "haegrilontest:blocks/timberbeam"
+  }
+}

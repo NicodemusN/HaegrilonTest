@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "oak_shutter_side",
+        "1": "oak_shutter"
+      },
+      "name": "default"
+    }
+  }
+}

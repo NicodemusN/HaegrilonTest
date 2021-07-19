@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/clotheshanger"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/clotheshanger",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/clotheshanger",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/clotheshanger",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "haegrilontest:blocks/cabbages_stage7",
+    "particle": "haegrilontest:blocks/cabbages_stage7"
+  }
+}

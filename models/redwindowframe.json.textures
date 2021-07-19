@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "redwoodcrate",
+        "1": "wrt_vert_m"
+      },
+      "name": "default"
+    }
+  }
+}

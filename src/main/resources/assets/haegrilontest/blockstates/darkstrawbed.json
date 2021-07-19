@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/darkstrawbed"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/darkstrawbed",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/darkstrawbed",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/darkstrawbed",
+      "y": 270
+    }
+  }
+}

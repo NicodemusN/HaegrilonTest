@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/vertbricks",
+  "textures": {
+    "all": "haegrilontest:blocks/bricks",
+    "particle": "haegrilontest:blocks/bricks",
+    "0": "haegrilontest:blocks/bricks"
+  }
+}

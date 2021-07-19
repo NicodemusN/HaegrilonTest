@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/tudorbrickslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/tudorbrickslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/tudorbrickslab_full"
+    }
+  }
+}

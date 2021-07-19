@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/corner_jungle",
+  "textures": {
+    "all": "haegrilontest:blocks/jungle_planks",
+    "particle": "haegrilontest:blocks/jungle_planks",
+    "0": "haegrilontest:blocks/jungle_planks"
+  }
+}

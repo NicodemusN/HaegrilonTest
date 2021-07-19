@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/vinesrosewhite"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/vinesrosewhite",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/vinesrosewhite",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/vinesrosewhite",
+      "y": 270
+    }
+  }
+}

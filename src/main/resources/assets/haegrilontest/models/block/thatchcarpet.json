@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/thatchcarpet",
+  "textures": {
+    "all": "haegrilontest:blocks/thatch",
+    "particle": "haegrilontest:blocks/thatch",
+    "0": "haegrilontest:blocks/brown_terracotta"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/vertslatebricks",
+  "textures": {
+    "all": "haegrilontest:blocks/gray_concrete",
+    "particle": "haegrilontest:blocks/gray_concrete",
+    "0": "haegrilontest:blocks/gray_concrete"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "cleaver32.1",
+        "missing": "cleaver32.1"
+      },
+      "name": "default"
+    }
+  }
+}

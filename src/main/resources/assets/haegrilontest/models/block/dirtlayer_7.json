@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/dirtlayer7",
+  "textures": {
+    "all": "haegrilontest:blocks/dirt",
+    "particle": "haegrilontest:blocks/dirt",
+    "0": "haegrilontest:blocks/dirt"
+  }
+}

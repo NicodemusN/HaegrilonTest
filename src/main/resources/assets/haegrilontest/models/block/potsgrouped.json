@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/grouped_pots",
+  "textures": {
+    "all": "haegrilontest:blocks/terracotta_dark",
+    "particle": "haegrilontest:blocks/terracotta_dark",
+    "1_0": "haegrilontest:blocks/terracotta_dark"
+  }
+}

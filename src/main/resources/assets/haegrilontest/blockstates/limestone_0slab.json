@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/limestone_0slab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/limestone_0slab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/limestone_0slab_full"
+    }
+  }
+}

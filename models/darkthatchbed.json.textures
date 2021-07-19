@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "darkthatchbedside1",
+        "1": "dark_oak_planks",
+        "2": "terracotta",
+        "3": "darkthatchbedend"
+      },
+      "name": "default"
+    }
+  }
+}

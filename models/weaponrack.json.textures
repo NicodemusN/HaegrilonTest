@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "12": "anvil_light",
+        "1_0": "sword_blade_iron",
+        "5_0": "iron_block2",
+        "1_6": "sword_blade_steel-1",
+        "1_7": "sword_tip2_steel",
+        "1_9": "side_fix",
+        "0": "dark_oak_door_bottom",
+        "7_11": "golden_apple2",
+        "3_10": "guard_piece2",
+        "7_12": "sword_guard_rich3",
+        "2_12": "sword_guard_rich_lobed",
+        "missing": "anvil_light",
+        "7_10": "guard_piece3"
+      },
+      "name": "default"
+    }
+  }
+}

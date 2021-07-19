@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "haegrilontest:blocks/wild_onions",
+    "particle": "haegrilontest:blocks/wild_onions"
+  }
+}

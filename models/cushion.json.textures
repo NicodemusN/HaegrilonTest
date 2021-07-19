@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cushion_top",
+        "1": "crate_bottom",
+        "2": "cushion_side"
+      },
+      "name": "default"
+    }
+  }
+}
