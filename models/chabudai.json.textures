@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "birch_planks_exc",
+        "1": "stripped_oak_log_2",
+        "missing": "birch_planks_exc"
+      },
+      "name": "default"
+    }
+  }
+}

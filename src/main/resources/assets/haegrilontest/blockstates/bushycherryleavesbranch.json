@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/bushycherryleavesbranch"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/bushycherryleavesbranch",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/bushycherryleavesbranch",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/bushycherryleavesbranch",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "haegrilontest:block/bushycherryleavesbranch",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "haegrilontest:block/bushycherryleavesbranch",
+      "x": 90
+    }
+  }
+}

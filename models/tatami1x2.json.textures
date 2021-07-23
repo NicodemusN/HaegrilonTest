@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "tatami_mat_side",
+        "even": "tatami_mat_even_light",
+        "odd": "tatami_mat_odd_light"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "haegrilontest:blocks/dirt",
+    "top": "haegrilontest:blocks/forest_floor",
+    "side": "haegrilontest:blocks/podzol_side",
+    "overlay": "haegrilontest:blocks/podzol_side",
+    "particle": "haegrilontest:blocks/dirt"
+  }
+}

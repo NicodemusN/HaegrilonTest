@@ -1,0 +1,11 @@
+{
+  "parent": "haegrilontest:custom/oak_bushy_branch",
+  "textures": {
+    "all": "haegrilontest:blocks/oak_leaves",
+    "particle": "haegrilontest:blocks/bigleafplant",
+    "leaves": "haegrilontest:blocks/oak_leaves",
+    "overlay": "haegrilontest:blocks/oak_leaves_bushy2",
+    "log": "haegrilontest:blocks/oak_log",
+    "missing": "haegrilontest:blocks/oak_leaves"
+  }
+}

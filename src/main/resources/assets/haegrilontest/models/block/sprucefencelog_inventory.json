@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "haegrilontest:blocks/spruce_log",
+    "particle": "haegrilontest:blocks/spruce_log"
+  }
+}

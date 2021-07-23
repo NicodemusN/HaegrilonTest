@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "leaves": "cherry_leaves",
+        "overlay": "cherry_leaves_bushy",
+        "log": "spruce_log",
+        "missing": "spruce_log"
+      },
+      "name": "default"
+    }
+  }
+}

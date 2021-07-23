@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/tatami1x1",
+  "textures": {
+    "all": "haegrilontest:blocks/half_tatami_mat",
+    "particle": "haegrilontest:blocks/half_tatami_mat",
+    "1": "haegrilontest:blocks/tatami_mat_half_light",
+    "3": "haegrilontest:blocks/tatami_mat_side"
+  }
+}

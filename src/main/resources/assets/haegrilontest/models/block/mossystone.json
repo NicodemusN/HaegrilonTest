@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "haegrilontest:blocks/stone",
+    "top": "haegrilontest:blocks/cobble_mossy_wall_top",
+    "side": "haegrilontest:blocks/mossy_stone",
+    "overlay": "haegrilontest:blocks/mossy_stone",
+    "particle": "haegrilontest:blocks/stone"
+  }
+}

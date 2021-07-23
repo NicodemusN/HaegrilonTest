@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "haegrilontest:block/reed"
+    },
+    "half=lower": {
+      "model": "haegrilontest:block/reed_bottom"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/tableturnedover"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/tableturnedover",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/tableturnedover",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/tableturnedover",
+      "y": 270
+    }
+  }
+}

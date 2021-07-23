@@ -5,19 +5,15 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.biome.BiomeColors;
-import net.minecraft.world.IWorldReader;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.IBlockReader;
-import net.minecraft.world.GrassColors;
-import net.minecraft.util.math.vector.Vector3d;
-import net.minecraft.util.math.shapes.VoxelShapes;
-import net.minecraft.util.math.shapes.VoxelShape;
-import net.minecraft.util.math.shapes.ISelectionContext;
+import net.minecraft.world.FoliageColors;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.Mirror;
@@ -33,13 +29,12 @@ import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.fluid.FluidState;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.IWaterLoggable;
-import net.minecraft.block.HorizontalBlock;
+import net.minecraft.block.DirectionalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -50,11 +45,11 @@ import java.util.List;
 import java.util.Collections;
 
 @HaegrilontestModElements.ModElement.Tag
-public class VinesrosewhiteBlock extends HaegrilontestModElements.ModElement {
-	@ObjectHolder("haegrilontest:vinesrosewhite")
+public class BushyoakleavesbranchBlock extends HaegrilontestModElements.ModElement {
+	@ObjectHolder("haegrilontest:bushyoakleavesbranch")
 	public static final Block block = null;
-	public VinesrosewhiteBlock(HaegrilontestModElements instance) {
-		super(instance, 236);
+	public BushyoakleavesbranchBlock(HaegrilontestModElements instance) {
+		super(instance, 458);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlockColorRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ItemColorRegisterHandler());
 	}
@@ -76,7 +71,7 @@ public class VinesrosewhiteBlock extends HaegrilontestModElements.ModElement {
 		@SubscribeEvent
 		public void blockColorLoad(ColorHandlerEvent.Block event) {
 			event.getBlockColors().register((bs, world, pos, index) -> {
-				return world != null && pos != null ? BiomeColors.getGrassColor(world, pos) : GrassColors.get(0.5D, 1.0D);
+				return world != null && pos != null ? BiomeColors.getFoliageColor(world, pos) : FoliageColors.getDefault();
 			}, block);
 		}
 	}
@@ -86,40 +81,24 @@ public class VinesrosewhiteBlock extends HaegrilontestModElements.ModElement {
 		@SubscribeEvent
 		public void itemColorLoad(ColorHandlerEvent.Item event) {
 			event.getItemColors().register((stack, index) -> {
-				return GrassColors.get(0.5D, 1.0D);
+				return FoliageColors.getDefault();
 			}, block);
 		}
 	}
 
 	public static class CustomBlock extends Block implements IWaterLoggable {
-		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.PLANTS).sound(SoundType.PLANT).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
+			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH).with(WATERLOGGED, false));
-			setRegistryName("vinesrosewhite");
+			setRegistryName("bushyoakleavesbranch");
 		}
 
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
 			return true;
-		}
-
-		@Override
-		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
-			Vector3d offset = state.getOffset(world, pos);
-			switch ((Direction) state.get(FACING)) {
-				case SOUTH :
-				default :
-					return VoxelShapes.or(makeCuboidShape(16, 0, 1, 0, 16, 0)).withOffset(offset.x, offset.y, offset.z);
-				case NORTH :
-					return VoxelShapes.or(makeCuboidShape(0, 0, 15, 16, 16, 16)).withOffset(offset.x, offset.y, offset.z);
-				case EAST :
-					return VoxelShapes.or(makeCuboidShape(1, 0, 0, 0, 16, 16)).withOffset(offset.x, offset.y, offset.z);
-				case WEST :
-					return VoxelShapes.or(makeCuboidShape(15, 0, 16, 16, 16, 0)).withOffset(offset.x, offset.y, offset.z);
-			}
 		}
 
 		@Override
@@ -138,7 +117,7 @@ public class VinesrosewhiteBlock extends HaegrilontestModElements.ModElement {
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
 			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;;
-			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite()).with(WATERLOGGED, flag);
+			return this.getDefaultState().with(FACING, context.getNearestLookingDirection().getOpposite()).with(WATERLOGGED, flag);
 		}
 
 		@Override
@@ -156,7 +135,7 @@ public class VinesrosewhiteBlock extends HaegrilontestModElements.ModElement {
 		}
 
 		@Override
-		public boolean isLadder(BlockState state, IWorldReader world, BlockPos pos, LivingEntity entity) {
+		public boolean canSustainPlant(BlockState state, IBlockReader world, BlockPos pos, Direction direction, IPlantable plantable) {
 			return true;
 		}
 

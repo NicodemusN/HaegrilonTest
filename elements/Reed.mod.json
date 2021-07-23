@@ -1,0 +1,86 @@
+{
+  "_fv": 18,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "reed_t",
+    "textureBottom": "reed_b",
+    "customModelName": "Cross model",
+    "itemTexture": "0",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "double",
+    "staticPlantGenerationType": "Flower",
+    "growapableSpawnType": "Water",
+    "growapableMaxHeight": 3,
+    "doublePlantGenerationType": "Grass",
+    "customBoundingBox": false,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Reed",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Haegrilonplants"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "Blocks.DIRT#1"
+      },
+      {
+        "value": "Blocks.DIRT#2"
+      },
+      {
+        "value": "CUSTOM:Riverpebbles"
+      },
+      {
+        "value": "Blocks.FLOWING_WATER"
+      },
+      {
+        "value": "Blocks.WATER"
+      }
+    ],
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": []
+  }
+}

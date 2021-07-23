@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "texture": "chair_wood",
+        "chair_top": "chair_top"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "haegrilontest:blocks/oak_log",
+    "particle": "haegrilontest:blocks/oak_log"
+  }
+}

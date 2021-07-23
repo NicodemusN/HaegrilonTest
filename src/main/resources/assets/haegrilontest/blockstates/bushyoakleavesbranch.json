@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/bushyoakleavesbranch"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/bushyoakleavesbranch",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/bushyoakleavesbranch",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/bushyoakleavesbranch",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "haegrilontest:block/bushyoakleavesbranch",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "haegrilontest:block/bushyoakleavesbranch",
+      "x": 90
+    }
+  }
+}

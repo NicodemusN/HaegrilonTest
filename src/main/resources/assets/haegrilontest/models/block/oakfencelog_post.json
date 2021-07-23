@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "haegrilontest:blocks/oak_log",
+    "particle": "haegrilontest:blocks/oak_log"
+  }
+}

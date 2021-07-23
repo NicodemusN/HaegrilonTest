@@ -1,0 +1,10 @@
+{
+  "parent": "haegrilontest:custom/table",
+  "textures": {
+    "all": "haegrilontest:blocks/table_side",
+    "particle": "haegrilontest:blocks/table_side",
+    "side": "haegrilontest:blocks/table_side",
+    "3": "haegrilontest:blocks/table_side_1",
+    "top": "haegrilontest:blocks/table_top"
+  }
+}

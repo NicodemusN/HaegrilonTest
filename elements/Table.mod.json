@@ -2,21 +2,21 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "roses_white",
+    "texture": "table_side",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "vines_rose_white:default",
-    "rotationMode": 1,
+    "customModelName": "table:default",
+    "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "tintType": "Grass",
-    "isItemTinted": true,
+    "tintType": "No tint",
+    "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -24,22 +24,31 @@
     "boundingBoxes": [
       {
         "mx": 0.0,
-        "my": 0.0,
-        "mz": 15.0,
+        "my": 13.0,
+        "mz": 0.0,
         "Mx": 16.0,
         "My": 16.0,
         "Mz": 16.0,
         "subtract": false
+      },
+      {
+        "mx": 6.0,
+        "my": 0.0,
+        "mz": 6.0,
+        "Mx": 10.0,
+        "My": 13.0,
+        "Mz": 10.0,
+        "subtract": false
       }
     ],
-    "name": "Vines White Roses",
+    "name": "Table",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": true,
     "creativeTab": {
-      "value": "CUSTOM:Haegrilonplants"
+      "value": "CUSTOM:Haegrilondecorative"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -48,11 +57,11 @@
     "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canProvidePower": false,
     "lightOpacity": 0,
     "material": {
-      "value": "PLANTS"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -65,14 +74,14 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "isLadder": true,
+    "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "PLANT"
+      "value": "WOOD"
     },
     "luminance": 0,
     "unbreakable": false,

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/chabudai"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/chabudai",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/chabudai",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/chabudai",
+      "y": 270
+    }
+  }
+}

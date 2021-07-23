@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "leaves": "oak_leaves",
+        "overlay": "oak_leaves_bushy2",
+        "log": "oak_log",
+        "missing": "oak_leaves"
+      },
+      "name": "default"
+    }
+  }
+}

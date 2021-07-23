@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "tatami_mat_half_light",
+        "3": "tatami_mat_side"
+      },
+      "name": "default"
+    }
+  }
+}

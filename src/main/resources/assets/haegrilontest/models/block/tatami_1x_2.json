@@ -1,0 +1,10 @@
+{
+  "parent": "haegrilontest:custom/tatami1x2",
+  "textures": {
+    "all": "haegrilontest:blocks/full_tatami_mat",
+    "particle": "haegrilontest:blocks/full_tatami_mat",
+    "side": "haegrilontest:blocks/tatami_mat_side",
+    "even": "haegrilontest:blocks/tatami_mat_even_light",
+    "odd": "haegrilontest:blocks/tatami_mat_odd_light"
+  }
+}

@@ -2,21 +2,21 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "roses_white",
+    "texture": "half_tatami_mat",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "vines_rose_white:default",
+    "customModelName": "tatami1x1:default",
     "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "half_tatami_mat",
     "particleTexture": "",
-    "tintType": "Grass",
-    "isItemTinted": true,
+    "tintType": "No tint",
+    "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -25,21 +25,21 @@
       {
         "mx": 0.0,
         "my": 0.0,
-        "mz": 15.0,
+        "mz": 0.0,
         "Mx": 16.0,
-        "My": 16.0,
+        "My": 2.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Vines White Roses",
+    "name": "Tatami 1x1",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": true,
     "creativeTab": {
-      "value": "CUSTOM:Haegrilonplants"
+      "value": "CUSTOM:Haegrilondecorative"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -52,7 +52,7 @@
     "canProvidePower": false,
     "lightOpacity": 0,
     "material": {
-      "value": "PLANTS"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -65,14 +65,14 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "isLadder": true,
+    "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "PLANT"
+      "value": "WOOD"
     },
     "luminance": 0,
     "unbreakable": false,

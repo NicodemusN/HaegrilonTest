@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/shojidooropen"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/shojidooropen",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/shojidooropen",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/shojidooropen",
+      "y": 270
+    }
+  }
+}

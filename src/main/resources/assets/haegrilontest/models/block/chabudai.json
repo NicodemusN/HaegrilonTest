@@ -1,0 +1,10 @@
+{
+  "parent": "haegrilontest:custom/chabudai",
+  "textures": {
+    "all": "haegrilontest:blocks/chabudai",
+    "particle": "haegrilontest:blocks/chabudai",
+    "0": "haegrilontest:blocks/birch_planks_exc",
+    "1": "haegrilontest:blocks/stripped_oak_log_2",
+    "missing": "haegrilontest:blocks/birch_planks_exc"
+  }
+}

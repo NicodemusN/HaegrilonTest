@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/chair_wood",
+  "textures": {
+    "all": "haegrilontest:blocks/chair_wood",
+    "particle": "haegrilontest:blocks/chair_wood",
+    "texture": "haegrilontest:blocks/chair_wood",
+    "chair_top": "haegrilontest:blocks/chair_top"
+  }
+}
