@@ -1,5 +1,5 @@
 {
-  "parent": "haegrilontest:block/floorcarved",
+  "parent": "haegrilontest:block/darkoakwallpanel",
   "display": {
     "thirdperson": {
       "rotation": [

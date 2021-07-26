@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "lile_floor",
+    "texture": "dark_oak_vertical_panel",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 11,
     "customModelName": "Single texture",
-    "rotationMode": 1,
+    "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -32,14 +32,14 @@
         "subtract": false
       }
     ],
-    "name": "Floorcarved",
+    "name": "Dark Oak Wall Panel",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Stoneblocks"
+      "value": "CUSTOM:Woodandtimber"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -52,7 +52,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -72,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "WOOD"
     },
     "luminance": 0,
     "unbreakable": false,

@@ -5367,26 +5367,6 @@
       "path": "~/Naturestuff/Leaves"
     },
     {
-      "name": "Floorcarved",
-      "type": "block",
-      "sortid": 486,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "floorcarved",
-      "path": "~/Stoneblocks"
-    },
-    {
-      "name": "Floorcarved2",
-      "type": "block",
-      "sortid": 487,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "floorcarved_2",
-      "path": "~/Stoneblocks"
-    },
-    {
       "name": "Floorcarved3",
       "type": "block",
       "sortid": 488,
@@ -5405,6 +5385,16 @@
       "ids": {},
       "registry_name": "blackmarble_32",
       "path": "~/Stoneblocks"
+    },
+    {
+      "name": "Darkoakwallpanel",
+      "type": "block",
+      "sortid": 490,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkoakwallpanel",
+      "path": "~/Wood/panel"
     }
   ],
   "variable_elements": [],
@@ -5413,20 +5403,20 @@
     "en_us": {
       "block.haegrilon.smoke": "Smoke",
       "block.haegrilontest.thatchgraywall": "Gray Thatch",
-      "block.haegrilontest.blueslatecorner": "Blue Slate Corner",
       "block.haegrilon.beamhorisontal": "Beam (Horizontal)",
+      "block.haegrilontest.blueslatecorner": "Blue Slate Corner",
       "block.haegrilon.browntimbereast": "Brown Timber East",
       "block.haegrilon.lightmud": "Light Mud",
       "block.haegrilontest.teaset": "Tea Set",
       "block.haegrilontest.yellowtimbereast": "Yellow Timber East",
-      "block.haegrilon.whiteoaktimbercross": "White Oak Timber Cross",
       "block.haegrilon.statusapproved": "Approved Status Block",
+      "block.haegrilon.whiteoaktimbercross": "White Oak Timber Cross",
       "block.haegrilontest.simpleaxe": "Simple Axe",
       "block.haegrilon.wovenwoolbluestairs": "Blue Woven Wool Stairs",
       "block.haegrilon.dioritetrapdoor": "Diorite Trapdoor",
       "block.haegrilontest.blackmarble_32": "Black Marble",
-      "block.haegrilontest.blackwoodthinwall": "Blackwood Thin Wall",
       "block.haegrilontest.slatetipblue": "Blue Slate Tip",
+      "block.haegrilontest.blackwoodthinwall": "Blackwood Thin Wall",
       "block.haegrilontest.icespike": "Icespike",
       "block.haegrilon.wovenwoolyellow": "Yellow Woven Wool",
       "block.haegrilon.stove": "Stove",
@@ -5438,15 +5428,15 @@
       "block.haegrilon.windowframetop": "Windowframe Top / Fancy Table",
       "block.haegrilon.whiteoaktimberclosestudding": "White Oak Timber Close Studding",
       "block.haegrilon.wovenwoolredslab": "Red Woven Wool Slab",
-      "block.haegrilontest.whitedarktimber": "White Dark Timber",
       "block.haegrilon.darkoakvertical": "Dark Oak Vertical Slab",
+      "block.haegrilontest.whitedarktimber": "White Dark Timber",
       "block.haegrilontest.whiteoaktimberwest": "White Oak Timber West",
       "block.haegrilontest.statusdone": "Done Status Block",
       "itemGroup.tabutility": "Utility",
       "block.haegrilon.arrowslitcobblestone": "Arrowslit Cobblestone",
       "block.haegrilontest.greenrooftiles": "Green Roof Tiles",
-      "block.haegrilontest.grayoaktimbereast": "Brown Oak Timber East",
       "block.haegrilon.whitedarktimbereast": "White Dark Timber East",
+      "block.haegrilontest.grayoaktimbereast": "Brown Oak Timber East",
       "block.haegrilontest.limestonestairs": "Limestone",
       "block.haegrilontest.bronzestairs_oxidized": "Oxidized Bronze Stairs",
       "block.haegrilon.bronzeslaboxidized": "Oxidized Bronze Slab",
@@ -5461,8 +5451,8 @@
       "block.haegrilontest.bluetimberwhitecross": "White Blue Timber Cross",
       "block.haegrilontest.darkmud": "Dark Mud",
       "block.haegrilontest.carrotcrate": "Carrot Crate",
-      "block.haegrilontest.knife": "Knife",
       "itemGroup.tabhaegrilonplants": "Haegrilon Nature",
+      "block.haegrilontest.knife": "Knife",
       "block.haegrilontest.wovenwoolwhite": "White Woven Wool",
       "block.haegrilon.thatchvert": "Thatch Vertical Slab",
       "block.haegrilontest.logwall": "Log Wall",
@@ -5516,7 +5506,6 @@
       "block.haegrilon.granitetrapdoor": "Granite Trapdoor",
       "block.haegrilontest.bricksvertical": "Brick Vertical Slab",
       "block.haegrilontest.tripodpot": "Tripod Pot",
-      "block.haegrilontest.floorcarved": "Floorcarved",
       "block.haegrilontest.paleyellowdaub": "Pale Yellow Daub",
       "block.haegrilontest.tiedherbs": "Tied Herbs",
       "block.haegrilontest.basketslabopen": "Basket Slab Open",
@@ -5929,7 +5918,6 @@
       "block.haegrilontest.limestone": "Limestone",
       "block.haegrilontest.bluetimberwhiteeast": "White Blue Timber East",
       "block.haegrilon.basket": "Basket",
-      "block.haegrilontest.floorcarved_2": "Floorcarved2",
       "block.haegrilontest.floorcarved_3": "Floorcarve3",
       "block.haegrilon.clotheshanger": "Clotheshanger",
       "block.haegrilontest.blackwoodwall": "Blackwood Wall",
@@ -5964,6 +5952,7 @@
       "block.haegrilontest.sprucethinwall": "Spruce Thin Wall",
       "block.haegrilontest.spruceshuttermiddleopen": "Spruce Middle Shutter",
       "block.haegrilontest.bushyoakleavesautumnal": "Bushy Oak Leaves Autumnal",
+      "block.haegrilontest.darkoakwallpanel": "Dark Oak Wall Panel",
       "block.haegrilontest.moss": "Moss Block",
       "block.haegrilontest.spruceshutteropen": "Spruce Shutter Left",
       "block.haegrilon.oakcabinet": "Oak Cabinet",
@@ -6152,7 +6141,12 @@
       },
       {
         "name": "Wood",
-        "children": []
+        "children": [
+          {
+            "name": "panel",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Misc",
