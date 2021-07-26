@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/crossleaves_oak_autumnal",
+  "textures": {
+    "all": "haegrilontest:blocks/crossleaves_oak_autumn",
+    "particle": "haegrilontest:blocks/crossleaves_oak_autumn",
+    "0": "haegrilontest:blocks/crossleaves_oak_autumn"
+  }
+}

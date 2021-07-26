@@ -45,7 +45,7 @@ public class BushyoakleavesBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:bushyoakleaves")
 	public static final Block block = null;
 	public BushyoakleavesBlock(HaegrilontestModElements instance) {
-		super(instance, 235);
+		super(instance, 251);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlockColorRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ItemColorRegisterHandler());
 	}
@@ -119,6 +119,11 @@ public class BushyoakleavesBlock extends HaegrilontestModElements.ModElement {
 				world.getPendingFluidTicks().scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickRate(world));
 			}
 			return super.updatePostPlacement(state, facing, facingState, world, currentPos, facingPos);
+		}
+
+		@Override
+		public Block.OffsetType getOffsetType() {
+			return Block.OffsetType.XYZ;
 		}
 
 		@Override

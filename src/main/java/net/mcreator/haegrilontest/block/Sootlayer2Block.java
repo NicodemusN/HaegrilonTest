@@ -56,7 +56,7 @@ public class Sootlayer2Block extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:sootlayer_2")
 	public static final Block block = null;
 	public Sootlayer2Block(HaegrilontestModElements instance) {
-		super(instance, 416);
+		super(instance, 451);
 	}
 
 	@Override

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "crossleaves_oak_autumn"
+      },
+      "name": "default"
+    }
+  }
+}

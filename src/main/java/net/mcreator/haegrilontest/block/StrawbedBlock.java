@@ -48,7 +48,7 @@ public class StrawbedBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:strawbed")
 	public static final Block block = null;
 	public StrawbedBlock(HaegrilontestModElements instance) {
-		super(instance, 291);
+		super(instance, 338);
 	}
 
 	@Override

@@ -48,7 +48,7 @@ public class NetherbrickscornerBlock extends HaegrilontestModElements.ModElement
 	@ObjectHolder("haegrilontest:netherbrickscorner")
 	public static final Block block = null;
 	public NetherbrickscornerBlock(HaegrilontestModElements instance) {
-		super(instance, 62);
+		super(instance, 158);
 	}
 
 	@Override

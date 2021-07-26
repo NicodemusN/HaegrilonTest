@@ -48,7 +48,7 @@ public class NetherbricksverticalBlock extends HaegrilontestModElements.ModEleme
 	@ObjectHolder("haegrilontest:netherbricksvertical")
 	public static final Block block = null;
 	public NetherbricksverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 63);
+		super(instance, 159);
 	}
 
 	@Override

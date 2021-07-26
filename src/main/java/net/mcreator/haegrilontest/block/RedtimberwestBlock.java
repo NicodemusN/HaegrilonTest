@@ -28,7 +28,7 @@ public class RedtimberwestBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:redtimberwest")
 	public static final Block block = null;
 	public RedtimberwestBlock(HaegrilontestModElements instance) {
-		super(instance, 161);
+		super(instance, 131);
 	}
 
 	@Override

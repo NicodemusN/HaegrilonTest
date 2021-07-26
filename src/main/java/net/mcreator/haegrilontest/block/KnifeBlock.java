@@ -41,7 +41,7 @@ public class KnifeBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:knife")
 	public static final Block block = null;
 	public KnifeBlock(HaegrilontestModElements instance) {
-		super(instance, 273);
+		super(instance, 320);
 	}
 
 	@Override

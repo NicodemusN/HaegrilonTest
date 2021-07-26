@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cherry_leaves_bushy"
+      },
+      "name": "default"
+    }
+  }
+}

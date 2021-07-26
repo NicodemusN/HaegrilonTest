@@ -48,7 +48,7 @@ public class PotsgroupedBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:potsgrouped")
 	public static final Block block = null;
 	public PotsgroupedBlock(HaegrilontestModElements instance) {
-		super(instance, 310);
+		super(instance, 357);
 	}
 
 	@Override

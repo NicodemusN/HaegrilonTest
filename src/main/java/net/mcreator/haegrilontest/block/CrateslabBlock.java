@@ -29,7 +29,7 @@ public class CrateslabBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:crateslab")
 	public static final Block block = null;
 	public CrateslabBlock(HaegrilontestModElements instance) {
-		super(instance, 280);
+		super(instance, 327);
 	}
 
 	@Override

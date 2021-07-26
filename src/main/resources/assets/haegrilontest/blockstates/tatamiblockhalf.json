@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/tatamiblockhalf"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/tatamiblockhalf",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/tatamiblockhalf",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/tatamiblockhalf",
+      "y": 270
+    }
+  }
+}

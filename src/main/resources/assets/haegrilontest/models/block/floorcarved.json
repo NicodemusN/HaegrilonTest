@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "haegrilontest:blocks/lile_floor",
+    "particle": "haegrilontest:blocks/lile_floor"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/crossleaves_spruce",
+  "textures": {
+    "all": "haegrilontest:blocks/spruce_cross_leaves",
+    "particle": "haegrilontest:blocks/spruce_cross_leaves",
+    "0": "haegrilontest:blocks/spruce_cross_leaves"
+  }
+}

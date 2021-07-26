@@ -48,7 +48,7 @@ public class Profession18Block extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:profession_18")
 	public static final Block block = null;
 	public Profession18Block(HaegrilontestModElements instance) {
-		super(instance, 388);
+		super(instance, 424);
 	}
 
 	@Override

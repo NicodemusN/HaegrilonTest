@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/floorcarved"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/floorcarved",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/floorcarved",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/floorcarved",
+      "y": 270
+    }
+  }
+}

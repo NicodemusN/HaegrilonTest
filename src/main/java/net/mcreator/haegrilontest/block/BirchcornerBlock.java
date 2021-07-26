@@ -48,7 +48,7 @@ public class BirchcornerBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:birchcorner")
 	public static final Block block = null;
 	public BirchcornerBlock(HaegrilontestModElements instance) {
-		super(instance, 86);
+		super(instance, 73);
 	}
 
 	@Override

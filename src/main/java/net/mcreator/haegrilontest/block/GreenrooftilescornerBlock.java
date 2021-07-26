@@ -48,7 +48,7 @@ public class GreenrooftilescornerBlock extends HaegrilontestModElements.ModEleme
 	@ObjectHolder("haegrilontest:greenrooftilescorner")
 	public static final Block block = null;
 	public GreenrooftilescornerBlock(HaegrilontestModElements instance) {
-		super(instance, 350);
+		super(instance, 176);
 	}
 
 	@Override

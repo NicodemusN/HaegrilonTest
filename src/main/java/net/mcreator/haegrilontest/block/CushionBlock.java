@@ -44,7 +44,7 @@ public class CushionBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:cushion")
 	public static final Block block = null;
 	public CushionBlock(HaegrilontestModElements instance) {
-		super(instance, 292);
+		super(instance, 339);
 	}
 
 	@Override

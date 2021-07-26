@@ -25,7 +25,7 @@ public class BronzeslaboxidizedBlock extends HaegrilontestModElements.ModElement
 	@ObjectHolder("haegrilontest:bronzeslaboxidized")
 	public static final Block block = null;
 	public BronzeslaboxidizedBlock(HaegrilontestModElements instance) {
-		super(instance, 116);
+		super(instance, 91);
 	}
 
 	@Override

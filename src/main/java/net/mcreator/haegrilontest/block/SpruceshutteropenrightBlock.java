@@ -56,7 +56,7 @@ public class SpruceshutteropenrightBlock extends HaegrilontestModElements.ModEle
 	@ObjectHolder("haegrilontest:spruceshutteropenright")
 	public static final Block block = null;
 	public SpruceshutteropenrightBlock(HaegrilontestModElements instance) {
-		super(instance, 448);
+		super(instance, 480);
 	}
 
 	@Override

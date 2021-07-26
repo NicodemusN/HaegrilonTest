@@ -48,7 +48,7 @@ public class RopehorizontalcurvedBlock extends HaegrilontestModElements.ModEleme
 	@ObjectHolder("haegrilontest:ropehorizontalcurved")
 	public static final Block block = null;
 	public RopehorizontalcurvedBlock(HaegrilontestModElements instance) {
-		super(instance, 325);
+		super(instance, 372);
 	}
 
 	@Override

@@ -23,7 +23,7 @@ public class StatusdoneBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:statusdone")
 	public static final Block block = null;
 	public StatusdoneBlock(HaegrilontestModElements instance) {
-		super(instance, 121);
+		super(instance, 237);
 	}
 
 	@Override

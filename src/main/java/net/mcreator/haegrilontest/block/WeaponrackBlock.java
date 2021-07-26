@@ -48,7 +48,7 @@ public class WeaponrackBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:weaponrack")
 	public static final Block block = null;
 	public WeaponrackBlock(HaegrilontestModElements instance) {
-		super(instance, 311);
+		super(instance, 358);
 	}
 
 	@Override

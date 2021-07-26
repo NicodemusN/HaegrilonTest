@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "haegrilontest:blocks/blackmarble16",
+    "particle": "haegrilontest:blocks/blackmarble16"
+  }
+}

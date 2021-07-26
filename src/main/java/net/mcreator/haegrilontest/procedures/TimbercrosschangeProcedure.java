@@ -14,7 +14,7 @@ import java.util.Map;
 @HaegrilontestModElements.ModElement.Tag
 public class TimbercrosschangeProcedure extends HaegrilontestModElements.ModElement {
 	public TimbercrosschangeProcedure(HaegrilontestModElements instance) {
-		super(instance, 415);
+		super(instance, 450);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

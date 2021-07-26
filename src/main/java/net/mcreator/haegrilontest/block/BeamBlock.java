@@ -42,7 +42,7 @@ public class BeamBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:beam")
 	public static final Block block = null;
 	public BeamBlock(HaegrilontestModElements instance) {
-		super(instance, 85);
+		super(instance, 72);
 	}
 
 	@Override

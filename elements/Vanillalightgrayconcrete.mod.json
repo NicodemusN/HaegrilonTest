@@ -42,7 +42,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Haegrilon"
+      "value": "CUSTOM:Utility"
     },
     "destroyTool": "Not specified",
     "customDrop": {

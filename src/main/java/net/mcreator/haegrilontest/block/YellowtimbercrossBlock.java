@@ -28,7 +28,7 @@ public class YellowtimbercrossBlock extends HaegrilontestModElements.ModElement 
 	@ObjectHolder("haegrilontest:yellowtimbercross")
 	public static final Block block = null;
 	public YellowtimbercrossBlock(HaegrilontestModElements instance) {
-		super(instance, 70);
+		super(instance, 57);
 	}
 
 	@Override

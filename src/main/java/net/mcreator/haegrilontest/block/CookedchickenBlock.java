@@ -48,7 +48,7 @@ public class CookedchickenBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:cookedchicken")
 	public static final Block block = null;
 	public CookedchickenBlock(HaegrilontestModElements instance) {
-		super(instance, 340);
+		super(instance, 399);
 	}
 
 	@Override

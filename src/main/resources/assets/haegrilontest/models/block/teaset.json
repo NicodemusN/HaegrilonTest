@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/tea_set",
+  "textures": {
+    "all": "haegrilontest:blocks/blackstone",
+    "particle": "haegrilontest:blocks/blackstone",
+    "tea": "haegrilontest:blocks/blackstone",
+    "metal": "haegrilontest:blocks/anvil_light"
+  }
+}

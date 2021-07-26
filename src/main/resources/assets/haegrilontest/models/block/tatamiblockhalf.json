@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "haegrilontest:blocks/tatami_mat_even_light",
+    "top": "haegrilontest:blocks/tatami_block_half",
+    "side": "haegrilontest:blocks/tatami_mat_half_light",
+    "overlay": "haegrilontest:blocks/tatami_mat_half_light",
+    "particle": "haegrilontest:blocks/tatami_mat_even_light"
+  }
+}

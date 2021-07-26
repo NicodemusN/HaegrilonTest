@@ -36,7 +36,7 @@ public class MushroomcolonyBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:mushroomcolony")
 	public static final Block block = null;
 	public MushroomcolonyBlock(HaegrilontestModElements instance) {
-		super(instance, 224);
+		super(instance, 265);
 	}
 
 	@Override

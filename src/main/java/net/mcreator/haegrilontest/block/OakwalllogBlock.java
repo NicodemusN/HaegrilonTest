@@ -45,7 +45,7 @@ public class OakwalllogBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:oakwalllog")
 	public static final Block block = null;
 	public OakwalllogBlock(HaegrilontestModElements instance) {
-		super(instance, 459);
+		super(instance, 298);
 	}
 
 	@Override

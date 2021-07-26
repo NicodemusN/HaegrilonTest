@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "haegrilontest:blocks/floortile_square",
+    "particle": "haegrilontest:blocks/floortile_square"
+  }
+}

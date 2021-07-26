@@ -29,7 +29,7 @@ public class GreenrooftilesslabBlock extends HaegrilontestModElements.ModElement
 	@ObjectHolder("haegrilontest:greenrooftilesslab")
 	public static final Block block = null;
 	public GreenrooftilesslabBlock(HaegrilontestModElements instance) {
-		super(instance, 347);
+		super(instance, 173);
 	}
 
 	@Override

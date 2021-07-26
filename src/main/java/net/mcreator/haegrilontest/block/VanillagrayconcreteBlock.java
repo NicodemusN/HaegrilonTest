@@ -21,7 +21,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.haegrilontest.itemgroup.HaegrilonItemGroup;
+import net.mcreator.haegrilontest.itemgroup.UtilityItemGroup;
 import net.mcreator.haegrilontest.HaegrilontestModElements;
 
 import java.util.List;
@@ -32,13 +32,13 @@ public class VanillagrayconcreteBlock extends HaegrilontestModElements.ModElemen
 	@ObjectHolder("haegrilontest:vanillagrayconcrete")
 	public static final Block block = null;
 	public VanillagrayconcreteBlock(HaegrilontestModElements instance) {
-		super(instance, 176);
+		super(instance, 241);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(HaegrilonItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(UtilityItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

@@ -48,7 +48,7 @@ public class BlackrooftileverticalBlock extends HaegrilontestModElements.ModElem
 	@ObjectHolder("haegrilontest:blackrooftilevertical")
 	public static final Block block = null;
 	public BlackrooftileverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 357);
+		super(instance, 184);
 	}
 
 	@Override

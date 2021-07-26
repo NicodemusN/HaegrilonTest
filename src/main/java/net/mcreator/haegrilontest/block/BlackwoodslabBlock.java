@@ -29,7 +29,7 @@ public class BlackwoodslabBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:blackwoodslab")
 	public static final Block block = null;
 	public BlackwoodslabBlock(HaegrilontestModElements instance) {
-		super(instance, 99);
+		super(instance, 199);
 	}
 
 	@Override

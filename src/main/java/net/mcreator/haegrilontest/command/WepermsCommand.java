@@ -25,7 +25,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 @HaegrilontestModElements.ModElement.Tag
 public class WepermsCommand extends HaegrilontestModElements.ModElement {
 	public WepermsCommand(HaegrilontestModElements instance) {
-		super(instance, 444);
+		super(instance, 478);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

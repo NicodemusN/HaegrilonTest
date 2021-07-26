@@ -48,7 +48,7 @@ public class BirchverticalBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:birchvertical")
 	public static final Block block = null;
 	public BirchverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 87);
+		super(instance, 74);
 	}
 
 	@Override

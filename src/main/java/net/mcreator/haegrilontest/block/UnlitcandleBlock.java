@@ -44,7 +44,7 @@ public class UnlitcandleBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:unlitcandle")
 	public static final Block block = null;
 	public UnlitcandleBlock(HaegrilontestModElements instance) {
-		super(instance, 316);
+		super(instance, 363);
 	}
 
 	@Override

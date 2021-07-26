@@ -41,7 +41,7 @@ public class SprucethinwallBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:sprucethinwall")
 	public static final Block block = null;
 	public SprucethinwallBlock(HaegrilontestModElements instance) {
-		super(instance, 75);
+		super(instance, 62);
 	}
 
 	@Override

@@ -48,7 +48,7 @@ public class BlueslatecornerBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:blueslatecorner")
 	public static final Block block = null;
 	public BlueslatecornerBlock(HaegrilontestModElements instance) {
-		super(instance, 56);
+		super(instance, 149);
 	}
 
 	@Override

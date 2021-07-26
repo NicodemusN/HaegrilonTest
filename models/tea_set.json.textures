@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "tea": "blackstone",
+        "metal": "anvil_light"
+      },
+      "name": "default"
+    }
+  }
+}

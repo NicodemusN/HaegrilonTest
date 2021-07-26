@@ -27,7 +27,7 @@ public class OnioncrateBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:onioncrate")
 	public static final Block block = null;
 	public OnioncrateBlock(HaegrilontestModElements instance) {
-		super(instance, 330);
+		super(instance, 389);
 	}
 
 	@Override

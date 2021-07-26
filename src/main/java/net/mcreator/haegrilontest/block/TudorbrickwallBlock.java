@@ -29,7 +29,7 @@ import net.minecraft.block.FenceGateBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.haegrilontest.itemgroup.HaegrilonItemGroup;
+import net.mcreator.haegrilontest.itemgroup.StoneblocksItemGroup;
 import net.mcreator.haegrilontest.HaegrilontestModElements;
 
 import java.util.List;
@@ -40,13 +40,14 @@ public class TudorbrickwallBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:tudorbrickwall")
 	public static final Block block = null;
 	public TudorbrickwallBlock(HaegrilontestModElements instance) {
-		super(instance, 52);
+		super(instance, 49);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(HaegrilonItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(StoneblocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends WallBlock {
 		public CustomBlock() {

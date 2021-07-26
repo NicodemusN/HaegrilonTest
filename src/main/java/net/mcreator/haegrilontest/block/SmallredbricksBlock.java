@@ -15,7 +15,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.haegrilontest.itemgroup.HaegrilonItemGroup;
+import net.mcreator.haegrilontest.itemgroup.StoneblocksItemGroup;
 import net.mcreator.haegrilontest.HaegrilontestModElements;
 
 import java.util.List;
@@ -32,7 +32,8 @@ public class SmallredbricksBlock extends HaegrilontestModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(HaegrilonItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(StoneblocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

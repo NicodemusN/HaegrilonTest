@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "crossleaves_birch"
+      },
+      "name": "default"
+    }
+  }
+}

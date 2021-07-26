@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/slate_tip_brown",
+  "textures": {
+    "all": "haegrilontest:blocks/cyan_concrete",
+    "particle": "haegrilontest:blocks/cyan_concrete",
+    "0": "haegrilontest:blocks/cyan_concrete"
+  }
+}

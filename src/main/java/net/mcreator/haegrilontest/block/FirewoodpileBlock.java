@@ -34,7 +34,7 @@ public class FirewoodpileBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:firewoodpile")
 	public static final Block block = null;
 	public FirewoodpileBlock(HaegrilontestModElements instance) {
-		super(instance, 317);
+		super(instance, 364);
 	}
 
 	@Override
