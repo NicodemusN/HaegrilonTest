@@ -33,7 +33,7 @@ public class BluewhitetimberverticalBlock extends HaegrilontestModElements.ModEl
 	@ObjectHolder("haegrilontest:bluewhitetimbervertical")
 	public static final Block block = null;
 	public BluewhitetimberverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 228);
+		super(instance, 186);
 	}
 
 	@Override

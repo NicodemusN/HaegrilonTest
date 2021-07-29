@@ -48,7 +48,7 @@ public class CeramicflagonBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:ceramicflagon")
 	public static final Block block = null;
 	public CeramicflagonBlock(HaegrilontestModElements instance) {
-		super(instance, 349);
+		super(instance, 355);
 	}
 
 	@Override

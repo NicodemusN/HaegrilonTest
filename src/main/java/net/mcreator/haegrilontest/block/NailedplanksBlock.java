@@ -16,7 +16,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.haegrilontest.itemgroup.HaegrilonItemGroup;
+import net.mcreator.haegrilontest.itemgroup.WoodandtimberItemGroup;
 import net.mcreator.haegrilontest.HaegrilontestModElements;
 
 import java.util.List;
@@ -27,13 +27,14 @@ public class NailedplanksBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:nailedplanks")
 	public static final Block block = null;
 	public NailedplanksBlock(HaegrilontestModElements instance) {
-		super(instance, 83);
+		super(instance, 153);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(HaegrilonItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(WoodandtimberItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

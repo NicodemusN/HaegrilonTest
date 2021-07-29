@@ -13,7 +13,7 @@ import net.mcreator.haegrilontest.HaegrilontestModElements;
 @HaegrilontestModElements.ModElement.Tag
 public class StoneblocksItemGroup extends HaegrilontestModElements.ModElement {
 	public StoneblocksItemGroup(HaegrilontestModElements instance) {
-		super(instance, 468);
+		super(instance, 476);
 	}
 
 	@Override

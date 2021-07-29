@@ -40,7 +40,7 @@ public class ThatchgraycrossstitchwallBlock extends HaegrilontestModElements.Mod
 	@ObjectHolder("haegrilontest:thatchgraycrossstitchwall")
 	public static final Block block = null;
 	public ThatchgraycrossstitchwallBlock(HaegrilontestModElements instance) {
-		super(instance, 197);
+		super(instance, 242);
 	}
 
 	@Override

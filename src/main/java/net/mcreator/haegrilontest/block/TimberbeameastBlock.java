@@ -56,7 +56,7 @@ public class TimberbeameastBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:timberbeameast")
 	public static final Block block = null;
 	public TimberbeameastBlock(HaegrilontestModElements instance) {
-		super(instance, 336);
+		super(instance, 342);
 	}
 
 	@Override

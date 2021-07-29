@@ -12,7 +12,7 @@ import java.util.Map;
 @HaegrilontestModElements.ModElement.Tag
 public class GuestflyCommandExecutedProcedure extends HaegrilontestModElements.ModElement {
 	public GuestflyCommandExecutedProcedure(HaegrilontestModElements instance) {
-		super(instance, 477);
+		super(instance, 485);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

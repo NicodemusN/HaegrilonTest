@@ -37,7 +37,7 @@ import net.minecraft.block.DirectionalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.haegrilontest.itemgroup.HaegrilondecorativeItemGroup;
+import net.mcreator.haegrilontest.itemgroup.WoodandtimberItemGroup;
 import net.mcreator.haegrilontest.HaegrilontestModElements;
 
 import java.util.List;
@@ -48,14 +48,14 @@ public class BeamhorisontalBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:beamhorisontal")
 	public static final Block block = null;
 	public BeamhorisontalBlock(HaegrilontestModElements instance) {
-		super(instance, 330);
+		super(instance, 152);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(
-				() -> new BlockItem(block, new Item.Properties().group(HaegrilondecorativeItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(WoodandtimberItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

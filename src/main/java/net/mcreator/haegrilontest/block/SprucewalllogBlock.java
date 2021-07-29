@@ -45,7 +45,7 @@ public class SprucewalllogBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:sprucewalllog")
 	public static final Block block = null;
 	public SprucewalllogBlock(HaegrilontestModElements instance) {
-		super(instance, 304);
+		super(instance, 311);
 	}
 
 	@Override

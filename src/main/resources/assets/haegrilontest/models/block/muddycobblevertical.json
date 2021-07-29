@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/vertredsandstone",
+  "textures": {
+    "all": "haegrilontest:blocks/red_sandstone",
+    "particle": "haegrilontest:blocks/red_sandstone",
+    "0": "haegrilontest:blocks/red_sandstone"
+  }
+}

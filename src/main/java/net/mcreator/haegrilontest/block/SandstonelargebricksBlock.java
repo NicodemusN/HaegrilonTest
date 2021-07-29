@@ -27,7 +27,7 @@ public class SandstonelargebricksBlock extends HaegrilontestModElements.ModEleme
 	@ObjectHolder("haegrilontest:sandstonelargebricks")
 	public static final Block block = null;
 	public SandstonelargebricksBlock(HaegrilontestModElements instance) {
-		super(instance, 55);
+		super(instance, 60);
 	}
 
 	@Override

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "b": "banner_custom_red_b",
+        "t": "banner_custom_red_t",
+        "missing": "banner_custom_red_b"
+      },
+      "name": "default"
+    }
+  }
+}

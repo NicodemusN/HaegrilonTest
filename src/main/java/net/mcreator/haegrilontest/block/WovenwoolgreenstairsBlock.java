@@ -28,7 +28,7 @@ public class WovenwoolgreenstairsBlock extends HaegrilontestModElements.ModEleme
 	@ObjectHolder("haegrilontest:wovenwoolgreenstairs")
 	public static final Block block = null;
 	public WovenwoolgreenstairsBlock(HaegrilontestModElements instance) {
-		super(instance, 101);
+		super(instance, 82);
 	}
 
 	@Override

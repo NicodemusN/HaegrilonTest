@@ -48,7 +48,7 @@ public class FarmlandalwaysmoistBlock extends HaegrilontestModElements.ModElemen
 	@ObjectHolder("haegrilontest:farmlandalwaysmoist")
 	public static final Block block = null;
 	public FarmlandalwaysmoistBlock(HaegrilontestModElements instance) {
-		super(instance, 146);
+		super(instance, 127);
 	}
 
 	@Override

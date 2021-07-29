@@ -48,7 +48,7 @@ public class CookedrabbitBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:cookedrabbit")
 	public static final Block block = null;
 	public CookedrabbitBlock(HaegrilontestModElements instance) {
-		super(instance, 400);
+		super(instance, 408);
 	}
 
 	@Override

@@ -23,7 +23,7 @@ public class StatusmiddleclassBlock extends HaegrilontestModElements.ModElement 
 	@ObjectHolder("haegrilontest:statusmiddleclass")
 	public static final Block block = null;
 	public StatusmiddleclassBlock(HaegrilontestModElements instance) {
-		super(instance, 246);
+		super(instance, 253);
 	}
 
 	@Override

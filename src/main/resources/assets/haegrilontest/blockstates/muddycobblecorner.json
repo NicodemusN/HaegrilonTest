@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/muddycobblecorner"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/muddycobblecorner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/muddycobblecorner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/muddycobblecorner",
+      "y": 270
+    }
+  }
+}

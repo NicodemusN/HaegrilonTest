@@ -1,0 +1,10 @@
+{
+  "parent": "haegrilontest:custom/banner_green",
+  "textures": {
+    "all": "haegrilontest:blocks/banner_custom_green_t",
+    "particle": "haegrilontest:blocks/banner_custom_green_t",
+    "b": "haegrilontest:blocks/banner_custom_green_b",
+    "t": "haegrilontest:blocks/banner_custom_green_t",
+    "missing": "haegrilontest:blocks/banner_custom_green_b"
+  }
+}

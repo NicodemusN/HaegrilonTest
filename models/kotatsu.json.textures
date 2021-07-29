@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "carpet3": "3",
+        "birch": "birch_planks_exc",
+        "legs": "stripped_oak_log",
+        "missing": "birch_planks_exc",
+        "carpet2": "1"
+      },
+      "name": "default"
+    }
+  }
+}

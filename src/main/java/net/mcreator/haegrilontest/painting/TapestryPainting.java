@@ -12,7 +12,7 @@ import net.mcreator.haegrilontest.HaegrilontestModElements;
 @HaegrilontestModElements.ModElement.Tag
 public class TapestryPainting extends HaegrilontestModElements.ModElement {
 	public TapestryPainting(HaegrilontestModElements instance) {
-		super(instance, 432);
+		super(instance, 440);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

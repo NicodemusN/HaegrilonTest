@@ -45,7 +45,7 @@ public class WheelBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:wheel")
 	public static final Block block = null;
 	public WheelBlock(HaegrilontestModElements instance) {
-		super(instance, 311);
+		super(instance, 318);
 	}
 
 	@Override

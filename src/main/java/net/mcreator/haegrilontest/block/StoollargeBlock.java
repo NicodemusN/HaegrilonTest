@@ -43,7 +43,7 @@ public class StoollargeBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:stoollarge")
 	public static final Block block = null;
 	public StoollargeBlock(HaegrilontestModElements instance) {
-		super(instance, 376);
+		super(instance, 382);
 	}
 
 	@Override

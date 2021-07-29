@@ -18,7 +18,7 @@ import net.minecraft.block.SlabBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.haegrilontest.itemgroup.HaegrilonItemGroup;
+import net.mcreator.haegrilontest.itemgroup.WoodandtimberItemGroup;
 import net.mcreator.haegrilontest.HaegrilontestModElements;
 
 import java.util.List;
@@ -29,13 +29,14 @@ public class NailedplankslabBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:nailedplankslab")
 	public static final Block block = null;
 	public NailedplankslabBlock(HaegrilontestModElements instance) {
-		super(instance, 84);
+		super(instance, 154);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(HaegrilonItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(WoodandtimberItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {

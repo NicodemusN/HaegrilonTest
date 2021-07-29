@@ -33,7 +33,7 @@ public class SprucecabinetBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:sprucecabinet")
 	public static final Block block = null;
 	public SprucecabinetBlock(HaegrilontestModElements instance) {
-		super(instance, 317);
+		super(instance, 324);
 	}
 
 	@Override

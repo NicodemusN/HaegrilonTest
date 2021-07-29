@@ -48,7 +48,7 @@ public class ThatchdarkcornerBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:thatchdarkcorner")
 	public static final Block block = null;
 	public ThatchdarkcornerBlock(HaegrilontestModElements instance) {
-		super(instance, 170);
+		super(instance, 215);
 	}
 
 	@Override

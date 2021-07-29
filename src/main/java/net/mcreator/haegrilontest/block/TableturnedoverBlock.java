@@ -48,7 +48,7 @@ public class TableturnedoverBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:tableturnedover")
 	public static final Block block = null;
 	public TableturnedoverBlock(HaegrilontestModElements instance) {
-		super(instance, 378);
+		super(instance, 384);
 	}
 
 	@Override

@@ -48,7 +48,7 @@ public class SimpleaxeBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:simpleaxe")
 	public static final Block block = null;
 	public SimpleaxeBlock(HaegrilontestModElements instance) {
-		super(instance, 359);
+		super(instance, 365);
 	}
 
 	@Override

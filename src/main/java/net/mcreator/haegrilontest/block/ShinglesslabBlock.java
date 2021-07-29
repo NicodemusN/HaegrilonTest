@@ -29,7 +29,7 @@ public class ShinglesslabBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:shinglesslab")
 	public static final Block block = null;
 	public ShinglesslabBlock(HaegrilontestModElements instance) {
-		super(instance, 163);
+		super(instance, 208);
 	}
 
 	@Override

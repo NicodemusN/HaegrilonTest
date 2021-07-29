@@ -48,7 +48,7 @@ public class WindowframetopBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:windowframetop")
 	public static final Block block = null;
 	public WindowframetopBlock(HaegrilontestModElements instance) {
-		super(instance, 334);
+		super(instance, 340);
 	}
 
 	@Override

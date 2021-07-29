@@ -38,7 +38,7 @@ public class DeadleavesBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:deadleaves")
 	public static final Block block = null;
 	public DeadleavesBlock(HaegrilontestModElements instance) {
-		super(instance, 277);
+		super(instance, 284);
 	}
 
 	@Override

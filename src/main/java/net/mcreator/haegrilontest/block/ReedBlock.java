@@ -37,7 +37,7 @@ public class ReedBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:reed")
 	public static final Block block = null;
 	public ReedBlock(HaegrilontestModElements instance) {
-		super(instance, 300);
+		super(instance, 307);
 	}
 
 	@Override

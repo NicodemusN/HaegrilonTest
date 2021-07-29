@@ -14,7 +14,7 @@ import java.util.Map;
 @HaegrilontestModElements.ModElement.Tag
 public class SpruceshutterrightOnBlockRightClickedProcedure extends HaegrilontestModElements.ModElement {
 	public SpruceshutterrightOnBlockRightClickedProcedure(HaegrilontestModElements instance) {
-		super(instance, 482);
+		super(instance, 490);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

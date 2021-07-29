@@ -37,7 +37,7 @@ import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.haegrilontest.itemgroup.HaegrilonItemGroup;
+import net.mcreator.haegrilontest.itemgroup.WoodandtimberItemGroup;
 import net.mcreator.haegrilontest.HaegrilontestModElements;
 
 import java.util.List;
@@ -48,13 +48,14 @@ public class SpruceverticalBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:sprucevertical")
 	public static final Block block = null;
 	public SpruceverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 82);
+		super(instance, 134);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(HaegrilonItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(WoodandtimberItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

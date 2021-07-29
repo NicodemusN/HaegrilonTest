@@ -44,7 +44,7 @@ public class RedwindowframeBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:redwindowframe")
 	public static final Block block = null;
 	public RedwindowframeBlock(HaegrilontestModElements instance) {
-		super(instance, 230);
+		super(instance, 181);
 	}
 
 	@Override

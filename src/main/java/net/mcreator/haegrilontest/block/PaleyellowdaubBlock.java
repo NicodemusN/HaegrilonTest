@@ -27,7 +27,7 @@ public class PaleyellowdaubBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:paleyellowdaub")
 	public static final Block block = null;
 	public PaleyellowdaubBlock(HaegrilontestModElements instance) {
-		super(instance, 214);
+		super(instance, 171);
 	}
 
 	@Override

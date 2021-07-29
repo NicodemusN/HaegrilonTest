@@ -16,7 +16,7 @@ public class ShamkerItem extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:shamker")
 	public static final Item block = null;
 	public ShamkerItem(HaegrilontestModElements instance) {
-		super(instance, 324);
+		super(instance, 331);
 	}
 
 	@Override
