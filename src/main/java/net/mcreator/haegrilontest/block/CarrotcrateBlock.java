@@ -27,7 +27,7 @@ public class CarrotcrateBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:carrotcrate")
 	public static final Block block = null;
 	public CarrotcrateBlock(HaegrilontestModElements instance) {
-		super(instance, 399);
+		super(instance, 401);
 	}
 
 	@Override

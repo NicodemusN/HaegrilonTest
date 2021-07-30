@@ -28,7 +28,7 @@ public class ThatchgraycrossstitchstairsBlock extends HaegrilontestModElements.M
 	@ObjectHolder("haegrilontest:thatchgraycrossstitchstairs")
 	public static final Block block = null;
 	public ThatchgraycrossstitchstairsBlock(HaegrilontestModElements instance) {
-		super(instance, 241);
+		super(instance, 110);
 	}
 
 	@Override

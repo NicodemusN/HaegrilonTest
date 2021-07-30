@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "skin": "frisiiwarrior",
+        "missing": "frisiiwarrior",
+        "oak": "jungle_planks",
+        "iron": "sword_blade_steel"
+      },
+      "name": "default"
+    }
+  }
+}

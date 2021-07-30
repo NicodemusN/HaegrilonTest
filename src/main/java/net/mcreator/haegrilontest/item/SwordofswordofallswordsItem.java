@@ -18,7 +18,7 @@ public class SwordofswordofallswordsItem extends HaegrilontestModElements.ModEle
 	@ObjectHolder("haegrilontest:swordofswordofallswords")
 	public static final Item block = null;
 	public SwordofswordofallswordsItem(HaegrilontestModElements instance) {
-		super(instance, 484);
+		super(instance, 490);
 	}
 
 	@Override

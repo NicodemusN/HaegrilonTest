@@ -48,7 +48,7 @@ public class WattleBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:wattle")
 	public static final Block block = null;
 	public WattleBlock(HaegrilontestModElements instance) {
-		super(instance, 319);
+		super(instance, 321);
 	}
 
 	@Override

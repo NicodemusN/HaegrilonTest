@@ -1,0 +1,11 @@
+{
+  "parent": "haegrilontest:custom/frisii_soldier_guard",
+  "textures": {
+    "all": "haegrilontest:blocks/frisiiwarrior",
+    "particle": "haegrilontest:blocks/frisiiwarrior",
+    "skin": "haegrilontest:blocks/frisiiwarrior",
+    "missing": "haegrilontest:blocks/frisiiwarrior",
+    "oak": "haegrilontest:blocks/jungle_planks",
+    "iron": "haegrilontest:blocks/sword_blade_steel"
+  }
+}

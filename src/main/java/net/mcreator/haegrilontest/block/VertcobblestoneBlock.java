@@ -48,7 +48,7 @@ public class VertcobblestoneBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:vertcobblestone")
 	public static final Block block = null;
 	public VertcobblestoneBlock(HaegrilontestModElements instance) {
-		super(instance, 26);
+		super(instance, 27);
 	}
 
 	@Override

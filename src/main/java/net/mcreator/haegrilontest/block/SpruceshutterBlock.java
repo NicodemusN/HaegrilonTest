@@ -56,7 +56,7 @@ public class SpruceshutterBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:spruceshutter")
 	public static final Block block = null;
 	public SpruceshutterBlock(HaegrilontestModElements instance) {
-		super(instance, 379);
+		super(instance, 381);
 	}
 
 	@Override

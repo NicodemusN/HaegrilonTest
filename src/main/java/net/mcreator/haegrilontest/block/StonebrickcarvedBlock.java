@@ -27,7 +27,7 @@ public class StonebrickcarvedBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:stonebrickcarved")
 	public static final Block block = null;
 	public StonebrickcarvedBlock(HaegrilontestModElements instance) {
-		super(instance, 12);
+		super(instance, 13);
 	}
 
 	@Override

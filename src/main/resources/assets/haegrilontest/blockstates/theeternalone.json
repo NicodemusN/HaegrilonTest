@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/theeternalone"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/theeternalone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/theeternalone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/theeternalone",
+      "y": 270
+    }
+  }
+}

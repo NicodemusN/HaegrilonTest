@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "skin": "frankishsoldier",
+        "missing": "frankishsoldier",
+        "oak": "dark_oak_planks",
+        "iron": "sword_blade_steel"
+      },
+      "name": "default"
+    }
+  }
+}

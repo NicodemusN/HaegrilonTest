@@ -48,7 +48,7 @@ public class TeasetBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:teaset")
 	public static final Block block = null;
 	public TeasetBlock(HaegrilontestModElements instance) {
-		super(instance, 413);
+		super(instance, 415);
 	}
 
 	@Override

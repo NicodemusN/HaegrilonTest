@@ -36,7 +36,7 @@ public class LargecookingpotBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:largecookingpot")
 	public static final Block block = null;
 	public LargecookingpotBlock(HaegrilontestModElements instance) {
-		super(instance, 393);
+		super(instance, 395);
 	}
 
 	@Override

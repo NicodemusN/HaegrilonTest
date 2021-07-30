@@ -48,7 +48,7 @@ public class AndesiteverticalBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:andesitevertical")
 	public static final Block block = null;
 	public AndesiteverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 23);
+		super(instance, 24);
 	}
 
 	@Override

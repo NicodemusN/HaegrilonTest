@@ -48,7 +48,7 @@ public class ShinglesverticalBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:shinglesvertical")
 	public static final Block block = null;
 	public ShinglesverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 211);
+		super(instance, 80);
 	}
 
 	@Override

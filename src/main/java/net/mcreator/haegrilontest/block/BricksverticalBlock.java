@@ -48,7 +48,7 @@ public class BricksverticalBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:bricksvertical")
 	public static final Block block = null;
 	public BricksverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 36);
+		super(instance, 37);
 	}
 
 	@Override

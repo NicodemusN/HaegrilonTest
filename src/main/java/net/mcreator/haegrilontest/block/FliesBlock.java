@@ -40,7 +40,7 @@ public class FliesBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:flies")
 	public static final Block block = null;
 	public FliesBlock(HaegrilontestModElements instance) {
-		super(instance, 375);
+		super(instance, 377);
 	}
 
 	@Override

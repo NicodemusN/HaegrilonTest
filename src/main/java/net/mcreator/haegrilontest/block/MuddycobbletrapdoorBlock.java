@@ -33,7 +33,7 @@ public class MuddycobbletrapdoorBlock extends HaegrilontestModElements.ModElemen
 	@ObjectHolder("haegrilontest:muddycobbletrapdoor")
 	public static final Block block = null;
 	public MuddycobbletrapdoorBlock(HaegrilontestModElements instance) {
-		super(instance, 43);
+		super(instance, 44);
 	}
 
 	@Override

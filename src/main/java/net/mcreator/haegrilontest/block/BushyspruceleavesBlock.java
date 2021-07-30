@@ -45,7 +45,7 @@ public class BushyspruceleavesBlock extends HaegrilontestModElements.ModElement 
 	@ObjectHolder("haegrilontest:bushyspruceleaves")
 	public static final Block block = null;
 	public BushyspruceleavesBlock(HaegrilontestModElements instance) {
-		super(instance, 261);
+		super(instance, 262);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlockColorRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ItemColorRegisterHandler());
 	}

@@ -48,7 +48,7 @@ public class GraniteverticalBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:granitevertical")
 	public static final Block block = null;
 	public GraniteverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 17);
+		super(instance, 18);
 	}
 
 	@Override

@@ -44,7 +44,7 @@ public class HoppersmallsmoothbricksBlock extends HaegrilontestModElements.ModEl
 	@ObjectHolder("haegrilontest:hoppersmallsmoothbricks")
 	public static final Block block = null;
 	public HoppersmallsmoothbricksBlock(HaegrilontestModElements instance) {
-		super(instance, 34);
+		super(instance, 35);
 	}
 
 	@Override

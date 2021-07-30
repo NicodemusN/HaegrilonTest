@@ -1,0 +1,11 @@
+{
+  "parent": "haegrilontest:custom/frankish_soldier_guard",
+  "textures": {
+    "all": "haegrilontest:blocks/frankishsoldier",
+    "particle": "haegrilontest:blocks/frankishsoldier",
+    "skin": "haegrilontest:blocks/frankishsoldier",
+    "missing": "haegrilontest:blocks/frankishsoldier",
+    "oak": "haegrilontest:blocks/dark_oak_planks",
+    "iron": "haegrilontest:blocks/sword_blade_iron"
+  }
+}

@@ -48,7 +48,7 @@ public class GlassflagonBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:glassflagon")
 	public static final Block block = null;
 	public GlassflagonBlock(HaegrilontestModElements instance) {
-		super(instance, 353);
+		super(instance, 355);
 	}
 
 	@Override

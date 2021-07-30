@@ -1,0 +1,9 @@
+{
+  "parent": "haegrilontest:custom/crossleaves_oak_apples",
+  "textures": {
+    "all": "haegrilontest:blocks/oak_leaves_bushy2",
+    "particle": "haegrilontest:blocks/oak_leaves_bushy2",
+    "0": "haegrilontest:blocks/oak_leaves_bushy2",
+    "1": "haegrilontest:blocks/apple_small"
+  }
+}

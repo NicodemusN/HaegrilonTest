@@ -27,7 +27,7 @@ public class WhiteoaktimberwestBlock extends HaegrilontestModElements.ModElement
 	@ObjectHolder("haegrilontest:whiteoaktimberwest")
 	public static final Block block = null;
 	public WhiteoaktimberwestBlock(HaegrilontestModElements instance) {
-		super(instance, 117);
+		super(instance, 167);
 	}
 
 	@Override

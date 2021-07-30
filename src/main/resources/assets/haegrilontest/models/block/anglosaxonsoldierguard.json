@@ -1,0 +1,11 @@
+{
+  "parent": "haegrilontest:custom/anglosaxon_soldier_guard",
+  "textures": {
+    "all": "haegrilontest:blocks/anglowarrior",
+    "particle": "haegrilontest:blocks/anglowarrior",
+    "skin": "haegrilontest:blocks/anglowarrior",
+    "missing": "haegrilontest:blocks/anglowarrior",
+    "oak": "haegrilontest:blocks/stripped_oak_log_2",
+    "iron": "haegrilontest:blocks/sword_blade_iron"
+  }
+}

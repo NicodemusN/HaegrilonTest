@@ -51,7 +51,7 @@ public class ChairBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:chair")
 	public static final Block block = null;
 	public ChairBlock(HaegrilontestModElements instance) {
-		super(instance, 316);
+		super(instance, 318);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlockColorRegisterHandler());
 	}
 

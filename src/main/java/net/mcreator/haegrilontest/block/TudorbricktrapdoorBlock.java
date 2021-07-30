@@ -31,7 +31,7 @@ public class TudorbricktrapdoorBlock extends HaegrilontestModElements.ModElement
 	@ObjectHolder("haegrilontest:tudorbricktrapdoor")
 	public static final Block block = null;
 	public TudorbricktrapdoorBlock(HaegrilontestModElements instance) {
-		super(instance, 55);
+		super(instance, 56);
 	}
 
 	@Override

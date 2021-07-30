@@ -48,7 +48,7 @@ public class DioritecornerBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:dioritecorner")
 	public static final Block block = null;
 	public DioritecornerBlock(HaegrilontestModElements instance) {
-		super(instance, 19);
+		super(instance, 20);
 	}
 
 	@Override

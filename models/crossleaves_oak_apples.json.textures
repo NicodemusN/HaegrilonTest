@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "oak_leaves_bushy2",
+        "1": "apple_small"
+      },
+      "name": "default"
+    }
+  }
+}

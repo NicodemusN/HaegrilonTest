@@ -40,7 +40,7 @@ public class ThatchmossywallBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:thatchmossywall")
 	public static final Block block = null;
 	public ThatchmossywallBlock(HaegrilontestModElements instance) {
-		super(instance, 234);
+		super(instance, 103);
 	}
 
 	@Override

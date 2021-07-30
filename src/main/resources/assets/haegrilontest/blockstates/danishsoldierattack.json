@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/danishsoldierattack"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/danishsoldierattack",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/danishsoldierattack",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/danishsoldierattack",
+      "y": 270
+    }
+  }
+}

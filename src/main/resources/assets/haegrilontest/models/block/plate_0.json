@@ -1,5 +1,5 @@
 {
-  "parent": "haegrilontest:custom/metalplate1",
+  "parent": "haegrilontest:custom/plate0",
   "textures": {
     "all": "haegrilontest:blocks/metalplate1",
     "particle": "haegrilontest:blocks/metalplate1",

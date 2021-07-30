@@ -37,7 +37,7 @@ public class SpruceceilingblockBlock extends HaegrilontestModElements.ModElement
 	@ObjectHolder("haegrilontest:spruceceilingblock")
 	public static final Block block = null;
 	public SpruceceilingblockBlock(HaegrilontestModElements instance) {
-		super(instance, 138);
+		super(instance, 187);
 	}
 
 	@Override

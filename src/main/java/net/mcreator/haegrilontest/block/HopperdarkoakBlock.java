@@ -44,7 +44,7 @@ public class HopperdarkoakBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:hopperdarkoak")
 	public static final Block block = null;
 	public HopperdarkoakBlock(HaegrilontestModElements instance) {
-		super(instance, 150);
+		super(instance, 199);
 	}
 
 	@Override

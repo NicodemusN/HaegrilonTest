@@ -48,7 +48,7 @@ public class GuardrailBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:guardrail")
 	public static final Block block = null;
 	public GuardrailBlock(HaegrilontestModElements instance) {
-		super(instance, 367);
+		super(instance, 369);
 	}
 
 	@Override

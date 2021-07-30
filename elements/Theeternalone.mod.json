@@ -1,0 +1,145 @@
+{
+  "_fv": 18,
+  "_type": "block",
+  "definition": {
+    "texture": "the_eternal_one",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "the_eternal_one:default",
+    "rotationMode": 1,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 4.0,
+        "my": 0.0,
+        "mz": 6.0,
+        "Mx": 12.0,
+        "My": 12.0,
+        "Mz": 10.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 12.0,
+        "mz": 6.0,
+        "Mx": 16.0,
+        "My": 24.0,
+        "Mz": 10.0,
+        "subtract": false
+      },
+      {
+        "mx": 4.0,
+        "my": 24.0,
+        "mz": 4.0,
+        "Mx": 12.0,
+        "My": 32.0,
+        "Mz": 12.0,
+        "subtract": false
+      }
+    ],
+    "name": "The Eternal One",
+    "specialInfo": [
+      "The entity you ought not to find."
+    ],
+    "hardness": 1.0,
+    "resistance": 6700000.0,
+    "hasGravity": false,
+    "isWaterloggable": true,
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "destroyTool": "Not specified",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "enchantPowerBonus": 1.0,
+    "plantsGrowOn": false,
+    "canProvidePower": true,
+    "lightOpacity": 0,
+    "material": {
+      "value": "MISCELLANEOUS"
+    },
+    "tickRate": 10,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "colorOnMap": "BLACK",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "BLOCKED",
+    "beaconColorModifier": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "IGNORE",
+    "isNotColidable": false,
+    "soundOnStep": {
+      "value": "NETHERITE"
+    },
+    "luminance": 0,
+    "unbreakable": true,
+    "breakHarvestLevel": 1,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "SPELL_WITCH"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 5,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "TheeternaloneOnBlockRightClicked"
+    },
+    "onDestroyedByExplosion": {
+      "name": "TheeternaloneOnBlockRightClicked"
+    },
+    "onStartToDestroy": {
+      "name": "TheeternaloneOnBlockRightClicked"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

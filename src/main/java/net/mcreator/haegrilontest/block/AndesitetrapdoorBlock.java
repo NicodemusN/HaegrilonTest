@@ -31,7 +31,7 @@ public class AndesitetrapdoorBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:andesitetrapdoor")
 	public static final Block block = null;
 	public AndesitetrapdoorBlock(HaegrilontestModElements instance) {
-		super(instance, 24);
+		super(instance, 25);
 	}
 
 	@Override

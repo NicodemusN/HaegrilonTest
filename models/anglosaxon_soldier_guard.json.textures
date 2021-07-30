@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "skin": "anglowarrior",
+        "missing": "anglowarrior",
+        "oak": "stripped_oak_log_2",
+        "iron": "sword_blade_iron"
+      },
+      "name": "default"
+    }
+  }
+}

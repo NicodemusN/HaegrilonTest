@@ -29,7 +29,7 @@ public class WovenwoolyellowslabBlock extends HaegrilontestModElements.ModElemen
 	@ObjectHolder("haegrilontest:wovenwoolyellowslab")
 	public static final Block block = null;
 	public WovenwoolyellowslabBlock(HaegrilontestModElements instance) {
-		super(instance, 98);
+		super(instance, 148);
 	}
 
 	@Override

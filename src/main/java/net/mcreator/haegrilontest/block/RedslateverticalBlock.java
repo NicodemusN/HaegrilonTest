@@ -48,7 +48,7 @@ public class RedslateverticalBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:redslatevertical")
 	public static final Block block = null;
 	public RedslateverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 201);
+		super(instance, 70);
 	}
 
 	@Override

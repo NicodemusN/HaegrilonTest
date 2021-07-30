@@ -56,7 +56,7 @@ public class ShojidoorclosedBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:shojidoorclosed")
 	public static final Block block = null;
 	public ShojidoorclosedBlock(HaegrilontestModElements instance) {
-		super(instance, 128);
+		super(instance, 178);
 	}
 
 	@Override

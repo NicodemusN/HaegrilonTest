@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "round_base0",
+        "2": "round_border0",
+        "3": "round_pattern0",
+        "skin": "anglowarrior",
+        "missing": "anglowarrior",
+        "oak": "stripped_oak_log_2",
+        "iron": "sword_blade_iron"
+      },
+      "name": "default"
+    }
+  }
+}

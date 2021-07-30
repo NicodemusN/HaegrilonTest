@@ -2,12 +2,12 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "furnace_top",
-    "textureTop": "furnace_top",
-    "textureLeft": "furnace_side",
-    "textureFront": "furnace_front",
-    "textureRight": "furnace_side",
-    "textureBack": "furnace_side",
+    "texture": "chivalry_furnace_top",
+    "textureTop": "chivalry_furnace_top",
+    "textureLeft": "chivalry_furnace_side",
+    "textureFront": "furnace_front_off",
+    "textureRight": "chivalry_furnace_side",
+    "textureBack": "chivalry_furnace_side",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 1,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Closed Hearth",
+    "name": "Hearth",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

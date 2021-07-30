@@ -41,7 +41,7 @@ public class OakthinwallBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:oakthinwall")
 	public static final Block block = null;
 	public OakthinwallBlock(HaegrilontestModElements instance) {
-		super(instance, 132);
+		super(instance, 181);
 	}
 
 	@Override

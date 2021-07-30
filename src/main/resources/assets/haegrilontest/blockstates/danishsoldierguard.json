@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/danishsoldierguard"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/danishsoldierguard",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/danishsoldierguard",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/danishsoldierguard",
+      "y": 270
+    }
+  }
+}

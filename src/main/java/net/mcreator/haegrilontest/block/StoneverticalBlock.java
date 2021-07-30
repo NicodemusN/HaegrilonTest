@@ -48,7 +48,7 @@ public class StoneverticalBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:stonevertical")
 	public static final Block block = null;
 	public StoneverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 13);
+		super(instance, 14);
 	}
 
 	@Override

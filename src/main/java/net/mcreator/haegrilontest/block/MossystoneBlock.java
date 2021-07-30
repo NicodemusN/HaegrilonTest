@@ -32,7 +32,7 @@ public class MossystoneBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:mossystone")
 	public static final Block block = null;
 	public MossystoneBlock(HaegrilontestModElements instance) {
-		super(instance, 309);
+		super(instance, 276);
 	}
 
 	@Override

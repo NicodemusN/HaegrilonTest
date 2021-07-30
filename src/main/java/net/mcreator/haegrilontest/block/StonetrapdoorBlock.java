@@ -31,7 +31,7 @@ public class StonetrapdoorBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:stonetrapdoor")
 	public static final Block block = null;
 	public StonetrapdoorBlock(HaegrilontestModElements instance) {
-		super(instance, 15);
+		super(instance, 16);
 	}
 
 	@Override

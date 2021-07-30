@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "skin": "the_eternal_one"
+      },
+      "name": "default"
+    }
+  }
+}

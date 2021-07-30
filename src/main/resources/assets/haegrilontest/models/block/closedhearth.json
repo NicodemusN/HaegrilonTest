@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "haegrilontest:blocks/furnace_top",
-    "up": "haegrilontest:blocks/furnace_top",
-    "north": "haegrilontest:blocks/furnace_front",
-    "east": "haegrilontest:blocks/furnace_side",
-    "south": "haegrilontest:blocks/furnace_side",
-    "west": "haegrilontest:blocks/furnace_side",
-    "particle": "haegrilontest:blocks/furnace_top"
+    "down": "haegrilontest:blocks/chivalry_furnace_top",
+    "up": "haegrilontest:blocks/chivalry_furnace_top",
+    "north": "haegrilontest:blocks/furnace_front_off",
+    "east": "haegrilontest:blocks/chivalry_furnace_side",
+    "south": "haegrilontest:blocks/chivalry_furnace_side",
+    "west": "haegrilontest:blocks/chivalry_furnace_side",
+    "particle": "haegrilontest:blocks/chivalry_furnace_top"
   }
 }

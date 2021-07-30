@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "round_base0",
+        "2": "round_border0",
+        "3": "round_pattern0",
+        "skin": "danishwarrior",
+        "missing": "danishwarrior",
+        "oak": "dark_oak_planks",
+        "iron": "sword_blade_iron"
+      },
+      "name": "default"
+    }
+  }
+}

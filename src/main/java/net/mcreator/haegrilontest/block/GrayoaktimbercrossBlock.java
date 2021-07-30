@@ -32,7 +32,7 @@ public class GrayoaktimbercrossBlock extends HaegrilontestModElements.ModElement
 	@ObjectHolder("haegrilontest:grayoaktimbercross")
 	public static final Block block = null;
 	public GrayoaktimbercrossBlock(HaegrilontestModElements instance) {
-		super(instance, 164);
+		super(instance, 213);
 	}
 
 	@Override

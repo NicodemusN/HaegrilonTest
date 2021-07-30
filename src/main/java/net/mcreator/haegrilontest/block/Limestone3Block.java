@@ -27,7 +27,7 @@ public class Limestone3Block extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:limestone_3")
 	public static final Block block = null;
 	public Limestone3Block(HaegrilontestModElements instance) {
-		super(instance, 301);
+		super(instance, 304);
 	}
 
 	@Override

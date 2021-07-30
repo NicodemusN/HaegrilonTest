@@ -31,7 +31,7 @@ public class TrapdoorcobblestoneBlock extends HaegrilontestModElements.ModElemen
 	@ObjectHolder("haegrilontest:trapdoorcobblestone")
 	public static final Block block = null;
 	public TrapdoorcobblestoneBlock(HaegrilontestModElements instance) {
-		super(instance, 28);
+		super(instance, 29);
 	}
 
 	@Override

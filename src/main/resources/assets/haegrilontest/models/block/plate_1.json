@@ -1,5 +1,5 @@
 {
-  "parent": "haegrilontest:custom/woodenplateandfork",
+  "parent": "haegrilontest:custom/plate1",
   "textures": {
     "all": "haegrilontest:blocks/woodenplateandfork",
     "particle": "haegrilontest:blocks/woodenplateandfork",

@@ -31,7 +31,7 @@ public class GranitetrapdoorBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:granitetrapdoor")
 	public static final Block block = null;
 	public GranitetrapdoorBlock(HaegrilontestModElements instance) {
-		super(instance, 18);
+		super(instance, 19);
 	}
 
 	@Override

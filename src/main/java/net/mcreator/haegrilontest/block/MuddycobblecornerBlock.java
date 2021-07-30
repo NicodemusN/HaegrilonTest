@@ -48,7 +48,7 @@ public class MuddycobblecornerBlock extends HaegrilontestModElements.ModElement 
 	@ObjectHolder("haegrilontest:muddycobblecorner")
 	public static final Block block = null;
 	public MuddycobblecornerBlock(HaegrilontestModElements instance) {
-		super(instance, 41);
+		super(instance, 42);
 	}
 
 	@Override

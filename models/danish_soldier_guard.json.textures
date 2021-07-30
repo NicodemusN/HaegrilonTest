@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "skin": "danishwarrior",
+        "missing": "danishwarrior",
+        "oak": "dark_oak_planks",
+        "iron": "sword_blade_iron"
+      },
+      "name": "default"
+    }
+  }
+}

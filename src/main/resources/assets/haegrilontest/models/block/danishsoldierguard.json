@@ -1,0 +1,11 @@
+{
+  "parent": "haegrilontest:custom/danish_soldier_guard",
+  "textures": {
+    "all": "haegrilontest:blocks/danishwarrior",
+    "particle": "haegrilontest:blocks/danishwarrior",
+    "skin": "haegrilontest:blocks/danishwarrior",
+    "missing": "haegrilontest:blocks/danishwarrior",
+    "oak": "haegrilontest:blocks/dark_oak_planks",
+    "iron": "haegrilontest:blocks/sword_blade_iron"
+  }
+}

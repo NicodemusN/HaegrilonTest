@@ -44,7 +44,6 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.haegrilontest.procedures.ProcedureShojidoorcloseProcedure;
-import net.mcreator.haegrilontest.itemgroup.HaegrilonItemGroup;
 import net.mcreator.haegrilontest.HaegrilontestModElements;
 
 import java.util.Map;
@@ -57,13 +56,13 @@ public class ShojidooropenBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:shojidooropen")
 	public static final Block block = null;
 	public ShojidooropenBlock(HaegrilontestModElements instance) {
-		super(instance, 129);
+		super(instance, 498);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(HaegrilonItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(null)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

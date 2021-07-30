@@ -36,7 +36,7 @@ public class WildcarrotsBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:wildcarrots")
 	public static final Block block = null;
 	public WildcarrotsBlock(HaegrilontestModElements instance) {
-		super(instance, 275);
+		super(instance, 281);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class NailedplanksBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:nailedplanks")
 	public static final Block block = null;
 	public NailedplanksBlock(HaegrilontestModElements instance) {
-		super(instance, 153);
+		super(instance, 202);
 	}
 
 	@Override

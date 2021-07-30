@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/blue_slate_alt",
+    "up": "haegrilontest:blocks/blue_slate_alt",
+    "north": "haegrilontest:blocks/blue_slate_alt",
+    "east": "haegrilontest:blocks/blue_slate_alt",
+    "south": "haegrilontest:blocks/blue_slate_alt",
+    "west": "haegrilontest:blocks/blue_slate_alt",
+    "particle": "haegrilontest:blocks/blue_slate_alt"
+  }
+}

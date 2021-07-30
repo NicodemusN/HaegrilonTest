@@ -1,0 +1,14 @@
+{
+  "parent": "haegrilontest:custom/danish_soldier_attack",
+  "textures": {
+    "all": "haegrilontest:blocks/danishwarrior",
+    "particle": "haegrilontest:blocks/danishwarrior",
+    "1": "haegrilontest:blocks/round_base0",
+    "2": "haegrilontest:blocks/round_border0",
+    "3": "haegrilontest:blocks/round_pattern0",
+    "skin": "haegrilontest:blocks/danishwarrior",
+    "missing": "haegrilontest:blocks/danishwarrior",
+    "oak": "haegrilontest:blocks/dark_oak_planks",
+    "iron": "haegrilontest:blocks/sword_blade_iron"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "haegrilontest:custom/anglosaxon_soldier_attack",
+  "textures": {
+    "all": "haegrilontest:blocks/anglowarrior",
+    "particle": "haegrilontest:blocks/anglowarrior",
+    "1": "haegrilontest:blocks/round_base0",
+    "2": "haegrilontest:blocks/round_border0",
+    "3": "haegrilontest:blocks/round_pattern0",
+    "skin": "haegrilontest:blocks/anglowarrior",
+    "missing": "haegrilontest:blocks/anglowarrior",
+    "oak": "haegrilontest:blocks/stripped_oak_log_2",
+    "iron": "haegrilontest:blocks/sword_blade_iron"
+  }
+}

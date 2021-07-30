@@ -14,7 +14,7 @@ import java.util.Map;
 @HaegrilontestModElements.ModElement.Tag
 public class OakshutteropenrightOnBlockRightClickedProcedure extends HaegrilontestModElements.ModElement {
 	public OakshutteropenrightOnBlockRightClickedProcedure(HaegrilontestModElements instance) {
-		super(instance, 482);
+		super(instance, 488);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

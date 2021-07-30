@@ -1,0 +1,8 @@
+{
+  "parent": "haegrilontest:custom/the_eternal_one",
+  "textures": {
+    "all": "haegrilontest:blocks/the_eternal_one",
+    "particle": "haegrilontest:blocks/the_eternal_one",
+    "skin": "haegrilontest:blocks/the_eternal_one"
+  }
+}

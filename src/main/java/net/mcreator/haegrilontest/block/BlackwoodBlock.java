@@ -27,7 +27,7 @@ public class BlackwoodBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:blackwood")
 	public static final Block block = null;
 	public BlackwoodBlock(HaegrilontestModElements instance) {
-		super(instance, 155);
+		super(instance, 204);
 	}
 
 	@Override
