@@ -33,7 +33,7 @@ public class ShinglesBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:shingles")
 	public static final Block block = null;
 	public ShinglesBlock(HaegrilontestModElements instance) {
-		super(instance, 75);
+		super(instance, 91);
 	}
 
 	@Override

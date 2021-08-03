@@ -48,7 +48,7 @@ public class MuttonBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:mutton")
 	public static final Block block = null;
 	public MuttonBlock(HaegrilontestModElements instance) {
-		super(instance, 411);
+		super(instance, 431);
 	}
 
 	@Override

@@ -48,7 +48,7 @@ public class BeefBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:beef")
 	public static final Block block = null;
 	public BeefBlock(HaegrilontestModElements instance) {
-		super(instance, 412);
+		super(instance, 432);
 	}
 
 	@Override

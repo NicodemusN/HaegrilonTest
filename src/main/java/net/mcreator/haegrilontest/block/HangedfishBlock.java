@@ -48,7 +48,7 @@ public class HangedfishBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:hangedfish")
 	public static final Block block = null;
 	public HangedfishBlock(HaegrilontestModElements instance) {
-		super(instance, 403);
+		super(instance, 423);
 	}
 
 	@Override

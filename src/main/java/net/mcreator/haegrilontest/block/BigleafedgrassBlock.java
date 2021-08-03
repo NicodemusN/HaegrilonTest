@@ -52,7 +52,7 @@ public class BigleafedgrassBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:bigleafedgrass")
 	public static final Block block = null;
 	public BigleafedgrassBlock(HaegrilontestModElements instance) {
-		super(instance, 286);
+		super(instance, 304);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlockColorRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ItemColorRegisterHandler());
 	}

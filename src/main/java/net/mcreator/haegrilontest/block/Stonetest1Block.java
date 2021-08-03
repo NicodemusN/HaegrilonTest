@@ -26,7 +26,7 @@ public class Stonetest1Block extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:stonetest_1")
 	public static final Block block = null;
 	public Stonetest1Block(HaegrilontestModElements instance) {
-		super(instance, 501);
+		super(instance, 521);
 	}
 
 	@Override

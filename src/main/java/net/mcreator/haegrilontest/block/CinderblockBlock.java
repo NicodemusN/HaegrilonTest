@@ -27,7 +27,7 @@ public class CinderblockBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:cinderblock")
 	public static final Block block = null;
 	public CinderblockBlock(HaegrilontestModElements instance) {
-		super(instance, 331);
+		super(instance, 349);
 	}
 
 	@Override

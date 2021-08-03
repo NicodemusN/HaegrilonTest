@@ -50,7 +50,7 @@ public class FrisiisoldierattackBlock extends HaegrilontestModElements.ModElemen
 	@ObjectHolder("haegrilontest:frisiisoldierattack")
 	public static final Block block = null;
 	public FrisiisoldierattackBlock(HaegrilontestModElements instance) {
-		super(instance, 511);
+		super(instance, 531);
 	}
 
 	@Override
@@ -123,7 +123,7 @@ public class FrisiisoldierattackBlock extends HaegrilontestModElements.ModElemen
 
 		@Override
 		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
-			return new ItemStack(AnglosaxonsoldierguardBlock.block, (int) (1));
+			return new ItemStack(FrisiisoldierguardBlock.block, (int) (1));
 		}
 
 		@Override
@@ -136,7 +136,7 @@ public class FrisiisoldierattackBlock extends HaegrilontestModElements.ModElemen
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(AnglosaxonsoldierguardBlock.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(FrisiisoldierguardBlock.block, (int) (1)));
 		}
 
 		@Override

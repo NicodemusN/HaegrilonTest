@@ -23,7 +23,7 @@ public class StatusblockcountBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:statusblockcount")
 	public static final Block block = null;
 	public StatusblockcountBlock(HaegrilontestModElements instance) {
-		super(instance, 246);
+		super(instance, 263);
 	}
 
 	@Override

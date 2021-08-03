@@ -27,7 +27,7 @@ public class BrickoaktimberclosestuddingBlock extends HaegrilontestModElements.M
 	@ObjectHolder("haegrilontest:brickoaktimberclosestudding")
 	public static final Block block = null;
 	public BrickoaktimberclosestuddingBlock(HaegrilontestModElements instance) {
-		super(instance, 238);
+		super(instance, 255);
 	}
 
 	@Override

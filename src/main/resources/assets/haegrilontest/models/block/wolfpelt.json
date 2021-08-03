@@ -1,0 +1,10 @@
+{
+  "parent": "haegrilontest:custom/wolf_pelt_1x2",
+  "textures": {
+    "all": "haegrilontest:blocks/wolf_pelt",
+    "particle": "haegrilontest:blocks/wolf_pelt",
+    "0": "haegrilontest:blocks/wolf_pelt_feet",
+    "1": "haegrilontest:blocks/wolf_pelt_head",
+    "missing": "haegrilontest:blocks/wolf_pelt"
+  }
+}

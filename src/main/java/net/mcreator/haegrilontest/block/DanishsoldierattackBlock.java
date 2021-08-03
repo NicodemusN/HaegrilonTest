@@ -50,7 +50,7 @@ public class DanishsoldierattackBlock extends HaegrilontestModElements.ModElemen
 	@ObjectHolder("haegrilontest:danishsoldierattack")
 	public static final Block block = null;
 	public DanishsoldierattackBlock(HaegrilontestModElements instance) {
-		super(instance, 505);
+		super(instance, 525);
 	}
 
 	@Override
@@ -123,7 +123,7 @@ public class DanishsoldierattackBlock extends HaegrilontestModElements.ModElemen
 
 		@Override
 		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
-			return new ItemStack(AnglosaxonsoldierguardBlock.block, (int) (1));
+			return new ItemStack(DanishsoldierguardBlock.block, (int) (1));
 		}
 
 		@Override
@@ -136,7 +136,7 @@ public class DanishsoldierattackBlock extends HaegrilontestModElements.ModElemen
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(AnglosaxonsoldierguardBlock.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(DanishsoldierguardBlock.block, (int) (1)));
 		}
 
 		@Override

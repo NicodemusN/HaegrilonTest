@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/granitesmallbrickslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/granitesmallbrickslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/granitesmallbrickslab_full"
+    }
+  }
+}

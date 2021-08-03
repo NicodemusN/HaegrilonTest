@@ -27,7 +27,7 @@ public class NewshingletexturetestBlock extends HaegrilontestModElements.ModElem
 	@ObjectHolder("haegrilontest:newshingletexturetest")
 	public static final Block block = null;
 	public NewshingletexturetestBlock(HaegrilontestModElements instance) {
-		super(instance, 516);
+		super(instance, 128);
 	}
 
 	@Override

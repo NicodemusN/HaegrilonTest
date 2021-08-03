@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "haegrilontest:blocks/granite_bricks",
+    "particle": "haegrilontest:blocks/granite_bricks"
+  }
+}

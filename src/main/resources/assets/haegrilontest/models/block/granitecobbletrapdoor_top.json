@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "haegrilontest:blocks/granite_cobbled",
+    "particle": "haegrilontest:blocks/granite_cobbled"
+  }
+}

@@ -32,7 +32,7 @@ public class GrayoaktimbereastBlock extends HaegrilontestModElements.ModElement 
 	@ObjectHolder("haegrilontest:grayoaktimbereast")
 	public static final Block block = null;
 	public GrayoaktimbereastBlock(HaegrilontestModElements instance) {
-		super(instance, 215);
+		super(instance, 232);
 	}
 
 	@Override

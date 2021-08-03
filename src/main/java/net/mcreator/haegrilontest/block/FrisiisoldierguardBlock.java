@@ -13,7 +13,6 @@ import net.minecraft.util.math.vector.Vector3d;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.ISelectionContext;
-import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
@@ -51,7 +50,7 @@ public class FrisiisoldierguardBlock extends HaegrilontestModElements.ModElement
 	@ObjectHolder("haegrilontest:frisiisoldierguard")
 	public static final Block block = null;
 	public FrisiisoldierguardBlock(HaegrilontestModElements instance) {
-		super(instance, 443);
+		super(instance, 463);
 	}
 
 	@Override
@@ -124,11 +123,6 @@ public class FrisiisoldierguardBlock extends HaegrilontestModElements.ModElement
 		}
 
 		@Override
-		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
-			return new ItemStack(AnglosaxonsoldierguardBlock.block, (int) (1));
-		}
-
-		@Override
 		public boolean canSustainPlant(BlockState state, IBlockReader world, BlockPos pos, Direction direction, IPlantable plantable) {
 			return true;
 		}
@@ -138,7 +132,7 @@ public class FrisiisoldierguardBlock extends HaegrilontestModElements.ModElement
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(AnglosaxonsoldierguardBlock.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 
 		@Override

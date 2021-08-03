@@ -32,7 +32,7 @@ public class BushycherryleavesbranchBlock extends HaegrilontestModElements.ModEl
 	@ObjectHolder("haegrilontest:bushycherryleavesbranch")
 	public static final Block block = null;
 	public BushycherryleavesbranchBlock(HaegrilontestModElements instance) {
-		super(instance, 263);
+		super(instance, 280);
 	}
 
 	@Override

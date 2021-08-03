@@ -40,7 +40,7 @@ public class SmallbushBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:smallbush")
 	public static final Block block = null;
 	public SmallbushBlock(HaegrilontestModElements instance) {
-		super(instance, 257);
+		super(instance, 274);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlockColorRegisterHandler());
 	}
 

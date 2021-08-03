@@ -41,7 +41,7 @@ public class CleaverBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:cleaver")
 	public static final Block block = null;
 	public CleaverBlock(HaegrilontestModElements instance) {
-		super(instance, 322);
+		super(instance, 340);
 	}
 
 	@Override

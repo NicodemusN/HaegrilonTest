@@ -24,7 +24,7 @@ public class BronzestairsOxidizedBlock extends HaegrilontestModElements.ModEleme
 	@ObjectHolder("haegrilontest:bronzestairs_oxidized")
 	public static final Block block = null;
 	public BronzestairsOxidizedBlock(HaegrilontestModElements instance) {
-		super(instance, 123);
+		super(instance, 140);
 	}
 
 	@Override

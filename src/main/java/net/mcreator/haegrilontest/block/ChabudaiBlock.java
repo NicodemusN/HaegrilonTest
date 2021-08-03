@@ -48,7 +48,7 @@ public class ChabudaiBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:chabudai")
 	public static final Block block = null;
 	public ChabudaiBlock(HaegrilontestModElements instance) {
-		super(instance, 389);
+		super(instance, 408);
 	}
 
 	@Override

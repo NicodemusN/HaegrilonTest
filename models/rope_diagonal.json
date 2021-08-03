@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "Textures/fence_birch_top",
+		"particle": "Textures/fence_birch_top"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 0],
+			"to": [9, 1, 22],
+			"rotation": {"angle": -45, "axis": "x", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [7, 0, 9, 1], "texture": "#0"},
+				"east": {"uv": [0, 8, 16, 9], "texture": "#0"},
+				"south": {"uv": [7, 15, 9, 16], "texture": "#0"},
+				"west": {"uv": [0, 7, 16, 8], "texture": "#0"},
+				"up": {"uv": [7, 0, 9, 16], "texture": "#0"},
+				"down": {"uv": [7, 0, 9, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [-90, 40, 0],
+			"translation": [0.25, 0, 0],
+			"scale": [1, 0.95508, 0.90039]
+		}
+	}
+}

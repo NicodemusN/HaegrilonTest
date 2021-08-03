@@ -45,7 +45,7 @@ public class BirchwalllogBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:birchwalllog")
 	public static final Block block = null;
 	public BirchwalllogBlock(HaegrilontestModElements instance) {
-		super(instance, 313);
+		super(instance, 331);
 	}
 
 	@Override

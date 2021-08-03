@@ -46,7 +46,7 @@ public class RopeverticalBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:ropevertical")
 	public static final Block block = null;
 	public RopeverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 360);
+		super(instance, 395);
 	}
 
 	@Override

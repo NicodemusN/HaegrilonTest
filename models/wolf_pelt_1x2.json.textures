@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wolf_pelt_feet",
+        "1": "wolf_pelt_head",
+        "missing": "wolf_pelt"
+      },
+      "name": "default"
+    }
+  }
+}

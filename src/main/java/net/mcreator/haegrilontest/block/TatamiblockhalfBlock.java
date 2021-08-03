@@ -38,7 +38,7 @@ public class TatamiblockhalfBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:tatamiblockhalf")
 	public static final Block block = null;
 	public TatamiblockhalfBlock(HaegrilontestModElements instance) {
-		super(instance, 392);
+		super(instance, 411);
 	}
 
 	@Override

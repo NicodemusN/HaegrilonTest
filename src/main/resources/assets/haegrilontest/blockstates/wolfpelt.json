@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/wolfpelt"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/wolfpelt",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/wolfpelt",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/wolfpelt",
+      "y": 270
+    }
+  }
+}

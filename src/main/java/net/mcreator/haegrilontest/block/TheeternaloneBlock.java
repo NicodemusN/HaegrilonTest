@@ -66,7 +66,7 @@ public class TheeternaloneBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:theeternalone")
 	public static final Block block = null;
 	public TheeternaloneBlock(HaegrilontestModElements instance) {
-		super(instance, 515);
+		super(instance, 535);
 	}
 
 	@Override

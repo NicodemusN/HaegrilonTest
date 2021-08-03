@@ -16,7 +16,7 @@ import java.util.Map;
 @HaegrilontestModElements.ModElement.Tag
 public class TheeternaloneOnBlockRightClickedProcedure extends HaegrilontestModElements.ModElement {
 	public TheeternaloneOnBlockRightClickedProcedure(HaegrilontestModElements instance) {
-		super(instance, 514);
+		super(instance, 534);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

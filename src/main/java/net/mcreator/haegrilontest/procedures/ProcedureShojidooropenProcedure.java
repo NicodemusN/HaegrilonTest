@@ -14,7 +14,7 @@ import java.util.Map;
 @HaegrilontestModElements.ModElement.Tag
 public class ProcedureShojidooropenProcedure extends HaegrilontestModElements.ModElement {
 	public ProcedureShojidooropenProcedure(HaegrilontestModElements instance) {
-		super(instance, 499);
+		super(instance, 519);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

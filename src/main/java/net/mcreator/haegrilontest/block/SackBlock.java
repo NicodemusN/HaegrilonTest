@@ -27,7 +27,7 @@ public class SackBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:sack")
 	public static final Block block = null;
 	public SackBlock(HaegrilontestModElements instance) {
-		super(instance, 338);
+		super(instance, 356);
 	}
 
 	@Override

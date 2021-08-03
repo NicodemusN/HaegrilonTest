@@ -41,7 +41,7 @@ public class LogwallBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:logwall")
 	public static final Block block = null;
 	public LogwallBlock(HaegrilontestModElements instance) {
-		super(instance, 314);
+		super(instance, 332);
 	}
 
 	@Override

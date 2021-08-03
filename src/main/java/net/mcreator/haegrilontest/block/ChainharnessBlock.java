@@ -32,7 +32,7 @@ public class ChainharnessBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:chainharness")
 	public static final Block block = null;
 	public ChainharnessBlock(HaegrilontestModElements instance) {
-		super(instance, 375);
+		super(instance, 400);
 	}
 
 	@Override

@@ -33,7 +33,7 @@ public class IcespikeBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:icespike")
 	public static final Block block = null;
 	public IcespikeBlock(HaegrilontestModElements instance) {
-		super(instance, 256);
+		super(instance, 273);
 	}
 
 	@Override

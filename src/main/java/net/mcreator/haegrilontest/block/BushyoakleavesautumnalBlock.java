@@ -40,7 +40,7 @@ public class BushyoakleavesautumnalBlock extends HaegrilontestModElements.ModEle
 	@ObjectHolder("haegrilontest:bushyoakleavesautumnal")
 	public static final Block block = null;
 	public BushyoakleavesautumnalBlock(HaegrilontestModElements instance) {
-		super(instance, 260);
+		super(instance, 277);
 	}
 
 	@Override

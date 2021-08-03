@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/grassblockslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/grassblockslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/grassblockslab_full"
+    }
+  }
+}

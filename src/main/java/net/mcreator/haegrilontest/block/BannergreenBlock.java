@@ -48,7 +48,7 @@ public class BannergreenBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:bannergreen")
 	public static final Block block = null;
 	public BannergreenBlock(HaegrilontestModElements instance) {
-		super(instance, 394);
+		super(instance, 414);
 	}
 
 	@Override

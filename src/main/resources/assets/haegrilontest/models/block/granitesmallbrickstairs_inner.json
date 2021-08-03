@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "haegrilontest:blocks/granite_small_bricks",
+    "top": "haegrilontest:blocks/granite_small_bricks",
+    "side": "haegrilontest:blocks/granite_small_bricks"
+  }
+}

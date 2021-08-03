@@ -47,7 +47,7 @@ public class JunglethingwallBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:junglethingwall")
 	public static final Block block = null;
 	public JunglethingwallBlock(HaegrilontestModElements instance) {
-		super(instance, 190);
+		super(instance, 207);
 	}
 
 	@Override

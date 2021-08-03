@@ -61,7 +61,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Anglosaxonsoldierguard"
+      "value": "CUSTOM:Danishsoldierguard"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -77,7 +77,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:Anglosaxonsoldierguard"
+      "value": "CUSTOM:Danishsoldierguard"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

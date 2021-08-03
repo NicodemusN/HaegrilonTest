@@ -23,7 +23,7 @@ public class StatushighclassBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:statushighclass")
 	public static final Block block = null;
 	public StatushighclassBlock(HaegrilontestModElements instance) {
-		super(instance, 252);
+		super(instance, 269);
 	}
 
 	@Override

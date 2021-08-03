@@ -27,7 +27,7 @@ public class LightmudBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:lightmud")
 	public static final Block block = null;
 	public LightmudBlock(HaegrilontestModElements instance) {
-		super(instance, 264);
+		super(instance, 281);
 	}
 
 	@Override

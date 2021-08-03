@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/granitecobbleslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/granitecobbleslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/granitecobbleslab_full"
+    }
+  }
+}

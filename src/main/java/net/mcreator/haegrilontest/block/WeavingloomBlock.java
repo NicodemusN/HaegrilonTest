@@ -48,7 +48,7 @@ public class WeavingloomBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:weavingloom")
 	public static final Block block = null;
 	public WeavingloomBlock(HaegrilontestModElements instance) {
-		super(instance, 340);
+		super(instance, 358);
 	}
 
 	@Override

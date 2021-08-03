@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/granite_small_bricks",
+    "up": "haegrilontest:blocks/granite_small_bricks",
+    "north": "haegrilontest:blocks/granite_small_bricks",
+    "east": "haegrilontest:blocks/granite_small_bricks",
+    "south": "haegrilontest:blocks/granite_small_bricks",
+    "west": "haegrilontest:blocks/granite_small_bricks",
+    "particle": "haegrilontest:blocks/granite_small_bricks"
+  }
+}

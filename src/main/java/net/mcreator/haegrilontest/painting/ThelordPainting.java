@@ -12,7 +12,7 @@ import net.mcreator.haegrilontest.HaegrilontestModElements;
 @HaegrilontestModElements.ModElement.Tag
 public class ThelordPainting extends HaegrilontestModElements.ModElement {
 	public ThelordPainting(HaegrilontestModElements instance) {
-		super(instance, 453);
+		super(instance, 473);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

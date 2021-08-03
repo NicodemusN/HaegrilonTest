@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/tanningrack"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/tanningrack",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/tanningrack",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/tanningrack",
+      "y": 270
+    }
+  }
+}

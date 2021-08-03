@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "haegrilontest:blocks/dirt",
+    "top": "haegrilontest:blocks/cobble_mossy_wall_top",
+    "side": "haegrilontest:blocks/grass_slab_side"
+  }
+}

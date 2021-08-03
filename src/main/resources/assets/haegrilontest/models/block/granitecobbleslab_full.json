@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "haegrilontest:blocks/granite_cobbled",
+    "top": "haegrilontest:blocks/granite_cobbled",
+    "side": "haegrilontest:blocks/granite_cobbled"
+  }
+}

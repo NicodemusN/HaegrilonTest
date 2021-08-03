@@ -13,7 +13,7 @@ import net.mcreator.haegrilontest.HaegrilontestModElements;
 @HaegrilontestModElements.ModElement.Tag
 public class HaegrilonItemGroup extends HaegrilontestModElements.ModElement {
 	public HaegrilonItemGroup(HaegrilontestModElements instance) {
-		super(instance, 444);
+		super(instance, 464);
 	}
 
 	@Override
