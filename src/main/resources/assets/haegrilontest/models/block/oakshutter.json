@@ -1,9 +1,9 @@
 {
-  "parent": "haegrilontest:custom/shutteroak",
+  "parent": "haegrilontest:custom/new_shutteroak_left",
   "textures": {
     "all": "haegrilontest:blocks/oak_shutter",
     "particle": "haegrilontest:blocks/oak_shutter",
-    "0": "haegrilontest:blocks/oak_shutter",
+    "0": "haegrilontest:blocks/oak_shutter_2",
     "1": "haegrilontest:blocks/oak_shutter_side"
   }
 }

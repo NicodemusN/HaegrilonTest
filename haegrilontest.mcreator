@@ -1599,7 +1599,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "oakshutter",
-      "path": "~/Decoration"
+      "path": "~/Decoration/shutters"
     },
     {
       "name": "Oakshutteropen",
@@ -1609,7 +1609,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "oakshutteropen",
-      "path": "~/Decoration"
+      "path": "~/Decoration/shutters"
     },
     {
       "name": "Shuttermotion",
@@ -1649,7 +1649,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "spruceshutter",
-      "path": "~/Decoration"
+      "path": "~/Decoration/shutters"
     },
     {
       "name": "Spruceshutteropen",
@@ -1659,7 +1659,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "spruceshutteropen",
-      "path": "~/Decoration"
+      "path": "~/Decoration/shutters"
     },
     {
       "name": "Shuttermotionspruce",
@@ -1999,7 +1999,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "spruceshuttermiddle",
-      "path": "~/Decoration"
+      "path": "~/Decoration/shutters"
     },
     {
       "name": "Spruceshuttermiddleopen",
@@ -2009,7 +2009,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "spruceshuttermiddleopen",
-      "path": "~/Decoration"
+      "path": "~/Decoration/shutters"
     },
     {
       "name": "ShuttermotionmiddleS",
@@ -4277,7 +4277,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "oakshutterright",
-      "path": "~/Decoration"
+      "path": "~/Decoration/shutters"
     },
     {
       "name": "Oakshutteropenright",
@@ -4287,7 +4287,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "oakshutteropenright",
-      "path": "~/Decoration"
+      "path": "~/Decoration/shutters"
     },
     {
       "name": "OakshutterrightOnBlockRightClicked",
@@ -4894,7 +4894,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "spruceshutterright",
-      "path": "~/Decoration"
+      "path": "~/Decoration/shutters"
     },
     {
       "name": "Spruceshutteropenright",
@@ -4904,7 +4904,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "spruceshutteropenright",
-      "path": "~/Decoration"
+      "path": "~/Decoration/shutters"
     },
     {
       "name": "SpruceshutteropenrightOnBlockRightClicked",
@@ -6099,6 +6099,26 @@
         ]
       },
       "path": "~/procedures"
+    },
+    {
+      "name": "Oakwallpanel",
+      "type": "block",
+      "sortid": 539,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oakwallpanel",
+      "path": "~/Wood/panel"
+    },
+    {
+      "name": "Aaatrapdoor",
+      "type": "block",
+      "sortid": 540,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aaatrapdoor",
+      "path": "~/Misc/abandoned_textures"
     }
   ],
   "variable_elements": [],
@@ -6204,6 +6224,7 @@
       "block.haegrilontest.profession_8": "Profession: Chandler",
       "block.haegrilon.blackwoodthinwall": "Blackwood Thin Wall",
       "block.haegrilontest.profession_7": "Profession: Butcher",
+      "block.haegrilontest.oakwallpanel": "Oakwallpanel",
       "block.haegrilon.oakthinwall": "Oak Thin Wall",
       "block.haegrilontest.profession_9": "Profession: Cobbler",
       "block.haegrilon.andesitecorner": "Andesite Corner",
@@ -6224,6 +6245,7 @@
       "block.haegrilontest.limestone_2wall": "Limestone Sandy Wall",
       "block.haegrilontest.hopperjungle": "Jungle Hopper",
       "block.haegrilontest.redwindowframe": "Red Windowframe",
+      "block.haegrilontest.aaatrapdoor": "Aaatrapdoor",
       "block.haegrilon.smallbricktrapdoor": "Small Smooth Brick Trapdoor",
       "block.haegrilon.darksandstonecobble": "Dark Sandstone Cobble",
       "block.haegrilontest.blueslatevertical": "Blue Slate Vertical Slab",
@@ -6876,6 +6898,10 @@
         "children": [
           {
             "name": "Professions",
+            "children": []
+          },
+          {
+            "name": "shutters",
             "children": []
           }
         ]

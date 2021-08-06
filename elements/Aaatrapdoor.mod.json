@@ -2,19 +2,20 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "oak_shutter",
+    "texture": "birch_planks",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "new_shutteroak_left_open:default",
-    "rotationMode": 1,
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "TrapDoor",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -23,7 +24,7 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 13.0,
+        "mx": 0.0,
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
@@ -32,18 +33,18 @@
         "subtract": false
       }
     ],
-    "name": "Oakshutteropen",
+    "name": "Aaatrapdoor",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:Haegrilon"
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Oakshutter"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -59,7 +60,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:Oakshutter"
+      "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -101,9 +102,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "Shuttermotionopen"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

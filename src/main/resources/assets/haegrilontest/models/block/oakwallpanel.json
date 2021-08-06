@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haegrilontest:blocks/crossleaves_oak_autumn",
+    "up": "haegrilontest:blocks/crossleaves_oak_autumn",
+    "north": "haegrilontest:blocks/crossleaves_oak_autumn",
+    "east": "haegrilontest:blocks/crossleaves_oak_autumn",
+    "south": "haegrilontest:blocks/crossleaves_oak_autumn",
+    "west": "haegrilontest:blocks/crossleaves_oak_autumn",
+    "particle": "haegrilontest:blocks/crossleaves_oak_autumn"
+  }
+}
