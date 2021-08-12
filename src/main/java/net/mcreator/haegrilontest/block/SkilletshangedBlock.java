@@ -48,7 +48,7 @@ public class SkilletshangedBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:skilletshanged")
 	public static final Block block = null;
 	public SkilletshangedBlock(HaegrilontestModElements instance) {
-		super(instance, 428);
+		super(instance, 433);
 	}
 
 	@Override

@@ -48,7 +48,7 @@ public class WolfpeltBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:wolfpelt")
 	public static final Block block = null;
 	public WolfpeltBlock(HaegrilontestModElements instance) {
-		super(instance, 391);
+		super(instance, 395);
 	}
 
 	@Override

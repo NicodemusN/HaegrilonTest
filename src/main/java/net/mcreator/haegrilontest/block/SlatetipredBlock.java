@@ -44,7 +44,7 @@ public class SlatetipredBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:slatetipred")
 	public static final Block block = null;
 	public SlatetipredBlock(HaegrilontestModElements instance) {
-		super(instance, 87);
+		super(instance, 88);
 	}
 
 	@Override

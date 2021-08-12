@@ -48,7 +48,7 @@ public class ShojiBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:shoji")
 	public static final Block block = null;
 	public ShojiBlock(HaegrilontestModElements instance) {
-		super(instance, 409);
+		super(instance, 413);
 	}
 
 	@Override

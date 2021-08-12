@@ -48,7 +48,7 @@ public class DarkoakverticalBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:darkoakvertical")
 	public static final Block block = null;
 	public DarkoakverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 213);
+		super(instance, 217);
 	}
 
 	@Override

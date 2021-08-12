@@ -27,7 +27,7 @@ public class CabbagecrateBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:cabbagecrate")
 	public static final Block block = null;
 	public CabbagecrateBlock(HaegrilontestModElements instance) {
-		super(instance, 417);
+		super(instance, 422);
 	}
 
 	@Override

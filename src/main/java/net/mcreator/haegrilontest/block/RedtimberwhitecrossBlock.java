@@ -33,7 +33,7 @@ public class RedtimberwhitecrossBlock extends HaegrilontestModElements.ModElemen
 	@ObjectHolder("haegrilontest:redtimberwhitecross")
 	public static final Block block = null;
 	public RedtimberwhitecrossBlock(HaegrilontestModElements instance) {
-		super(instance, 243);
+		super(instance, 247);
 	}
 
 	@Override

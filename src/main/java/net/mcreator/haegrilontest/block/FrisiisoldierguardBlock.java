@@ -50,7 +50,7 @@ public class FrisiisoldierguardBlock extends HaegrilontestModElements.ModElement
 	@ObjectHolder("haegrilontest:frisiisoldierguard")
 	public static final Block block = null;
 	public FrisiisoldierguardBlock(HaegrilontestModElements instance) {
-		super(instance, 463);
+		super(instance, 468);
 	}
 
 	@Override

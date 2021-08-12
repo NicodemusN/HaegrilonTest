@@ -48,7 +48,7 @@ public class DarkstrawbedBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:darkstrawbed")
 	public static final Block block = null;
 	public DarkstrawbedBlock(HaegrilontestModElements instance) {
-		super(instance, 363);
+		super(instance, 367);
 	}
 
 	@Override

@@ -48,7 +48,7 @@ public class BrownslateverticalBlock extends HaegrilontestModElements.ModElement
 	@ObjectHolder("haegrilontest:brownslatevertical")
 	public static final Block block = null;
 	public BrownslateverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 83);
+		super(instance, 84);
 	}
 
 	@Override

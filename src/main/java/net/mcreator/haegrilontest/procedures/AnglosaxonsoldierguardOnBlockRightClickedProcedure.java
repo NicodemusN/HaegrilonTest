@@ -14,7 +14,7 @@ import java.util.Map;
 @HaegrilontestModElements.ModElement.Tag
 public class AnglosaxonsoldierguardOnBlockRightClickedProcedure extends HaegrilontestModElements.ModElement {
 	public AnglosaxonsoldierguardOnBlockRightClickedProcedure(HaegrilontestModElements instance) {
-		super(instance, 524);
+		super(instance, 529);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -29,7 +29,7 @@ public class Limestone1slabBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:limestone_1slab")
 	public static final Block block = null;
 	public Limestone1slabBlock(HaegrilontestModElements instance) {
-		super(instance, 315);
+		super(instance, 319);
 	}
 
 	@Override

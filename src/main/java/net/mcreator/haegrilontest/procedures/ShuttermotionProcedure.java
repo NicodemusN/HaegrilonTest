@@ -14,7 +14,7 @@ import java.util.Map;
 @HaegrilontestModElements.ModElement.Tag
 public class ShuttermotionProcedure extends HaegrilontestModElements.ModElement {
 	public ShuttermotionProcedure(HaegrilontestModElements instance) {
-		super(instance, 470);
+		super(instance, 475);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -48,7 +48,7 @@ public class SpruceverticalBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:sprucevertical")
 	public static final Block block = null;
 	public SpruceverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 200);
+		super(instance, 204);
 	}
 
 	@Override

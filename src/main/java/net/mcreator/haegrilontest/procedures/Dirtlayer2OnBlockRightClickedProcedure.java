@@ -18,7 +18,7 @@ import java.util.Map;
 @HaegrilontestModElements.ModElement.Tag
 public class Dirtlayer2OnBlockRightClickedProcedure extends HaegrilontestModElements.ModElement {
 	public Dirtlayer2OnBlockRightClickedProcedure(HaegrilontestModElements instance) {
-		super(instance, 496);
+		super(instance, 501);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

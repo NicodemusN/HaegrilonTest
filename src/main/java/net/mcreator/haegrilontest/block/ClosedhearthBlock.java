@@ -33,7 +33,7 @@ public class ClosedhearthBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:closedhearth")
 	public static final Block block = null;
 	public ClosedhearthBlock(HaegrilontestModElements instance) {
-		super(instance, 352);
+		super(instance, 356);
 	}
 
 	@Override

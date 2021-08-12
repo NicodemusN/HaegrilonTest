@@ -4,7 +4,7 @@
     {
       "name": "Haegrilon",
       "type": "tab",
-      "sortid": 464,
+      "sortid": 469,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -14,7 +14,7 @@
     {
       "name": "Icewall",
       "type": "block",
-      "sortid": 272,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -24,7 +24,7 @@
     {
       "name": "Icespike",
       "type": "block",
-      "sortid": 273,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -34,7 +34,7 @@
     {
       "name": "Haegrilonplants",
       "type": "tab",
-      "sortid": 465,
+      "sortid": 470,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -44,7 +44,7 @@
     {
       "name": "Tapestry",
       "type": "painting",
-      "sortid": 466,
+      "sortid": 471,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -54,7 +54,7 @@
     {
       "name": "Whitetimbercross",
       "type": "block",
-      "sortid": 167,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -64,7 +64,7 @@
     {
       "name": "Whitetimber",
       "type": "block",
-      "sortid": 170,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -74,7 +74,7 @@
     {
       "name": "Whitetimbereast",
       "type": "block",
-      "sortid": 168,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -84,7 +84,7 @@
     {
       "name": "Whitetimberwest",
       "type": "block",
-      "sortid": 169,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -94,7 +94,7 @@
     {
       "name": "Browntimbercross",
       "type": "block",
-      "sortid": 172,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -104,7 +104,7 @@
     {
       "name": "Browntimber",
       "type": "block",
-      "sortid": 175,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -114,7 +114,7 @@
     {
       "name": "Browntimbereast",
       "type": "block",
-      "sortid": 173,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -124,7 +124,7 @@
     {
       "name": "Browntimberwest",
       "type": "block",
-      "sortid": 174,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -134,7 +134,7 @@
     {
       "name": "Haegrilondecorative",
       "type": "tab",
-      "sortid": 467,
+      "sortid": 472,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -144,7 +144,7 @@
     {
       "name": "Logwall",
       "type": "block",
-      "sortid": 332,
+      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -154,7 +154,7 @@
     {
       "name": "Tapestry2",
       "type": "painting",
-      "sortid": 468,
+      "sortid": 473,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -164,7 +164,7 @@
     {
       "name": "Stool",
       "type": "block",
-      "sortid": 333,
+      "sortid": 337,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -174,7 +174,7 @@
     {
       "name": "Claypot",
       "type": "block",
-      "sortid": 334,
+      "sortid": 338,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -184,7 +184,7 @@
     {
       "name": "Basket",
       "type": "block",
-      "sortid": 335,
+      "sortid": 339,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -194,7 +194,7 @@
     {
       "name": "Ulfberhtsword",
       "type": "tool",
-      "sortid": 337,
+      "sortid": 341,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -204,7 +204,7 @@
     {
       "name": "Chair",
       "type": "block",
-      "sortid": 336,
+      "sortid": 340,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -214,7 +214,7 @@
     {
       "name": "Largecookingpot",
       "type": "block",
-      "sortid": 415,
+      "sortid": 420,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -224,7 +224,7 @@
     {
       "name": "Yellowtimbercross",
       "type": "block",
-      "sortid": 129,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -234,7 +234,7 @@
     {
       "name": "Yellowtimber",
       "type": "block",
-      "sortid": 130,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -244,7 +244,7 @@
     {
       "name": "Yellowtimbereast",
       "type": "block",
-      "sortid": 131,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -254,7 +254,7 @@
     {
       "name": "Yellowtimberwest",
       "type": "block",
-      "sortid": 132,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -264,7 +264,7 @@
     {
       "name": "Redtimbercross",
       "type": "block",
-      "sortid": 177,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -274,7 +274,7 @@
     {
       "name": "Redtimber",
       "type": "block",
-      "sortid": 180,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -284,7 +284,7 @@
     {
       "name": "Redtimbereast",
       "type": "block",
-      "sortid": 178,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -294,7 +294,7 @@
     {
       "name": "Redtimberwest",
       "type": "block",
-      "sortid": 179,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -304,7 +304,7 @@
     {
       "name": "Smallbush",
       "type": "plant",
-      "sortid": 274,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -314,7 +314,7 @@
     {
       "name": "Oakthinwall",
       "type": "block",
-      "sortid": 198,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -324,7 +324,7 @@
     {
       "name": "Sprucethinwall",
       "type": "block",
-      "sortid": 202,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -334,7 +334,7 @@
     {
       "name": "Junglethingwall",
       "type": "block",
-      "sortid": 207,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -344,7 +344,7 @@
     {
       "name": "Birchthinwall",
       "type": "block",
-      "sortid": 211,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -354,7 +354,7 @@
     {
       "name": "Darkoakthinwall",
       "type": "block",
-      "sortid": 215,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -364,7 +364,7 @@
     {
       "name": "Wheel",
       "type": "block",
-      "sortid": 338,
+      "sortid": 342,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -374,7 +374,7 @@
     {
       "name": "Wattle",
       "type": "block",
-      "sortid": 339,
+      "sortid": 343,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -394,7 +394,7 @@
     {
       "name": "Statusapproved",
       "type": "block",
-      "sortid": 262,
+      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -404,7 +404,7 @@
     {
       "name": "Statusdone",
       "type": "block",
-      "sortid": 261,
+      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -414,7 +414,7 @@
     {
       "name": "Statuswip",
       "type": "block",
-      "sortid": 260,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -424,7 +424,7 @@
     {
       "name": "Statusblockcount",
       "type": "block",
-      "sortid": 263,
+      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -434,7 +434,7 @@
     {
       "name": "Hopperoak",
       "type": "block",
-      "sortid": 199,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -444,7 +444,7 @@
     {
       "name": "Hopperspruce",
       "type": "block",
-      "sortid": 203,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -454,7 +454,7 @@
     {
       "name": "Hopperjungle",
       "type": "block",
-      "sortid": 208,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -464,7 +464,7 @@
     {
       "name": "Spruceceilingblock",
       "type": "block",
-      "sortid": 204,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -474,7 +474,7 @@
     {
       "name": "Hopperbirch",
       "type": "block",
-      "sortid": 212,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -484,7 +484,7 @@
     {
       "name": "Hopperdarkoak",
       "type": "block",
-      "sortid": 216,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -494,7 +494,7 @@
     {
       "name": "Cleaver",
       "type": "block",
-      "sortid": 340,
+      "sortid": 344,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -504,7 +504,7 @@
     {
       "name": "Beam",
       "type": "block",
-      "sortid": 217,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -514,7 +514,7 @@
     {
       "name": "Tiedherbs",
       "type": "block",
-      "sortid": 416,
+      "sortid": 421,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -524,7 +524,7 @@
     {
       "name": "Smoke",
       "type": "block",
-      "sortid": 341,
+      "sortid": 345,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -534,7 +534,7 @@
     {
       "name": "Clothesline",
       "type": "block",
-      "sortid": 342,
+      "sortid": 346,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -644,7 +644,7 @@
     {
       "name": "Thatchvert",
       "type": "block",
-      "sortid": 99,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -654,7 +654,7 @@
     {
       "name": "Thatchcorner",
       "type": "block",
-      "sortid": 98,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -854,7 +854,7 @@
     {
       "name": "Tudorbrickstairs",
       "type": "block",
-      "sortid": 51,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -864,7 +864,7 @@
     {
       "name": "Tudorbrickslab",
       "type": "block",
-      "sortid": 52,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -874,7 +874,7 @@
     {
       "name": "Tudorbrickwall",
       "type": "block",
-      "sortid": 53,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -884,7 +884,7 @@
     {
       "name": "Tudorbrickcorner",
       "type": "block",
-      "sortid": 54,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -894,7 +894,7 @@
     {
       "name": "Tudorbrickvertical",
       "type": "block",
-      "sortid": 55,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -904,7 +904,7 @@
     {
       "name": "Tudorbricktrapdoor",
       "type": "block",
-      "sortid": 56,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -914,7 +914,7 @@
     {
       "name": "Blueslatecorner",
       "type": "block",
-      "sortid": 79,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -924,7 +924,7 @@
     {
       "name": "Blueslatevertical",
       "type": "block",
-      "sortid": 80,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -934,7 +934,7 @@
     {
       "name": "Brownslatecorner",
       "type": "block",
-      "sortid": 82,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -944,7 +944,7 @@
     {
       "name": "Brownslatevertical",
       "type": "block",
-      "sortid": 83,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -954,7 +954,7 @@
     {
       "name": "Netherbrickscorner",
       "type": "block",
-      "sortid": 88,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -964,7 +964,7 @@
     {
       "name": "Netherbricksvertical",
       "type": "block",
-      "sortid": 89,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -974,7 +974,7 @@
     {
       "name": "Redslatecorner",
       "type": "block",
-      "sortid": 85,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -984,7 +984,7 @@
     {
       "name": "Redslatevertical",
       "type": "block",
-      "sortid": 86,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -994,7 +994,7 @@
     {
       "name": "Shinglescorner",
       "type": "block",
-      "sortid": 95,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1004,7 +1004,7 @@
     {
       "name": "Shinglesvertical",
       "type": "block",
-      "sortid": 96,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1014,7 +1014,7 @@
     {
       "name": "Shingles",
       "type": "block",
-      "sortid": 91,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1024,7 +1024,7 @@
     {
       "name": "Shinglesstairs",
       "type": "block",
-      "sortid": 92,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1034,7 +1034,7 @@
     {
       "name": "Shinglesslab",
       "type": "block",
-      "sortid": 93,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1044,7 +1044,7 @@
     {
       "name": "Shingleswall",
       "type": "block",
-      "sortid": 94,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1054,7 +1054,7 @@
     {
       "name": "Birchcorner",
       "type": "block",
-      "sortid": 210,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1064,7 +1064,7 @@
     {
       "name": "Birchvertical",
       "type": "block",
-      "sortid": 209,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1074,7 +1074,7 @@
     {
       "name": "Darkoakcorner",
       "type": "block",
-      "sortid": 214,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1084,7 +1084,7 @@
     {
       "name": "Darkoakvertical",
       "type": "block",
-      "sortid": 213,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1094,7 +1094,7 @@
     {
       "name": "Junglecorner",
       "type": "block",
-      "sortid": 205,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1104,7 +1104,7 @@
     {
       "name": "Junglevertical",
       "type": "block",
-      "sortid": 206,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1114,7 +1114,7 @@
     {
       "name": "Oakcorner",
       "type": "block",
-      "sortid": 197,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1124,7 +1124,7 @@
     {
       "name": "Oakvertical",
       "type": "block",
-      "sortid": 196,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1134,7 +1134,7 @@
     {
       "name": "Sprucecorner",
       "type": "block",
-      "sortid": 201,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1144,7 +1144,7 @@
     {
       "name": "Sprucevertical",
       "type": "block",
-      "sortid": 200,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1154,7 +1154,7 @@
     {
       "name": "Sandstoneaged",
       "type": "block",
-      "sortid": 60,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1174,7 +1174,7 @@
     {
       "name": "Bronzeblock",
       "type": "block",
-      "sortid": 133,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1184,7 +1184,7 @@
     {
       "name": "Bronzeslab",
       "type": "block",
-      "sortid": 134,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1194,7 +1194,7 @@
     {
       "name": "Bronzestairs",
       "type": "block",
-      "sortid": 135,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1204,7 +1204,7 @@
     {
       "name": "Bronzwall",
       "type": "block",
-      "sortid": 136,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1214,7 +1214,7 @@
     {
       "name": "Bronzefence",
       "type": "block",
-      "sortid": 137,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1224,7 +1224,7 @@
     {
       "name": "Oakcabinet",
       "type": "block",
-      "sortid": 343,
+      "sortid": 347,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1234,7 +1234,7 @@
     {
       "name": "Sprucecabinet",
       "type": "block",
-      "sortid": 344,
+      "sortid": 348,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1244,7 +1244,7 @@
     {
       "name": "Cabbagecrate",
       "type": "block",
-      "sortid": 417,
+      "sortid": 422,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1254,7 +1254,7 @@
     {
       "name": "Beetrootcrate",
       "type": "block",
-      "sortid": 418,
+      "sortid": 423,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1264,7 +1264,7 @@
     {
       "name": "Onioncrate",
       "type": "block",
-      "sortid": 419,
+      "sortid": 424,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1274,7 +1274,7 @@
     {
       "name": "Powdersack",
       "type": "block",
-      "sortid": 345,
+      "sortid": 349,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1284,7 +1284,7 @@
     {
       "name": "Stove",
       "type": "block",
-      "sortid": 346,
+      "sortid": 350,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1294,7 +1294,7 @@
     {
       "name": "Knife",
       "type": "block",
-      "sortid": 347,
+      "sortid": 351,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1304,7 +1304,7 @@
     {
       "name": "Lightmud",
       "type": "block",
-      "sortid": 281,
+      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1314,7 +1314,7 @@
     {
       "name": "Drymud",
       "type": "block",
-      "sortid": 282,
+      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1324,7 +1324,7 @@
     {
       "name": "Darkdrymud",
       "type": "block",
-      "sortid": 283,
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1334,7 +1334,7 @@
     {
       "name": "Soil",
       "type": "block",
-      "sortid": 284,
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1344,7 +1344,7 @@
     {
       "name": "Darkmud",
       "type": "block",
-      "sortid": 285,
+      "sortid": 289,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1354,7 +1354,7 @@
     {
       "name": "Ashlight",
       "type": "block",
-      "sortid": 348,
+      "sortid": 352,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1364,7 +1364,7 @@
     {
       "name": "Lightmoss",
       "type": "block",
-      "sortid": 287,
+      "sortid": 291,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1374,7 +1374,7 @@
     {
       "name": "Moss",
       "type": "block",
-      "sortid": 288,
+      "sortid": 292,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1384,7 +1384,7 @@
     {
       "name": "Darkmoss",
       "type": "block",
-      "sortid": 289,
+      "sortid": 293,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1394,7 +1394,7 @@
     {
       "name": "Cinderblock",
       "type": "block",
-      "sortid": 349,
+      "sortid": 353,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1404,7 +1404,7 @@
     {
       "name": "Bucket",
       "type": "block",
-      "sortid": 350,
+      "sortid": 354,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1414,7 +1414,7 @@
     {
       "name": "Shamker",
       "type": "tool",
-      "sortid": 351,
+      "sortid": 355,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1434,7 +1434,7 @@
     {
       "name": "Closedhearth",
       "type": "block",
-      "sortid": 352,
+      "sortid": 356,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1444,7 +1444,7 @@
     {
       "name": "Crate",
       "type": "block",
-      "sortid": 353,
+      "sortid": 357,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1454,7 +1454,7 @@
     {
       "name": "Crateslab",
       "type": "block",
-      "sortid": 354,
+      "sortid": 358,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1464,7 +1464,7 @@
     {
       "name": "Sackslab",
       "type": "block",
-      "sortid": 355,
+      "sortid": 359,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1474,7 +1474,7 @@
     {
       "name": "Rooftilesgray",
       "type": "block",
-      "sortid": 78,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1484,7 +1484,7 @@
     {
       "name": "Nailedplanks",
       "type": "block",
-      "sortid": 219,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1494,7 +1494,7 @@
     {
       "name": "Wovenwoolblue",
       "type": "block",
-      "sortid": 143,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1504,7 +1504,7 @@
     {
       "name": "Wovenwoolgreen",
       "type": "block",
-      "sortid": 147,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1514,7 +1514,7 @@
     {
       "name": "Wovenwoollightgray",
       "type": "block",
-      "sortid": 151,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1524,7 +1524,7 @@
     {
       "name": "Wovenwoolwhite",
       "type": "block",
-      "sortid": 159,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1534,7 +1534,7 @@
     {
       "name": "Wovenwoolred",
       "type": "block",
-      "sortid": 155,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1544,7 +1544,7 @@
     {
       "name": "Wovenwoolyellow",
       "type": "block",
-      "sortid": 163,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1554,7 +1554,7 @@
     {
       "name": "Sack",
       "type": "block",
-      "sortid": 356,
+      "sortid": 360,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1564,7 +1564,7 @@
     {
       "name": "Beamhorisontal",
       "type": "block",
-      "sortid": 218,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1574,7 +1574,7 @@
     {
       "name": "Clotheshanger",
       "type": "block",
-      "sortid": 357,
+      "sortid": 361,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1584,7 +1584,7 @@
     {
       "name": "Hangingbowl",
       "type": "block",
-      "sortid": 420,
+      "sortid": 425,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1594,7 +1594,7 @@
     {
       "name": "Oakshutter",
       "type": "block",
-      "sortid": 393,
+      "sortid": 397,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1604,7 +1604,7 @@
     {
       "name": "Oakshutteropen",
       "type": "block",
-      "sortid": 469,
+      "sortid": 474,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1614,7 +1614,7 @@
     {
       "name": "Shuttermotion",
       "type": "procedure",
-      "sortid": 470,
+      "sortid": 475,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1644,7 +1644,7 @@
     {
       "name": "Spruceshutter",
       "type": "block",
-      "sortid": 401,
+      "sortid": 405,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1654,7 +1654,7 @@
     {
       "name": "Spruceshutteropen",
       "type": "block",
-      "sortid": 471,
+      "sortid": 476,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1664,7 +1664,7 @@
     {
       "name": "Shuttermotionspruce",
       "type": "procedure",
-      "sortid": 472,
+      "sortid": 477,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1694,7 +1694,7 @@
     {
       "name": "Nailedplankslab",
       "type": "block",
-      "sortid": 220,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1704,7 +1704,7 @@
     {
       "name": "Thelord",
       "type": "painting",
-      "sortid": 473,
+      "sortid": 478,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1714,7 +1714,7 @@
     {
       "name": "Brutality",
       "type": "painting",
-      "sortid": 474,
+      "sortid": 479,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1724,7 +1724,7 @@
     {
       "name": "Wovenwoolblueslab",
       "type": "block",
-      "sortid": 144,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1734,7 +1734,7 @@
     {
       "name": "Wovenwoolbluestairs",
       "type": "block",
-      "sortid": 145,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1744,7 +1744,7 @@
     {
       "name": "Wovenwoolbluewall",
       "type": "block",
-      "sortid": 146,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1754,7 +1754,7 @@
     {
       "name": "Wovenwoolgreenslab",
       "type": "block",
-      "sortid": 148,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1764,7 +1764,7 @@
     {
       "name": "Wovenwoolgreenstairs",
       "type": "block",
-      "sortid": 149,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1774,7 +1774,7 @@
     {
       "name": "Wovenwoolgreenwall",
       "type": "block",
-      "sortid": 150,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1784,7 +1784,7 @@
     {
       "name": "Wovenwoollightgrayslab",
       "type": "block",
-      "sortid": 152,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1794,7 +1794,7 @@
     {
       "name": "Wovenwoollightgraystairs",
       "type": "block",
-      "sortid": 153,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1804,7 +1804,7 @@
     {
       "name": "Wovenwoollightgraywall",
       "type": "block",
-      "sortid": 154,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1814,7 +1814,7 @@
     {
       "name": "Wovenwoolredslab",
       "type": "block",
-      "sortid": 156,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1824,7 +1824,7 @@
     {
       "name": "Wovenwoolredstairs",
       "type": "block",
-      "sortid": 157,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1834,7 +1834,7 @@
     {
       "name": "Wovenwoolredwall",
       "type": "block",
-      "sortid": 158,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1844,7 +1844,7 @@
     {
       "name": "Wovenwoolwhiteslab",
       "type": "block",
-      "sortid": 160,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1854,7 +1854,7 @@
     {
       "name": "Wovenwoolwhitestairs",
       "type": "block",
-      "sortid": 161,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1864,7 +1864,7 @@
     {
       "name": "Wovenwoolwhitewall",
       "type": "block",
-      "sortid": 162,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1874,7 +1874,7 @@
     {
       "name": "Wovenwoolyellowstairs",
       "type": "block",
-      "sortid": 164,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1884,7 +1884,7 @@
     {
       "name": "Wovenwoolyellowslab",
       "type": "block",
-      "sortid": 165,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1894,7 +1894,7 @@
     {
       "name": "Wovenwoolyellowwall",
       "type": "block",
-      "sortid": 166,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1904,7 +1904,7 @@
     {
       "name": "Shuttermotionopen",
       "type": "procedure",
-      "sortid": 475,
+      "sortid": 480,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1934,7 +1934,7 @@
     {
       "name": "Shuttermotionopenspruce",
       "type": "procedure",
-      "sortid": 476,
+      "sortid": 481,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1964,7 +1964,7 @@
     {
       "name": "Weavingloom",
       "type": "block",
-      "sortid": 358,
+      "sortid": 362,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1974,7 +1974,7 @@
     {
       "name": "Windowframebottom",
       "type": "block",
-      "sortid": 359,
+      "sortid": 363,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1984,7 +1984,7 @@
     {
       "name": "Windowframetop",
       "type": "block",
-      "sortid": 360,
+      "sortid": 364,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1994,7 +1994,7 @@
     {
       "name": "Spruceshuttermiddle",
       "type": "block",
-      "sortid": 361,
+      "sortid": 365,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2004,7 +2004,7 @@
     {
       "name": "Spruceshuttermiddleopen",
       "type": "block",
-      "sortid": 477,
+      "sortid": 482,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2014,7 +2014,7 @@
     {
       "name": "ShuttermotionmiddleS",
       "type": "procedure",
-      "sortid": 478,
+      "sortid": 483,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2044,7 +2044,7 @@
     {
       "name": "ShuttermotionmiddleSopeb",
       "type": "procedure",
-      "sortid": 479,
+      "sortid": 484,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2114,7 +2114,7 @@
     {
       "name": "Bronzeblockoxidized",
       "type": "block",
-      "sortid": 138,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2124,7 +2124,7 @@
     {
       "name": "Bronzefenceoxidized",
       "type": "block",
-      "sortid": 142,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2134,7 +2134,7 @@
     {
       "name": "Bronzeslaboxidized",
       "type": "block",
-      "sortid": 139,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2144,7 +2144,7 @@
     {
       "name": "BronzestairsOxidized",
       "type": "block",
-      "sortid": 140,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2154,7 +2154,7 @@
     {
       "name": "BronzewallOxidized",
       "type": "block",
-      "sortid": 141,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2164,7 +2164,7 @@
     {
       "name": "Timberbeamcross",
       "type": "block",
-      "sortid": 480,
+      "sortid": 485,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2174,7 +2174,7 @@
     {
       "name": "Timberbeameast",
       "type": "block",
-      "sortid": 362,
+      "sortid": 366,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2184,7 +2184,7 @@
     {
       "name": "Timberbeamwest",
       "type": "block",
-      "sortid": 481,
+      "sortid": 486,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2194,7 +2194,7 @@
     {
       "name": "Timbereastchange",
       "type": "procedure",
-      "sortid": 482,
+      "sortid": 487,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2224,7 +2224,7 @@
     {
       "name": "Timberwestchange",
       "type": "procedure",
-      "sortid": 483,
+      "sortid": 488,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2254,7 +2254,7 @@
     {
       "name": "Timbercrosschange",
       "type": "procedure",
-      "sortid": 484,
+      "sortid": 489,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2284,7 +2284,7 @@
     {
       "name": "Whitetimberarch",
       "type": "block",
-      "sortid": 171,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2294,7 +2294,7 @@
     {
       "name": "Browntimberarch",
       "type": "block",
-      "sortid": 176,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2304,7 +2304,7 @@
     {
       "name": "Redtimberarch",
       "type": "block",
-      "sortid": 181,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2314,7 +2314,7 @@
     {
       "name": "Darkstrawbed",
       "type": "block",
-      "sortid": 363,
+      "sortid": 367,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2324,7 +2324,7 @@
     {
       "name": "Strawbed",
       "type": "block",
-      "sortid": 364,
+      "sortid": 368,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2364,7 +2364,7 @@
     {
       "name": "Blackwood",
       "type": "block",
-      "sortid": 221,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2374,7 +2374,7 @@
     {
       "name": "Blackwoodslab",
       "type": "block",
-      "sortid": 222,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2384,7 +2384,7 @@
     {
       "name": "Blackwoodstairs",
       "type": "block",
-      "sortid": 223,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2394,7 +2394,7 @@
     {
       "name": "Blackwoodwall",
       "type": "block",
-      "sortid": 224,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2404,7 +2404,7 @@
     {
       "name": "Blackwoodfence",
       "type": "block",
-      "sortid": 225,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2414,7 +2414,7 @@
     {
       "name": "Whiteoaktimber",
       "type": "block",
-      "sortid": 185,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2424,7 +2424,7 @@
     {
       "name": "Whiteoaktimbercross",
       "type": "block",
-      "sortid": 182,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2434,7 +2434,7 @@
     {
       "name": "Whiteoaktimbereast",
       "type": "block",
-      "sortid": 183,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2444,7 +2444,7 @@
     {
       "name": "Whiteoaktimberwest",
       "type": "block",
-      "sortid": 184,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2454,7 +2454,7 @@
     {
       "name": "Whiteoaktimbervertical",
       "type": "block",
-      "sortid": 186,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2464,7 +2464,7 @@
     {
       "name": "Whiteoaktimberclosestudding",
       "type": "block",
-      "sortid": 187,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2474,7 +2474,7 @@
     {
       "name": "Whitedarktimber",
       "type": "block",
-      "sortid": 188,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2484,7 +2484,7 @@
     {
       "name": "Whitedarktimbercross",
       "type": "block",
-      "sortid": 189,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2494,7 +2494,7 @@
     {
       "name": "Whitedarktimbereast",
       "type": "block",
-      "sortid": 190,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2504,7 +2504,7 @@
     {
       "name": "Whitedarktimberwest",
       "type": "block",
-      "sortid": 191,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2514,7 +2514,7 @@
     {
       "name": "Whitedarktimberclosestudding",
       "type": "block",
-      "sortid": 192,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2524,7 +2524,7 @@
     {
       "name": "Whitedarktimbervertical",
       "type": "block",
-      "sortid": 193,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2534,7 +2534,7 @@
     {
       "name": "Blackwoodthinwall",
       "type": "block",
-      "sortid": 226,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2544,7 +2544,7 @@
     {
       "name": "Blackwoodverticalplanks",
       "type": "block",
-      "sortid": 227,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2574,7 +2574,7 @@
     {
       "name": "Cushion",
       "type": "block",
-      "sortid": 365,
+      "sortid": 369,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2594,7 +2594,7 @@
     {
       "name": "Basketblock",
       "type": "block",
-      "sortid": 366,
+      "sortid": 370,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2604,7 +2604,7 @@
     {
       "name": "Basketslab",
       "type": "block",
-      "sortid": 367,
+      "sortid": 371,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2614,7 +2614,7 @@
     {
       "name": "Basketblockopen",
       "type": "block",
-      "sortid": 368,
+      "sortid": 372,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2624,7 +2624,7 @@
     {
       "name": "Basketslabopen",
       "type": "block",
-      "sortid": 369,
+      "sortid": 373,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2634,7 +2634,7 @@
     {
       "name": "Wattleshort",
       "type": "block",
-      "sortid": 370,
+      "sortid": 374,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2644,7 +2644,7 @@
     {
       "name": "Sootlayer",
       "type": "block",
-      "sortid": 371,
+      "sortid": 375,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2654,7 +2654,7 @@
     {
       "name": "Sootlayer2",
       "type": "block",
-      "sortid": 485,
+      "sortid": 490,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2664,7 +2664,7 @@
     {
       "name": "Sootlayer2OnBlockRightClicked",
       "type": "procedure",
-      "sortid": 486,
+      "sortid": 491,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2694,7 +2694,7 @@
     {
       "name": "SootlayerOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 487,
+      "sortid": 492,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2724,7 +2724,7 @@
     {
       "name": "Hopperblackwood",
       "type": "block",
-      "sortid": 228,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2734,7 +2734,7 @@
     {
       "name": "Ropeharness",
       "type": "block",
-      "sortid": 399,
+      "sortid": 403,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2744,7 +2744,7 @@
     {
       "name": "Glassflagon",
       "type": "block",
-      "sortid": 372,
+      "sortid": 376,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2754,7 +2754,7 @@
     {
       "name": "Pewterflagon",
       "type": "block",
-      "sortid": 373,
+      "sortid": 377,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2764,7 +2764,7 @@
     {
       "name": "Ceramicflagon",
       "type": "block",
-      "sortid": 374,
+      "sortid": 378,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2774,7 +2774,7 @@
     {
       "name": "Thatchdarkcorner",
       "type": "block",
-      "sortid": 100,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2784,7 +2784,7 @@
     {
       "name": "Thatchdarkvert",
       "type": "block",
-      "sortid": 101,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2794,7 +2794,7 @@
     {
       "name": "Dirtlayer",
       "type": "block",
-      "sortid": 295,
+      "sortid": 299,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2804,7 +2804,7 @@
     {
       "name": "Dirtlayer2",
       "type": "block",
-      "sortid": 488,
+      "sortid": 493,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2814,7 +2814,7 @@
     {
       "name": "Dirtlayer3",
       "type": "block",
-      "sortid": 489,
+      "sortid": 494,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2824,7 +2824,7 @@
     {
       "name": "Dirtlayer4",
       "type": "block",
-      "sortid": 490,
+      "sortid": 495,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2834,7 +2834,7 @@
     {
       "name": "Dirtlayer5",
       "type": "block",
-      "sortid": 491,
+      "sortid": 496,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2844,7 +2844,7 @@
     {
       "name": "Dirtlayer6",
       "type": "block",
-      "sortid": 492,
+      "sortid": 497,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2854,7 +2854,7 @@
     {
       "name": "Dirtlayer7",
       "type": "block",
-      "sortid": 493,
+      "sortid": 498,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2864,7 +2864,7 @@
     {
       "name": "Dirtlayer8",
       "type": "block",
-      "sortid": 494,
+      "sortid": 499,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2874,7 +2874,7 @@
     {
       "name": "DirtlayerOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 495,
+      "sortid": 500,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2908,7 +2908,7 @@
     {
       "name": "Dirtlayer2OnBlockRightClicked",
       "type": "procedure",
-      "sortid": 496,
+      "sortid": 501,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2942,7 +2942,7 @@
     {
       "name": "Dirtlayer3OnBlockRightClicked",
       "type": "procedure",
-      "sortid": 497,
+      "sortid": 502,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2976,7 +2976,7 @@
     {
       "name": "Dirtlayer4OnBlockRightClicked",
       "type": "procedure",
-      "sortid": 498,
+      "sortid": 503,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3010,7 +3010,7 @@
     {
       "name": "Dirtlayer5OnBlockRightClicked",
       "type": "procedure",
-      "sortid": 499,
+      "sortid": 504,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3044,7 +3044,7 @@
     {
       "name": "Dirtlayer6OnBlockRightClicked",
       "type": "procedure",
-      "sortid": 500,
+      "sortid": 505,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3078,7 +3078,7 @@
     {
       "name": "Dirtlayer7OnBlockRightClicked",
       "type": "procedure",
-      "sortid": 501,
+      "sortid": 506,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3112,7 +3112,7 @@
     {
       "name": "Mushroomcolony",
       "type": "block",
-      "sortid": 296,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3122,7 +3122,7 @@
     {
       "name": "Wildbeetroots",
       "type": "block",
-      "sortid": 297,
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3132,7 +3132,7 @@
     {
       "name": "Wildcabbages",
       "type": "block",
-      "sortid": 298,
+      "sortid": 302,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3142,7 +3142,7 @@
     {
       "name": "Wildcarrots",
       "type": "block",
-      "sortid": 299,
+      "sortid": 303,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3152,7 +3152,7 @@
     {
       "name": "Wildonions",
       "type": "block",
-      "sortid": 300,
+      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3162,7 +3162,7 @@
     {
       "name": "Wildlilyofthevalley",
       "type": "block",
-      "sortid": 301,
+      "sortid": 305,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3172,7 +3172,7 @@
     {
       "name": "Carrotcrate",
       "type": "block",
-      "sortid": 421,
+      "sortid": 426,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3182,7 +3182,7 @@
     {
       "name": "Strawbale",
       "type": "block",
-      "sortid": 422,
+      "sortid": 427,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3192,7 +3192,7 @@
     {
       "name": "Riverpebbles",
       "type": "block",
-      "sortid": 286,
+      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3202,7 +3202,7 @@
     {
       "name": "Cabbages",
       "type": "block",
-      "sortid": 302,
+      "sortid": 306,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3212,7 +3212,7 @@
     {
       "name": "Onions",
       "type": "block",
-      "sortid": 303,
+      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3222,7 +3222,7 @@
     {
       "name": "Glassfancyframe",
       "type": "block",
-      "sortid": 375,
+      "sortid": 379,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3232,7 +3232,7 @@
     {
       "name": "Glassfancyframepane",
       "type": "block",
-      "sortid": 376,
+      "sortid": 380,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3242,7 +3242,7 @@
     {
       "name": "Ropevertical",
       "type": "block",
-      "sortid": 395,
+      "sortid": 399,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3252,7 +3252,7 @@
     {
       "name": "Sandstonelargebricks",
       "type": "block",
-      "sortid": 61,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3262,7 +3262,7 @@
     {
       "name": "Screen",
       "type": "block",
-      "sortid": 377,
+      "sortid": 381,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3282,7 +3282,7 @@
     {
       "name": "Vanillagrayconcrete",
       "type": "block",
-      "sortid": 265,
+      "sortid": 269,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3292,7 +3292,7 @@
     {
       "name": "Vanillagreenconcrete",
       "type": "block",
-      "sortid": 266,
+      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3302,7 +3302,7 @@
     {
       "name": "Vanillalightgrayconcrete",
       "type": "block",
-      "sortid": 267,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3312,7 +3312,7 @@
     {
       "name": "Vanillawhiteconcrete",
       "type": "block",
-      "sortid": 268,
+      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3322,7 +3322,7 @@
     {
       "name": "Farmlandalwaysmoist",
       "type": "block",
-      "sortid": 194,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3332,7 +3332,7 @@
     {
       "name": "Statuserror",
       "type": "block",
-      "sortid": 264,
+      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3342,7 +3342,7 @@
     {
       "name": "Thatchcarpet",
       "type": "block",
-      "sortid": 378,
+      "sortid": 382,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3352,7 +3352,7 @@
     {
       "name": "Thatchcarpetdark",
       "type": "block",
-      "sortid": 379,
+      "sortid": 383,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3362,7 +3362,7 @@
     {
       "name": "Firewoodslab",
       "type": "block",
-      "sortid": 380,
+      "sortid": 384,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3372,7 +3372,7 @@
     {
       "name": "Potsgrouped",
       "type": "block",
-      "sortid": 381,
+      "sortid": 385,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3382,7 +3382,7 @@
     {
       "name": "Hangedfish",
       "type": "block",
-      "sortid": 423,
+      "sortid": 428,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3392,7 +3392,7 @@
     {
       "name": "Skillet",
       "type": "block",
-      "sortid": 424,
+      "sortid": 429,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3402,7 +3402,7 @@
     {
       "name": "Tripodpot",
       "type": "block",
-      "sortid": 425,
+      "sortid": 430,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3412,7 +3412,7 @@
     {
       "name": "Sausages",
       "type": "block",
-      "sortid": 426,
+      "sortid": 431,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3422,7 +3422,7 @@
     {
       "name": "Sausagestall",
       "type": "block",
-      "sortid": 427,
+      "sortid": 432,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3432,7 +3432,7 @@
     {
       "name": "Weaponrack",
       "type": "block",
-      "sortid": 382,
+      "sortid": 386,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3442,7 +3442,7 @@
     {
       "name": "Skilletshanged",
       "type": "block",
-      "sortid": 428,
+      "sortid": 433,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3452,7 +3452,7 @@
     {
       "name": "Simpleaxe",
       "type": "block",
-      "sortid": 383,
+      "sortid": 387,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3462,7 +3462,7 @@
     {
       "name": "Pitchfork",
       "type": "block",
-      "sortid": 384,
+      "sortid": 388,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3472,7 +3472,7 @@
     {
       "name": "Guardrail",
       "type": "block",
-      "sortid": 385,
+      "sortid": 389,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3482,7 +3482,7 @@
     {
       "name": "Wheel1",
       "type": "block",
-      "sortid": 386,
+      "sortid": 390,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3492,7 +3492,7 @@
     {
       "name": "Cookedchicken",
       "type": "block",
-      "sortid": 429,
+      "sortid": 434,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3502,7 +3502,7 @@
     {
       "name": "Cookedrabbit",
       "type": "block",
-      "sortid": 430,
+      "sortid": 435,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3512,7 +3512,7 @@
     {
       "name": "Mutton",
       "type": "block",
-      "sortid": 431,
+      "sortid": 436,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3522,7 +3522,7 @@
     {
       "name": "Beef",
       "type": "block",
-      "sortid": 432,
+      "sortid": 437,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3532,7 +3532,7 @@
     {
       "name": "Unlitcandle",
       "type": "block",
-      "sortid": 387,
+      "sortid": 391,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3542,7 +3542,7 @@
     {
       "name": "Wintergrassblock",
       "type": "block",
-      "sortid": 290,
+      "sortid": 294,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3552,7 +3552,7 @@
     {
       "name": "Bigleafedgrass",
       "type": "block",
-      "sortid": 304,
+      "sortid": 308,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3562,7 +3562,7 @@
     {
       "name": "Grayoaktimber",
       "type": "block",
-      "sortid": 229,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3572,7 +3572,7 @@
     {
       "name": "Grayoaktimbercross",
       "type": "block",
-      "sortid": 230,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3582,7 +3582,7 @@
     {
       "name": "Grayoaktimbereast",
       "type": "block",
-      "sortid": 232,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3592,7 +3592,7 @@
     {
       "name": "Grayoaktimberwest",
       "type": "block",
-      "sortid": 231,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3612,7 +3612,7 @@
     {
       "name": "Bushyoakleaves",
       "type": "block",
-      "sortid": 275,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3622,7 +3622,7 @@
     {
       "name": "Bushybirchleaves",
       "type": "block",
-      "sortid": 278,
+      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3632,7 +3632,7 @@
     {
       "name": "Firewoodpile",
       "type": "block",
-      "sortid": 388,
+      "sortid": 392,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3642,7 +3642,7 @@
     {
       "name": "Deadleaves",
       "type": "block",
-      "sortid": 292,
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3652,7 +3652,7 @@
     {
       "name": "Plate0",
       "type": "block",
-      "sortid": 433,
+      "sortid": 438,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3662,7 +3662,7 @@
     {
       "name": "Plate1",
       "type": "block",
-      "sortid": 434,
+      "sortid": 439,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3672,7 +3672,7 @@
     {
       "name": "Stoneblocks",
       "type": "tab",
-      "sortid": 502,
+      "sortid": 507,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3682,7 +3682,7 @@
     {
       "name": "Foodandcookingitems",
       "type": "tab",
-      "sortid": 503,
+      "sortid": 508,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3692,7 +3692,7 @@
     {
       "name": "Woodandtimber",
       "type": "tab",
-      "sortid": 504,
+      "sortid": 509,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3702,7 +3702,7 @@
     {
       "name": "Paleyellowdarktimber",
       "type": "block",
-      "sortid": 233,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3712,7 +3712,7 @@
     {
       "name": "Paleyellowdarktimbercross",
       "type": "block",
-      "sortid": 234,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3722,7 +3722,7 @@
     {
       "name": "Paleyellowdarktimbereast",
       "type": "block",
-      "sortid": 235,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3732,7 +3732,7 @@
     {
       "name": "Paleyellowdarktimberwest",
       "type": "block",
-      "sortid": 236,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3742,7 +3742,7 @@
     {
       "name": "Roofing",
       "type": "tab",
-      "sortid": 505,
+      "sortid": 510,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3752,7 +3752,7 @@
     {
       "name": "Greenrooftiles",
       "type": "block",
-      "sortid": 102,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3762,7 +3762,7 @@
     {
       "name": "Greenrooftilesslab",
       "type": "block",
-      "sortid": 103,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3772,7 +3772,7 @@
     {
       "name": "Greenrooftilesstairs",
       "type": "block",
-      "sortid": 104,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3782,7 +3782,7 @@
     {
       "name": "Greenrooftileswall",
       "type": "block",
-      "sortid": 105,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3792,7 +3792,7 @@
     {
       "name": "Greenrooftilescorner",
       "type": "block",
-      "sortid": 106,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3802,7 +3802,7 @@
     {
       "name": "Greenrooftileverticalslab",
       "type": "block",
-      "sortid": 107,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3812,7 +3812,7 @@
     {
       "name": "Shovel0",
       "type": "block",
-      "sortid": 389,
+      "sortid": 393,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3822,7 +3822,7 @@
     {
       "name": "Oakdoorwowindows",
       "type": "block",
-      "sortid": 392,
+      "sortid": 396,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3832,7 +3832,7 @@
     {
       "name": "Chainharness",
       "type": "block",
-      "sortid": 400,
+      "sortid": 404,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3852,7 +3852,7 @@
     {
       "name": "Paleyellowdaub",
       "type": "block",
-      "sortid": 237,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3862,7 +3862,7 @@
     {
       "name": "Sprucerailing",
       "type": "block",
-      "sortid": 238,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3872,7 +3872,7 @@
     {
       "name": "Sprucerailingb",
       "type": "block",
-      "sortid": 239,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3882,7 +3882,7 @@
     {
       "name": "Sprucerailingm",
       "type": "block",
-      "sortid": 240,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3892,7 +3892,7 @@
     {
       "name": "Sprucerailingt",
       "type": "block",
-      "sortid": 241,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3902,7 +3902,7 @@
     {
       "name": "Blackrooftiles",
       "type": "block",
-      "sortid": 109,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3912,7 +3912,7 @@
     {
       "name": "Blackrooftileslab",
       "type": "block",
-      "sortid": 110,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3922,7 +3922,7 @@
     {
       "name": "Blackrooftilestairs",
       "type": "block",
-      "sortid": 111,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3932,7 +3932,7 @@
     {
       "name": "Blackrooftilewall",
       "type": "block",
-      "sortid": 112,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3942,7 +3942,7 @@
     {
       "name": "Blackrooftilecorner",
       "type": "block",
-      "sortid": 113,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3952,7 +3952,7 @@
     {
       "name": "Blackrooftilevertical",
       "type": "block",
-      "sortid": 114,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3962,7 +3962,7 @@
     {
       "name": "Redtimberwhite",
       "type": "block",
-      "sortid": 242,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3972,7 +3972,7 @@
     {
       "name": "Redtimberwhitecross",
       "type": "block",
-      "sortid": 243,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3982,7 +3982,7 @@
     {
       "name": "Redtimberwhiteeast",
       "type": "block",
-      "sortid": 244,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3992,7 +3992,7 @@
     {
       "name": "Redtimberwhitewest",
       "type": "block",
-      "sortid": 245,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4002,7 +4002,7 @@
     {
       "name": "Redtimberwhitevertical",
       "type": "block",
-      "sortid": 246,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4012,7 +4012,7 @@
     {
       "name": "Bluetimberwhite",
       "type": "block",
-      "sortid": 248,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4022,7 +4022,7 @@
     {
       "name": "Bluetimberwhitecross",
       "type": "block",
-      "sortid": 249,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4032,7 +4032,7 @@
     {
       "name": "Bluetimberwhiteeast",
       "type": "block",
-      "sortid": 250,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4042,7 +4042,7 @@
     {
       "name": "Bluewhitetimberwest",
       "type": "block",
-      "sortid": 251,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4052,7 +4052,7 @@
     {
       "name": "Bluewhitetimbervertical",
       "type": "block",
-      "sortid": 252,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4062,7 +4062,7 @@
     {
       "name": "Bluewindowframe",
       "type": "block",
-      "sortid": 253,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4072,7 +4072,7 @@
     {
       "name": "Redwindowframe",
       "type": "block",
-      "sortid": 247,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4082,7 +4082,7 @@
     {
       "name": "Brickoaktimber",
       "type": "block",
-      "sortid": 254,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4092,7 +4092,7 @@
     {
       "name": "Brickoaktimberclosestudding",
       "type": "block",
-      "sortid": 255,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4102,7 +4102,7 @@
     {
       "name": "Brickoaktimbercross",
       "type": "block",
-      "sortid": 256,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4112,7 +4112,7 @@
     {
       "name": "Brickoaktimbereast",
       "type": "block",
-      "sortid": 257,
+      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4122,7 +4122,7 @@
     {
       "name": "Brickoaktimberwest",
       "type": "block",
-      "sortid": 258,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4142,7 +4142,7 @@
     {
       "name": "Thatchmossy",
       "type": "block",
-      "sortid": 116,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4152,7 +4152,7 @@
     {
       "name": "Thatchmossystairs",
       "type": "block",
-      "sortid": 117,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4162,7 +4162,7 @@
     {
       "name": "Thatchmossyslab",
       "type": "block",
-      "sortid": 118,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4172,7 +4172,7 @@
     {
       "name": "Thatchmossywall",
       "type": "block",
-      "sortid": 119,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4182,7 +4182,7 @@
     {
       "name": "Limestone",
       "type": "block",
-      "sortid": 306,
+      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4192,7 +4192,7 @@
     {
       "name": "Limestoneslab",
       "type": "block",
-      "sortid": 307,
+      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4202,7 +4202,7 @@
     {
       "name": "Limestonestairs",
       "type": "block",
-      "sortid": 308,
+      "sortid": 312,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4212,7 +4212,7 @@
     {
       "name": "Limestonewall",
       "type": "block",
-      "sortid": 309,
+      "sortid": 313,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4222,7 +4222,7 @@
     {
       "name": "Limestone0",
       "type": "block",
-      "sortid": 310,
+      "sortid": 314,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4232,7 +4232,7 @@
     {
       "name": "Limestone0slab",
       "type": "block",
-      "sortid": 311,
+      "sortid": 315,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4242,7 +4242,7 @@
     {
       "name": "Limestone0stairs",
       "type": "block",
-      "sortid": 312,
+      "sortid": 316,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4252,7 +4252,7 @@
     {
       "name": "Limestone0wall",
       "type": "block",
-      "sortid": 313,
+      "sortid": 317,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4262,7 +4262,7 @@
     {
       "name": "Flies",
       "type": "block",
-      "sortid": 390,
+      "sortid": 394,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4272,7 +4272,7 @@
     {
       "name": "Oakshutterright",
       "type": "block",
-      "sortid": 394,
+      "sortid": 398,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4282,7 +4282,7 @@
     {
       "name": "Oakshutteropenright",
       "type": "block",
-      "sortid": 506,
+      "sortid": 511,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4292,7 +4292,7 @@
     {
       "name": "OakshutterrightOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 507,
+      "sortid": 512,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4322,7 +4322,7 @@
     {
       "name": "OakshutteropenrightOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 508,
+      "sortid": 513,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4352,7 +4352,7 @@
     {
       "name": "Professions",
       "type": "tab",
-      "sortid": 509,
+      "sortid": 514,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4362,7 +4362,7 @@
     {
       "name": "Profession0",
       "type": "block",
-      "sortid": 436,
+      "sortid": 441,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4372,7 +4372,7 @@
     {
       "name": "Profession1",
       "type": "block",
-      "sortid": 437,
+      "sortid": 442,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4382,7 +4382,7 @@
     {
       "name": "Profession2",
       "type": "block",
-      "sortid": 438,
+      "sortid": 443,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4392,7 +4392,7 @@
     {
       "name": "Profession3",
       "type": "block",
-      "sortid": 439,
+      "sortid": 444,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4402,7 +4402,7 @@
     {
       "name": "Profession4",
       "type": "block",
-      "sortid": 440,
+      "sortid": 445,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4412,7 +4412,7 @@
     {
       "name": "Profession5",
       "type": "block",
-      "sortid": 441,
+      "sortid": 446,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4422,7 +4422,7 @@
     {
       "name": "Profession6",
       "type": "block",
-      "sortid": 442,
+      "sortid": 447,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4432,7 +4432,7 @@
     {
       "name": "Profession7",
       "type": "block",
-      "sortid": 443,
+      "sortid": 448,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4442,7 +4442,7 @@
     {
       "name": "Profession8",
       "type": "block",
-      "sortid": 444,
+      "sortid": 449,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4452,7 +4452,7 @@
     {
       "name": "Profession9",
       "type": "block",
-      "sortid": 445,
+      "sortid": 450,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4462,7 +4462,7 @@
     {
       "name": "Profession10",
       "type": "block",
-      "sortid": 446,
+      "sortid": 451,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4472,7 +4472,7 @@
     {
       "name": "Profession11",
       "type": "block",
-      "sortid": 447,
+      "sortid": 452,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4482,7 +4482,7 @@
     {
       "name": "Profession12",
       "type": "block",
-      "sortid": 448,
+      "sortid": 453,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4492,7 +4492,7 @@
     {
       "name": "Profession13",
       "type": "block",
-      "sortid": 449,
+      "sortid": 454,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4502,7 +4502,7 @@
     {
       "name": "Profession14",
       "type": "block",
-      "sortid": 450,
+      "sortid": 455,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4512,7 +4512,7 @@
     {
       "name": "Profession15",
       "type": "block",
-      "sortid": 451,
+      "sortid": 456,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4522,7 +4522,7 @@
     {
       "name": "Profession16",
       "type": "block",
-      "sortid": 452,
+      "sortid": 457,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4532,7 +4532,7 @@
     {
       "name": "Profession17",
       "type": "block",
-      "sortid": 453,
+      "sortid": 458,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4542,7 +4542,7 @@
     {
       "name": "Profession18",
       "type": "block",
-      "sortid": 454,
+      "sortid": 459,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4552,7 +4552,7 @@
     {
       "name": "Profession19",
       "type": "block",
-      "sortid": 455,
+      "sortid": 460,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4562,7 +4562,7 @@
     {
       "name": "Profession20",
       "type": "block",
-      "sortid": 456,
+      "sortid": 461,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4572,7 +4572,7 @@
     {
       "name": "Profession21",
       "type": "block",
-      "sortid": 457,
+      "sortid": 462,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4582,7 +4582,7 @@
     {
       "name": "Profession22",
       "type": "block",
-      "sortid": 458,
+      "sortid": 463,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4592,7 +4592,7 @@
     {
       "name": "Profession23",
       "type": "block",
-      "sortid": 459,
+      "sortid": 464,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4602,7 +4602,7 @@
     {
       "name": "Thatchgray",
       "type": "block",
-      "sortid": 120,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4612,7 +4612,7 @@
     {
       "name": "Thatchgrayslab",
       "type": "block",
-      "sortid": 121,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4622,7 +4622,7 @@
     {
       "name": "Thatchgraystairs",
       "type": "block",
-      "sortid": 122,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4632,7 +4632,7 @@
     {
       "name": "Thatchgraywall",
       "type": "block",
-      "sortid": 123,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4642,7 +4642,7 @@
     {
       "name": "Thatchgraycrossstitch",
       "type": "block",
-      "sortid": 124,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4652,7 +4652,7 @@
     {
       "name": "Thatchgraycrossstitchslab",
       "type": "block",
-      "sortid": 125,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4662,7 +4662,7 @@
     {
       "name": "Thatchgraycrossstitchstairs",
       "type": "block",
-      "sortid": 126,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4672,7 +4672,7 @@
     {
       "name": "Thatchgraycrossstitchwall",
       "type": "block",
-      "sortid": 127,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4682,7 +4682,7 @@
     {
       "name": "Vinesrosewhite",
       "type": "block",
-      "sortid": 305,
+      "sortid": 309,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4692,7 +4692,7 @@
     {
       "name": "Swordofswordofallswords",
       "type": "tool",
-      "sortid": 510,
+      "sortid": 515,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4702,7 +4702,7 @@
     {
       "name": "GuestflyCommandExecuted",
       "type": "procedure",
-      "sortid": 511,
+      "sortid": 516,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4720,7 +4720,7 @@
     {
       "name": "Limestone1",
       "type": "block",
-      "sortid": 314,
+      "sortid": 318,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4730,7 +4730,7 @@
     {
       "name": "Limestone2",
       "type": "block",
-      "sortid": 318,
+      "sortid": 322,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4740,7 +4740,7 @@
     {
       "name": "Limestone3",
       "type": "block",
-      "sortid": 322,
+      "sortid": 326,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4750,7 +4750,7 @@
     {
       "name": "Weperms",
       "type": "command",
-      "sortid": 512,
+      "sortid": 517,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4759,7 +4759,7 @@
     {
       "name": "Ropehorizontal",
       "type": "block",
-      "sortid": 396,
+      "sortid": 400,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4769,7 +4769,7 @@
     {
       "name": "Ropehorizontalcurved",
       "type": "block",
-      "sortid": 397,
+      "sortid": 401,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4779,7 +4779,7 @@
     {
       "name": "Limestone1slab",
       "type": "block",
-      "sortid": 315,
+      "sortid": 319,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4789,7 +4789,7 @@
     {
       "name": "Limestone1stairs",
       "type": "block",
-      "sortid": 316,
+      "sortid": 320,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4799,7 +4799,7 @@
     {
       "name": "Limestone1wall",
       "type": "block",
-      "sortid": 317,
+      "sortid": 321,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4809,7 +4809,7 @@
     {
       "name": "Limestone2slab",
       "type": "block",
-      "sortid": 319,
+      "sortid": 323,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4819,7 +4819,7 @@
     {
       "name": "Limestone2stairs",
       "type": "block",
-      "sortid": 320,
+      "sortid": 324,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4829,7 +4829,7 @@
     {
       "name": "Limestone2wall",
       "type": "block",
-      "sortid": 321,
+      "sortid": 325,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4839,7 +4839,7 @@
     {
       "name": "Limestone3slab",
       "type": "block",
-      "sortid": 323,
+      "sortid": 327,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4849,7 +4849,7 @@
     {
       "name": "Limestone3stairs",
       "type": "block",
-      "sortid": 324,
+      "sortid": 328,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4859,7 +4859,7 @@
     {
       "name": "Limestone3wall",
       "type": "block",
-      "sortid": 325,
+      "sortid": 329,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4869,7 +4869,7 @@
     {
       "name": "Bannerhighfort",
       "type": "block",
-      "sortid": 513,
+      "sortid": 518,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4879,7 +4879,7 @@
     {
       "name": "Banneryellow",
       "type": "block",
-      "sortid": 412,
+      "sortid": 416,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4889,7 +4889,7 @@
     {
       "name": "Spruceshutterright",
       "type": "block",
-      "sortid": 402,
+      "sortid": 406,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4899,7 +4899,7 @@
     {
       "name": "Spruceshutteropenright",
       "type": "block",
-      "sortid": 514,
+      "sortid": 519,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4909,7 +4909,7 @@
     {
       "name": "SpruceshutteropenrightOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 515,
+      "sortid": 520,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4939,7 +4939,7 @@
     {
       "name": "SpruceshutterrightOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 516,
+      "sortid": 521,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4969,7 +4969,7 @@
     {
       "name": "Utility",
       "type": "tab",
-      "sortid": 517,
+      "sortid": 522,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4979,7 +4979,7 @@
     {
       "name": "Statushighclass",
       "type": "block",
-      "sortid": 269,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4989,7 +4989,7 @@
     {
       "name": "Statusmiddleclass",
       "type": "block",
-      "sortid": 270,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4999,7 +4999,7 @@
     {
       "name": "Statuslowclass",
       "type": "block",
-      "sortid": 271,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5009,7 +5009,7 @@
     {
       "name": "Stoollarge",
       "type": "block",
-      "sortid": 403,
+      "sortid": 407,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5019,7 +5019,7 @@
     {
       "name": "Table",
       "type": "block",
-      "sortid": 404,
+      "sortid": 408,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5029,7 +5029,7 @@
     {
       "name": "Tableturnedover",
       "type": "block",
-      "sortid": 405,
+      "sortid": 409,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5039,7 +5039,7 @@
     {
       "name": "Oakwalllog",
       "type": "block",
-      "sortid": 326,
+      "sortid": 330,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5049,7 +5049,7 @@
     {
       "name": "Oakfencelog",
       "type": "block",
-      "sortid": 327,
+      "sortid": 331,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5059,7 +5059,7 @@
     {
       "name": "Forestfloor",
       "type": "block",
-      "sortid": 291,
+      "sortid": 295,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5069,7 +5069,7 @@
     {
       "name": "Mossystone",
       "type": "block",
-      "sortid": 293,
+      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5079,7 +5079,7 @@
     {
       "name": "Tatami1x1",
       "type": "block",
-      "sortid": 406,
+      "sortid": 410,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5089,7 +5089,7 @@
     {
       "name": "Tatami1x2",
       "type": "block",
-      "sortid": 407,
+      "sortid": 411,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5099,7 +5099,7 @@
     {
       "name": "Chabudai",
       "type": "block",
-      "sortid": 408,
+      "sortid": 412,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5109,7 +5109,7 @@
     {
       "name": "Shoji",
       "type": "block",
-      "sortid": 409,
+      "sortid": 413,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5119,7 +5119,7 @@
     {
       "name": "Shojidoorclosed",
       "type": "block",
-      "sortid": 195,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5129,7 +5129,7 @@
     {
       "name": "Shojidooropen",
       "type": "block",
-      "sortid": 518,
+      "sortid": 523,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5139,7 +5139,7 @@
     {
       "name": "ProcedureShojidooropen",
       "type": "procedure",
-      "sortid": 519,
+      "sortid": 524,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5169,7 +5169,7 @@
     {
       "name": "ProcedureShojidoorclose",
       "type": "procedure",
-      "sortid": 520,
+      "sortid": 525,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5199,7 +5199,7 @@
     {
       "name": "Bushycherryleavesbranch",
       "type": "block",
-      "sortid": 280,
+      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5209,7 +5209,7 @@
     {
       "name": "Sprucefencelog",
       "type": "block",
-      "sortid": 328,
+      "sortid": 332,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5219,7 +5219,7 @@
     {
       "name": "Sprucewalllog",
       "type": "block",
-      "sortid": 329,
+      "sortid": 333,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5229,7 +5229,7 @@
     {
       "name": "Teaset",
       "type": "block",
-      "sortid": 435,
+      "sortid": 440,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5239,7 +5239,7 @@
     {
       "name": "Tatamiblockfull",
       "type": "block",
-      "sortid": 410,
+      "sortid": 414,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5249,7 +5249,7 @@
     {
       "name": "Tatamiblockhalf",
       "type": "block",
-      "sortid": 411,
+      "sortid": 415,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5259,7 +5259,7 @@
     {
       "name": "Cobblestonedoor",
       "type": "block",
-      "sortid": 57,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5269,7 +5269,7 @@
     {
       "name": "Slatetipblack",
       "type": "block",
-      "sortid": 115,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5279,7 +5279,7 @@
     {
       "name": "Slatetipblue",
       "type": "block",
-      "sortid": 81,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5289,7 +5289,7 @@
     {
       "name": "Slatetipbrown",
       "type": "block",
-      "sortid": 84,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5299,7 +5299,7 @@
     {
       "name": "Slatetipgreen",
       "type": "block",
-      "sortid": 108,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5309,7 +5309,7 @@
     {
       "name": "Slatetipnether",
       "type": "block",
-      "sortid": 90,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5319,7 +5319,7 @@
     {
       "name": "Slatetipred",
       "type": "block",
-      "sortid": 87,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5329,7 +5329,7 @@
     {
       "name": "Slatetipshingles",
       "type": "block",
-      "sortid": 97,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5339,7 +5339,7 @@
     {
       "name": "Bushyspruceleaves",
       "type": "block",
-      "sortid": 279,
+      "sortid": 283,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5349,7 +5349,7 @@
     {
       "name": "Bushyoakleavesautumnal",
       "type": "block",
-      "sortid": 277,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5359,7 +5359,7 @@
     {
       "name": "Floorcarved3",
       "type": "block",
-      "sortid": 58,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5369,7 +5369,7 @@
     {
       "name": "Blackmarble32",
       "type": "block",
-      "sortid": 59,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5379,7 +5379,7 @@
     {
       "name": "Darkoakwallpanel",
       "type": "block",
-      "sortid": 259,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5389,7 +5389,7 @@
     {
       "name": "Bannerred",
       "type": "block",
-      "sortid": 413,
+      "sortid": 417,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5399,7 +5399,7 @@
     {
       "name": "Bannergreen",
       "type": "block",
-      "sortid": 414,
+      "sortid": 418,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5439,7 +5439,7 @@
     {
       "name": "Stonetest1",
       "type": "block",
-      "sortid": 521,
+      "sortid": 526,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5449,7 +5449,7 @@
     {
       "name": "Anglosaxonsoldierguard",
       "type": "block",
-      "sortid": 460,
+      "sortid": 465,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5459,7 +5459,7 @@
     {
       "name": "Anglosaxonsoldierattack",
       "type": "block",
-      "sortid": 522,
+      "sortid": 527,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5469,7 +5469,7 @@
     {
       "name": "AnglosaxonsoldierattackOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 523,
+      "sortid": 528,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5499,7 +5499,7 @@
     {
       "name": "AnglosaxonsoldierguardOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 524,
+      "sortid": 529,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5529,7 +5529,7 @@
     {
       "name": "Danishsoldierattack",
       "type": "block",
-      "sortid": 525,
+      "sortid": 530,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5539,7 +5539,7 @@
     {
       "name": "Danishsoldierguard",
       "type": "block",
-      "sortid": 461,
+      "sortid": 466,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5549,7 +5549,7 @@
     {
       "name": "DanishsoldierguardOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 526,
+      "sortid": 531,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5579,7 +5579,7 @@
     {
       "name": "DanishsoldierattackOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 527,
+      "sortid": 532,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5609,7 +5609,7 @@
     {
       "name": "Frankishsoldierguard",
       "type": "block",
-      "sortid": 462,
+      "sortid": 467,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5619,7 +5619,7 @@
     {
       "name": "Frankishsoldierattack",
       "type": "block",
-      "sortid": 528,
+      "sortid": 533,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5629,7 +5629,7 @@
     {
       "name": "FrankishsoldierattackOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 529,
+      "sortid": 534,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5659,7 +5659,7 @@
     {
       "name": "FrankishsoldierguardOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 530,
+      "sortid": 535,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5689,7 +5689,7 @@
     {
       "name": "Frisiisoldierattack",
       "type": "block",
-      "sortid": 531,
+      "sortid": 536,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5699,7 +5699,7 @@
     {
       "name": "Frisiisoldierguard",
       "type": "block",
-      "sortid": 463,
+      "sortid": 468,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5709,7 +5709,7 @@
     {
       "name": "FrisiisoldierguardOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 532,
+      "sortid": 537,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5739,7 +5739,7 @@
     {
       "name": "FrisiisoldierattackOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 533,
+      "sortid": 538,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5769,7 +5769,7 @@
     {
       "name": "Bushyoakleavesapples",
       "type": "block",
-      "sortid": 276,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5779,7 +5779,7 @@
     {
       "name": "TheeternaloneOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 534,
+      "sortid": 539,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5809,7 +5809,7 @@
     {
       "name": "Theeternalone",
       "type": "block",
-      "sortid": 535,
+      "sortid": 540,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5829,7 +5829,7 @@
     {
       "name": "Birchfencelog",
       "type": "block",
-      "sortid": 330,
+      "sortid": 334,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5839,7 +5839,7 @@
     {
       "name": "Birchwalllog",
       "type": "block",
-      "sortid": 331,
+      "sortid": 335,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5849,7 +5849,7 @@
     {
       "name": "Newshingletexturetest",
       "type": "block",
-      "sortid": 128,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5859,7 +5859,7 @@
     {
       "name": "Granitebricks",
       "type": "block",
-      "sortid": 62,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5869,7 +5869,7 @@
     {
       "name": "Granitebrickstairs",
       "type": "block",
-      "sortid": 63,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5879,7 +5879,7 @@
     {
       "name": "Granitebrickslab",
       "type": "block",
-      "sortid": 64,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5889,7 +5889,7 @@
     {
       "name": "Granitebrickwall",
       "type": "block",
-      "sortid": 65,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5899,7 +5899,7 @@
     {
       "name": "Granitecobble",
       "type": "block",
-      "sortid": 66,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5909,7 +5909,7 @@
     {
       "name": "Granitecobbleslab",
       "type": "block",
-      "sortid": 67,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5919,7 +5919,7 @@
     {
       "name": "Granitecobblestairs",
       "type": "block",
-      "sortid": 68,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5929,7 +5929,7 @@
     {
       "name": "Granitecobblewall",
       "type": "block",
-      "sortid": 69,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5939,7 +5939,7 @@
     {
       "name": "Granitebricktrapdoor",
       "type": "block",
-      "sortid": 70,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5949,7 +5949,7 @@
     {
       "name": "Granitecobbletrapdoor",
       "type": "block",
-      "sortid": 71,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5959,7 +5959,7 @@
     {
       "name": "Granitelargebricks",
       "type": "block",
-      "sortid": 72,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5969,7 +5969,7 @@
     {
       "name": "Granitesmallbricks",
       "type": "block",
-      "sortid": 73,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5979,7 +5979,7 @@
     {
       "name": "Granitesmallbrickslab",
       "type": "block",
-      "sortid": 74,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5989,7 +5989,7 @@
     {
       "name": "Granitesmallbrickstairs",
       "type": "block",
-      "sortid": 75,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5999,7 +5999,7 @@
     {
       "name": "Granitesmallbrickwall",
       "type": "block",
-      "sortid": 76,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -6009,7 +6009,7 @@
     {
       "name": "Granitesmallbricktrapdoor",
       "type": "block",
-      "sortid": 77,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -6019,7 +6019,7 @@
     {
       "name": "Grassblockslab",
       "type": "block",
-      "sortid": 294,
+      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -6029,7 +6029,7 @@
     {
       "name": "Wolfpelt",
       "type": "block",
-      "sortid": 391,
+      "sortid": 395,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -6039,7 +6039,7 @@
     {
       "name": "Ropediagonal",
       "type": "block",
-      "sortid": 398,
+      "sortid": 402,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -6049,7 +6049,7 @@
     {
       "name": "Tanningrack",
       "type": "block",
-      "sortid": 536,
+      "sortid": 419,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -6059,7 +6059,7 @@
     {
       "name": "Wattlecorner",
       "type": "block",
-      "sortid": 537,
+      "sortid": 541,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -6069,7 +6069,7 @@
     {
       "name": "WattleOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 538,
+      "sortid": 542,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -6103,7 +6103,7 @@
     {
       "name": "Oakwallpanel",
       "type": "block",
-      "sortid": 539,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -6113,12 +6113,32 @@
     {
       "name": "Aaatrapdoor",
       "type": "block",
-      "sortid": 540,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "aaatrapdoor",
       "path": "~/Misc/abandoned_textures"
+    },
+    {
+      "name": "Aadoor",
+      "type": "block",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aadoor",
+      "path": "~/Misc/abandoned_textures"
+    },
+    {
+      "name": "Tudorbricksaged",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tudorbricksaged",
+      "path": "~/Stoneblocks"
     }
   ],
   "variable_elements": [],
@@ -6127,8 +6147,8 @@
     "en_us": {
       "block.haegrilon.smoke": "Smoke",
       "block.haegrilontest.thatchgraywall": "Gray Thatch",
-      "block.haegrilon.beamhorisontal": "Beam (Horizontal)",
       "block.haegrilontest.blueslatecorner": "Blue Slate Corner",
+      "block.haegrilon.beamhorisontal": "Beam (Horizontal)",
       "block.haegrilon.browntimbereast": "Brown Timber East",
       "block.haegrilon.lightmud": "Light Mud",
       "block.haegrilontest.teaset": "Tea Set",
@@ -6140,9 +6160,9 @@
       "block.haegrilon.wovenwoolbluestairs": "Blue Woven Wool Stairs",
       "block.haegrilon.dioritetrapdoor": "Diorite Trapdoor",
       "block.haegrilontest.blackmarble_32": "Black Marble",
-      "block.haegrilontest.granitecobblewall": "Granite Cobble Wall",
-      "block.haegrilontest.slatetipblue": "Blue Slate Tip",
       "block.haegrilontest.blackwoodthinwall": "Blackwood Thin Wall",
+      "block.haegrilontest.slatetipblue": "Blue Slate Tip",
+      "block.haegrilontest.granitecobblewall": "Granite Cobble Wall",
       "block.haegrilontest.icespike": "Icespike",
       "block.haegrilon.wovenwoolyellow": "Yellow Woven Wool",
       "block.haegrilon.stove": "Stove",
@@ -6652,6 +6672,7 @@
       "block.haegrilon.knife": "Knife",
       "block.haegrilon.bronzestairs": "Bronze Stairs",
       "block.haegrilon.bronzwall": "Bronze Wall",
+      "block.haegrilontest.aadoor": "Aadoor",
       "block.haegrilon.hoppersandstone": "Sandstone Hopper",
       "block.haegrilontest.blackrooftilestairs": "Black Roof Tile Stairs",
       "block.haegrilon.wovenwoolgreenstairs": "Green Woven Wool Stairs",
@@ -6677,6 +6698,7 @@
       "block.haegrilontest.granitebrickstairs": "Granite Brick Stairs",
       "block.haegrilon.clotheshanger": "Clotheshanger",
       "block.haegrilontest.blackwoodwall": "Blackwood Wall",
+      "block.haegrilontest.tudorbricksaged": "Tudor Bricks Aged",
       "item.haegrilon.shamker": "Shamker",
       "block.haegrilontest.granitelargebricks": "Granite Large Bricks",
       "block.haegrilon.redtimbereast": "Red Timber East",

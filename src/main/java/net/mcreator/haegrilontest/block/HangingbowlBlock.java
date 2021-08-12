@@ -48,7 +48,7 @@ public class HangingbowlBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:hangingbowl")
 	public static final Block block = null;
 	public HangingbowlBlock(HaegrilontestModElements instance) {
-		super(instance, 420);
+		super(instance, 425);
 	}
 
 	@Override

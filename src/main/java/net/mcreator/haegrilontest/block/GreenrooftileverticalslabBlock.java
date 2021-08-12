@@ -48,7 +48,7 @@ public class GreenrooftileverticalslabBlock extends HaegrilontestModElements.Mod
 	@ObjectHolder("haegrilontest:greenrooftileverticalslab")
 	public static final Block block = null;
 	public GreenrooftileverticalslabBlock(HaegrilontestModElements instance) {
-		super(instance, 107);
+		super(instance, 108);
 	}
 
 	@Override

@@ -48,7 +48,7 @@ public class ClaypotBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:claypot")
 	public static final Block block = null;
 	public ClaypotBlock(HaegrilontestModElements instance) {
-		super(instance, 334);
+		super(instance, 338);
 	}
 
 	@Override

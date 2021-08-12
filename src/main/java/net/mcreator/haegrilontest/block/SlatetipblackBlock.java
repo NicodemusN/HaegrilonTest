@@ -44,7 +44,7 @@ public class SlatetipblackBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:slatetipblack")
 	public static final Block block = null;
 	public SlatetipblackBlock(HaegrilontestModElements instance) {
-		super(instance, 115);
+		super(instance, 116);
 	}
 
 	@Override

@@ -48,7 +48,7 @@ public class ClotheshangerBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:clotheshanger")
 	public static final Block block = null;
 	public ClotheshangerBlock(HaegrilontestModElements instance) {
-		super(instance, 357);
+		super(instance, 361);
 	}
 
 	@Override

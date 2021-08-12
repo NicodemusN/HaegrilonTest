@@ -50,7 +50,7 @@ public class FrankishsoldierguardBlock extends HaegrilontestModElements.ModEleme
 	@ObjectHolder("haegrilontest:frankishsoldierguard")
 	public static final Block block = null;
 	public FrankishsoldierguardBlock(HaegrilontestModElements instance) {
-		super(instance, 462);
+		super(instance, 467);
 	}
 
 	@Override

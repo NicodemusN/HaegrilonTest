@@ -27,7 +27,7 @@ public class WhiteoaktimberclosestuddingBlock extends HaegrilontestModElements.M
 	@ObjectHolder("haegrilontest:whiteoaktimberclosestudding")
 	public static final Block block = null;
 	public WhiteoaktimberclosestuddingBlock(HaegrilontestModElements instance) {
-		super(instance, 187);
+		super(instance, 188);
 	}
 
 	@Override

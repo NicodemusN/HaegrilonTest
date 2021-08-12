@@ -48,7 +48,7 @@ public class PitchforkBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:pitchfork")
 	public static final Block block = null;
 	public PitchforkBlock(HaegrilontestModElements instance) {
-		super(instance, 384);
+		super(instance, 388);
 	}
 
 	@Override

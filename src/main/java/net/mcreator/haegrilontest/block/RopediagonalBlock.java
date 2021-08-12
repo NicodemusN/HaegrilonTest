@@ -44,7 +44,7 @@ public class RopediagonalBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:ropediagonal")
 	public static final Block block = null;
 	public RopediagonalBlock(HaegrilontestModElements instance) {
-		super(instance, 398);
+		super(instance, 402);
 	}
 
 	@Override

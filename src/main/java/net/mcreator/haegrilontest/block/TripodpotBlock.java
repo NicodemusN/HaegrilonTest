@@ -48,7 +48,7 @@ public class TripodpotBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:tripodpot")
 	public static final Block block = null;
 	public TripodpotBlock(HaegrilontestModElements instance) {
-		super(instance, 425);
+		super(instance, 430);
 	}
 
 	@Override

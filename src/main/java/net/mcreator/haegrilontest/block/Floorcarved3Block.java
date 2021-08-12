@@ -27,7 +27,7 @@ public class Floorcarved3Block extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:floorcarved_3")
 	public static final Block block = null;
 	public Floorcarved3Block(HaegrilontestModElements instance) {
-		super(instance, 58);
+		super(instance, 59);
 	}
 
 	@Override

@@ -36,7 +36,7 @@ public class OnionsBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:onions")
 	public static final Block block = null;
 	public OnionsBlock(HaegrilontestModElements instance) {
-		super(instance, 303);
+		super(instance, 307);
 	}
 
 	@Override

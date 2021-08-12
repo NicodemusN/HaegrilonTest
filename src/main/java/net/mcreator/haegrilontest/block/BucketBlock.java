@@ -36,7 +36,7 @@ public class BucketBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:bucket")
 	public static final Block block = null;
 	public BucketBlock(HaegrilontestModElements instance) {
-		super(instance, 350);
+		super(instance, 354);
 	}
 
 	@Override

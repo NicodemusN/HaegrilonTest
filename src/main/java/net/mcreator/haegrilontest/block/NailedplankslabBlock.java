@@ -29,7 +29,7 @@ public class NailedplankslabBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:nailedplankslab")
 	public static final Block block = null;
 	public NailedplankslabBlock(HaegrilontestModElements instance) {
-		super(instance, 220);
+		super(instance, 224);
 	}
 
 	@Override

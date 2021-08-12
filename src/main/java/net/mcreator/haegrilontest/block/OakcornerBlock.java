@@ -48,7 +48,7 @@ public class OakcornerBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:oakcorner")
 	public static final Block block = null;
 	public OakcornerBlock(HaegrilontestModElements instance) {
-		super(instance, 197);
+		super(instance, 201);
 	}
 
 	@Override

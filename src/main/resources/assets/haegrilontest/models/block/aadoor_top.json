@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "haegrilontest:blocks/birch_planks",
+    "top": "haegrilontest:blocks/birch_planks"
+  }
+}

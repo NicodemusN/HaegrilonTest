@@ -18,7 +18,7 @@ import java.util.Map;
 @HaegrilontestModElements.ModElement.Tag
 public class WattleOnBlockRightClickedProcedure extends HaegrilontestModElements.ModElement {
 	public WattleOnBlockRightClickedProcedure(HaegrilontestModElements instance) {
-		super(instance, 538);
+		super(instance, 542);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

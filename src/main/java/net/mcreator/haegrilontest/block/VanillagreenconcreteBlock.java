@@ -32,7 +32,7 @@ public class VanillagreenconcreteBlock extends HaegrilontestModElements.ModEleme
 	@ObjectHolder("haegrilontest:vanillagreenconcrete")
 	public static final Block block = null;
 	public VanillagreenconcreteBlock(HaegrilontestModElements instance) {
-		super(instance, 266);
+		super(instance, 270);
 	}
 
 	@Override

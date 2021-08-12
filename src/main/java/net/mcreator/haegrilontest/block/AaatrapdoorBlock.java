@@ -33,7 +33,7 @@ public class AaatrapdoorBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:aaatrapdoor")
 	public static final Block block = null;
 	public AaatrapdoorBlock(HaegrilontestModElements instance) {
-		super(instance, 540);
+		super(instance, 198);
 	}
 
 	@Override

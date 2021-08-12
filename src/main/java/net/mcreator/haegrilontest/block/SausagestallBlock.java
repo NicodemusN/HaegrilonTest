@@ -48,7 +48,7 @@ public class SausagestallBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:sausagestall")
 	public static final Block block = null;
 	public SausagestallBlock(HaegrilontestModElements instance) {
-		super(instance, 427);
+		super(instance, 432);
 	}
 
 	@Override

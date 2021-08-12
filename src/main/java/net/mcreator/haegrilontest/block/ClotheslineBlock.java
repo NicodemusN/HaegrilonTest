@@ -48,7 +48,7 @@ public class ClotheslineBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:clothesline")
 	public static final Block block = null;
 	public ClotheslineBlock(HaegrilontestModElements instance) {
-		super(instance, 342);
+		super(instance, 346);
 	}
 
 	@Override

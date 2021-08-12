@@ -28,7 +28,7 @@ public class Limestone1stairsBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:limestone_1stairs")
 	public static final Block block = null;
 	public Limestone1stairsBlock(HaegrilontestModElements instance) {
-		super(instance, 316);
+		super(instance, 320);
 	}
 
 	@Override

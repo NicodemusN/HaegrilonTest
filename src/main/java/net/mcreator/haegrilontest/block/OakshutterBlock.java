@@ -56,7 +56,7 @@ public class OakshutterBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:oakshutter")
 	public static final Block block = null;
 	public OakshutterBlock(HaegrilontestModElements instance) {
-		super(instance, 393);
+		super(instance, 397);
 	}
 
 	@Override

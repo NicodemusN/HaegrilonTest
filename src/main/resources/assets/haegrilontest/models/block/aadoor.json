@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "haegrilontest:blocks/birch_planks",
+    "particle": "haegrilontest:blocks/birch_planks"
+  }
+}

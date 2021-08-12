@@ -44,7 +44,7 @@ public class IcewallBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:icewall")
 	public static final Block block = null;
 	public IcewallBlock(HaegrilontestModElements instance) {
-		super(instance, 272);
+		super(instance, 276);
 	}
 
 	@Override

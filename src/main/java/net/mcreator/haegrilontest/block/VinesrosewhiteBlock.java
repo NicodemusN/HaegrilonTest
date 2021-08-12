@@ -54,7 +54,7 @@ public class VinesrosewhiteBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:vinesrosewhite")
 	public static final Block block = null;
 	public VinesrosewhiteBlock(HaegrilontestModElements instance) {
-		super(instance, 305);
+		super(instance, 309);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlockColorRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ItemColorRegisterHandler());
 	}

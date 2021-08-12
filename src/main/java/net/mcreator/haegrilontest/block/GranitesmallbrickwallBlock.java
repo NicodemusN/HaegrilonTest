@@ -40,7 +40,7 @@ public class GranitesmallbrickwallBlock extends HaegrilontestModElements.ModElem
 	@ObjectHolder("haegrilontest:granitesmallbrickwall")
 	public static final Block block = null;
 	public GranitesmallbrickwallBlock(HaegrilontestModElements instance) {
-		super(instance, 76);
+		super(instance, 77);
 	}
 
 	@Override

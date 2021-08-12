@@ -48,7 +48,7 @@ public class TanningrackBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:tanningrack")
 	public static final Block block = null;
 	public TanningrackBlock(HaegrilontestModElements instance) {
-		super(instance, 536);
+		super(instance, 419);
 	}
 
 	@Override

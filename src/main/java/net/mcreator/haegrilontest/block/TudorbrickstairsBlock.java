@@ -28,7 +28,7 @@ public class TudorbrickstairsBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:tudorbrickstairs")
 	public static final Block block = null;
 	public TudorbrickstairsBlock(HaegrilontestModElements instance) {
-		super(instance, 51);
+		super(instance, 52);
 	}
 
 	@Override

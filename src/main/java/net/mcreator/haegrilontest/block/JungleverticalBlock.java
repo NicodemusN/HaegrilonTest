@@ -48,7 +48,7 @@ public class JungleverticalBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:junglevertical")
 	public static final Block block = null;
 	public JungleverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 206);
+		super(instance, 210);
 	}
 
 	@Override

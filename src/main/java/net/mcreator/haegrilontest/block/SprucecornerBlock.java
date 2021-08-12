@@ -48,7 +48,7 @@ public class SprucecornerBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:sprucecorner")
 	public static final Block block = null;
 	public SprucecornerBlock(HaegrilontestModElements instance) {
-		super(instance, 201);
+		super(instance, 205);
 	}
 
 	@Override

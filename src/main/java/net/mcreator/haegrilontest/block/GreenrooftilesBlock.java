@@ -27,7 +27,7 @@ public class GreenrooftilesBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:greenrooftiles")
 	public static final Block block = null;
 	public GreenrooftilesBlock(HaegrilontestModElements instance) {
-		super(instance, 102);
+		super(instance, 103);
 	}
 
 	@Override

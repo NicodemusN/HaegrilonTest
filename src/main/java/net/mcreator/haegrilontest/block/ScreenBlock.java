@@ -33,7 +33,7 @@ public class ScreenBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:screen")
 	public static final Block block = null;
 	public ScreenBlock(HaegrilontestModElements instance) {
-		super(instance, 377);
+		super(instance, 381);
 	}
 
 	@Override

@@ -29,7 +29,7 @@ public class GrassblockslabBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:grassblockslab")
 	public static final Block block = null;
 	public GrassblockslabBlock(HaegrilontestModElements instance) {
-		super(instance, 294);
+		super(instance, 298);
 	}
 
 	@Override

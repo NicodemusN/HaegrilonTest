@@ -27,7 +27,7 @@ public class SoilBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:soil")
 	public static final Block block = null;
 	public SoilBlock(HaegrilontestModElements instance) {
-		super(instance, 284);
+		super(instance, 288);
 	}
 
 	@Override
