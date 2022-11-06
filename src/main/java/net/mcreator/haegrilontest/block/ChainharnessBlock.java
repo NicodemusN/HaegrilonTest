@@ -31,6 +31,7 @@ import java.util.Collections;
 public class ChainharnessBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:chainharness")
 	public static final Block block = null;
+
 	public ChainharnessBlock(HaegrilontestModElements instance) {
 		super(instance, 404);
 	}
@@ -47,6 +48,7 @@ public class ChainharnessBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
@@ -57,6 +59,11 @@ public class ChainharnessBlock extends HaegrilontestModElements.ModElement {
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
 			return true;
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 0;
 		}
 
 		@Override

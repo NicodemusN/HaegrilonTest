@@ -36,6 +36,7 @@ import java.util.Collections;
 public class Dirtlayer8Block extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:dirtlayer_8")
 	public static final Block block = null;
+
 	public Dirtlayer8Block(HaegrilontestModElements instance) {
 		super(instance, 499);
 	}
@@ -45,8 +46,10 @@ public class Dirtlayer8Block extends HaegrilontestModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(null)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block implements IWaterLoggable {
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.EARTH).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			this.setDefaultState(this.stateContainer.getBaseState().with(WATERLOGGED, false));
@@ -55,18 +58,23 @@ public class Dirtlayer8Block extends HaegrilontestModElements.ModElement {
 
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-			return true;
+			return state.getFluidState().isEmpty();
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 0;
+		}
+
+		@Override
+		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
+			builder.add(WATERLOGGED);
 		}
 
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
 			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;
 			return this.getDefaultState().with(WATERLOGGED, flag);
-		}
-
-		@Override
-		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-			builder.add(WATERLOGGED);
 		}
 
 		@Override
@@ -85,7 +93,7 @@ public class Dirtlayer8Block extends HaegrilontestModElements.ModElement {
 
 		@Override
 		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
-			return new ItemStack(DirtlayerBlock.block, (int) (1));
+			return new ItemStack(DirtlayerBlock.block);
 		}
 
 		@Override
@@ -98,7 +106,7 @@ public class Dirtlayer8Block extends HaegrilontestModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(Blocks.DIRT, (int) (1)));
+			return Collections.singletonList(new ItemStack(Blocks.DIRT));
 		}
 	}
 }

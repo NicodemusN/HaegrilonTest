@@ -32,6 +32,7 @@ import java.util.Collections;
 public class MuddycobbletrapdoorBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:muddycobbletrapdoor")
 	public static final Block block = null;
+
 	public MuddycobbletrapdoorBlock(HaegrilontestModElements instance) {
 		super(instance, 44);
 	}
@@ -48,16 +49,12 @@ public class MuddycobbletrapdoorBlock extends HaegrilontestModElements.ModElemen
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends TrapDoorBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
 			setRegistryName("muddycobbletrapdoor");
-		}
-
-		@Override
-		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-			return true;
 		}
 
 		@Override

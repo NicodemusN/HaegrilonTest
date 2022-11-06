@@ -32,6 +32,7 @@ import java.util.Collections;
 public class ShinglesBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:shingles")
 	public static final Block block = null;
+
 	public ShinglesBlock(HaegrilontestModElements instance) {
 		super(instance, 92);
 	}
@@ -41,8 +42,10 @@ public class ShinglesBlock extends HaegrilontestModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(RoofingItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
@@ -50,8 +53,18 @@ public class ShinglesBlock extends HaegrilontestModElements.ModElement {
 		}
 
 		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
+		}
+
+		@Override
 		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
 			builder.add(FACING);
+		}
+
+		@Override
+		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
 		}
 
 		public BlockState rotate(BlockState state, Rotation rot) {
@@ -60,12 +73,6 @@ public class ShinglesBlock extends HaegrilontestModElements.ModElement {
 
 		public BlockState mirror(BlockState state, Mirror mirrorIn) {
 			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
-		}
-
-		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			;
-			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
 		}
 
 		@Override

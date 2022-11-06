@@ -31,6 +31,7 @@ import java.util.Collections;
 public class PaleyellowdarktimberBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:paleyellowdarktimber")
 	public static final Block block = null;
+
 	public PaleyellowdarktimberBlock(HaegrilontestModElements instance) {
 		super(instance, 237);
 	}
@@ -47,10 +48,16 @@ public class PaleyellowdarktimberBlock extends HaegrilontestModElements.ModEleme
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutoutMipped());
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("paleyellowdarktimber");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

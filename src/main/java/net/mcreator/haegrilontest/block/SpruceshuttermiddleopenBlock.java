@@ -46,15 +46,18 @@ import net.minecraft.block.Block;
 import net.mcreator.haegrilontest.procedures.ShuttermotionmiddleSopebProcedure;
 import net.mcreator.haegrilontest.HaegrilontestModElements;
 
+import java.util.stream.Stream;
 import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
 import java.util.Collections;
+import java.util.AbstractMap;
 
 @HaegrilontestModElements.ModElement.Tag
 public class SpruceshuttermiddleopenBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:spruceshuttermiddleopen")
 	public static final Block block = null;
+
 	public SpruceshuttermiddleopenBlock(HaegrilontestModElements instance) {
 		super(instance, 482);
 	}
@@ -70,9 +73,11 @@ public class SpruceshuttermiddleopenBlock extends HaegrilontestModElements.ModEl
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block implements IWaterLoggable {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
@@ -82,7 +87,12 @@ public class SpruceshuttermiddleopenBlock extends HaegrilontestModElements.ModEl
 
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-			return true;
+			return state.getFluidState().isEmpty();
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 0;
 		}
 
 		@Override
@@ -91,17 +101,21 @@ public class SpruceshuttermiddleopenBlock extends HaegrilontestModElements.ModEl
 			switch ((Direction) state.get(FACING)) {
 				case SOUTH :
 				default :
-					return VoxelShapes.or(makeCuboidShape(2, 0, 2, -4, 16, 0), makeCuboidShape(20, 0, 2, 14, 16, 0)).withOffset(offset.x, offset.y,
-							offset.z);
+					return VoxelShapes.or(makeCuboidShape(2, 0, 2, -4, 16, 0), makeCuboidShape(20, 0, 2, 14, 16, 0))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case NORTH :
-					return VoxelShapes.or(makeCuboidShape(14, 0, 14, 20, 16, 16), makeCuboidShape(-4, 0, 14, 2, 16, 16)).withOffset(offset.x,
-							offset.y, offset.z);
+					return VoxelShapes.or(makeCuboidShape(14, 0, 14, 20, 16, 16), makeCuboidShape(-4, 0, 14, 2, 16, 16))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case EAST :
-					return VoxelShapes.or(makeCuboidShape(2, 0, 14, 0, 16, 20), makeCuboidShape(2, 0, -4, 0, 16, 2)).withOffset(offset.x, offset.y,
-							offset.z);
+					return VoxelShapes.or(makeCuboidShape(2, 0, 14, 0, 16, 20), makeCuboidShape(2, 0, -4, 0, 16, 2))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case WEST :
-					return VoxelShapes.or(makeCuboidShape(14, 0, 2, 16, 16, -4), makeCuboidShape(14, 0, 20, 16, 16, 14)).withOffset(offset.x,
-							offset.y, offset.z);
+					return VoxelShapes.or(makeCuboidShape(14, 0, 2, 16, 16, -4), makeCuboidShape(14, 0, 20, 16, 16, 14))
+
+							.withOffset(offset.x, offset.y, offset.z);
 			}
 		}
 
@@ -110,18 +124,18 @@ public class SpruceshuttermiddleopenBlock extends HaegrilontestModElements.ModEl
 			builder.add(FACING, WATERLOGGED);
 		}
 
+		@Override
+		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;
+			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite()).with(WATERLOGGED, flag);
+		}
+
 		public BlockState rotate(BlockState state, Rotation rot) {
 			return state.with(FACING, rot.rotate(state.get(FACING)));
 		}
 
 		public BlockState mirror(BlockState state, Mirror mirrorIn) {
 			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
-		}
-
-		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;;
-			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite()).with(WATERLOGGED, flag);
 		}
 
 		@Override
@@ -140,7 +154,7 @@ public class SpruceshuttermiddleopenBlock extends HaegrilontestModElements.ModEl
 
 		@Override
 		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
-			return new ItemStack(SpruceshuttermiddleBlock.block, (int) (1));
+			return new ItemStack(SpruceshuttermiddleBlock.block);
 		}
 
 		@Override
@@ -153,25 +167,25 @@ public class SpruceshuttermiddleopenBlock extends HaegrilontestModElements.ModEl
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(SpruceshuttermiddleBlock.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(SpruceshuttermiddleBlock.block));
 		}
 
 		@Override
-		public ActionResultType onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity entity, Hand hand,
+		public ActionResultType onBlockActivated(BlockState blockstate, World world, BlockPos pos, PlayerEntity entity, Hand hand,
 				BlockRayTraceResult hit) {
-			super.onBlockActivated(state, world, pos, entity, hand, hit);
+			super.onBlockActivated(blockstate, world, pos, entity, hand, hit);
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
+			double hitX = hit.getHitVec().x;
+			double hitY = hit.getHitVec().y;
+			double hitZ = hit.getHitVec().z;
 			Direction direction = hit.getFace();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				ShuttermotionmiddleSopebProcedure.executeProcedure($_dependencies);
-			}
+
+			ShuttermotionmiddleSopebProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return ActionResultType.SUCCESS;
 		}
 	}

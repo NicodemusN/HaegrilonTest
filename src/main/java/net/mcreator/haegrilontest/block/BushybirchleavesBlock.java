@@ -36,6 +36,7 @@ import java.util.Collections;
 public class BushybirchleavesBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:bushybirchleaves")
 	public static final Block block = null;
+
 	public BushybirchleavesBlock(HaegrilontestModElements instance) {
 		super(instance, 282);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlockColorRegisterHandler());
@@ -54,6 +55,7 @@ public class BushybirchleavesBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	private static class BlockColorRegisterHandler {
 		@OnlyIn(Dist.CLIENT)
 		@SubscribeEvent
@@ -84,6 +86,11 @@ public class BushybirchleavesBlock extends HaegrilontestModElements.ModElement {
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
 			return true;
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 0;
 		}
 
 		@Override

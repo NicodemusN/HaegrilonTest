@@ -37,6 +37,7 @@ import java.util.Collections;
 public class TatamiblockhalfBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:tatamiblockhalf")
 	public static final Block block = null;
+
 	public TatamiblockhalfBlock(HaegrilontestModElements instance) {
 		super(instance, 415);
 	}
@@ -53,8 +54,10 @@ public class TatamiblockhalfBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutoutMipped());
 	}
+
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
@@ -62,8 +65,18 @@ public class TatamiblockhalfBlock extends HaegrilontestModElements.ModElement {
 		}
 
 		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
+		}
+
+		@Override
 		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
 			builder.add(FACING);
+		}
+
+		@Override
+		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
 		}
 
 		public BlockState rotate(BlockState state, Rotation rot) {
@@ -72,12 +85,6 @@ public class TatamiblockhalfBlock extends HaegrilontestModElements.ModElement {
 
 		public BlockState mirror(BlockState state, Mirror mirrorIn) {
 			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
-		}
-
-		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			;
-			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
 		}
 
 		@Override

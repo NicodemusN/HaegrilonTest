@@ -26,6 +26,7 @@ import java.util.Collections;
 public class StatuserrorBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:statuserror")
 	public static final Block block = null;
+
 	public StatuserrorBlock(HaegrilontestModElements instance) {
 		super(instance, 268);
 	}
@@ -35,10 +36,16 @@ public class StatuserrorBlock extends HaegrilontestModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(UtilityItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("statuserror");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

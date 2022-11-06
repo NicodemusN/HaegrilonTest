@@ -43,6 +43,7 @@ import java.util.Collections;
 public class SlatetipshinglesBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:slatetipshingles")
 	public static final Block block = null;
+
 	public SlatetipshinglesBlock(HaegrilontestModElements instance) {
 		super(instance, 98);
 	}
@@ -58,8 +59,10 @@ public class SlatetipshinglesBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block implements IWaterLoggable {
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
@@ -69,25 +72,31 @@ public class SlatetipshinglesBlock extends HaegrilontestModElements.ModElement {
 
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-			return true;
+			return state.getFluidState().isEmpty();
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 0;
 		}
 
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
 			return VoxelShapes.or(makeCuboidShape(0, 0, 0, 16, 6, 16), makeCuboidShape(4, 6, 4, 12, 12, 12), makeCuboidShape(6, 12, 6, 10, 16, 10))
+
 					.withOffset(offset.x, offset.y, offset.z);
+		}
+
+		@Override
+		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
+			builder.add(WATERLOGGED);
 		}
 
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
 			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;
 			return this.getDefaultState().with(WATERLOGGED, flag);
-		}
-
-		@Override
-		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-			builder.add(WATERLOGGED);
 		}
 
 		@Override

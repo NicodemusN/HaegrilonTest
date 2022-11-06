@@ -39,6 +39,7 @@ import java.util.Collections;
 public class SmallbushBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:smallbush")
 	public static final Block block = null;
+
 	public SmallbushBlock(HaegrilontestModElements instance) {
 		super(instance, 278);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlockColorRegisterHandler());
@@ -56,6 +57,7 @@ public class SmallbushBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	private static class BlockColorRegisterHandler {
 		@OnlyIn(Dist.CLIENT)
 		@SubscribeEvent

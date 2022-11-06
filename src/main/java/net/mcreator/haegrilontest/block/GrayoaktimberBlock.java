@@ -31,6 +31,7 @@ import java.util.Collections;
 public class GrayoaktimberBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:grayoaktimber")
 	public static final Block block = null;
+
 	public GrayoaktimberBlock(HaegrilontestModElements instance) {
 		super(instance, 233);
 	}
@@ -47,10 +48,16 @@ public class GrayoaktimberBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutoutMipped());
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("grayoaktimber");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

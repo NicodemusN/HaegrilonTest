@@ -6,18 +6,18 @@ import net.minecraft.state.Property;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.haegrilontest.block.DanishsoldierattackBlock;
-import net.mcreator.haegrilontest.HaegrilontestModElements;
 import net.mcreator.haegrilontest.HaegrilontestMod;
 
 import java.util.Map;
 
-@HaegrilontestModElements.ModElement.Tag
-public class DanishsoldierguardOnBlockRightClickedProcedure extends HaegrilontestModElements.ModElement {
-	public DanishsoldierguardOnBlockRightClickedProcedure(HaegrilontestModElements instance) {
-		super(instance, 531);
-	}
+public class DanishsoldierguardOnBlockRightClickedProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
+		if (dependencies.get("world") == null) {
+			if (!dependencies.containsKey("world"))
+				HaegrilontestMod.LOGGER.warn("Failed to load dependency world for procedure DanishsoldierguardOnBlockRightClicked!");
+			return;
+		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
 				HaegrilontestMod.LOGGER.warn("Failed to load dependency x for procedure DanishsoldierguardOnBlockRightClicked!");
@@ -33,17 +33,12 @@ public class DanishsoldierguardOnBlockRightClickedProcedure extends Haegrilontes
 				HaegrilontestMod.LOGGER.warn("Failed to load dependency z for procedure DanishsoldierguardOnBlockRightClicked!");
 			return;
 		}
-		if (dependencies.get("world") == null) {
-			if (!dependencies.containsKey("world"))
-				HaegrilontestMod.LOGGER.warn("Failed to load dependency world for procedure DanishsoldierguardOnBlockRightClicked!");
-			return;
-		}
+		IWorld world = (IWorld) dependencies.get("world");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		IWorld world = (IWorld) dependencies.get("world");
 		{
-			BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+			BlockPos _bp = new BlockPos(x, y, z);
 			BlockState _bs = DanishsoldierattackBlock.block.getDefaultState();
 			BlockState _bso = world.getBlockState(_bp);
 			for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {

@@ -28,6 +28,7 @@ import java.util.Collections;
 public class SackslabBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:sackslab")
 	public static final Block block = null;
+
 	public SackslabBlock(HaegrilontestModElements instance) {
 		super(instance, 359);
 	}
@@ -38,6 +39,7 @@ public class SackslabBlock extends HaegrilontestModElements.ModElement {
 		elements.items.add(
 				() -> new BlockItem(block, new Item.Properties().group(HaegrilondecorativeItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOL).sound(SoundType.CLOTH).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));

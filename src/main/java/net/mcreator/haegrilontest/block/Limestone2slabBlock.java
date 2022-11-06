@@ -28,6 +28,7 @@ import java.util.Collections;
 public class Limestone2slabBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:limestone_2slab")
 	public static final Block block = null;
+
 	public Limestone2slabBlock(HaegrilontestModElements instance) {
 		super(instance, 323);
 	}
@@ -38,6 +39,7 @@ public class Limestone2slabBlock extends HaegrilontestModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(HaegrilonplantsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));

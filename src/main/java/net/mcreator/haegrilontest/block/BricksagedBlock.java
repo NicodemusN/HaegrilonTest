@@ -26,6 +26,7 @@ import java.util.Collections;
 public class BricksagedBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:bricksaged")
 	public static final Block block = null;
+
 	public BricksagedBlock(HaegrilontestModElements instance) {
 		super(instance, 2);
 	}
@@ -36,10 +37,16 @@ public class BricksagedBlock extends HaegrilontestModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(StoneblocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("bricksaged");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

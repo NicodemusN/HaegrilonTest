@@ -28,6 +28,7 @@ import java.util.Collections;
 public class NailedplankslabBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:nailedplankslab")
 	public static final Block block = null;
+
 	public NailedplankslabBlock(HaegrilontestModElements instance) {
 		super(instance, 224);
 	}
@@ -38,6 +39,7 @@ public class NailedplankslabBlock extends HaegrilontestModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(WoodandtimberItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));

@@ -22,7 +22,7 @@ public class HaegrilondecorativeItemGroup extends HaegrilontestModElements.ModEl
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(Blocks.TORCH, (int) (1));
+				return new ItemStack(Blocks.TORCH);
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -31,5 +31,6 @@ public class HaegrilondecorativeItemGroup extends HaegrilontestModElements.ModEl
 			}
 		}.setBackgroundImageName("item_search.png");
 	}
+
 	public static ItemGroup tab;
 }

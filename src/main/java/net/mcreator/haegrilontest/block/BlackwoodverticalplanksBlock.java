@@ -26,6 +26,7 @@ import java.util.Collections;
 public class BlackwoodverticalplanksBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:blackwoodverticalplanks")
 	public static final Block block = null;
+
 	public BlackwoodverticalplanksBlock(HaegrilontestModElements instance) {
 		super(instance, 231);
 	}
@@ -36,10 +37,16 @@ public class BlackwoodverticalplanksBlock extends HaegrilontestModElements.ModEl
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(WoodandtimberItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("blackwoodverticalplanks");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

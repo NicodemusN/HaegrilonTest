@@ -40,15 +40,18 @@ import net.minecraft.block.Block;
 import net.mcreator.haegrilontest.procedures.FrankishsoldierattackOnBlockRightClickedProcedure;
 import net.mcreator.haegrilontest.HaegrilontestModElements;
 
+import java.util.stream.Stream;
 import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
 import java.util.Collections;
+import java.util.AbstractMap;
 
 @HaegrilontestModElements.ModElement.Tag
 public class FrankishsoldierattackBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:frankishsoldierattack")
 	public static final Block block = null;
+
 	public FrankishsoldierattackBlock(HaegrilontestModElements instance) {
 		super(instance, 533);
 	}
@@ -64,8 +67,10 @@ public class FrankishsoldierattackBlock extends HaegrilontestModElements.ModElem
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.PLANT).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
 					.notSolid().setOpaque((bs, br, bp) -> false));
@@ -79,6 +84,11 @@ public class FrankishsoldierattackBlock extends HaegrilontestModElements.ModElem
 		}
 
 		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 0;
+		}
+
+		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
 			switch ((Direction) state.get(FACING)) {
@@ -86,18 +96,22 @@ public class FrankishsoldierattackBlock extends HaegrilontestModElements.ModElem
 				default :
 					return VoxelShapes
 							.or(makeCuboidShape(12, 0, 10, 4, 12, 6), makeCuboidShape(12, 24, 12, 4, 32, 4), makeCuboidShape(16, 12, 10, 0, 24, 6))
+
 							.withOffset(offset.x, offset.y, offset.z);
 				case NORTH :
 					return VoxelShapes
 							.or(makeCuboidShape(4, 0, 6, 12, 12, 10), makeCuboidShape(4, 24, 4, 12, 32, 12), makeCuboidShape(0, 12, 6, 16, 24, 10))
+
 							.withOffset(offset.x, offset.y, offset.z);
 				case EAST :
 					return VoxelShapes
 							.or(makeCuboidShape(10, 0, 4, 6, 12, 12), makeCuboidShape(12, 24, 4, 4, 32, 12), makeCuboidShape(10, 12, 0, 6, 24, 16))
+
 							.withOffset(offset.x, offset.y, offset.z);
 				case WEST :
 					return VoxelShapes
 							.or(makeCuboidShape(6, 0, 12, 10, 12, 4), makeCuboidShape(4, 24, 12, 12, 32, 4), makeCuboidShape(6, 12, 16, 10, 24, 0))
+
 							.withOffset(offset.x, offset.y, offset.z);
 			}
 		}
@@ -105,6 +119,11 @@ public class FrankishsoldierattackBlock extends HaegrilontestModElements.ModElem
 		@Override
 		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
 			builder.add(FACING);
+		}
+
+		@Override
+		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
 		}
 
 		public BlockState rotate(BlockState state, Rotation rot) {
@@ -116,14 +135,8 @@ public class FrankishsoldierattackBlock extends HaegrilontestModElements.ModElem
 		}
 
 		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			;
-			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
-		}
-
-		@Override
 		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
-			return new ItemStack(FrankishsoldierguardBlock.block, (int) (1));
+			return new ItemStack(FrankishsoldierguardBlock.block);
 		}
 
 		@Override
@@ -136,25 +149,25 @@ public class FrankishsoldierattackBlock extends HaegrilontestModElements.ModElem
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(FrankishsoldierguardBlock.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(FrankishsoldierguardBlock.block));
 		}
 
 		@Override
-		public ActionResultType onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity entity, Hand hand,
+		public ActionResultType onBlockActivated(BlockState blockstate, World world, BlockPos pos, PlayerEntity entity, Hand hand,
 				BlockRayTraceResult hit) {
-			super.onBlockActivated(state, world, pos, entity, hand, hit);
+			super.onBlockActivated(blockstate, world, pos, entity, hand, hit);
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
+			double hitX = hit.getHitVec().x;
+			double hitY = hit.getHitVec().y;
+			double hitZ = hit.getHitVec().z;
 			Direction direction = hit.getFace();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				FrankishsoldierattackOnBlockRightClickedProcedure.executeProcedure($_dependencies);
-			}
+
+			FrankishsoldierattackOnBlockRightClickedProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return ActionResultType.SUCCESS;
 		}
 	}

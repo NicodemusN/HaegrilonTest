@@ -17,6 +17,7 @@ import net.mcreator.haegrilontest.HaegrilontestModElements;
 public class SwordofswordofallswordsItem extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:swordofswordofallswords")
 	public static final Item block = null;
+
 	public SwordofswordofallswordsItem(HaegrilontestModElements instance) {
 		super(instance, 515);
 	}

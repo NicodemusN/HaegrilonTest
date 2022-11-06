@@ -33,6 +33,7 @@ import java.util.Collections;
 public class SprucefencelogBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:sprucefencelog")
 	public static final Block block = null;
+
 	public SprucefencelogBlock(HaegrilontestModElements instance) {
 		super(instance, 332);
 	}
@@ -49,6 +50,7 @@ public class SprucefencelogBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends FenceBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
@@ -61,11 +63,6 @@ public class SprucefencelogBlock extends HaegrilontestModElements.ModElement {
 			boolean flag = state.getBlock() instanceof FenceBlock && state.getMaterial() == this.material;
 			boolean flag1 = state.getBlock() instanceof FenceGateBlock && FenceGateBlock.isParallel(state, face);
 			return !cannotAttach(state.getBlock()) && checkattach || flag || flag1;
-		}
-
-		@Override
-		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-			return true;
 		}
 
 		@Override

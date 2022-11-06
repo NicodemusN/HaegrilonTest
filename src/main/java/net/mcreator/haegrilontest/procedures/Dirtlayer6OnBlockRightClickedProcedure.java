@@ -10,21 +10,16 @@ import net.minecraft.block.BlockState;
 
 import net.mcreator.haegrilontest.block.DirtlayerBlock;
 import net.mcreator.haegrilontest.block.Dirtlayer7Block;
-import net.mcreator.haegrilontest.HaegrilontestModElements;
 import net.mcreator.haegrilontest.HaegrilontestMod;
 
 import java.util.Map;
 
-@HaegrilontestModElements.ModElement.Tag
-public class Dirtlayer6OnBlockRightClickedProcedure extends HaegrilontestModElements.ModElement {
-	public Dirtlayer6OnBlockRightClickedProcedure(HaegrilontestModElements instance) {
-		super(instance, 505);
-	}
+public class Dirtlayer6OnBlockRightClickedProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
-		if (dependencies.get("entity") == null) {
-			if (!dependencies.containsKey("entity"))
-				HaegrilontestMod.LOGGER.warn("Failed to load dependency entity for procedure Dirtlayer6OnBlockRightClicked!");
+		if (dependencies.get("world") == null) {
+			if (!dependencies.containsKey("world"))
+				HaegrilontestMod.LOGGER.warn("Failed to load dependency world for procedure Dirtlayer6OnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
@@ -42,20 +37,20 @@ public class Dirtlayer6OnBlockRightClickedProcedure extends HaegrilontestModElem
 				HaegrilontestMod.LOGGER.warn("Failed to load dependency z for procedure Dirtlayer6OnBlockRightClicked!");
 			return;
 		}
-		if (dependencies.get("world") == null) {
-			if (!dependencies.containsKey("world"))
-				HaegrilontestMod.LOGGER.warn("Failed to load dependency world for procedure Dirtlayer6OnBlockRightClicked!");
+		if (dependencies.get("entity") == null) {
+			if (!dependencies.containsKey("entity"))
+				HaegrilontestMod.LOGGER.warn("Failed to load dependency entity for procedure Dirtlayer6OnBlockRightClicked!");
 			return;
 		}
-		Entity entity = (Entity) dependencies.get("entity");
+		IWorld world = (IWorld) dependencies.get("world");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		IWorld world = (IWorld) dependencies.get("world");
-		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
-				.getItem() == new ItemStack(DirtlayerBlock.block, (int) (1)).getItem())) {
+		Entity entity = (Entity) dependencies.get("entity");
+		if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem() == DirtlayerBlock.block
+				.asItem()) {
 			{
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+				BlockPos _bp = new BlockPos(x, y, z);
 				BlockState _bs = Dirtlayer7Block.block.getDefaultState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {

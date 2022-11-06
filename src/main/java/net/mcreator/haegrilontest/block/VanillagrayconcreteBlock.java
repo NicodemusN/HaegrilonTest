@@ -31,6 +31,7 @@ import java.util.Collections;
 public class VanillagrayconcreteBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:vanillagrayconcrete")
 	public static final Block block = null;
+
 	public VanillagrayconcreteBlock(HaegrilontestModElements instance) {
 		super(instance, 269);
 	}
@@ -40,6 +41,7 @@ public class VanillagrayconcreteBlock extends HaegrilontestModElements.ModElemen
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(UtilityItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
@@ -52,6 +54,11 @@ public class VanillagrayconcreteBlock extends HaegrilontestModElements.ModElemen
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("For planning"));
 			list.add(new StringTextComponent("etc."));
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

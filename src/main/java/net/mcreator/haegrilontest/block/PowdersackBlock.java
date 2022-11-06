@@ -26,6 +26,7 @@ import java.util.Collections;
 public class PowdersackBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:powdersack")
 	public static final Block block = null;
+
 	public PowdersackBlock(HaegrilontestModElements instance) {
 		super(instance, 349);
 	}
@@ -36,10 +37,16 @@ public class PowdersackBlock extends HaegrilontestModElements.ModElement {
 		elements.items.add(
 				() -> new BlockItem(block, new Item.Properties().group(HaegrilondecorativeItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOL).sound(SoundType.CLOTH).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("powdersack");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

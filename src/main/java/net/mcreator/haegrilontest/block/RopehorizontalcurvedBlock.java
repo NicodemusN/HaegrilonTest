@@ -47,6 +47,7 @@ import java.util.Collections;
 public class RopehorizontalcurvedBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:ropehorizontalcurved")
 	public static final Block block = null;
+
 	public RopehorizontalcurvedBlock(HaegrilontestModElements instance) {
 		super(instance, 401);
 	}
@@ -63,9 +64,11 @@ public class RopehorizontalcurvedBlock extends HaegrilontestModElements.ModEleme
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block implements IWaterLoggable {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOL).sound(SoundType.CLOTH).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
 					.doesNotBlockMovement().notSolid().setOpaque((bs, br, bp) -> false));
@@ -75,7 +78,12 @@ public class RopehorizontalcurvedBlock extends HaegrilontestModElements.ModEleme
 
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-			return true;
+			return state.getFluidState().isEmpty();
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 0;
 		}
 
 		@Override
@@ -84,17 +92,21 @@ public class RopehorizontalcurvedBlock extends HaegrilontestModElements.ModEleme
 			switch ((Direction) state.get(FACING)) {
 				case SOUTH :
 				default :
-					return VoxelShapes.or(makeCuboidShape(9, 0, 8, 7, 2, 0), makeCuboidShape(8, 0, 9, 0, 2, 7)).withOffset(offset.x, offset.y,
-							offset.z);
+					return VoxelShapes.or(makeCuboidShape(9, 0, 8, 7, 2, 0), makeCuboidShape(8, 0, 9, 0, 2, 7))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case NORTH :
-					return VoxelShapes.or(makeCuboidShape(7, 0, 8, 9, 2, 16), makeCuboidShape(8, 0, 7, 16, 2, 9)).withOffset(offset.x, offset.y,
-							offset.z);
+					return VoxelShapes.or(makeCuboidShape(7, 0, 8, 9, 2, 16), makeCuboidShape(8, 0, 7, 16, 2, 9))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case EAST :
-					return VoxelShapes.or(makeCuboidShape(8, 0, 7, 0, 2, 9), makeCuboidShape(9, 0, 8, 7, 2, 16)).withOffset(offset.x, offset.y,
-							offset.z);
+					return VoxelShapes.or(makeCuboidShape(8, 0, 7, 0, 2, 9), makeCuboidShape(9, 0, 8, 7, 2, 16))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case WEST :
-					return VoxelShapes.or(makeCuboidShape(8, 0, 9, 16, 2, 7), makeCuboidShape(7, 0, 8, 9, 2, 0)).withOffset(offset.x, offset.y,
-							offset.z);
+					return VoxelShapes.or(makeCuboidShape(8, 0, 9, 16, 2, 7), makeCuboidShape(7, 0, 8, 9, 2, 0))
+
+							.withOffset(offset.x, offset.y, offset.z);
 			}
 		}
 
@@ -103,18 +115,18 @@ public class RopehorizontalcurvedBlock extends HaegrilontestModElements.ModEleme
 			builder.add(FACING, WATERLOGGED);
 		}
 
+		@Override
+		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;
+			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite()).with(WATERLOGGED, flag);
+		}
+
 		public BlockState rotate(BlockState state, Rotation rot) {
 			return state.with(FACING, rot.rotate(state.get(FACING)));
 		}
 
 		public BlockState mirror(BlockState state, Mirror mirrorIn) {
 			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
-		}
-
-		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;;
-			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite()).with(WATERLOGGED, flag);
 		}
 
 		@Override

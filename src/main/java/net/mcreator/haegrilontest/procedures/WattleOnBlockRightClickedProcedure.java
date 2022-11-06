@@ -10,21 +10,16 @@ import net.minecraft.block.BlockState;
 
 import net.mcreator.haegrilontest.block.WattlecornerBlock;
 import net.mcreator.haegrilontest.block.WattleBlock;
-import net.mcreator.haegrilontest.HaegrilontestModElements;
 import net.mcreator.haegrilontest.HaegrilontestMod;
 
 import java.util.Map;
 
-@HaegrilontestModElements.ModElement.Tag
-public class WattleOnBlockRightClickedProcedure extends HaegrilontestModElements.ModElement {
-	public WattleOnBlockRightClickedProcedure(HaegrilontestModElements instance) {
-		super(instance, 542);
-	}
+public class WattleOnBlockRightClickedProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
-		if (dependencies.get("entity") == null) {
-			if (!dependencies.containsKey("entity"))
-				HaegrilontestMod.LOGGER.warn("Failed to load dependency entity for procedure WattleOnBlockRightClicked!");
+		if (dependencies.get("world") == null) {
+			if (!dependencies.containsKey("world"))
+				HaegrilontestMod.LOGGER.warn("Failed to load dependency world for procedure WattleOnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
@@ -42,20 +37,20 @@ public class WattleOnBlockRightClickedProcedure extends HaegrilontestModElements
 				HaegrilontestMod.LOGGER.warn("Failed to load dependency z for procedure WattleOnBlockRightClicked!");
 			return;
 		}
-		if (dependencies.get("world") == null) {
-			if (!dependencies.containsKey("world"))
-				HaegrilontestMod.LOGGER.warn("Failed to load dependency world for procedure WattleOnBlockRightClicked!");
+		if (dependencies.get("entity") == null) {
+			if (!dependencies.containsKey("entity"))
+				HaegrilontestMod.LOGGER.warn("Failed to load dependency entity for procedure WattleOnBlockRightClicked!");
 			return;
 		}
-		Entity entity = (Entity) dependencies.get("entity");
+		IWorld world = (IWorld) dependencies.get("world");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		IWorld world = (IWorld) dependencies.get("world");
-		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
-				.getItem() == new ItemStack(WattleBlock.block, (int) (1)).getItem())) {
+		Entity entity = (Entity) dependencies.get("entity");
+		if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem() == WattleBlock.block
+				.asItem()) {
 			{
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+				BlockPos _bp = new BlockPos(x, y, z);
 				BlockState _bs = WattlecornerBlock.block.getDefaultState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {

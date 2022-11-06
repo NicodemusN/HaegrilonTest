@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "block",
   "definition": {
     "texture": "the_eternal_one",
@@ -11,6 +11,7 @@
     "renderType": 2,
     "customModelName": "the_eternal_one:default",
     "rotationMode": 1,
+    "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -67,9 +68,10 @@
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 1.0,
     "plantsGrowOn": false,
-    "canProvidePower": true,
+    "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
       "value": "MISCELLANEOUS"
@@ -77,6 +79,7 @@
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
+    "canProvidePower": true,
     "colorOnMap": "BLACK",
     "creativePickItem": {
       "value": ""
@@ -95,6 +98,7 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "IGNORE",
     "isNotColidable": false,
+    "isCustomSoundType": false,
     "soundOnStep": {
       "value": "NETHERITE"
     },
@@ -137,6 +141,7 @@
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],
+    "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

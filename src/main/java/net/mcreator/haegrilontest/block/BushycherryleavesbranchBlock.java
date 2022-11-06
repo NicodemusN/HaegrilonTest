@@ -31,6 +31,7 @@ import java.util.Collections;
 public class BushycherryleavesbranchBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:bushycherryleavesbranch")
 	public static final Block block = null;
+
 	public BushycherryleavesbranchBlock(HaegrilontestModElements instance) {
 		super(instance, 284);
 	}
@@ -47,6 +48,7 @@ public class BushycherryleavesbranchBlock extends HaegrilontestModElements.ModEl
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
@@ -57,6 +59,11 @@ public class BushycherryleavesbranchBlock extends HaegrilontestModElements.ModEl
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
 			return true;
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 0;
 		}
 
 		@Override

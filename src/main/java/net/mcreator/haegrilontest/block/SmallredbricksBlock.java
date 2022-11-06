@@ -5,7 +5,6 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Direction;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -25,6 +24,7 @@ import java.util.Collections;
 public class SmallredbricksBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:smallredbricks")
 	public static final Block block = null;
+
 	public SmallredbricksBlock(HaegrilontestModElements instance) {
 		super(instance, 1);
 	}
@@ -35,6 +35,7 @@ public class SmallredbricksBlock extends HaegrilontestModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(StoneblocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
@@ -42,8 +43,8 @@ public class SmallredbricksBlock extends HaegrilontestModElements.ModElement {
 		}
 
 		@Override
-		public boolean canConnectRedstone(BlockState state, IBlockReader world, BlockPos pos, Direction side) {
-			return true;
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

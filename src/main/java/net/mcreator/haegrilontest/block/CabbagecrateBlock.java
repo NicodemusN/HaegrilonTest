@@ -26,6 +26,7 @@ import java.util.Collections;
 public class CabbagecrateBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:cabbagecrate")
 	public static final Block block = null;
+
 	public CabbagecrateBlock(HaegrilontestModElements instance) {
 		super(instance, 422);
 	}
@@ -36,10 +37,16 @@ public class CabbagecrateBlock extends HaegrilontestModElements.ModElement {
 		elements.items.add(
 				() -> new BlockItem(block, new Item.Properties().group(FoodandcookingitemsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("cabbagecrate");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

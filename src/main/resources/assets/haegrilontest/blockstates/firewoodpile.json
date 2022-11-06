@@ -1,28 +1,16 @@
 {
   "variants": {
-    "facing=south": {
-      "model": "haegrilontest:block/firewoodpile"
-    },
-    "facing=north": {
-      "model": "haegrilontest:block/firewoodpile"
-    },
-    "facing=east": {
-      "model": "haegrilontest:block/firewoodpile",
-      "x": 90
-    },
-    "facing=west": {
-      "model": "haegrilontest:block/firewoodpile",
-      "x": 90
-    },
-    "facing=up": {
+    "axis=x": {
       "model": "haegrilontest:block/firewoodpile",
       "x": 90,
       "y": 90
     },
-    "facing=down": {
+    "axis=y": {
+      "model": "haegrilontest:block/firewoodpile"
+    },
+    "axis=z": {
       "model": "haegrilontest:block/firewoodpile",
-      "x": 90,
-      "y": 90
+      "x": 90
     }
   }
 }

@@ -26,6 +26,7 @@ import java.util.Collections;
 public class GreenrooftilesBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:greenrooftiles")
 	public static final Block block = null;
+
 	public GreenrooftilesBlock(HaegrilontestModElements instance) {
 		super(instance, 103);
 	}
@@ -35,10 +36,16 @@ public class GreenrooftilesBlock extends HaegrilontestModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(RoofingItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("greenrooftiles");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

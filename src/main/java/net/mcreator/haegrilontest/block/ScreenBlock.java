@@ -32,6 +32,7 @@ import java.util.Collections;
 public class ScreenBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:screen")
 	public static final Block block = null;
+
 	public ScreenBlock(HaegrilontestModElements instance) {
 		super(instance, 381);
 	}
@@ -48,6 +49,7 @@ public class ScreenBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutoutMipped());
 	}
+
 	public static class CustomBlock extends PaneBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()

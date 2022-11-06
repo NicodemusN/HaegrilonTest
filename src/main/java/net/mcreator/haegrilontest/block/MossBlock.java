@@ -26,6 +26,7 @@ import java.util.Collections;
 public class MossBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:moss")
 	public static final Block block = null;
+
 	public MossBlock(HaegrilontestModElements instance) {
 		super(instance, 292);
 	}
@@ -36,10 +37,16 @@ public class MossBlock extends HaegrilontestModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(HaegrilonplantsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("moss");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

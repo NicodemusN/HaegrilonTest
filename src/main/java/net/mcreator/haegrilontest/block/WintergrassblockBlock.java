@@ -31,6 +31,7 @@ import java.util.Collections;
 public class WintergrassblockBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:wintergrassblock")
 	public static final Block block = null;
+
 	public WintergrassblockBlock(HaegrilontestModElements instance) {
 		super(instance, 294);
 	}
@@ -47,10 +48,16 @@ public class WintergrassblockBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutoutMipped());
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("wintergrassblock");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

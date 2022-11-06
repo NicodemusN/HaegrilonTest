@@ -15,6 +15,7 @@ import net.mcreator.haegrilontest.HaegrilontestModElements;
 public class ShamkerItem extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:shamker")
 	public static final Item block = null;
+
 	public ShamkerItem(HaegrilontestModElements instance) {
 		super(instance, 355);
 	}

@@ -26,6 +26,7 @@ import java.util.Collections;
 public class BronzeblockoxidizedBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:bronzeblockoxidized")
 	public static final Block block = null;
+
 	public BronzeblockoxidizedBlock(HaegrilontestModElements instance) {
 		super(instance, 139);
 	}
@@ -35,10 +36,16 @@ public class BronzeblockoxidizedBlock extends HaegrilontestModElements.ModElemen
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(HaegrilonItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("bronzeblockoxidized");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

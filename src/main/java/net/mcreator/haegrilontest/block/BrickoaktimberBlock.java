@@ -26,6 +26,7 @@ import java.util.Collections;
 public class BrickoaktimberBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:brickoaktimber")
 	public static final Block block = null;
+
 	public BrickoaktimberBlock(HaegrilontestModElements instance) {
 		super(instance, 258);
 	}
@@ -36,10 +37,16 @@ public class BrickoaktimberBlock extends HaegrilontestModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(WoodandtimberItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("brickoaktimber");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

@@ -34,6 +34,7 @@ import java.util.Collections;
 public class OakdoorwowindowsBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:oakdoorwowindows")
 	public static final Block block = null;
+
 	public OakdoorwowindowsBlock(HaegrilontestModElements instance) {
 		super(instance, 396);
 	}
@@ -50,16 +51,12 @@ public class OakdoorwowindowsBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends DoorBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
 			setRegistryName("oakdoorwowindows");
-		}
-
-		@Override
-		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-			return true;
 		}
 
 		@Override

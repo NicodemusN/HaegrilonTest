@@ -22,7 +22,7 @@ public class FoodandcookingitemsItemGroup extends HaegrilontestModElements.ModEl
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(MuttonBlock.block, (int) (1));
+				return new ItemStack(MuttonBlock.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -31,5 +31,6 @@ public class FoodandcookingitemsItemGroup extends HaegrilontestModElements.ModEl
 			}
 		}.setBackgroundImageName("item_search.png");
 	}
+
 	public static ItemGroup tab;
 }

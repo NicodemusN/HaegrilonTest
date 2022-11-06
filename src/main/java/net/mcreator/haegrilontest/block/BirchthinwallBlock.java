@@ -40,6 +40,7 @@ import java.util.Collections;
 public class BirchthinwallBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:birchthinwall")
 	public static final Block block = null;
+
 	public BirchthinwallBlock(HaegrilontestModElements instance) {
 		super(instance, 215);
 	}
@@ -56,8 +57,10 @@ public class BirchthinwallBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = DirectionalBlock.FACING;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
@@ -71,22 +74,39 @@ public class BirchthinwallBlock extends HaegrilontestModElements.ModElement {
 		}
 
 		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 0;
+		}
+
+		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
 			switch ((Direction) state.get(FACING)) {
 				case SOUTH :
 				default :
-					return VoxelShapes.or(makeCuboidShape(16, 0, 3, 0, 16, 0)).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes.or(makeCuboidShape(16, 0, 3, 0, 16, 0))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case NORTH :
-					return VoxelShapes.or(makeCuboidShape(0, 0, 13, 16, 16, 16)).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes.or(makeCuboidShape(0, 0, 13, 16, 16, 16))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case EAST :
-					return VoxelShapes.or(makeCuboidShape(3, 0, 0, 0, 16, 16)).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes.or(makeCuboidShape(3, 0, 0, 0, 16, 16))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case WEST :
-					return VoxelShapes.or(makeCuboidShape(13, 0, 16, 16, 16, 0)).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes.or(makeCuboidShape(13, 0, 16, 16, 16, 0))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case UP :
-					return VoxelShapes.or(makeCuboidShape(0, 3, 0, 16, 0, 16)).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes.or(makeCuboidShape(0, 3, 0, 16, 0, 16))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case DOWN :
-					return VoxelShapes.or(makeCuboidShape(0, 13, 16, 16, 16, 0)).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes.or(makeCuboidShape(0, 13, 16, 16, 16, 0))
+
+							.withOffset(offset.x, offset.y, offset.z);
 			}
 		}
 
@@ -95,18 +115,17 @@ public class BirchthinwallBlock extends HaegrilontestModElements.ModElement {
 			builder.add(FACING);
 		}
 
+		@Override
+		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			return this.getDefaultState().with(FACING, context.getNearestLookingDirection().getOpposite());
+		}
+
 		public BlockState rotate(BlockState state, Rotation rot) {
 			return state.with(FACING, rot.rotate(state.get(FACING)));
 		}
 
 		public BlockState mirror(BlockState state, Mirror mirrorIn) {
 			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
-		}
-
-		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			;
-			return this.getDefaultState().with(FACING, context.getNearestLookingDirection().getOpposite());
 		}
 
 		@Override

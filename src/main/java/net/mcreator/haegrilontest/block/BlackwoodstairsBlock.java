@@ -27,6 +27,7 @@ import java.util.Collections;
 public class BlackwoodstairsBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:blackwoodstairs")
 	public static final Block block = null;
+
 	public BlackwoodstairsBlock(HaegrilontestModElements instance) {
 		super(instance, 227);
 	}
@@ -37,6 +38,7 @@ public class BlackwoodstairsBlock extends HaegrilontestModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(WoodandtimberItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
 			super(() -> new Block(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0))

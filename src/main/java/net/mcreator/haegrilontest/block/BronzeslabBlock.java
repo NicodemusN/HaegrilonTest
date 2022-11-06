@@ -24,6 +24,7 @@ import java.util.Collections;
 public class BronzeslabBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:bronzeslab")
 	public static final Block block = null;
+
 	public BronzeslabBlock(HaegrilontestModElements instance) {
 		super(instance, 135);
 	}
@@ -33,6 +34,7 @@ public class BronzeslabBlock extends HaegrilontestModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(HaegrilonItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));

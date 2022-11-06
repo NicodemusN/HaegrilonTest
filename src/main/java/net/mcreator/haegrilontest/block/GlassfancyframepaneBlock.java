@@ -32,6 +32,7 @@ import java.util.Collections;
 public class GlassfancyframepaneBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:glassfancyframepane")
 	public static final Block block = null;
+
 	public GlassfancyframepaneBlock(HaegrilontestModElements instance) {
 		super(instance, 380);
 	}
@@ -48,6 +49,7 @@ public class GlassfancyframepaneBlock extends HaegrilontestModElements.ModElemen
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutoutMipped());
 	}
+
 	public static class CustomBlock extends PaneBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()

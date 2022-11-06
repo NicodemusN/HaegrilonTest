@@ -46,6 +46,7 @@ public class HaegrilontestMod {
 	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation("haegrilontest", "haegrilontest"),
 			() -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	public HaegrilontestModElements elements;
+
 	public HaegrilontestMod() {
 		elements = new HaegrilontestModElements();
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
@@ -86,8 +87,10 @@ public class HaegrilontestMod {
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {
 		elements.registerSounds(event);
 	}
+
 	private static class HaegrilontestModFMLBusEvents {
 		private final HaegrilontestMod parent;
+
 		HaegrilontestModFMLBusEvents(HaegrilontestMod parent) {
 			this.parent = parent;
 		}

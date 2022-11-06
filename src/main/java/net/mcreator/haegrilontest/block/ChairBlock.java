@@ -50,6 +50,7 @@ import java.util.Collections;
 public class ChairBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:chair")
 	public static final Block block = null;
+
 	public ChairBlock(HaegrilontestModElements instance) {
 		super(instance, 340);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlockColorRegisterHandler());
@@ -67,6 +68,7 @@ public class ChairBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	private static class BlockColorRegisterHandler {
 		@OnlyIn(Dist.CLIENT)
 		@SubscribeEvent
@@ -80,6 +82,7 @@ public class ChairBlock extends HaegrilontestModElements.ModElement {
 	public static class CustomBlock extends Block implements IWaterLoggable {
 		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
@@ -89,7 +92,12 @@ public class ChairBlock extends HaegrilontestModElements.ModElement {
 
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-			return true;
+			return state.getFluidState().isEmpty();
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 0;
 		}
 
 		@Override
@@ -98,23 +106,41 @@ public class ChairBlock extends HaegrilontestModElements.ModElement {
 			switch ((Direction) state.get(FACING)) {
 				case SOUTH :
 				default :
-					return VoxelShapes.or(makeCuboidShape(16, 0, 16, 0, 9, 0), makeCuboidShape(16, 0, 16, 14, 14, 0),
-							makeCuboidShape(2, 0, 16, 0, 14, 0), makeCuboidShape(16, 0, 2, 0, 32, 0)).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes
+							.or(makeCuboidShape(16, 0, 16, 0, 9, 0), makeCuboidShape(16, 0, 16, 14, 14, 0), makeCuboidShape(2, 0, 16, 0, 14, 0),
+									makeCuboidShape(16, 0, 2, 0, 32, 0))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case NORTH :
-					return VoxelShapes.or(makeCuboidShape(0, 0, 0, 16, 9, 16), makeCuboidShape(0, 0, 0, 2, 14, 16),
-							makeCuboidShape(14, 0, 0, 16, 14, 16), makeCuboidShape(0, 0, 14, 16, 32, 16)).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes
+							.or(makeCuboidShape(0, 0, 0, 16, 9, 16), makeCuboidShape(0, 0, 0, 2, 14, 16), makeCuboidShape(14, 0, 0, 16, 14, 16),
+									makeCuboidShape(0, 0, 14, 16, 32, 16))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case EAST :
-					return VoxelShapes.or(makeCuboidShape(16, 0, 0, 0, 9, 16), makeCuboidShape(16, 0, 0, 0, 14, 2),
-							makeCuboidShape(16, 0, 14, 0, 14, 16), makeCuboidShape(2, 0, 0, 0, 32, 16)).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes
+							.or(makeCuboidShape(16, 0, 0, 0, 9, 16), makeCuboidShape(16, 0, 0, 0, 14, 2), makeCuboidShape(16, 0, 14, 0, 14, 16),
+									makeCuboidShape(2, 0, 0, 0, 32, 16))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case WEST :
-					return VoxelShapes.or(makeCuboidShape(0, 0, 16, 16, 9, 0), makeCuboidShape(0, 0, 16, 16, 14, 14),
-							makeCuboidShape(0, 0, 2, 16, 14, 0), makeCuboidShape(14, 0, 16, 16, 32, 0)).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes
+							.or(makeCuboidShape(0, 0, 16, 16, 9, 0), makeCuboidShape(0, 0, 16, 16, 14, 14), makeCuboidShape(0, 0, 2, 16, 14, 0),
+									makeCuboidShape(14, 0, 16, 16, 32, 0))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case UP :
-					return VoxelShapes.or(makeCuboidShape(0, 16, 0, 16, 0, 9), makeCuboidShape(0, 16, 0, 2, 0, 14),
-							makeCuboidShape(14, 16, 0, 16, 0, 14), makeCuboidShape(0, 2, 0, 16, 0, 32)).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes
+							.or(makeCuboidShape(0, 16, 0, 16, 0, 9), makeCuboidShape(0, 16, 0, 2, 0, 14), makeCuboidShape(14, 16, 0, 16, 0, 14),
+									makeCuboidShape(0, 2, 0, 16, 0, 32))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case DOWN :
-					return VoxelShapes.or(makeCuboidShape(0, 0, 16, 16, 16, 7), makeCuboidShape(0, 0, 16, 2, 16, 2),
-							makeCuboidShape(14, 0, 16, 16, 16, 2), makeCuboidShape(0, 14, 16, 16, 16, -16)).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes
+							.or(makeCuboidShape(0, 0, 16, 16, 16, 7), makeCuboidShape(0, 0, 16, 2, 16, 2), makeCuboidShape(14, 0, 16, 16, 16, 2),
+									makeCuboidShape(0, 14, 16, 16, 16, -16))
+
+							.withOffset(offset.x, offset.y, offset.z);
 			}
 		}
 
@@ -123,18 +149,18 @@ public class ChairBlock extends HaegrilontestModElements.ModElement {
 			builder.add(FACING, WATERLOGGED);
 		}
 
+		@Override
+		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;
+			return this.getDefaultState().with(FACING, context.getNearestLookingDirection().getOpposite()).with(WATERLOGGED, flag);
+		}
+
 		public BlockState rotate(BlockState state, Rotation rot) {
 			return state.with(FACING, rot.rotate(state.get(FACING)));
 		}
 
 		public BlockState mirror(BlockState state, Mirror mirrorIn) {
 			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
-		}
-
-		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;;
-			return this.getDefaultState().with(FACING, context.getNearestLookingDirection().getOpposite()).with(WATERLOGGED, flag);
 		}
 
 		@Override

@@ -55,16 +55,19 @@ import net.minecraft.block.Block;
 import net.mcreator.haegrilontest.procedures.TheeternaloneOnBlockRightClickedProcedure;
 import net.mcreator.haegrilontest.HaegrilontestModElements;
 
+import java.util.stream.Stream;
 import java.util.Random;
 import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
 import java.util.Collections;
+import java.util.AbstractMap;
 
 @HaegrilontestModElements.ModElement.Tag
 public class TheeternaloneBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:theeternalone")
 	public static final Block block = null;
+
 	public TheeternaloneBlock(HaegrilontestModElements instance) {
 		super(instance, 540);
 	}
@@ -80,12 +83,14 @@ public class TheeternaloneBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block implements IWaterLoggable {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
+
 		public CustomBlock() {
-			super(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.NETHERITE).hardnessAndResistance(-1, 3600000).setLightLevel(s -> 0)
-					.notSolid().setOpaque((bs, br, bp) -> false));
+			super(Block.Properties.create(Material.MISCELLANEOUS, MaterialColor.BLACK).sound(SoundType.NETHERITE).hardnessAndResistance(-1, 3600000)
+					.setLightLevel(s -> 0).notSolid().setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH).with(WATERLOGGED, false));
 			setRegistryName("theeternalone");
 		}
@@ -104,7 +109,12 @@ public class TheeternaloneBlock extends HaegrilontestModElements.ModElement {
 
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-			return true;
+			return state.getFluidState().isEmpty();
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 0;
 		}
 
 		@Override
@@ -115,18 +125,22 @@ public class TheeternaloneBlock extends HaegrilontestModElements.ModElement {
 				default :
 					return VoxelShapes
 							.or(makeCuboidShape(12, 0, 10, 4, 12, 6), makeCuboidShape(16, 12, 10, 0, 24, 6), makeCuboidShape(12, 24, 12, 4, 32, 4))
+
 							.withOffset(offset.x, offset.y, offset.z);
 				case NORTH :
 					return VoxelShapes
 							.or(makeCuboidShape(4, 0, 6, 12, 12, 10), makeCuboidShape(0, 12, 6, 16, 24, 10), makeCuboidShape(4, 24, 4, 12, 32, 12))
+
 							.withOffset(offset.x, offset.y, offset.z);
 				case EAST :
 					return VoxelShapes
 							.or(makeCuboidShape(10, 0, 4, 6, 12, 12), makeCuboidShape(10, 12, 0, 6, 24, 16), makeCuboidShape(12, 24, 4, 4, 32, 12))
+
 							.withOffset(offset.x, offset.y, offset.z);
 				case WEST :
 					return VoxelShapes
 							.or(makeCuboidShape(6, 0, 12, 10, 12, 4), makeCuboidShape(6, 12, 16, 10, 24, 0), makeCuboidShape(4, 24, 12, 12, 32, 4))
+
 							.withOffset(offset.x, offset.y, offset.z);
 			}
 		}
@@ -136,18 +150,18 @@ public class TheeternaloneBlock extends HaegrilontestModElements.ModElement {
 			builder.add(FACING, WATERLOGGED);
 		}
 
+		@Override
+		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;
+			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite()).with(WATERLOGGED, flag);
+		}
+
 		public BlockState rotate(BlockState state, Rotation rot) {
 			return state.with(FACING, rot.rotate(state.get(FACING)));
 		}
 
 		public BlockState mirror(BlockState state, Mirror mirrorIn) {
 			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
-		}
-
-		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;;
-			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite()).with(WATERLOGGED, flag);
 		}
 
 		@Override
@@ -185,11 +199,6 @@ public class TheeternaloneBlock extends HaegrilontestModElements.ModElement {
 		}
 
 		@Override
-		public boolean canConnectRedstone(BlockState state, IBlockReader world, BlockPos pos, Direction side) {
-			return true;
-		}
-
-		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
@@ -199,8 +208,8 @@ public class TheeternaloneBlock extends HaegrilontestModElements.ModElement {
 
 		@OnlyIn(Dist.CLIENT)
 		@Override
-		public void animateTick(BlockState state, World world, BlockPos pos, Random random) {
-			super.animateTick(state, world, pos, random);
+		public void animateTick(BlockState blockstate, World world, BlockPos pos, Random random) {
+			super.animateTick(blockstate, world, pos, random);
 			PlayerEntity entity = Minecraft.getInstance().player;
 			int x = pos.getX();
 			int y = pos.getY();
@@ -224,48 +233,42 @@ public class TheeternaloneBlock extends HaegrilontestModElements.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				TheeternaloneOnBlockRightClickedProcedure.executeProcedure($_dependencies);
-			}
+
+			TheeternaloneOnBlockRightClickedProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 
 		@Override
-		public void onBlockClicked(BlockState state, World world, BlockPos pos, PlayerEntity entity) {
-			super.onBlockClicked(state, world, pos, entity);
+		public void onBlockClicked(BlockState blockstate, World world, BlockPos pos, PlayerEntity entity) {
+			super.onBlockClicked(blockstate, world, pos, entity);
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				TheeternaloneOnBlockRightClickedProcedure.executeProcedure($_dependencies);
-			}
+
+			TheeternaloneOnBlockRightClickedProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 
 		@Override
-		public ActionResultType onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity entity, Hand hand,
+		public ActionResultType onBlockActivated(BlockState blockstate, World world, BlockPos pos, PlayerEntity entity, Hand hand,
 				BlockRayTraceResult hit) {
-			super.onBlockActivated(state, world, pos, entity, hand, hit);
+			super.onBlockActivated(blockstate, world, pos, entity, hand, hit);
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
+			double hitX = hit.getHitVec().x;
+			double hitY = hit.getHitVec().y;
+			double hitZ = hit.getHitVec().z;
 			Direction direction = hit.getFace();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				TheeternaloneOnBlockRightClickedProcedure.executeProcedure($_dependencies);
-			}
+
+			TheeternaloneOnBlockRightClickedProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return ActionResultType.SUCCESS;
 		}
 	}

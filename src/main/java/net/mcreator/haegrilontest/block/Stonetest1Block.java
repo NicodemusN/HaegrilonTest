@@ -25,6 +25,7 @@ import java.util.Collections;
 public class Stonetest1Block extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:stonetest_1")
 	public static final Block block = null;
+
 	public Stonetest1Block(HaegrilontestModElements instance) {
 		super(instance, 526);
 	}
@@ -34,10 +35,16 @@ public class Stonetest1Block extends HaegrilontestModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(null)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("stonetest_1");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

@@ -28,6 +28,7 @@ import java.util.Collections;
 public class BasketslabopenBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:basketslabopen")
 	public static final Block block = null;
+
 	public BasketslabopenBlock(HaegrilontestModElements instance) {
 		super(instance, 373);
 	}
@@ -38,6 +39,7 @@ public class BasketslabopenBlock extends HaegrilontestModElements.ModElement {
 		elements.items.add(
 				() -> new BlockItem(block, new Item.Properties().group(HaegrilondecorativeItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.CLOTH).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));

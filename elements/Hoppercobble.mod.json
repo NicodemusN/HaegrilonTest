@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "block",
   "definition": {
     "texture": "cobblestone2",
@@ -11,6 +11,7 @@
     "renderType": 2,
     "customModelName": "hoppercobble:default",
     "rotationMode": 0,
+    "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -65,9 +66,10 @@
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": true,
-    "canProvidePower": false,
+    "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
       "value": "ROCK"
@@ -75,6 +77,7 @@
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
+    "canProvidePower": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
@@ -89,6 +92,7 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
+    "isCustomSoundType": false,
     "soundOnStep": {
       "value": "STONE"
     },
@@ -126,6 +130,7 @@
         "value": "Blocks.STONE"
       }
     ],
+    "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

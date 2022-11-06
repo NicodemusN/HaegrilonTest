@@ -22,7 +22,7 @@ public class UtilityItemGroup extends HaegrilontestModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(StatusapprovedBlock.block, (int) (1));
+				return new ItemStack(StatusapprovedBlock.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -31,5 +31,6 @@ public class UtilityItemGroup extends HaegrilontestModElements.ModElement {
 			}
 		}.setBackgroundImageName("item_search.png");
 	}
+
 	public static ItemGroup tab;
 }

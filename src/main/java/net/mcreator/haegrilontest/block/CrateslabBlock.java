@@ -28,6 +28,7 @@ import java.util.Collections;
 public class CrateslabBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:crateslab")
 	public static final Block block = null;
+
 	public CrateslabBlock(HaegrilontestModElements instance) {
 		super(instance, 358);
 	}
@@ -38,6 +39,7 @@ public class CrateslabBlock extends HaegrilontestModElements.ModElement {
 		elements.items.add(
 				() -> new BlockItem(block, new Item.Properties().group(HaegrilondecorativeItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));

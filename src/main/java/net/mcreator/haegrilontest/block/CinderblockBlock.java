@@ -26,6 +26,7 @@ import java.util.Collections;
 public class CinderblockBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:cinderblock")
 	public static final Block block = null;
+
 	public CinderblockBlock(HaegrilontestModElements instance) {
 		super(instance, 353);
 	}
@@ -36,11 +37,17 @@ public class CinderblockBlock extends HaegrilontestModElements.ModElement {
 		elements.items.add(
 				() -> new BlockItem(block, new Item.Properties().group(HaegrilondecorativeItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 5)
 					.setNeedsPostProcessing((bs, br, bp) -> true).setEmmisiveRendering((bs, br, bp) -> true));
 			setRegistryName("cinderblock");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

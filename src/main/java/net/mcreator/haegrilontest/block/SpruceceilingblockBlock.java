@@ -36,6 +36,7 @@ import java.util.Collections;
 public class SpruceceilingblockBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:spruceceilingblock")
 	public static final Block block = null;
+
 	public SpruceceilingblockBlock(HaegrilontestModElements instance) {
 		super(instance, 208);
 	}
@@ -52,8 +53,10 @@ public class SpruceceilingblockBlock extends HaegrilontestModElements.ModElement
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = DirectionalBlock.FACING;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
@@ -67,8 +70,18 @@ public class SpruceceilingblockBlock extends HaegrilontestModElements.ModElement
 		}
 
 		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 0;
+		}
+
+		@Override
 		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
 			builder.add(FACING);
+		}
+
+		@Override
+		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			return this.getDefaultState().with(FACING, context.getNearestLookingDirection().getOpposite());
 		}
 
 		public BlockState rotate(BlockState state, Rotation rot) {
@@ -77,12 +90,6 @@ public class SpruceceilingblockBlock extends HaegrilontestModElements.ModElement
 
 		public BlockState mirror(BlockState state, Mirror mirrorIn) {
 			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
-		}
-
-		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			;
-			return this.getDefaultState().with(FACING, context.getNearestLookingDirection().getOpposite());
 		}
 
 		@Override

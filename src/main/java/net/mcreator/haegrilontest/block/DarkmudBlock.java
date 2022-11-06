@@ -26,6 +26,7 @@ import java.util.Collections;
 public class DarkmudBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:darkmud")
 	public static final Block block = null;
+
 	public DarkmudBlock(HaegrilontestModElements instance) {
 		super(instance, 289);
 	}
@@ -36,10 +37,16 @@ public class DarkmudBlock extends HaegrilontestModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(HaegrilonplantsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.EARTH).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("darkmud");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

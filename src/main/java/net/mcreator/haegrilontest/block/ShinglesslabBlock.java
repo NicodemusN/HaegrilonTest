@@ -28,6 +28,7 @@ import java.util.Collections;
 public class ShinglesslabBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:shinglesslab")
 	public static final Block block = null;
+
 	public ShinglesslabBlock(HaegrilontestModElements instance) {
 		super(instance, 94);
 	}
@@ -37,6 +38,7 @@ public class ShinglesslabBlock extends HaegrilontestModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(RoofingItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));

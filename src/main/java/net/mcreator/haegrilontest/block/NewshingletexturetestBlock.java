@@ -26,6 +26,7 @@ import java.util.Collections;
 public class NewshingletexturetestBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:newshingletexturetest")
 	public static final Block block = null;
+
 	public NewshingletexturetestBlock(HaegrilontestModElements instance) {
 		super(instance, 129);
 	}
@@ -35,10 +36,16 @@ public class NewshingletexturetestBlock extends HaegrilontestModElements.ModElem
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(RoofingItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("newshingletexturetest");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

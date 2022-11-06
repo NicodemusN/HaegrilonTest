@@ -26,6 +26,7 @@ import java.util.Collections;
 public class StrawbaleBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:strawbale")
 	public static final Block block = null;
+
 	public StrawbaleBlock(HaegrilontestModElements instance) {
 		super(instance, 427);
 	}
@@ -36,10 +37,16 @@ public class StrawbaleBlock extends HaegrilontestModElements.ModElement {
 		elements.items.add(
 				() -> new BlockItem(block, new Item.Properties().group(FoodandcookingitemsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.CROP).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("strawbale");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

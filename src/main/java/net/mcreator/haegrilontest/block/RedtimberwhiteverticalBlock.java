@@ -32,6 +32,7 @@ import java.util.Collections;
 public class RedtimberwhiteverticalBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:redtimberwhitevertical")
 	public static final Block block = null;
+
 	public RedtimberwhiteverticalBlock(HaegrilontestModElements instance) {
 		super(instance, 250);
 	}
@@ -48,6 +49,7 @@ public class RedtimberwhiteverticalBlock extends HaegrilontestModElements.ModEle
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(10f, 10f).setLightLevel(s -> 0).harvestLevel(1)
@@ -58,6 +60,11 @@ public class RedtimberwhiteverticalBlock extends HaegrilontestModElements.ModEle
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
 			return true;
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 0;
 		}
 
 		@Override

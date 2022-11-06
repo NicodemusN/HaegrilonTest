@@ -35,6 +35,7 @@ import java.util.Collections;
 public class BucketBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:bucket")
 	public static final Block block = null;
+
 	public BucketBlock(HaegrilontestModElements instance) {
 		super(instance, 354);
 	}
@@ -51,6 +52,7 @@ public class BucketBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
@@ -64,9 +66,16 @@ public class BucketBlock extends HaegrilontestModElements.ModElement {
 		}
 
 		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 0;
+		}
+
+		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
-			return VoxelShapes.or(makeCuboidShape(3, 0, 3, 13, 16, 13)).withOffset(offset.x, offset.y, offset.z);
+			return VoxelShapes.or(makeCuboidShape(3, 0, 3, 13, 16, 13))
+
+					.withOffset(offset.x, offset.y, offset.z);
 		}
 
 		@Override

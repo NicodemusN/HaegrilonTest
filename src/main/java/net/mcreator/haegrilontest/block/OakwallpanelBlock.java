@@ -3,6 +3,8 @@ package net.mcreator.haegrilontest.block;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -22,6 +24,7 @@ import java.util.Collections;
 public class OakwallpanelBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:oakwallpanel")
 	public static final Block block = null;
+
 	public OakwallpanelBlock(HaegrilontestModElements instance) {
 		super(instance, 197);
 	}
@@ -31,10 +34,16 @@ public class OakwallpanelBlock extends HaegrilontestModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(HaegrilonItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("oakwallpanel");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

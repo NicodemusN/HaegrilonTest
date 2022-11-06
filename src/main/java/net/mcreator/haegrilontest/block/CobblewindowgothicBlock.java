@@ -35,6 +35,7 @@ import java.util.Collections;
 public class CobblewindowgothicBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:cobblewindowgothic")
 	public static final Block block = null;
+
 	public CobblewindowgothicBlock(HaegrilontestModElements instance) {
 		super(instance, 31);
 	}
@@ -51,6 +52,7 @@ public class CobblewindowgothicBlock extends HaegrilontestModElements.ModElement
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
@@ -59,10 +61,18 @@ public class CobblewindowgothicBlock extends HaegrilontestModElements.ModElement
 		}
 
 		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
+		}
+
+		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
-			return VoxelShapes.or(makeCuboidShape(0, 0, 0, 16, 2, 16), makeCuboidShape(0, 14, 0, 16, 16, 16), makeCuboidShape(14, 0, 0, 16, 16, 16),
-					makeCuboidShape(0, 0, 0, 2, 16, 16)).withOffset(offset.x, offset.y, offset.z);
+			return VoxelShapes
+					.or(makeCuboidShape(0, 0, 0, 16, 2, 16), makeCuboidShape(0, 14, 0, 16, 16, 16), makeCuboidShape(14, 0, 0, 16, 16, 16),
+							makeCuboidShape(0, 0, 0, 2, 16, 16))
+
+					.withOffset(offset.x, offset.y, offset.z);
 		}
 
 		@Override

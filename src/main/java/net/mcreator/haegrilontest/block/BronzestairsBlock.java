@@ -23,6 +23,7 @@ import java.util.Collections;
 public class BronzestairsBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:bronzestairs")
 	public static final Block block = null;
+
 	public BronzestairsBlock(HaegrilontestModElements instance) {
 		super(instance, 136);
 	}
@@ -32,6 +33,7 @@ public class BronzestairsBlock extends HaegrilontestModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(HaegrilonItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
 			super(() -> new Block(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0))

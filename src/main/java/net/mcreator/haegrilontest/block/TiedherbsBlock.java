@@ -33,6 +33,7 @@ import java.util.Collections;
 public class TiedherbsBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:tiedherbs")
 	public static final Block block = null;
+
 	public TiedherbsBlock(HaegrilontestModElements instance) {
 		super(instance, 421);
 	}
@@ -49,6 +50,7 @@ public class TiedherbsBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.CROP).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
@@ -62,9 +64,16 @@ public class TiedherbsBlock extends HaegrilontestModElements.ModElement {
 		}
 
 		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 0;
+		}
+
+		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
-			return VoxelShapes.or(makeCuboidShape(4, 0, 4, 12, 16, 12)).withOffset(offset.x, offset.y, offset.z);
+			return VoxelShapes.or(makeCuboidShape(4, 0, 4, 12, 16, 12))
+
+					.withOffset(offset.x, offset.y, offset.z);
 		}
 
 		@Override

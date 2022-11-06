@@ -1,11 +1,9 @@
 {
-  "_fv": 18,
+  "_fv": 33,
   "_type": "command",
   "definition": {
     "commandName": "guestfly",
     "permissionLevel": "No requirement",
-    "onCommandExecuted": {
-      "name": "GuestflyCommandExecuted"
-    }
+    "argsxml": "<xml><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"old_command\"><field name=\"procedure\">GuestflyCommandExecuted</field></block></next></block></xml>"
   }
 }

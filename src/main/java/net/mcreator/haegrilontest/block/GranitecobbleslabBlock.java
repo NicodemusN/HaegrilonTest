@@ -28,6 +28,7 @@ import java.util.Collections;
 public class GranitecobbleslabBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:granitecobbleslab")
 	public static final Block block = null;
+
 	public GranitecobbleslabBlock(HaegrilontestModElements instance) {
 		super(instance, 68);
 	}
@@ -38,6 +39,7 @@ public class GranitecobbleslabBlock extends HaegrilontestModElements.ModElement 
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(StoneblocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));

@@ -26,6 +26,7 @@ import java.util.Collections;
 public class WovenwoolredBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:wovenwoolred")
 	public static final Block block = null;
+
 	public WovenwoolredBlock(HaegrilontestModElements instance) {
 		super(instance, 156);
 	}
@@ -35,10 +36,16 @@ public class WovenwoolredBlock extends HaegrilontestModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(HaegrilonItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOL).sound(SoundType.CLOTH).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("wovenwoolred");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

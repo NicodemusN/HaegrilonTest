@@ -31,6 +31,7 @@ import java.util.Collections;
 public class ForestfloorBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:forestfloor")
 	public static final Block block = null;
+
 	public ForestfloorBlock(HaegrilontestModElements instance) {
 		super(instance, 295);
 	}
@@ -47,10 +48,16 @@ public class ForestfloorBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutoutMipped());
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.EARTH).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("forestfloor");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

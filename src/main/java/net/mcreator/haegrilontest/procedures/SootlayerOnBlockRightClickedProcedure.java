@@ -6,18 +6,18 @@ import net.minecraft.state.Property;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.haegrilontest.block.Sootlayer2Block;
-import net.mcreator.haegrilontest.HaegrilontestModElements;
 import net.mcreator.haegrilontest.HaegrilontestMod;
 
 import java.util.Map;
 
-@HaegrilontestModElements.ModElement.Tag
-public class SootlayerOnBlockRightClickedProcedure extends HaegrilontestModElements.ModElement {
-	public SootlayerOnBlockRightClickedProcedure(HaegrilontestModElements instance) {
-		super(instance, 492);
-	}
+public class SootlayerOnBlockRightClickedProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
+		if (dependencies.get("world") == null) {
+			if (!dependencies.containsKey("world"))
+				HaegrilontestMod.LOGGER.warn("Failed to load dependency world for procedure SootlayerOnBlockRightClicked!");
+			return;
+		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
 				HaegrilontestMod.LOGGER.warn("Failed to load dependency x for procedure SootlayerOnBlockRightClicked!");
@@ -33,17 +33,12 @@ public class SootlayerOnBlockRightClickedProcedure extends HaegrilontestModEleme
 				HaegrilontestMod.LOGGER.warn("Failed to load dependency z for procedure SootlayerOnBlockRightClicked!");
 			return;
 		}
-		if (dependencies.get("world") == null) {
-			if (!dependencies.containsKey("world"))
-				HaegrilontestMod.LOGGER.warn("Failed to load dependency world for procedure SootlayerOnBlockRightClicked!");
-			return;
-		}
+		IWorld world = (IWorld) dependencies.get("world");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		IWorld world = (IWorld) dependencies.get("world");
 		{
-			BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+			BlockPos _bp = new BlockPos(x, y, z);
 			BlockState _bs = Sootlayer2Block.block.getDefaultState();
 			BlockState _bso = world.getBlockState(_bp);
 			for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {

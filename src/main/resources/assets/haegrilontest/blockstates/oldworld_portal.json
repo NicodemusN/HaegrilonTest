@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "haegrilontest:block/oldworld_portal_ew"
+    },
+    "axis=x": {
+      "model": "haegrilontest:block/oldworld_portal_ns"
+    }
+  }
+}

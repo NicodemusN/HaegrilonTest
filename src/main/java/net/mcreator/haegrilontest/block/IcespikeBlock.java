@@ -6,8 +6,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -32,6 +30,7 @@ import java.util.Collections;
 public class IcespikeBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:icespike")
 	public static final Block block = null;
+
 	public IcespikeBlock(HaegrilontestModElements instance) {
 		super(instance, 277);
 	}
@@ -48,6 +47,7 @@ public class IcespikeBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getTranslucent());
 	}
+
 	public static class CustomBlock extends FenceBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ICE).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
@@ -60,11 +60,6 @@ public class IcespikeBlock extends HaegrilontestModElements.ModElement {
 			boolean flag = state.getBlock() instanceof FenceBlock && state.getMaterial() == this.material;
 			boolean flag1 = state.getBlock() instanceof FenceGateBlock && FenceGateBlock.isParallel(state, face);
 			return !cannotAttach(state.getBlock()) && checkattach || flag || flag1;
-		}
-
-		@Override
-		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-			return true;
 		}
 
 		@Override

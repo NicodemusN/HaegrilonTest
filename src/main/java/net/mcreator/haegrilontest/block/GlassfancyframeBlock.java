@@ -39,6 +39,7 @@ import java.util.Collections;
 public class GlassfancyframeBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:glassfancyframe")
 	public static final Block block = null;
+
 	public GlassfancyframeBlock(HaegrilontestModElements instance) {
 		super(instance, 379);
 	}
@@ -55,8 +56,10 @@ public class GlassfancyframeBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutoutMipped());
 	}
+
 	public static class CustomBlock extends Block implements IWaterLoggable {
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
@@ -65,14 +68,19 @@ public class GlassfancyframeBlock extends HaegrilontestModElements.ModElement {
 		}
 
 		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;
-			return this.getDefaultState().with(WATERLOGGED, flag);
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override
 		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
 			builder.add(WATERLOGGED);
+		}
+
+		@Override
+		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;
+			return this.getDefaultState().with(WATERLOGGED, flag);
 		}
 
 		@Override

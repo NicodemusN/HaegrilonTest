@@ -28,6 +28,7 @@ import java.util.Collections;
 public class ThatchgraycrossstitchslabBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:thatchgraycrossstitchslab")
 	public static final Block block = null;
+
 	public ThatchgraycrossstitchslabBlock(HaegrilontestModElements instance) {
 		super(instance, 126);
 	}
@@ -37,6 +38,7 @@ public class ThatchgraycrossstitchslabBlock extends HaegrilontestModElements.Mod
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(RoofingItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOL).sound(SoundType.CLOTH).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));

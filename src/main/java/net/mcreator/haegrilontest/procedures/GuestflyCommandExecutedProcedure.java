@@ -4,16 +4,11 @@ import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.haegrilontest.HaegrilontestModElements;
 import net.mcreator.haegrilontest.HaegrilontestMod;
 
 import java.util.Map;
 
-@HaegrilontestModElements.ModElement.Tag
-public class GuestflyCommandExecutedProcedure extends HaegrilontestModElements.ModElement {
-	public GuestflyCommandExecutedProcedure(HaegrilontestModElements instance) {
-		super(instance, 516);
-	}
+public class GuestflyCommandExecutedProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {

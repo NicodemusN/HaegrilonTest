@@ -27,6 +27,7 @@ import java.util.Collections;
 public class BrowntimberBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:browntimber")
 	public static final Block block = null;
+
 	public BrowntimberBlock(HaegrilontestModElements instance) {
 		super(instance, 176);
 	}
@@ -36,11 +37,17 @@ public class BrowntimberBlock extends HaegrilontestModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(HaegrilonItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(10f, 10f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.AXE).setRequiresTool());
 			setRegistryName("browntimber");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

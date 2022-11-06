@@ -26,6 +26,7 @@ import java.util.Collections;
 public class SackBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:sack")
 	public static final Block block = null;
+
 	public SackBlock(HaegrilontestModElements instance) {
 		super(instance, 360);
 	}
@@ -36,10 +37,16 @@ public class SackBlock extends HaegrilontestModElements.ModElement {
 		elements.items.add(
 				() -> new BlockItem(block, new Item.Properties().group(HaegrilondecorativeItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOL).sound(SoundType.CLOTH).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("sack");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

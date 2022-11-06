@@ -26,6 +26,7 @@ import java.util.Collections;
 public class GranitelargebricksBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:granitelargebricks")
 	public static final Block block = null;
+
 	public GranitelargebricksBlock(HaegrilontestModElements instance) {
 		super(instance, 73);
 	}
@@ -36,10 +37,16 @@ public class GranitelargebricksBlock extends HaegrilontestModElements.ModElement
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(StoneblocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("granitelargebricks");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

@@ -27,6 +27,7 @@ import java.util.Collections;
 public class WovenwoollightgraystairsBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:wovenwoollightgraystairs")
 	public static final Block block = null;
+
 	public WovenwoollightgraystairsBlock(HaegrilontestModElements instance) {
 		super(instance, 154);
 	}
@@ -36,6 +37,7 @@ public class WovenwoollightgraystairsBlock extends HaegrilontestModElements.ModE
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(HaegrilonItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
 			super(() -> new Block(Block.Properties.create(Material.WOOL).sound(SoundType.CLOTH).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0))

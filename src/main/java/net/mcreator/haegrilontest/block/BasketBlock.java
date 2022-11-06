@@ -18,7 +18,7 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.Direction;
 import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.state.StateContainer;
-import net.minecraft.state.DirectionProperty;
+import net.minecraft.state.EnumProperty;
 import net.minecraft.state.BooleanProperty;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -32,7 +32,6 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.IWaterLoggable;
-import net.minecraft.block.DirectionalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -46,6 +45,7 @@ import java.util.Collections;
 public class BasketBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:basket")
 	public static final Block block = null;
+
 	public BasketBlock(HaegrilontestModElements instance) {
 		super(instance, 339);
 	}
@@ -62,66 +62,69 @@ public class BasketBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block implements IWaterLoggable {
-		public static final DirectionProperty FACING = DirectionalBlock.FACING;
+		public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
 					.doesNotBlockMovement().notSolid().setOpaque((bs, br, bp) -> false));
-			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.SOUTH).with(WATERLOGGED, false));
+			this.setDefaultState(this.stateContainer.getBaseState().with(AXIS, Direction.Axis.Y).with(WATERLOGGED, false));
 			setRegistryName("basket");
 		}
 
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-			return true;
+			return state.getFluidState().isEmpty();
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 0;
 		}
 
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
-			switch ((Direction) state.get(FACING)) {
-				case SOUTH :
-				case NORTH :
+			switch ((Direction.Axis) state.get(AXIS)) {
+				case X :
+					return VoxelShapes.or(makeCuboidShape(0, 4, 4, 16, 12, 12))
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case Y :
 				default :
-					return VoxelShapes.or(makeCuboidShape(4, 0, 4, 12, 16, 12)).withOffset(offset.x, offset.y, offset.z);
-				case EAST :
-				case WEST :
-					return VoxelShapes.or(makeCuboidShape(4, 12, 0, 12, 4, 16)).withOffset(offset.x, offset.y, offset.z);
-				case UP :
-				case DOWN :
-					return VoxelShapes.or(makeCuboidShape(0, 12, 12, 16, 4, 4)).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes.or(makeCuboidShape(4, 0, 4, 12, 16, 12))
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case Z :
+					return VoxelShapes.or(makeCuboidShape(4, 4, 16, 12, 12, 0))
+
+							.withOffset(offset.x, offset.y, offset.z);
 			}
 		}
 
 		@Override
 		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-			builder.add(FACING, WATERLOGGED);
+			builder.add(AXIS, WATERLOGGED);
+		}
+
+		@Override
+		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;
+			return this.getDefaultState().with(AXIS, context.getFace().getAxis()).with(WATERLOGGED, flag);
 		}
 
 		@Override
 		public BlockState rotate(BlockState state, Rotation rot) {
 			if (rot == Rotation.CLOCKWISE_90 || rot == Rotation.COUNTERCLOCKWISE_90) {
-				if ((Direction) state.get(FACING) == Direction.WEST || (Direction) state.get(FACING) == Direction.EAST) {
-					return state.with(FACING, Direction.UP);
-				} else if ((Direction) state.get(FACING) == Direction.UP || (Direction) state.get(FACING) == Direction.DOWN) {
-					return state.with(FACING, Direction.WEST);
+				if ((Direction.Axis) state.get(AXIS) == Direction.Axis.X) {
+					return state.with(AXIS, Direction.Axis.Z);
+				} else if ((Direction.Axis) state.get(AXIS) == Direction.Axis.Z) {
+					return state.with(AXIS, Direction.Axis.X);
 				}
 			}
 			return state;
-		}
-
-		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			Direction facing = context.getFace();
-			if (facing == Direction.WEST || facing == Direction.EAST)
-				facing = Direction.UP;
-			else if (facing == Direction.NORTH || facing == Direction.SOUTH)
-				facing = Direction.EAST;
-			else
-				facing = Direction.SOUTH;
-			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;;
-			return this.getDefaultState().with(FACING, facing).with(WATERLOGGED, flag);
 		}
 
 		@Override

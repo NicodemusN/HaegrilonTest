@@ -26,6 +26,7 @@ import java.util.Collections;
 public class WhiteoaktimbercrossBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:whiteoaktimbercross")
 	public static final Block block = null;
+
 	public WhiteoaktimbercrossBlock(HaegrilontestModElements instance) {
 		super(instance, 183);
 	}
@@ -35,10 +36,16 @@ public class WhiteoaktimbercrossBlock extends HaegrilontestModElements.ModElemen
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(HaegrilonItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("whiteoaktimbercross");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

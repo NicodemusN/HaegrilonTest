@@ -22,7 +22,7 @@ public class HaegrilonplantsItemGroup extends HaegrilontestModElements.ModElemen
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(Blocks.DARK_OAK_LEAVES, (int) (1));
+				return new ItemStack(Blocks.DARK_OAK_LEAVES);
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -31,5 +31,6 @@ public class HaegrilonplantsItemGroup extends HaegrilontestModElements.ModElemen
 			}
 		}.setBackgroundImageName("item_search.png");
 	}
+
 	public static ItemGroup tab;
 }

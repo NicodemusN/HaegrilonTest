@@ -26,6 +26,7 @@ import java.util.Collections;
 public class ThatchmossyBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:thatchmossy")
 	public static final Block block = null;
+
 	public ThatchmossyBlock(HaegrilontestModElements instance) {
 		super(instance, 117);
 	}
@@ -35,10 +36,16 @@ public class ThatchmossyBlock extends HaegrilontestModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(RoofingItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOL).sound(SoundType.CLOTH).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("thatchmossy");
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 15;
 		}
 
 		@Override

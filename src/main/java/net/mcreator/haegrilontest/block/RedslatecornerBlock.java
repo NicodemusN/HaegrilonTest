@@ -47,6 +47,7 @@ import java.util.Collections;
 public class RedslatecornerBlock extends HaegrilontestModElements.ModElement {
 	@ObjectHolder("haegrilontest:redslatecorner")
 	public static final Block block = null;
+
 	public RedslatecornerBlock(HaegrilontestModElements instance) {
 		super(instance, 86);
 	}
@@ -62,9 +63,11 @@ public class RedslatecornerBlock extends HaegrilontestModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block implements IWaterLoggable {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
@@ -74,7 +77,12 @@ public class RedslatecornerBlock extends HaegrilontestModElements.ModElement {
 
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-			return true;
+			return state.getFluidState().isEmpty();
+		}
+
+		@Override
+		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return 0;
 		}
 
 		@Override
@@ -83,17 +91,21 @@ public class RedslatecornerBlock extends HaegrilontestModElements.ModElement {
 			switch ((Direction) state.get(FACING)) {
 				case SOUTH :
 				default :
-					return VoxelShapes.or(makeCuboidShape(16, 0, 8, 0, 16, 0), makeCuboidShape(8, 0, 16, 0, 16, 0)).withOffset(offset.x, offset.y,
-							offset.z);
+					return VoxelShapes.or(makeCuboidShape(16, 0, 8, 0, 16, 0), makeCuboidShape(8, 0, 16, 0, 16, 0))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case NORTH :
-					return VoxelShapes.or(makeCuboidShape(0, 0, 8, 16, 16, 16), makeCuboidShape(8, 0, 0, 16, 16, 16)).withOffset(offset.x, offset.y,
-							offset.z);
+					return VoxelShapes.or(makeCuboidShape(0, 0, 8, 16, 16, 16), makeCuboidShape(8, 0, 0, 16, 16, 16))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case EAST :
-					return VoxelShapes.or(makeCuboidShape(8, 0, 0, 0, 16, 16), makeCuboidShape(16, 0, 8, 0, 16, 16)).withOffset(offset.x, offset.y,
-							offset.z);
+					return VoxelShapes.or(makeCuboidShape(8, 0, 0, 0, 16, 16), makeCuboidShape(16, 0, 8, 0, 16, 16))
+
+							.withOffset(offset.x, offset.y, offset.z);
 				case WEST :
-					return VoxelShapes.or(makeCuboidShape(8, 0, 16, 16, 16, 0), makeCuboidShape(0, 0, 8, 16, 16, 0)).withOffset(offset.x, offset.y,
-							offset.z);
+					return VoxelShapes.or(makeCuboidShape(8, 0, 16, 16, 16, 0), makeCuboidShape(0, 0, 8, 16, 16, 0))
+
+							.withOffset(offset.x, offset.y, offset.z);
 			}
 		}
 
@@ -102,18 +114,18 @@ public class RedslatecornerBlock extends HaegrilontestModElements.ModElement {
 			builder.add(FACING, WATERLOGGED);
 		}
 
+		@Override
+		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;
+			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite()).with(WATERLOGGED, flag);
+		}
+
 		public BlockState rotate(BlockState state, Rotation rot) {
 			return state.with(FACING, rot.rotate(state.get(FACING)));
 		}
 
 		public BlockState mirror(BlockState state, Mirror mirrorIn) {
 			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
-		}
-
-		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;;
-			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite()).with(WATERLOGGED, flag);
 		}
 
 		@Override
