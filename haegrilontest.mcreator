@@ -5609,15 +5609,123 @@
       }
     },
     {
-      "name": "Newworld",
-      "type": "dimension",
-      "sortid": 544,
+      "name": "Oldworldtpprocedure",
+      "type": "procedure",
+      "sortid": 545,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "newworld",
+      "registry_name": "oldworldtpprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Oldworldtp",
+      "type": "command",
+      "sortid": 545,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldworldtp"
+    },
+    {
+      "name": "Testworldtp",
+      "type": "command",
+      "sortid": 546,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testworldtp"
+    },
+    {
+      "name": "Testworldtpprocedure",
+      "type": "procedure",
+      "sortid": 547,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testworldtpprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Testworld",
+      "type": "dimension",
+      "sortid": 548,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testworld",
       "metadata": {
         "ep": true
       }
+    },
+    {
+      "name": "Newworldtpprocedure",
+      "type": "procedure",
+      "sortid": 549,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "newworldtpprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Newworldtp",
+      "type": "command",
+      "sortid": 550,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "newworldtp"
     }
   ],
   "variable_elements": [],
@@ -5902,6 +6010,7 @@
       "block.haegrilontest.danishsoldierguard": "Blue Soldier",
       "block.haegrilontest.dirtlayer_6": "Dirt Layer",
       "block.haegrilontest.dirtlayer_3": "Dirt Layer",
+      "item.haegrilontest.testworld": "Testworld Portal Igniter",
       "block.haegrilontest.dirtlayer_4": "Dirt Layer",
       "block.haegrilon.cornercobblestone": "Cobblestone Corner",
       "block.haegrilontest.blackrooftileslab": "Black Roof Tile Slab",

@@ -11,14 +11,14 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 
-import net.mcreator.haegrilontest.world.dimension.NewworldDimension;
+import net.mcreator.haegrilontest.world.dimension.TestworldDimension;
 import net.mcreator.haegrilontest.itemgroup.UtilityItemGroup;
 
-public class NewworldItem extends Item {
-	@ObjectHolder("haegrilontest:newworld")
+public class TestworldItem extends Item {
+	@ObjectHolder("haegrilontest:testworld")
 	public static final Item block = null;
 
-	public NewworldItem() {
+	public TestworldItem() {
 		super(new Item.Properties().group(UtilityItemGroup.tab).maxDamage(64));
 	}
 
@@ -36,7 +36,7 @@ public class NewworldItem extends Item {
 			int z = pos.getZ();
 			boolean success = false;
 			if (world.isAirBlock(pos) && true) {
-				NewworldDimension.portal.portalSpawn(world, pos);
+				TestworldDimension.portal.portalSpawn(world, pos);
 				itemstack.damageItem(1, entity, c -> c.sendBreakAnimation(context.getHand()));
 				success = true;
 			}

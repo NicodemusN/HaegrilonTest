@@ -53,7 +53,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 import net.minecraft.block.AbstractBlock;
 
-import net.mcreator.haegrilontest.item.NewworldItem;
+import net.mcreator.haegrilontest.item.TestworldItem;
 import net.mcreator.haegrilontest.block.StatuswipBlock;
 import net.mcreator.haegrilontest.HaegrilontestModElements;
 
@@ -73,12 +73,12 @@ import com.google.common.collect.Sets;
 import com.google.common.collect.ImmutableSet;
 
 @HaegrilontestModElements.ModElement.Tag
-public class NewworldDimension extends HaegrilontestModElements.ModElement {
-	@ObjectHolder("haegrilontest:newworld_portal")
+public class TestworldDimension extends HaegrilontestModElements.ModElement {
+	@ObjectHolder("haegrilontest:testworld_portal")
 	public static final CustomPortalBlock portal = null;
 
-	public NewworldDimension(HaegrilontestModElements instance) {
-		super(instance, 544);
+	public TestworldDimension(HaegrilontestModElements instance) {
+		super(instance, 548);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 
@@ -122,7 +122,7 @@ public class NewworldDimension extends HaegrilontestModElements.ModElement {
 			try {
 				Object2ObjectMap<ResourceLocation, DimensionRenderInfo> effectsRegistry = (Object2ObjectMap<ResourceLocation, DimensionRenderInfo>) ObfuscationReflectionHelper
 						.getPrivateValue(DimensionRenderInfo.class, null, "field_239208_a_");
-				effectsRegistry.put(new ResourceLocation("haegrilontest:newworld"), customEffect);
+				effectsRegistry.put(new ResourceLocation("haegrilontest:testworld"), customEffect);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -131,13 +131,13 @@ public class NewworldDimension extends HaegrilontestModElements.ModElement {
 	}
 
 	private static PointOfInterestType poi = null;
-	public static final TicketType<BlockPos> CUSTOM_PORTAL = TicketType.create("newworld_portal", Vector3i::compareTo, 300);
+	public static final TicketType<BlockPos> CUSTOM_PORTAL = TicketType.create("testworld_portal", Vector3i::compareTo, 300);
 
 	public static class POIRegisterHandler {
 		@SubscribeEvent
 		public void registerPointOfInterest(RegistryEvent.Register<PointOfInterestType> event) {
-			poi = new PointOfInterestType("newworld_portal", Sets.newHashSet(ImmutableSet.copyOf(portal.getStateContainer().getValidStates())), 0, 1)
-					.setRegistryName("newworld_portal");
+			poi = new PointOfInterestType("testworld_portal", Sets.newHashSet(ImmutableSet.copyOf(portal.getStateContainer().getValidStates())), 0, 1)
+					.setRegistryName("testworld_portal");
 			ForgeRegistries.POI_TYPES.register(poi);
 		}
 	}
@@ -145,14 +145,14 @@ public class NewworldDimension extends HaegrilontestModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomPortalBlock());
-		elements.items.add(() -> new NewworldItem().setRegistryName("newworld"));
+		elements.items.add(() -> new TestworldItem().setRegistryName("testworld"));
 	}
 
 	public static class CustomPortalBlock extends NetherPortalBlock {
 		public CustomPortalBlock() {
 			super(Block.Properties.create(Material.PORTAL).doesNotBlockMovement().tickRandomly().hardnessAndResistance(-1.0F).sound(SoundType.GLASS)
 					.setLightLevel(s -> 5).noDrops());
-			setRegistryName("newworld_portal");
+			setRegistryName("testworld_portal");
 		}
 
 		@Override
@@ -215,9 +215,9 @@ public class NewworldDimension extends HaegrilontestModElements.ModElement {
 				if (entity.func_242280_ah()) {
 					entity.func_242279_ag();
 				} else if (entity.world.getDimensionKey() != RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
-						new ResourceLocation("haegrilontest:newworld"))) {
+						new ResourceLocation("haegrilontest:testworld"))) {
 					entity.func_242279_ag();
-					teleportToDimension(entity, pos, RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("haegrilontest:newworld")));
+					teleportToDimension(entity, pos, RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("haegrilontest:testworld")));
 				} else {
 					entity.func_242279_ag();
 					teleportToDimension(entity, pos, World.OVERWORLD);

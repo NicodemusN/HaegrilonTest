@@ -31,11 +31,11 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Newworld Portal Igniter",
+    "igniterName": "Testworld Portal Igniter",
     "igniterTab": {
       "value": "CUSTOM:Utility"
     },
-    "texture": "full_tatami_mat",
+    "texture": "half_tatami_mat",
     "portalTexture": "oak_leaves",
     "enablePortal": true
   }
