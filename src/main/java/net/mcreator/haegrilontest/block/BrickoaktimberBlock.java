@@ -28,7 +28,7 @@ public class BrickoaktimberBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public BrickoaktimberBlock(HaegrilontestModElements instance) {
-		super(instance, 258);
+		super(instance, 275);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class RiverpebblesBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public RiverpebblesBlock(HaegrilontestModElements instance) {
-		super(instance, 290);
+		super(instance, 309);
 	}
 
 	@Override

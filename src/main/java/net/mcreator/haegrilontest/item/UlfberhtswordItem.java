@@ -18,7 +18,7 @@ public class UlfberhtswordItem extends HaegrilontestModElements.ModElement {
 	public static final Item block = null;
 
 	public UlfberhtswordItem(HaegrilontestModElements instance) {
-		super(instance, 341);
+		super(instance, 360);
 	}
 
 	@Override

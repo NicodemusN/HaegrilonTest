@@ -48,7 +48,7 @@ public class BannerhighfortBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public BannerhighfortBlock(HaegrilontestModElements instance) {
-		super(instance, 518);
+		super(instance, 537);
 	}
 
 	@Override

@@ -48,7 +48,7 @@ public class ArrowslitcobblestoneBlock extends HaegrilontestModElements.ModEleme
 	public static final Block block = null;
 
 	public ArrowslitcobblestoneBlock(HaegrilontestModElements instance) {
-		super(instance, 26);
+		super(instance, 46);
 	}
 
 	@Override

@@ -45,7 +45,7 @@ public class TableBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public TableBlock(HaegrilontestModElements instance) {
-		super(instance, 408);
+		super(instance, 427);
 	}
 
 	@Override

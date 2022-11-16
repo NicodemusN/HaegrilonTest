@@ -53,7 +53,7 @@ public class DanishsoldierattackBlock extends HaegrilontestModElements.ModElemen
 	public static final Block block = null;
 
 	public DanishsoldierattackBlock(HaegrilontestModElements instance) {
-		super(instance, 530);
+		super(instance, 549);
 	}
 
 	@Override

@@ -49,7 +49,7 @@ public class BrownslatecornerBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public BrownslatecornerBlock(HaegrilontestModElements instance) {
-		super(instance, 83);
+		super(instance, 100);
 	}
 
 	@Override

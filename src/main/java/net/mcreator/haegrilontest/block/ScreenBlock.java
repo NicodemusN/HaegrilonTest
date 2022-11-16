@@ -34,7 +34,7 @@ public class ScreenBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public ScreenBlock(HaegrilontestModElements instance) {
-		super(instance, 381);
+		super(instance, 400);
 	}
 
 	@Override

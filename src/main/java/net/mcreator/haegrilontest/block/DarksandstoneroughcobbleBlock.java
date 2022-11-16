@@ -28,7 +28,7 @@ public class DarksandstoneroughcobbleBlock extends HaegrilontestModElements.ModE
 	public static final Block block = null;
 
 	public DarksandstoneroughcobbleBlock(HaegrilontestModElements instance) {
-		super(instance, 3);
+		super(instance, 5);
 	}
 
 	@Override

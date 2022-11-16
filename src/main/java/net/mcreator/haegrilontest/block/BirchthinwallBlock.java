@@ -42,7 +42,7 @@ public class BirchthinwallBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public BirchthinwallBlock(HaegrilontestModElements instance) {
-		super(instance, 215);
+		super(instance, 232);
 	}
 
 	@Override

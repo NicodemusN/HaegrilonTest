@@ -59,7 +59,7 @@ public class OakshutteropenrightBlock extends HaegrilontestModElements.ModElemen
 	public static final Block block = null;
 
 	public OakshutteropenrightBlock(HaegrilontestModElements instance) {
-		super(instance, 511);
+		super(instance, 530);
 	}
 
 	@Override

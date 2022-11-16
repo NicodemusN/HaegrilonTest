@@ -49,7 +49,7 @@ public class SprucerailingtBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public SprucerailingtBlock(HaegrilontestModElements instance) {
-		super(instance, 245);
+		super(instance, 262);
 	}
 
 	@Override

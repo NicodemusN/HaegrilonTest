@@ -49,7 +49,7 @@ public class MuddycobbleverticalBlock extends HaegrilontestModElements.ModElemen
 	public static final Block block = null;
 
 	public MuddycobbleverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 43);
+		super(instance, 63);
 	}
 
 	@Override

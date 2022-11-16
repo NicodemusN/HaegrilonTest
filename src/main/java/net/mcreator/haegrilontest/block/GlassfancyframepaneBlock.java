@@ -34,7 +34,7 @@ public class GlassfancyframepaneBlock extends HaegrilontestModElements.ModElemen
 	public static final Block block = null;
 
 	public GlassfancyframepaneBlock(HaegrilontestModElements instance) {
-		super(instance, 380);
+		super(instance, 399);
 	}
 
 	@Override

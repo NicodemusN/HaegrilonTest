@@ -49,7 +49,7 @@ public class WolfpeltBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public WolfpeltBlock(HaegrilontestModElements instance) {
-		super(instance, 395);
+		super(instance, 414);
 	}
 
 	@Override

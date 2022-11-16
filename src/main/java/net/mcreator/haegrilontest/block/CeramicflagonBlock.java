@@ -49,7 +49,7 @@ public class CeramicflagonBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public CeramicflagonBlock(HaegrilontestModElements instance) {
-		super(instance, 378);
+		super(instance, 397);
 	}
 
 	@Override

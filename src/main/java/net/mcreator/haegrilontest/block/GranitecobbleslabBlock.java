@@ -30,7 +30,7 @@ public class GranitecobbleslabBlock extends HaegrilontestModElements.ModElement 
 	public static final Block block = null;
 
 	public GranitecobbleslabBlock(HaegrilontestModElements instance) {
-		super(instance, 68);
+		super(instance, 85);
 	}
 
 	@Override

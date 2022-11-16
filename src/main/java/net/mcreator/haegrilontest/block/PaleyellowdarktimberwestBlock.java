@@ -33,7 +33,7 @@ public class PaleyellowdarktimberwestBlock extends HaegrilontestModElements.ModE
 	public static final Block block = null;
 
 	public PaleyellowdarktimberwestBlock(HaegrilontestModElements instance) {
-		super(instance, 240);
+		super(instance, 257);
 	}
 
 	@Override

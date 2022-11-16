@@ -42,7 +42,7 @@ public class SprucethinwallBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public SprucethinwallBlock(HaegrilontestModElements instance) {
-		super(instance, 206);
+		super(instance, 223);
 	}
 
 	@Override

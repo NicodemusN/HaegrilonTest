@@ -45,7 +45,7 @@ public class HoppersandstoneBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public HoppersandstoneBlock(HaegrilontestModElements instance) {
-		super(instance, 8);
+		super(instance, 20);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class StatuserrorBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public StatuserrorBlock(HaegrilontestModElements instance) {
-		super(instance, 268);
+		super(instance, 285);
 	}
 
 	@Override

@@ -25,7 +25,7 @@ public class BronzestairsOxidizedBlock extends HaegrilontestModElements.ModEleme
 	public static final Block block = null;
 
 	public BronzestairsOxidizedBlock(HaegrilontestModElements instance) {
-		super(instance, 141);
+		super(instance, 158);
 	}
 
 	@Override

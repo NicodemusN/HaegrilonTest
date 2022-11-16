@@ -28,7 +28,7 @@ public class SandstoneagedBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public SandstoneagedBlock(HaegrilontestModElements instance) {
-		super(instance, 61);
+		super(instance, 15);
 	}
 
 	@Override

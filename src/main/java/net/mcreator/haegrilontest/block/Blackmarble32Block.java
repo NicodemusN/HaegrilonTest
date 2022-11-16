@@ -34,7 +34,7 @@ public class Blackmarble32Block extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public Blackmarble32Block(HaegrilontestModElements instance) {
-		super(instance, 60);
+		super(instance, 79);
 	}
 
 	@Override

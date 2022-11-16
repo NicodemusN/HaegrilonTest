@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "haegrilontest:blocks/stone_tiled",
+    "particle": "haegrilontest:blocks/stone_tiled"
+  }
+}

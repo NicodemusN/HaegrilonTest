@@ -44,7 +44,7 @@ public class SmokeBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public SmokeBlock(HaegrilontestModElements instance) {
-		super(instance, 345);
+		super(instance, 364);
 	}
 
 	@Override

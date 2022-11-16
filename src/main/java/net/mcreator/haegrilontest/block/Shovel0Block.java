@@ -48,7 +48,7 @@ public class Shovel0Block extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public Shovel0Block(HaegrilontestModElements instance) {
-		super(instance, 393);
+		super(instance, 412);
 	}
 
 	@Override

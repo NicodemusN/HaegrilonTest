@@ -45,7 +45,7 @@ public class SlatetipnetherBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public SlatetipnetherBlock(HaegrilontestModElements instance) {
-		super(instance, 91);
+		super(instance, 108);
 	}
 
 	@Override

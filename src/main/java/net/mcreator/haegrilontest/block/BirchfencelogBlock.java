@@ -35,7 +35,7 @@ public class BirchfencelogBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public BirchfencelogBlock(HaegrilontestModElements instance) {
-		super(instance, 334);
+		super(instance, 353);
 	}
 
 	@Override

@@ -34,7 +34,7 @@ public class MuddycobbletrapdoorBlock extends HaegrilontestModElements.ModElemen
 	public static final Block block = null;
 
 	public MuddycobbletrapdoorBlock(HaegrilontestModElements instance) {
-		super(instance, 44);
+		super(instance, 64);
 	}
 
 	@Override

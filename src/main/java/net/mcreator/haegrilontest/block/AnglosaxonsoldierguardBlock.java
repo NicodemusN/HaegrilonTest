@@ -53,7 +53,7 @@ public class AnglosaxonsoldierguardBlock extends HaegrilontestModElements.ModEle
 	public static final Block block = null;
 
 	public AnglosaxonsoldierguardBlock(HaegrilontestModElements instance) {
-		super(instance, 465);
+		super(instance, 484);
 	}
 
 	@Override

@@ -30,7 +30,7 @@ public class LimestoneslabBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public LimestoneslabBlock(HaegrilontestModElements instance) {
-		super(instance, 311);
+		super(instance, 330);
 	}
 
 	@Override

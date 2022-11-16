@@ -49,7 +49,7 @@ public class BlackwoodthinwallBlock extends HaegrilontestModElements.ModElement 
 	public static final Block block = null;
 
 	public BlackwoodthinwallBlock(HaegrilontestModElements instance) {
-		super(instance, 230);
+		super(instance, 247);
 	}
 
 	@Override

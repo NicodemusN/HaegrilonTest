@@ -78,7 +78,7 @@ public class OldworldDimension extends HaegrilontestModElements.ModElement {
 	public static final CustomPortalBlock portal = null;
 
 	public OldworldDimension(HaegrilontestModElements instance) {
-		super(instance, 543);
+		super(instance, 293);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 

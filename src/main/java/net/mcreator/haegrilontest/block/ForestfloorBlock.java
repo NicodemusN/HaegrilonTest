@@ -33,7 +33,7 @@ public class ForestfloorBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public ForestfloorBlock(HaegrilontestModElements instance) {
-		super(instance, 295);
+		super(instance, 314);
 	}
 
 	@Override

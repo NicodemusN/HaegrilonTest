@@ -49,7 +49,7 @@ public class ThatchvertBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public ThatchvertBlock(HaegrilontestModElements instance) {
-		super(instance, 100);
+		super(instance, 117);
 	}
 
 	@Override

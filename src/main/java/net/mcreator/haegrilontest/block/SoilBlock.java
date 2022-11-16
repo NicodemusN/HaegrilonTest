@@ -28,7 +28,7 @@ public class SoilBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public SoilBlock(HaegrilontestModElements instance) {
-		super(instance, 288);
+		super(instance, 307);
 	}
 
 	@Override

@@ -34,7 +34,7 @@ public class BasketblockopenBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public BasketblockopenBlock(HaegrilontestModElements instance) {
-		super(instance, 372);
+		super(instance, 391);
 	}
 
 	@Override

@@ -46,7 +46,7 @@ public class BushyoakleavesapplesBlock extends HaegrilontestModElements.ModEleme
 	public static final Block block = null;
 
 	public BushyoakleavesapplesBlock(HaegrilontestModElements instance) {
-		super(instance, 280);
+		super(instance, 299);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlockColorRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ItemColorRegisterHandler());
 	}

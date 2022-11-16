@@ -33,7 +33,7 @@ public class WintergrassblockBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public WintergrassblockBlock(HaegrilontestModElements instance) {
-		super(instance, 294);
+		super(instance, 313);
 	}
 
 	@Override

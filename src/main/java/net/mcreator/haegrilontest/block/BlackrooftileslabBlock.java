@@ -30,7 +30,7 @@ public class BlackrooftileslabBlock extends HaegrilontestModElements.ModElement 
 	public static final Block block = null;
 
 	public BlackrooftileslabBlock(HaegrilontestModElements instance) {
-		super(instance, 111);
+		super(instance, 128);
 	}
 
 	@Override

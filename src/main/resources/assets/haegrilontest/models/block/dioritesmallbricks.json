@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "haegrilontest:blocks/diorite_small_brick",
+    "particle": "haegrilontest:blocks/diorite_small_brick"
+  }
+}

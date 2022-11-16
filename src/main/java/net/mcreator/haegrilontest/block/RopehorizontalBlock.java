@@ -49,7 +49,7 @@ public class RopehorizontalBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public RopehorizontalBlock(HaegrilontestModElements instance) {
-		super(instance, 400);
+		super(instance, 419);
 	}
 
 	@Override

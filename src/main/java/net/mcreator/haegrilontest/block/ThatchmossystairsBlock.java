@@ -29,7 +29,7 @@ public class ThatchmossystairsBlock extends HaegrilontestModElements.ModElement 
 	public static final Block block = null;
 
 	public ThatchmossystairsBlock(HaegrilontestModElements instance) {
-		super(instance, 118);
+		super(instance, 135);
 	}
 
 	@Override

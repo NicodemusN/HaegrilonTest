@@ -28,7 +28,7 @@ public class PowdersackBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public PowdersackBlock(HaegrilontestModElements instance) {
-		super(instance, 349);
+		super(instance, 368);
 	}
 
 	@Override

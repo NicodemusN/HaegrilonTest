@@ -49,7 +49,7 @@ public class JungleverticalBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public JungleverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 210);
+		super(instance, 227);
 	}
 
 	@Override

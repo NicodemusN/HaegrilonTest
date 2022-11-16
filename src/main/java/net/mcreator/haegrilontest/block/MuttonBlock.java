@@ -49,7 +49,7 @@ public class MuttonBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public MuttonBlock(HaegrilontestModElements instance) {
-		super(instance, 436);
+		super(instance, 455);
 	}
 
 	@Override

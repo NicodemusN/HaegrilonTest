@@ -39,7 +39,7 @@ public class TatamiblockhalfBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public TatamiblockhalfBlock(HaegrilontestModElements instance) {
-		super(instance, 415);
+		super(instance, 434);
 	}
 
 	@Override

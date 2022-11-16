@@ -49,7 +49,7 @@ public class RedslateverticalBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public RedslateverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 87);
+		super(instance, 104);
 	}
 
 	@Override

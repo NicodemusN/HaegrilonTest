@@ -49,7 +49,7 @@ public class Profession2Block extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public Profession2Block(HaegrilontestModElements instance) {
-		super(instance, 443);
+		super(instance, 462);
 	}
 
 	@Override

@@ -49,7 +49,7 @@ public class CornercobblestoneBlock extends HaegrilontestModElements.ModElement 
 	public static final Block block = null;
 
 	public CornercobblestoneBlock(HaegrilontestModElements instance) {
-		super(instance, 28);
+		super(instance, 48);
 	}
 
 	@Override

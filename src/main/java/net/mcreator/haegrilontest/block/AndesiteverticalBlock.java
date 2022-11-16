@@ -49,7 +49,7 @@ public class AndesiteverticalBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public AndesiteverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 24);
+		super(instance, 44);
 	}
 
 	@Override

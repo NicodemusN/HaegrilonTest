@@ -37,7 +37,7 @@ public class WildlilyofthevalleyBlock extends HaegrilontestModElements.ModElemen
 	public static final Block block = null;
 
 	public WildlilyofthevalleyBlock(HaegrilontestModElements instance) {
-		super(instance, 305);
+		super(instance, 324);
 	}
 
 	@Override

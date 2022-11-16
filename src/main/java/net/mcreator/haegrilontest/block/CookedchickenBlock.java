@@ -49,7 +49,7 @@ public class CookedchickenBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public CookedchickenBlock(HaegrilontestModElements instance) {
-		super(instance, 434);
+		super(instance, 453);
 	}
 
 	@Override

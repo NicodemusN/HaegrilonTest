@@ -49,7 +49,7 @@ public class SkilletshangedBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public SkilletshangedBlock(HaegrilontestModElements instance) {
-		super(instance, 433);
+		super(instance, 452);
 	}
 
 	@Override

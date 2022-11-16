@@ -46,7 +46,7 @@ public class BirchwalllogBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public BirchwalllogBlock(HaegrilontestModElements instance) {
-		super(instance, 335);
+		super(instance, 354);
 	}
 
 	@Override

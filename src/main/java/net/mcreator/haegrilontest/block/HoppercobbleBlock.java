@@ -45,7 +45,7 @@ public class HoppercobbleBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public HoppercobbleBlock(HaegrilontestModElements instance) {
-		super(instance, 30);
+		super(instance, 50);
 	}
 
 	@Override

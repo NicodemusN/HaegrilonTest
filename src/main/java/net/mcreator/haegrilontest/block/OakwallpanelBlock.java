@@ -26,7 +26,7 @@ public class OakwallpanelBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public OakwallpanelBlock(HaegrilontestModElements instance) {
-		super(instance, 197);
+		super(instance, 214);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class CobbleicyBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public CobbleicyBlock(HaegrilontestModElements instance) {
-		super(instance, 11);
+		super(instance, 23);
 	}
 
 	@Override

@@ -41,7 +41,7 @@ public class WovenwoolgreenwallBlock extends HaegrilontestModElements.ModElement
 	public static final Block block = null;
 
 	public WovenwoolgreenwallBlock(HaegrilontestModElements instance) {
-		super(instance, 151);
+		super(instance, 168);
 	}
 
 	@Override

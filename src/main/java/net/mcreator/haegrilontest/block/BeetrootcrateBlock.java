@@ -28,7 +28,7 @@ public class BeetrootcrateBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public BeetrootcrateBlock(HaegrilontestModElements instance) {
-		super(instance, 423);
+		super(instance, 442);
 	}
 
 	@Override

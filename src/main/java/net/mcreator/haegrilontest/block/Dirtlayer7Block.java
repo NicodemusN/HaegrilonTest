@@ -55,7 +55,7 @@ public class Dirtlayer7Block extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public Dirtlayer7Block(HaegrilontestModElements instance) {
-		super(instance, 498);
+		super(instance, 517);
 	}
 
 	@Override

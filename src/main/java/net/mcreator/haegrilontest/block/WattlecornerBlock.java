@@ -50,7 +50,7 @@ public class WattlecornerBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public WattlecornerBlock(HaegrilontestModElements instance) {
-		super(instance, 541);
+		super(instance, 560);
 	}
 
 	@Override

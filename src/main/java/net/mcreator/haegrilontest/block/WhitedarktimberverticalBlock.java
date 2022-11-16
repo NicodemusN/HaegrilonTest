@@ -28,7 +28,7 @@ public class WhitedarktimberverticalBlock extends HaegrilontestModElements.ModEl
 	public static final Block block = null;
 
 	public WhitedarktimberverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 194);
+		super(instance, 211);
 	}
 
 	@Override

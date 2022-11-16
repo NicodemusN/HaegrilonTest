@@ -30,7 +30,7 @@ public class FirewoodslabBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public FirewoodslabBlock(HaegrilontestModElements instance) {
-		super(instance, 384);
+		super(instance, 403);
 	}
 
 	@Override

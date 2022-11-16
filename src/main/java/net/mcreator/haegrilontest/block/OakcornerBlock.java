@@ -49,7 +49,7 @@ public class OakcornerBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public OakcornerBlock(HaegrilontestModElements instance) {
-		super(instance, 201);
+		super(instance, 218);
 	}
 
 	@Override

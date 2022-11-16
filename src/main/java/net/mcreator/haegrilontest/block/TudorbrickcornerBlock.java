@@ -49,7 +49,7 @@ public class TudorbrickcornerBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public TudorbrickcornerBlock(HaegrilontestModElements instance) {
-		super(instance, 55);
+		super(instance, 75);
 	}
 
 	@Override

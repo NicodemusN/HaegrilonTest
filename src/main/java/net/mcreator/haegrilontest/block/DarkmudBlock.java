@@ -28,7 +28,7 @@ public class DarkmudBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public DarkmudBlock(HaegrilontestModElements instance) {
-		super(instance, 289);
+		super(instance, 308);
 	}
 
 	@Override

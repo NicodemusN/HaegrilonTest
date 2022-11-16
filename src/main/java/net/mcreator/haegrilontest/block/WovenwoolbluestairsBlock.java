@@ -29,7 +29,7 @@ public class WovenwoolbluestairsBlock extends HaegrilontestModElements.ModElemen
 	public static final Block block = null;
 
 	public WovenwoolbluestairsBlock(HaegrilontestModElements instance) {
-		super(instance, 146);
+		super(instance, 163);
 	}
 
 	@Override

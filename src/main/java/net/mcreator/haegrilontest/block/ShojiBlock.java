@@ -49,7 +49,7 @@ public class ShojiBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public ShojiBlock(HaegrilontestModElements instance) {
-		super(instance, 413);
+		super(instance, 432);
 	}
 
 	@Override

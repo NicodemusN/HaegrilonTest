@@ -26,7 +26,7 @@ public class StatuswipBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public StatuswipBlock(HaegrilontestModElements instance) {
-		super(instance, 264);
+		super(instance, 281);
 	}
 
 	@Override

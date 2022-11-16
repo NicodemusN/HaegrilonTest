@@ -49,7 +49,7 @@ public class SprucecornerBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public SprucecornerBlock(HaegrilontestModElements instance) {
-		super(instance, 205);
+		super(instance, 222);
 	}
 
 	@Override

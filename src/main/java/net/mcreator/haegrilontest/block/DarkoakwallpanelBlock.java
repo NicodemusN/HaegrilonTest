@@ -28,7 +28,7 @@ public class DarkoakwallpanelBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public DarkoakwallpanelBlock(HaegrilontestModElements instance) {
-		super(instance, 263);
+		super(instance, 280);
 	}
 
 	@Override

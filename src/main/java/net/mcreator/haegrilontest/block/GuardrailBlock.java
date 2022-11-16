@@ -49,7 +49,7 @@ public class GuardrailBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public GuardrailBlock(HaegrilontestModElements instance) {
-		super(instance, 389);
+		super(instance, 408);
 	}
 
 	@Override

@@ -19,7 +19,7 @@ public class SwordofswordofallswordsItem extends HaegrilontestModElements.ModEle
 	public static final Item block = null;
 
 	public SwordofswordofallswordsItem(HaegrilontestModElements instance) {
-		super(instance, 515);
+		super(instance, 534);
 	}
 
 	@Override

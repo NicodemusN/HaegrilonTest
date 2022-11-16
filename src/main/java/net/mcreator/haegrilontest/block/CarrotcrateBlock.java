@@ -28,7 +28,7 @@ public class CarrotcrateBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public CarrotcrateBlock(HaegrilontestModElements instance) {
-		super(instance, 426);
+		super(instance, 445);
 	}
 
 	@Override

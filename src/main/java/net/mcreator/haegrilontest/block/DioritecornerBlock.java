@@ -49,7 +49,7 @@ public class DioritecornerBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public DioritecornerBlock(HaegrilontestModElements instance) {
-		super(instance, 20);
+		super(instance, 34);
 	}
 
 	@Override

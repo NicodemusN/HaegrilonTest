@@ -49,7 +49,7 @@ public class BrownslateverticalBlock extends HaegrilontestModElements.ModElement
 	public static final Block block = null;
 
 	public BrownslateverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 84);
+		super(instance, 101);
 	}
 
 	@Override

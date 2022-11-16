@@ -26,7 +26,7 @@ public class StatusapprovedBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public StatusapprovedBlock(HaegrilontestModElements instance) {
-		super(instance, 266);
+		super(instance, 283);
 	}
 
 	@Override

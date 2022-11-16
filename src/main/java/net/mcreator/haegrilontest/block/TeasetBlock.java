@@ -49,7 +49,7 @@ public class TeasetBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public TeasetBlock(HaegrilontestModElements instance) {
-		super(instance, 440);
+		super(instance, 459);
 	}
 
 	@Override

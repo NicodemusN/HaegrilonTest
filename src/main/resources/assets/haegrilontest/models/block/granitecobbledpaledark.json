@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "haegrilontest:blocks/end_stone_diamond_pavers",
+    "particle": "haegrilontest:blocks/end_stone_diamond_pavers"
+  }
+}

@@ -49,7 +49,7 @@ public class BeamhorisontalBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public BeamhorisontalBlock(HaegrilontestModElements instance) {
-		super(instance, 222);
+		super(instance, 239);
 	}
 
 	@Override

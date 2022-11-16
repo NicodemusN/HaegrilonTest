@@ -28,7 +28,7 @@ public class AshlightBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public AshlightBlock(HaegrilontestModElements instance) {
-		super(instance, 352);
+		super(instance, 371);
 	}
 
 	@Override

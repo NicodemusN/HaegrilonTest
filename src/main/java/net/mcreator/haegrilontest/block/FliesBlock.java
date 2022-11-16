@@ -41,7 +41,7 @@ public class FliesBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public FliesBlock(HaegrilontestModElements instance) {
-		super(instance, 394);
+		super(instance, 413);
 	}
 
 	@Override

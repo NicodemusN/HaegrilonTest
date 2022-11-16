@@ -48,7 +48,7 @@ public class Plate0Block extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public Plate0Block(HaegrilontestModElements instance) {
-		super(instance, 438);
+		super(instance, 457);
 	}
 
 	@Override

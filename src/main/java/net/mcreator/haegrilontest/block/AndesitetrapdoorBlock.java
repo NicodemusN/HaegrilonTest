@@ -30,7 +30,7 @@ public class AndesitetrapdoorBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public AndesitetrapdoorBlock(HaegrilontestModElements instance) {
-		super(instance, 25);
+		super(instance, 45);
 	}
 
 	@Override

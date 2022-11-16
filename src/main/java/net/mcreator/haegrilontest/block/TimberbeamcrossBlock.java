@@ -59,7 +59,7 @@ public class TimberbeamcrossBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public TimberbeamcrossBlock(HaegrilontestModElements instance) {
-		super(instance, 485);
+		super(instance, 504);
 	}
 
 	@Override

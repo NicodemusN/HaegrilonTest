@@ -30,7 +30,7 @@ public class SackslabBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public SackslabBlock(HaegrilontestModElements instance) {
-		super(instance, 359);
+		super(instance, 378);
 	}
 
 	@Override

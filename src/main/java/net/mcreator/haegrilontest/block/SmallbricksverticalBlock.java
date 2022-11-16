@@ -49,7 +49,7 @@ public class SmallbricksverticalBlock extends HaegrilontestModElements.ModElemen
 	public static final Block block = null;
 
 	public SmallbricksverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 33);
+		super(instance, 53);
 	}
 
 	@Override

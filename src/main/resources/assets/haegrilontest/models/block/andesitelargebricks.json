@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "haegrilontest:blocks/andesite_large_bricks",
+    "particle": "haegrilontest:blocks/andesite_large_bricks"
+  }
+}

@@ -41,7 +41,7 @@ public class RopeharnessBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public RopeharnessBlock(HaegrilontestModElements instance) {
-		super(instance, 403);
+		super(instance, 422);
 	}
 
 	@Override

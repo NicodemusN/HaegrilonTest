@@ -49,7 +49,7 @@ public class ChabudaiBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public ChabudaiBlock(HaegrilontestModElements instance) {
-		super(instance, 412);
+		super(instance, 431);
 	}
 
 	@Override

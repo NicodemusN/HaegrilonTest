@@ -49,7 +49,7 @@ public class ClotheshangerBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public ClotheshangerBlock(HaegrilontestModElements instance) {
-		super(instance, 361);
+		super(instance, 380);
 	}
 
 	@Override

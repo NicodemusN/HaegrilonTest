@@ -29,7 +29,7 @@ public class YellowtimberwestBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public YellowtimberwestBlock(HaegrilontestModElements instance) {
-		super(instance, 133);
+		super(instance, 150);
 	}
 
 	@Override

@@ -49,7 +49,7 @@ public class BlueslateverticalBlock extends HaegrilontestModElements.ModElement 
 	public static final Block block = null;
 
 	public BlueslateverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 81);
+		super(instance, 98);
 	}
 
 	@Override

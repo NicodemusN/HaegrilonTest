@@ -30,7 +30,7 @@ public class DioritetrapdoorBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public DioritetrapdoorBlock(HaegrilontestModElements instance) {
-		super(instance, 22);
+		super(instance, 36);
 	}
 
 	@Override

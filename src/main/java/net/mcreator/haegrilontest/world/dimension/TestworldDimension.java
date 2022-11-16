@@ -78,7 +78,7 @@ public class TestworldDimension extends HaegrilontestModElements.ModElement {
 	public static final CustomPortalBlock portal = null;
 
 	public TestworldDimension(HaegrilontestModElements instance) {
-		super(instance, 548);
+		super(instance, 294);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 

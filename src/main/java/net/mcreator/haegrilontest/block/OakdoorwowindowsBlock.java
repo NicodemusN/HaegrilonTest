@@ -36,7 +36,7 @@ public class OakdoorwowindowsBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public OakdoorwowindowsBlock(HaegrilontestModElements instance) {
-		super(instance, 396);
+		super(instance, 415);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class WhiteoaktimberBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public WhiteoaktimberBlock(HaegrilontestModElements instance) {
-		super(instance, 186);
+		super(instance, 203);
 	}
 
 	@Override

@@ -30,7 +30,7 @@ public class StonetrapdoorBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public StonetrapdoorBlock(HaegrilontestModElements instance) {
-		super(instance, 16);
+		super(instance, 28);
 	}
 
 	@Override

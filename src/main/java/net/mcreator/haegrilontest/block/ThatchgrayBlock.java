@@ -28,7 +28,7 @@ public class ThatchgrayBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public ThatchgrayBlock(HaegrilontestModElements instance) {
-		super(instance, 121);
+		super(instance, 138);
 	}
 
 	@Override

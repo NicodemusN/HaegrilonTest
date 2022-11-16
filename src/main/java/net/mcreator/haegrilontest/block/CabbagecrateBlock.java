@@ -28,7 +28,7 @@ public class CabbagecrateBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public CabbagecrateBlock(HaegrilontestModElements instance) {
-		super(instance, 422);
+		super(instance, 441);
 	}
 
 	@Override

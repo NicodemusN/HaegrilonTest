@@ -45,7 +45,7 @@ public class HoppersmallsmoothbricksBlock extends HaegrilontestModElements.ModEl
 	public static final Block block = null;
 
 	public HoppersmallsmoothbricksBlock(HaegrilontestModElements instance) {
-		super(instance, 35);
+		super(instance, 55);
 	}
 
 	@Override

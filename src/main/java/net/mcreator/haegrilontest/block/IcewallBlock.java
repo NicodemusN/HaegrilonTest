@@ -44,7 +44,7 @@ public class IcewallBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public IcewallBlock(HaegrilontestModElements instance) {
-		super(instance, 276);
+		super(instance, 295);
 	}
 
 	@Override

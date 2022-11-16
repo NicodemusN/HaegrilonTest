@@ -34,7 +34,7 @@ public class StoveBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public StoveBlock(HaegrilontestModElements instance) {
-		super(instance, 350);
+		super(instance, 369);
 	}
 
 	@Override

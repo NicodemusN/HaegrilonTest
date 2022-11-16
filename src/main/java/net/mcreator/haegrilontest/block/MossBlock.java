@@ -28,7 +28,7 @@ public class MossBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public MossBlock(HaegrilontestModElements instance) {
-		super(instance, 292);
+		super(instance, 311);
 	}
 
 	@Override

@@ -49,7 +49,7 @@ public class DarkoakcornerBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public DarkoakcornerBlock(HaegrilontestModElements instance) {
-		super(instance, 218);
+		super(instance, 235);
 	}
 
 	@Override

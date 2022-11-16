@@ -49,7 +49,7 @@ public class BirchcornerBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public BirchcornerBlock(HaegrilontestModElements instance) {
-		super(instance, 214);
+		super(instance, 231);
 	}
 
 	@Override

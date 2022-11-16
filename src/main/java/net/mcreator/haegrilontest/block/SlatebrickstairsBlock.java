@@ -29,7 +29,7 @@ public class SlatebrickstairsBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public SlatebrickstairsBlock(HaegrilontestModElements instance) {
-		super(instance, 40);
+		super(instance, 60);
 	}
 
 	@Override

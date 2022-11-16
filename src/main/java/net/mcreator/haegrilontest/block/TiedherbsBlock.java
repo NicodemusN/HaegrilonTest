@@ -35,7 +35,7 @@ public class TiedherbsBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public TiedherbsBlock(HaegrilontestModElements instance) {
-		super(instance, 421);
+		super(instance, 440);
 	}
 
 	@Override

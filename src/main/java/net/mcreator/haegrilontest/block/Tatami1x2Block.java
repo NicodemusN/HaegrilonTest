@@ -48,7 +48,7 @@ public class Tatami1x2Block extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public Tatami1x2Block(HaegrilontestModElements instance) {
-		super(instance, 411);
+		super(instance, 430);
 	}
 
 	@Override

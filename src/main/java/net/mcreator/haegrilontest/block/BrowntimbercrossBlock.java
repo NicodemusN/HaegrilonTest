@@ -29,7 +29,7 @@ public class BrowntimbercrossBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public BrowntimbercrossBlock(HaegrilontestModElements instance) {
-		super(instance, 173);
+		super(instance, 190);
 	}
 
 	@Override

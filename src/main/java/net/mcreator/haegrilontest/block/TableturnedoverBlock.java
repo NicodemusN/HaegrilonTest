@@ -49,7 +49,7 @@ public class TableturnedoverBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public TableturnedoverBlock(HaegrilontestModElements instance) {
-		super(instance, 409);
+		super(instance, 428);
 	}
 
 	@Override

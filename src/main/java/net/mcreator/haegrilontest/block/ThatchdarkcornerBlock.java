@@ -49,7 +49,7 @@ public class ThatchdarkcornerBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public ThatchdarkcornerBlock(HaegrilontestModElements instance) {
-		super(instance, 101);
+		super(instance, 118);
 	}
 
 	@Override

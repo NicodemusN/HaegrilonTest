@@ -37,7 +37,7 @@ public class CobblewindowgothicBlock extends HaegrilontestModElements.ModElement
 	public static final Block block = null;
 
 	public CobblewindowgothicBlock(HaegrilontestModElements instance) {
-		super(instance, 31);
+		super(instance, 51);
 	}
 
 	@Override

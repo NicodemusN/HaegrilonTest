@@ -32,7 +32,7 @@ public class AadoorBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public AadoorBlock(HaegrilontestModElements instance) {
-		super(instance, 199);
+		super(instance, 216);
 	}
 
 	@Override

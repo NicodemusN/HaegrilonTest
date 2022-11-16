@@ -28,7 +28,7 @@ public class CavestoneBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public CavestoneBlock(HaegrilontestModElements instance) {
-		super(instance, 12);
+		super(instance, 24);
 	}
 
 	@Override

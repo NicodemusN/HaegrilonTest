@@ -49,7 +49,7 @@ public class WattleshortBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public WattleshortBlock(HaegrilontestModElements instance) {
-		super(instance, 374);
+		super(instance, 393);
 	}
 
 	@Override

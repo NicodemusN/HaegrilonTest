@@ -28,7 +28,7 @@ public class BlackwoodverticalplanksBlock extends HaegrilontestModElements.ModEl
 	public static final Block block = null;
 
 	public BlackwoodverticalplanksBlock(HaegrilontestModElements instance) {
-		super(instance, 231);
+		super(instance, 248);
 	}
 
 	@Override

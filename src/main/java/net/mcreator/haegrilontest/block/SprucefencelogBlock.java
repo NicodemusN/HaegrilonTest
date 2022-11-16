@@ -35,7 +35,7 @@ public class SprucefencelogBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public SprucefencelogBlock(HaegrilontestModElements instance) {
-		super(instance, 332);
+		super(instance, 351);
 	}
 
 	@Override

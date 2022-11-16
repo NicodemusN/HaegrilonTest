@@ -30,7 +30,7 @@ public class ThatchgraycrossstitchslabBlock extends HaegrilontestModElements.Mod
 	public static final Block block = null;
 
 	public ThatchgraycrossstitchslabBlock(HaegrilontestModElements instance) {
-		super(instance, 126);
+		super(instance, 143);
 	}
 
 	@Override

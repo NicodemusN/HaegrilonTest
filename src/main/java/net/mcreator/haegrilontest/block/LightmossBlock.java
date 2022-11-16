@@ -28,7 +28,7 @@ public class LightmossBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public LightmossBlock(HaegrilontestModElements instance) {
-		super(instance, 291);
+		super(instance, 310);
 	}
 
 	@Override

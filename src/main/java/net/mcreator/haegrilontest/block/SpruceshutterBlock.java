@@ -59,7 +59,7 @@ public class SpruceshutterBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public SpruceshutterBlock(HaegrilontestModElements instance) {
-		super(instance, 405);
+		super(instance, 424);
 	}
 
 	@Override

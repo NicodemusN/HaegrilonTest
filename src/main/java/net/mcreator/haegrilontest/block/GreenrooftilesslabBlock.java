@@ -30,7 +30,7 @@ public class GreenrooftilesslabBlock extends HaegrilontestModElements.ModElement
 	public static final Block block = null;
 
 	public GreenrooftilesslabBlock(HaegrilontestModElements instance) {
-		super(instance, 104);
+		super(instance, 121);
 	}
 
 	@Override

@@ -49,7 +49,7 @@ public class ClotheslineBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public ClotheslineBlock(HaegrilontestModElements instance) {
-		super(instance, 346);
+		super(instance, 365);
 	}
 
 	@Override

@@ -49,7 +49,7 @@ public class PewterflagonBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public PewterflagonBlock(HaegrilontestModElements instance) {
-		super(instance, 377);
+		super(instance, 396);
 	}
 
 	@Override

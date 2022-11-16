@@ -49,7 +49,7 @@ public class NetherbricksverticalBlock extends HaegrilontestModElements.ModEleme
 	public static final Block block = null;
 
 	public NetherbricksverticalBlock(HaegrilontestModElements instance) {
-		super(instance, 90);
+		super(instance, 107);
 	}
 
 	@Override

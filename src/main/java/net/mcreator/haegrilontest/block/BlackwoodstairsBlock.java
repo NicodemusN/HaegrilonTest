@@ -29,7 +29,7 @@ public class BlackwoodstairsBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public BlackwoodstairsBlock(HaegrilontestModElements instance) {
-		super(instance, 227);
+		super(instance, 244);
 	}
 
 	@Override

@@ -34,7 +34,7 @@ public class RedtimberwhiteeastBlock extends HaegrilontestModElements.ModElement
 	public static final Block block = null;
 
 	public RedtimberwhiteeastBlock(HaegrilontestModElements instance) {
-		super(instance, 248);
+		super(instance, 265);
 	}
 
 	@Override

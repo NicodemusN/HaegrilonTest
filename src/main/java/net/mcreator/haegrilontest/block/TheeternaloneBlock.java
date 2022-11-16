@@ -69,7 +69,7 @@ public class TheeternaloneBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public TheeternaloneBlock(HaegrilontestModElements instance) {
-		super(instance, 540);
+		super(instance, 559);
 	}
 
 	@Override

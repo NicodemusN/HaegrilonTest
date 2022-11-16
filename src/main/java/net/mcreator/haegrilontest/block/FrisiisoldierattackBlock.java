@@ -53,7 +53,7 @@ public class FrisiisoldierattackBlock extends HaegrilontestModElements.ModElemen
 	public static final Block block = null;
 
 	public FrisiisoldierattackBlock(HaegrilontestModElements instance) {
-		super(instance, 536);
+		super(instance, 555);
 	}
 
 	@Override

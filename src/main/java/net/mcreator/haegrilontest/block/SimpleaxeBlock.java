@@ -49,7 +49,7 @@ public class SimpleaxeBlock extends HaegrilontestModElements.ModElement {
 	public static final Block block = null;
 
 	public SimpleaxeBlock(HaegrilontestModElements instance) {
-		super(instance, 387);
+		super(instance, 406);
 	}
 
 	@Override
