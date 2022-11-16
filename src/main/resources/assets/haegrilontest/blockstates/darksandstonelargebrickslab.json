@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/darksandstonelargebrickslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/darksandstonelargebrickslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/darksandstonelargebrickslab_full"
+    }
+  }
+}

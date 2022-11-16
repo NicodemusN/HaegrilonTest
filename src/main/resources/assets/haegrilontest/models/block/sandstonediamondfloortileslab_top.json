@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "haegrilontest:blocks/granite_diamond_pavers",
+    "top": "haegrilontest:blocks/granite_diamond_pavers",
+    "side": "haegrilontest:blocks/granite_diamond_pavers"
+  }
+}

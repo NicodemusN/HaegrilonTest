@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "haegrilontest:blocks/granite_diamond_pavers",
+    "particle": "haegrilontest:blocks/granite_diamond_pavers"
+  }
+}

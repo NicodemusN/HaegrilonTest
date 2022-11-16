@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "haegrilontest:blocks/diorite_large_bricks",
+    "top": "haegrilontest:blocks/diorite_large_bricks",
+    "side": "haegrilontest:blocks/diorite_large_bricks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "haegrilontest:blocks/granite_small_brick",
+    "top": "haegrilontest:blocks/granite_small_brick",
+    "side": "haegrilontest:blocks/granite_small_brick"
+  }
+}

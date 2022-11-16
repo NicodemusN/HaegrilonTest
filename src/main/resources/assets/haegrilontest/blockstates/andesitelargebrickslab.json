@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/andesitelargebrickslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/andesitelargebrickslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/andesitelargebrickslab_full"
+    }
+  }
+}

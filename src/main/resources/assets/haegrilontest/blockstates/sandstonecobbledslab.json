@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/sandstonecobbledslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/sandstonecobbledslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/sandstonecobbledslab_full"
+    }
+  }
+}

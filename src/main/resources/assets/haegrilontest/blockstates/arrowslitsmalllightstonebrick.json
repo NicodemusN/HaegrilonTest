@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haegrilontest:block/arrowslitsmalllightstonebrick"
+    },
+    "facing=east": {
+      "model": "haegrilontest:block/arrowslitsmalllightstonebrick",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haegrilontest:block/arrowslitsmalllightstonebrick",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haegrilontest:block/arrowslitsmalllightstonebrick",
+      "y": 270
+    }
+  }
+}

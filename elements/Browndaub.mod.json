@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "granite_cobbled2",
+    "texture": "diorite_cobbled_mossy",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Sandstone_cobbled",
+    "name": "Brown Daub",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Stoneblocks"
+      "value": "CUSTOM:Woodandtimber"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -54,7 +54,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "EARTH"
     },
     "tickRate": 10,
     "tickRandomly": false,

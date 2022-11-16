@@ -16,6 +16,7 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Wall",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -33,7 +34,7 @@
         "subtract": false
       }
     ],
-    "name": "Sandstone_cobbled",
+    "name": "Sandstone_cobbled_wall",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

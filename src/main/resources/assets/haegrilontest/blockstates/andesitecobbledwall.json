@@ -1,0 +1,90 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "haegrilontest:block/andesitecobbledwall_post"
+      }
+    },
+    {
+      "when": {
+        "north": "low"
+      },
+      "apply": {
+        "model": "haegrilontest:block/andesitecobbledwall",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "low"
+      },
+      "apply": {
+        "model": "haegrilontest:block/andesitecobbledwall",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "low"
+      },
+      "apply": {
+        "model": "haegrilontest:block/andesitecobbledwall",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "low"
+      },
+      "apply": {
+        "model": "haegrilontest:block/andesitecobbledwall",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "north": "tall"
+      },
+      "apply": {
+        "model": "haegrilontest:block/andesitecobbledwall_side_tall",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "tall"
+      },
+      "apply": {
+        "model": "haegrilontest:block/andesitecobbledwall_side_tall",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "tall"
+      },
+      "apply": {
+        "model": "haegrilontest:block/andesitecobbledwall_side_tall",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "tall"
+      },
+      "apply": {
+        "model": "haegrilontest:block/andesitecobbledwall_side_tall",
+        "y": 270,
+        "uvlock": true
+      }
+    }
+  ]
+}

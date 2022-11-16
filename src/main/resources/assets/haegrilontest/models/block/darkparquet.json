@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "haegrilontest:blocks/prismarine_pillar_top",
+    "top": "haegrilontest:blocks/prismarine_pillar_top",
+    "side": "haegrilontest:blocks/prismarine_pillar_side",
+    "overlay": "haegrilontest:blocks/prismarine_pillar_side",
+    "particle": "haegrilontest:blocks/prismarine_pillar_top"
+  }
+}

@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "granite_cobbled2",
+    "texture": "andesite_cobbled",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -16,6 +16,7 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Stairs",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -33,7 +34,7 @@
         "subtract": false
       }
     ],
-    "name": "Sandstone_cobbled",
+    "name": "Andesite_cobbled_stairs",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -56,7 +57,7 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 10,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -79,7 +80,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""

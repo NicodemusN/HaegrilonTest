@@ -2,14 +2,14 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "granite_cobbled2",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
+    "texture": "prismarine_pillar_top",
+    "textureTop": "prismarine_pillar_top",
+    "textureLeft": "prismarine_pillar_side",
+    "textureFront": "prismarine_pillar_side",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 14,
+    "customModelName": "Grass block",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -20,7 +20,7 @@
     "isItemTinted": false,
     "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT_MIPPED",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Sandstone_cobbled",
+    "name": "Dark Parquet",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Stoneblocks"
+      "value": "CUSTOM:Woodandtimber"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -54,9 +54,9 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
-    "tickRate": 10,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""

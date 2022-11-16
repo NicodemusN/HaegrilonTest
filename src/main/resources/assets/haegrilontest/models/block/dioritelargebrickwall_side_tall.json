@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "haegrilontest:blocks/diorite_large_bricks",
+    "particle": "haegrilontest:blocks/diorite_large_bricks"
+  }
+}

@@ -7,12 +7,14 @@ import net.minecraftforge.common.IPlantable;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
+import net.minecraft.state.properties.SlabType;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.SlabBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -23,12 +25,12 @@ import java.util.List;
 import java.util.Collections;
 
 @HaegrilontestModElements.ModElement.Tag
-public class AndesiteterrainBlock extends HaegrilontestModElements.ModElement {
-	@ObjectHolder("haegrilontest:andesiteterrain")
+public class AndesitecobbledslabBlock extends HaegrilontestModElements.ModElement {
+	@ObjectHolder("haegrilontest:andesitecobbledslab")
 	public static final Block block = null;
 
-	public AndesiteterrainBlock(HaegrilontestModElements instance) {
-		super(instance, 42);
+	public AndesitecobbledslabBlock(HaegrilontestModElements instance) {
+		super(instance, 568);
 	}
 
 	@Override
@@ -38,10 +40,10 @@ public class AndesiteterrainBlock extends HaegrilontestModElements.ModElement {
 				.add(() -> new BlockItem(block, new Item.Properties().group(StoneblocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
-	public static class CustomBlock extends Block {
+	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
-			setRegistryName("andesiteterrain");
+			setRegistryName("andesitecobbledslab");
 		}
 
 		@Override
@@ -59,7 +61,7 @@ public class AndesiteterrainBlock extends HaegrilontestModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(this, state.get(TYPE) == SlabType.DOUBLE ? 2 : 1));
 		}
 	}
 }

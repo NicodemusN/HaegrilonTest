@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "haegrilontest:blocks/granite_cobbled2",
+    "particle": "haegrilontest:blocks/granite_cobbled2"
+  }
+}

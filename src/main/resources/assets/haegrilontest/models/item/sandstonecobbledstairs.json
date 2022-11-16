@@ -1,5 +1,5 @@
 {
-  "parent": "haegrilontest:block/andesiteterrain",
+  "parent": "haegrilontest:block/sandstonecobbledstairs",
   "display": {
     "thirdperson": {
       "rotation": [

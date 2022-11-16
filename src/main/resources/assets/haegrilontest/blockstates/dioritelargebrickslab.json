@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/dioritelargebrickslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/dioritelargebrickslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/dioritelargebrickslab_full"
+    }
+  }
+}

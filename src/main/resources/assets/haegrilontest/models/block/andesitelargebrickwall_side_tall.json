@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "haegrilontest:blocks/andesite_large_bricks",
+    "particle": "haegrilontest:blocks/andesite_large_bricks"
+  }
+}

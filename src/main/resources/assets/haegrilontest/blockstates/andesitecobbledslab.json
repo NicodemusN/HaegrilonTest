@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "haegrilontest:block/andesitecobbledslab"
+    },
+    "type=top": {
+      "model": "haegrilontest:block/andesitecobbledslab_top"
+    },
+    "type=double": {
+      "model": "haegrilontest:block/andesitecobbledslab_full"
+    }
+  }
+}

@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "granite_cobbled2",
+    "texture": "granite_diamond_pavers",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Sandstone_cobbled",
+    "name": "Sandstone Diamond Floor Tiles",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -56,7 +56,7 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 10,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""

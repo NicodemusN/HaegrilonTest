@@ -2,15 +2,15 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "granite_cobbled2",
+    "texture": "gray_terracotta",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
-    "rotationMode": 0,
+    "renderType": 2,
+    "customModelName": "arrowslitsmalllightstonebrick:default",
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -18,7 +18,7 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -26,19 +26,28 @@
       {
         "mx": 0.0,
         "my": 0.0,
-        "mz": 0.0,
+        "mz": 8.0,
+        "Mx": 4.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 12.0,
+        "my": 0.0,
+        "mz": 8.0,
         "Mx": 16.0,
         "My": 16.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Sandstone_cobbled",
+    "name": "Arrowslit Small Light Stone Brick",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 10.0,
     "resistance": 10.0,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "creativeTab": {
       "value": "CUSTOM:Stoneblocks"
     },
@@ -50,9 +59,9 @@
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": true,
+    "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
       "value": "ROCK"
     },
