@@ -1,59 +1,47 @@
 
 package net.mcreator.haegrilontest.item;
 
-import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
 
-import net.mcreator.haegrilontest.HaegrilontestModElements;
-
-@HaegrilontestModElements.ModElement.Tag
-public class SwordofswordofallswordsItem extends HaegrilontestModElements.ModElement {
-	@ObjectHolder("haegrilontest:swordofswordofallswords")
-	public static final Item block = null;
-
-	public SwordofswordofallswordsItem(HaegrilontestModElements instance) {
-		super(instance, 534);
-	}
-
-	@Override
-	public void initElements() {
-		elements.items.add(() -> new SwordItem(new IItemTier() {
-			public int getMaxUses() {
+public class SwordofswordofallswordsItem extends SwordItem {
+	public SwordofswordofallswordsItem() {
+		super(new Tier() {
+			public int getUses() {
 				return 9999;
 			}
 
-			public float getEfficiency() {
+			public float getSpeed() {
 				return 4f;
 			}
 
-			public float getAttackDamage() {
+			public float getAttackDamageBonus() {
 				return 98605f;
 			}
 
-			public int getHarvestLevel() {
+			public int getLevel() {
 				return 1;
 			}
 
-			public int getEnchantability() {
+			public int getEnchantmentValue() {
 				return 2;
 			}
 
-			public Ingredient getRepairMaterial() {
+			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().group(null).isImmuneToFire()) {
-			@Override
-			@OnlyIn(Dist.CLIENT)
-			public boolean hasEffect(ItemStack itemstack) {
-				return true;
-			}
-		}.setRegistryName("swordofswordofallswords"));
+		}, 3, -3f, new Item.Properties().tab(null).fireResistant());
+	}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public boolean isFoil(ItemStack itemstack) {
+		return true;
 	}
 }

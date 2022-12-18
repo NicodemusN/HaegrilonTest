@@ -1,50 +1,17 @@
 package net.mcreator.haegrilontest.procedures;
 
-import net.minecraft.world.server.ServerWorld;
-import net.minecraft.world.World;
-import net.minecraft.world.IWorld;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.math.vector.Vector3d;
-import net.minecraft.util.math.vector.Vector2f;
-import net.minecraft.command.ICommandSource;
-import net.minecraft.command.CommandSource;
-
-import net.mcreator.haegrilontest.HaegrilontestMod;
-
-import java.util.Map;
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.phys.Vec2;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.network.chat.TextComponent;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.CommandSource;
 
 public class TestworldtpprocedureProcedure {
-
-	public static void executeProcedure(Map<String, Object> dependencies) {
-		if (dependencies.get("world") == null) {
-			if (!dependencies.containsKey("world"))
-				HaegrilontestMod.LOGGER.warn("Failed to load dependency world for procedure Testworldtpprocedure!");
-			return;
-		}
-		if (dependencies.get("x") == null) {
-			if (!dependencies.containsKey("x"))
-				HaegrilontestMod.LOGGER.warn("Failed to load dependency x for procedure Testworldtpprocedure!");
-			return;
-		}
-		if (dependencies.get("y") == null) {
-			if (!dependencies.containsKey("y"))
-				HaegrilontestMod.LOGGER.warn("Failed to load dependency y for procedure Testworldtpprocedure!");
-			return;
-		}
-		if (dependencies.get("z") == null) {
-			if (!dependencies.containsKey("z"))
-				HaegrilontestMod.LOGGER.warn("Failed to load dependency z for procedure Testworldtpprocedure!");
-			return;
-		}
-		IWorld world = (IWorld) dependencies.get("world");
-		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
-		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
-		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		if (world instanceof ServerWorld) {
-			((World) world).getServer().getCommandManager().handleCommand(
-					new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
-							new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
-					"execute in haegrilontest:testworld run tp @p 0 63 0");
-		}
+	public static void execute(LevelAccessor world, double x, double y, double z) {
+		if (world instanceof ServerLevel _level)
+			_level.getServer().getCommands().performCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "",
+					new TextComponent(""), _level.getServer(), null).withSuppressedOutput(), "execute in haegrilontest:testworld run tp @p 0 63 0");
 	}
 }

@@ -1,67 +1,55 @@
 
 package net.mcreator.haegrilontest.item;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
 
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
+import net.mcreator.haegrilontest.init.HaegrilontestModTabs;
 
-import net.mcreator.haegrilontest.itemgroup.HaegrilondecorativeItemGroup;
-import net.mcreator.haegrilontest.HaegrilontestModElements;
-
-@HaegrilontestModElements.ModElement.Tag
-public class UlfberhtswordItem extends HaegrilontestModElements.ModElement {
-	@ObjectHolder("haegrilontest:ulfberhtsword")
-	public static final Item block = null;
-
-	public UlfberhtswordItem(HaegrilontestModElements instance) {
-		super(instance, 360);
-	}
-
-	@Override
-	public void initElements() {
-		elements.items.add(() -> new SwordItem(new IItemTier() {
-			public int getMaxUses() {
+public class UlfberhtswordItem extends SwordItem {
+	public UlfberhtswordItem() {
+		super(new Tier() {
+			public int getUses() {
 				return 170;
 			}
 
-			public float getEfficiency() {
+			public float getSpeed() {
 				return 4f;
 			}
 
-			public float getAttackDamage() {
+			public float getAttackDamageBonus() {
 				return 5.5f;
 			}
 
-			public int getHarvestLevel() {
+			public int getLevel() {
 				return 1;
 			}
 
-			public int getEnchantability() {
+			public int getEnchantmentValue() {
 				return 2;
 			}
 
-			public Ingredient getRepairMaterial() {
+			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2.7000000000000002f, new Item.Properties().group(HaegrilondecorativeItemGroup.tab).isImmuneToFire()) {
-			@Override
-			public boolean hasContainerItem() {
-				return true;
-			}
+		}, 3, -2.7000000000000002f, new Item.Properties().tab(HaegrilontestModTabs.TAB_HAEGRILONDECORATIVE).fireResistant());
+	}
 
-			@Override
-			public ItemStack getContainerItem(ItemStack itemstack) {
-				return new ItemStack(this);
-			}
+	@Override
+	public boolean hasContainerItem(ItemStack stack) {
+		return true;
+	}
 
-			@Override
-			public boolean isRepairable(ItemStack itemstack) {
-				return false;
-			}
-		}.setRegistryName("ulfberhtsword"));
+	@Override
+	public ItemStack getContainerItem(ItemStack itemstack) {
+		return new ItemStack(this);
+	}
+
+	@Override
+	public boolean isRepairable(ItemStack itemstack) {
+		return false;
 	}
 }
