@@ -1,28 +1,18 @@
 package net.mcreator.haegrilontest.procedures;
 
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
-
-import net.mcreator.haegrilontest.HaegrilontestMod;
-
-import java.util.Map;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.network.chat.TextComponent;
 
 public class GuestflyCommandExecutedProcedure {
-
-	public static void executeProcedure(Map<String, Object> dependencies) {
-		if (dependencies.get("entity") == null) {
-			if (!dependencies.containsKey("entity"))
-				HaegrilontestMod.LOGGER.warn("Failed to load dependency entity for procedure GuestflyCommandExecuted!");
+	public static void execute(Entity entity) {
+		if (entity == null)
 			return;
+		if (entity instanceof Player _player) {
+			_player.getAbilities().mayfly = (true);
+			_player.onUpdateAbilities();
 		}
-		Entity entity = (Entity) dependencies.get("entity");
-		if (entity instanceof PlayerEntity) {
-			((PlayerEntity) entity).abilities.allowFlying = (true);
-			((PlayerEntity) entity).sendPlayerAbilities();
-		}
-		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You can fly now!"), (false));
-		}
+		if (entity instanceof Player _player && !_player.level.isClientSide())
+			_player.displayClientMessage(new TextComponent("You can fly now!"), (false));
 	}
 }

@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[36,)"
+loaderVersion="[40,)"
 license="Academic Free License v3.0"
 
 [[mods]]
@@ -17,7 +17,7 @@ Medieval decorative items in Excalibur style.
 [[dependencies.haegrilontest]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.5]"
+    versionRange="[1.18.2]"
     ordering="NONE"
     side="BOTH"
 
